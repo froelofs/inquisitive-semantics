@@ -1,0 +1,11 @@
+- name: Home
+  link: /
+- name: News
+  link: /news.html
+- name: Courses
+  link: /courses.html
+  subs:
+  - name: Amsterdam 2020
+    link: /courses/amsterdam-2020.html
+  - name: Amsterdam 2019
+    link: /courses/amsterdam-2019.html

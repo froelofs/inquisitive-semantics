@@ -1,0 +1,13 @@
+---
+layout: default
+title: Courses
+---
+
+<!-- Sanity check page -->
+{% for course in site.courses %}
+	<h3><a href="{{ course.url }}">{{ course.title }}</a></h3>
+	<ul>
+		<li>Location: {{ course.location }} ({{ course.venue}})</li>
+		<li>Lecturers: {{ course.lecturers }}</li>
+	</ul>
+{% endfor %}

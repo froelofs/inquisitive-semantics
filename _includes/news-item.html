@@ -1,0 +1,6 @@
+<div class="card my-5 bg-light border-0">
+	<div class="card-body">
+		<h2 class="card-title"> {{ item.date | date_to_string: "ordinal", "US" }} </h2>
+		<p> {{ item.text | markdownify }} </p>
+	</div>
+</div>
