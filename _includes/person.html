@@ -1,0 +1,17 @@
+<div class="person card my-5 bg-light border-0">
+		{% if person.image %}
+			<div class="card-header border-0">
+				<div class="img" style="background-image: url({{ person.image }})">
+				</div>
+			</div>
+		{% endif %}
+		<div class="card-body">
+			<h4 class="card-title mt-4 mb-3">{{ person.name }}</h4>
+			{% if person.affiliation %}
+				<p class="card-text">{{ person.affiliation }}</p>
+			{% endif %}
+			{% if person.website %}
+				<p class="card-text"><a href="{{ person.website }}">website</a></p>
+			{% endif %}
+		</div>
+</div>
