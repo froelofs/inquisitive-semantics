@@ -3,3 +3,10 @@
 
 // @import "main";
 @import 'bootstrap/bootstrap';
+
+// temporary css for people images
+.person .card-header .img {
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+    background-position: center; }
