@@ -2,8 +2,6 @@
   link: /
 - name: News
   link: /news.html
-- name: People
-  link: /people.html
 - name: Courses
   link: /courses.html
   subs:
@@ -11,3 +9,7 @@
     link: /courses/amsterdam-2020.html
   - name: Amsterdam 2019
     link: /courses/amsterdam-2019.html
+- name: People
+  link: /people.html
+- name: Resources
+  link: /resources.html
