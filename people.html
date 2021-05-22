@@ -3,6 +3,7 @@ layout: default
 title: People
 ---
 
-{% for person in site.data.people %}
+{% assign sorted_people = site.data.people | sort: "last_name" %}
+{% for person in sorted_people %}
 	{% include person.html %}
 {% endfor %}

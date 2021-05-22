@@ -1,221 +1,258 @@
 - id: maher
-  name: Martin Aher
+  first_name: Martin
+  last_name: Aher
   affiliation: Mind the Meaning
   website: http://www.mindthemeaning.com/dr-martin-aher-eng/
   image: assets/images/people/aher-martin.jpg
 
 - id: sanderbois
-  name: Scott Anderbois
+  first_name: Scott
+  last_name: Anderbois
   affiliation: Brown University
   website: https://research.clps.brown.edu/anderbois/
   image: assets/images/people/anderbois-scott.jpg
 
 - id: kbalogh
-  name: Kata Balogh
+  first_name: Kata
+  last_name: Balogh
   affiliation: Heinrich Heine University Dusseldorf
   website: https://www.researchgate.net/profile/Kata-Balogh
   image: assets/images/people/balogh-kata.jpg
 
 - id: nbeshanishvili
-  name: Nick Beshanishvili
+  first_name: Nick
+  last_name: Beshanishvili
   affiliation: University of Amsterdam
   website: https://staff.fnwi.uva.nl/n.bezhanishvili/
   image: assets/images/people/beshanishvili-nick.jpeg
 
 - id: lchampollion
-  name: Lucas Champollion
+  first_name: Lucas
+  last_name: Champollion
   affiliation: New York University
   website: http://champollion.com/
   image: assets/images/people/champollion-lucas.jpeg
 
 - id: iciardelli
-  name: Ivano Ciardelli
+  first_name: Ivano
+  last_name: Ciardelli
   affiliation: MCMP, LMU Münich
   website: http://www.ivanociardelli.altervista.org/
   image: assets/images/people/ciardelli-ivano.jpg
 
 - id: lcoppock
-  name: Liz Coppock
+  first_name: Liz
+  last_name: Coppock
   affiliation: Boston University
   website: http://eecoppock.info/index.html
   image: assets/images/people/coppock-liz.jpg
 
 - id: acremers
-  name: Alexandre Cremers
+  first_name: Alexandre
+  last_name: Cremers
   affiliation: ENS, Paris
   website: https://alexandrecremers.com/
   image: assets/images/people/cremers-alexandre.jpg
 
 - id: jdotlacil
-  name: Jakub Dotlacil
+  first_name: Jakub
+  last_name: Dotlacil
   affiliation: Utrecht University
   website: http://www.jakubdotlacil.com/
   image: assets/images/people/dotlacil-jakub.jpg
 
 - id: dfarkas
-  name: Donka Farkas
+  first_name: Donka
+  last_name: Farkas
   affiliation: University of California, Santa Cruz
   website: http://people.ucsc.edu/~farkas/
   image: assets/images/people/farkas-donka.jpg
 
 - id: ggrilletti
-  name: Gianluca Grilletti
+  first_name: Gianluca
+  last_name: Grilletti
   affiliation: ILLC, University of Amsterdam
   website: http://ggrilletti.scienceontheweb.net/
   image: assets/images/people/grilletti-gianluca.jpg
 
 - id: jgroenendijk
-  name: Jeroen Groenendijk
+  first_name: Jeroen
+  last_name: Groenendijk
   affiliation: Emeritus, ILLC, University of Amsterdam
   website: https://www.uva.nl/en/profile/g/r/j.a.g.groenendijk/j.a.g.groenendijk.html
   image: assets/images/people/groenendijk-jeroen.jpeg
 
 - id: ahaida
-  name: Andreas Haida
+  first_name: Andreas
+  last_name: Haida
   affiliation: Hebrew University of Jerusalem
   website: https://scholars.huji.ac.il/llcc/people/andreas-haida
   image: assets/images/people/haida-andreas.jpg
 
 - id: yhamami
-  name: Yacin Hamami
+  first_name: Yacin
+  last_name: Hamami
   affiliation: Free University Brussels
   website:
   image: assets/images/people/anonymous-m.jpeg
 
 - id: yhara
-  name: Yurie Hara
+  first_name: Yurie
+  last_name: Hara
   affiliation: Hokkaido University
   website: https://yuriehara.github.io/website/
   image: assets/images/people/anonymous-f.jpeg
 
 - id: mhoeks
-  name: Morwenna Hoeks
+  first_name: Morwenna
+  last_name: Hoeks
   affiliation: University of California Santa Cruz
   website: https://people.ucsc.edu/~mhoeks/
   image: assets/images/people/hoeks-morwenna.jpeg
 
 - id: wholliday
-  name: Wesley Holliday
+  first_name: Wesley
+  last_name: Holliday
   affiliation: University of California Berkeley
   website: https://philosophy.berkeley.edu/holliday
   image: assets/images/people/holliday-wesley.jpg
 
 - id: smascarenhas
-  name: Salvador Mascarenhas
+  first_name: Salvador
+  last_name: Mascarenhas
   affiliation: Ecole Normale Superieure, Paris
   website: http://web-risc.ens.fr/~smascarenhas/
   image: assets/images/people/mascarenhas-salvador.jpg
 
 - id: hkalpak
-  name: Hana Möller Kalpak
+  first_name: Hana
+  last_name: Möller Kalpak
   affiliation: Stockholm University
   website: https://www.su.se/english/profiles/haka9069-1.276311
   image: assets/images/people/anonymous-f.jpeg
 
 - id: lnorthrup
-  name: Lauren Northrup
+  first_name: Lauren
+  last_name: Northrup
   affiliation:
   website: https://lauren.northrup.me/
   image: assets/images/people/northrup-lauren.jpeg
 
 - id: eonea
-  name: Edgar Onea
+  first_name: Edgar
+  last_name: Onea
   affiliation: University of Graz
   website: https://homepage.uni-graz.at/en/edgar.onea-gaspar/
   image: assets/images/people/onea-edgar.jpg
 
 - id: motto
-  name: Martin Otto
+  first_name: Martin
+  last_name: Otto
   affiliation: University of Darmstadt
   website: https://www2.mathematik.tu-darmstadt.de/~otto/
   image: assets/images/people/otto-martin.jpeg
 
 - id: jpesetsky
-  name: Jonathan Pesetsky
+  first_name: Jonathan
+  last_name: Pesetsky
   affiliation: UMass Amherst
   website: https://sites.google.com/site/jonathanpesetsky/home
   image: assets/images/people/pesetsky-jonathan.jpg
 
 - id: kpruitt
-  name: Kathryn Pruitt
+  first_name: Kathryn
+  last_name: Pruitt
   affiliation: Arizona State University
   website: https://english.asu.edu/content/kathryn-pruitt
   image: assets/images/people/pruitt-kathryn.jpg
 
 - id: vpuncochar
-  name: Vit Puncochar
+  first_name: Vit
+  last_name: Puncochar
   affiliation: Charles University, Prague
   website: http://logika.flu.cas.cz/en/vit-puncochar/puncochar
   image: assets/images/people/puncochar-vit.jpg
 
 - id: froelofsen
-  name: Floris Roelofsen
+  first_name: Floris
+  last_name: Roelofsen
   affiliation: ILLC, University of Amsterdam
   website: https://www.florisroelofsen.com/
   image: assets/images/people/roelofsen-floris.jpg
 
 - id: ksano
-  name: Katsuhiko Sano
+  first_name: Katsuhiko
+  last_name: Sano
   affiliation: Hokkaido University
   website: https://researchmap.jp/v_sano
   image: assets/images/people/sano-katsuhiko.JPG
 
 - id: wstarr
-  name: Will Starr
+  first_name: Will
+  last_name: Starr
   affiliation: Cornell University
   website: http://williamstarr.net/index.html
   image: assets/images/people/starr-will.jpg
 
 - id: aszabolcsi
-  name: Anna Szabolcsi
+  first_name: Anna
+  last_name: Szabolcsi
   affiliation: New York University
   website: https://annaszabolcsi.com/
   image: assets/images/people/szabolcsi-anna.jpg
 
 - id: ntheiler
-  name: Nadine Theiler
+  first_name: Nadine
+  last_name: Theiler
   affiliation: UConn
   website: https://www.nadinetheiler.net/
   image: assets/images/people/theiler-nadine.jpeg
 
 - id: wuegaki
-  name: Wataru Uegaki
+  first_name: Wataru
+  last_name: Uegaki
   affiliation: University of Edinburgh
   website: http://www.wataruuegaki.com/
   image: assets/images/people/uegaki-wataru.jpeg
 
 - id: tvangessel
-  name: Thom van Gessel
+  first_name: Thom
+  last_name: van Gessel
   affiliation: ILLC, University of Amsterdam
   website: https://thomvangessel.nl/
   image: assets/images/people/vangessel-thom.jpg
 
 - id: svangool
-  name: Sam van Gool
+  first_name: Sam
+  last_name: van Gool
   affiliation: Université de Paris
   website: http://www.samvangool.net/
   image: assets/images/people/vangool-sam.jpg
 
 - id: mwestera
-  name: Matthijs Westera
+  first_name: Matthijs
+  last_name: Westera
   affiliation: Leiden University
   website: http://mwestera.nl/
   image: assets/images/people/westera-matthijs.JPG
 
 - id: awisniewski
-  name: Andrzej Wiśniewski
+  first_name: Andrzej
+  last_name: Wiśniewski
   affiliation: Adam Mickiewicz University in Poznań
   website: http://andrzejwisniewski.edu.pl/
   image: assets/images/people/wisniewski-andrzej.jpg
 
 - id: fyang
-  name: Fan Yang
+  first_name: Fan
+  last_name: Yang
   affiliation: University of Helsinki
   website: https://sites.google.com/site/fanyanghp/
   image: assets/images/people/yang-fan.JPG
 
 - id: zzhao
-  name: Zhuoye Zhao
+  first_name: Zhuoye
+  last_name: Zhao
   affiliation: New York University
   website:
   image: assets/images/people/zhao-zhuoye.jpg
