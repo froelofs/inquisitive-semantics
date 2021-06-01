@@ -1,0 +1,47 @@
+maher: 
+  id: maher
+  first_name: Martin
+  last_name: Aher
+  affiliation: Mind the Meaning
+  website: http://www.mindthemeaning.com/dr-martin-aher-eng/
+  image: assets/images/people/aher-martin.jpg
+
+sanderbois:
+  id: sanderbois
+  first_name: Scott
+  last_name: Anderbois
+  affiliation: Brown University
+  website: https://research.clps.brown.edu/anderbois/
+  image: assets/images/people/anderbois-scott.jpg
+
+kbalogh:
+  id: kbalogh
+  first_name: Kata
+  last_name: Balogh
+  affiliation: Heinrich Heine University Dusseldorf
+  website: https://www.researchgate.net/profile/Kata-Balogh
+  image: assets/images/people/balogh-kata.jpg
+
+nbeshanishvili:
+  id: nbeshanishvili
+  first_name: Nick
+  last_name: Beshanishvili
+  affiliation: University of Amsterdam
+  website: https://staff.fnwi.uva.nl/n.bezhanishvili/
+  image: assets/images/people/beshanishvili-nick.jpeg
+
+lchampollion:
+  id: lchampollion
+  first_name: Lucas
+  last_name: Champollion
+  affiliation: New York University
+  website: http://champollion.com/
+  image: assets/images/people/champollion-lucas.jpeg
+
+iciardelli:
+  id: iciardelli
+  first_name: Ivano
+  last_name: Ciardelli
+  affiliation: MCMP, LMU Münich
+  website: http://www.ivanociardelli.altervista.org/
+  image: assets/images/people/ciardelli-ivano.jpg

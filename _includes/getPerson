@@ -1,0 +1,10 @@
+{% comment %}
+  This is a shorthand for retrieving fields from the people.yml file.
+
+  Usage:
+    {% include getPerson object=people field='first_name' %}
+{% endcomment %}
+{%- include get 
+   dataFile=site.data.people2 
+   object=include.object
+   field=include.field -%}

@@ -1,0 +1,23 @@
+---
+layout: default
+title: People
+---
+
+
+{%- assign tests = site.data.test %}
+{%- for test in tests %}
+	{%- for person in test.people %} 	
+		<li>
+			{%- capture firstName %}{% include getPerson object=person field='first_name' %}{% endcapture %}
+			{%- capture lastName %}{% include getPerson object=person field='last_name' %}{% endcapture %}
+			{%- capture fulltext %}{% include getPerson object=person field='fulltext' %}{% endcapture %}
+			{%- if lastName != "" %}
+				{{firstName}} {{lastName}}
+			{%- else if fulltext != "" %}
+				{{fulltext}}
+			{%- else %}
+				Person not found
+			{% endif %}
+		</li>
+	{%- endfor %}
+{%- endfor %}
