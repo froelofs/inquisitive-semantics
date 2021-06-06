@@ -1,0 +1,31 @@
+nwo:
+  name: Netherlands Organization for Scientific Research (NWO)
+  image: /assets/images/funding/nwo.jpg
+
+dfg:
+  name: German Science Foundation (DFG)
+  image: /assets/images/funding/dfg.jpeg
+
+ahrc:
+  name: Arts and Humanities Research Council (AHRC)
+  image: /assets/images/funding/ahrc.jpeg
+
+mit:
+  name: Massachusetts Institute of Technology (MIT)
+  image: /assets/images/funding/mit.png
+
+erc:
+  name: European Research Council (ERC)
+  image: /assets/images/funding/erc.jpeg
+
+knaw:
+  name: Royal Netherlands Academy of Arts and Sciences (KNAW)
+  image: /assets/images/funding/knaw.png
+
+scas:
+  name: Swedish Collegium for Advanced Study (SCAS)
+  image: /assets/images/funding/scas.jpg
+
+estrc:
+  name: Estonian Research Council
+  image: /assets/images/funding/estrc.png

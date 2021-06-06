@@ -1,0 +1,194 @@
+- title: 'Questions in sign language'
+  start: 2021
+  end: 2026
+  funding: 
+    - id: nwo
+  grant_type: VICI
+  people:
+    - id: froelofsen
+      function: PI
+      location: Amsterdam
+
+- title: 'Questions in sign language'
+  start: 2021
+  end: 2026
+  funding:
+    - id: dfg
+  grant_type: Emmy Noether
+  people:
+    - id: iciardelli
+      function: PI
+      location: Munich
+
+- title: 'Cross-linguistic investigation of meaning-driven combinatorial restrictions in clausal embedding'
+  start: 2021
+  end: 2024
+  funding:
+    - id: dfg
+    - id: ahrc
+  people:
+    - id: wuegaki
+      function: PI
+      location: Edinburgh
+    - first_name: Maribel
+      last_name: Romero
+      function: PI
+      location: Konstanz
+    - id: froelofsen
+      function: PI
+      location: Amsterdam
+  website: https://wuegaki.ppls.ed.ac.uk/mecore/
+
+- title: 'Searching for semantic universals in the modal domain'
+  start: 2018
+  end: 2021
+  funding:
+    - id: nwo
+  grant_type: Internationalisation Grant
+  people:
+    - id: wuegaki
+      function: PI
+  website: http://www.wataruuegaki.com/modal-universals
+
+- title: 'Quexistentials'
+  start: 2018
+  end: 2019
+  funding:
+    - id: mit
+  grant_type: MIT International Science and Technology Initiatives (MISTI)
+  people:
+    - first_name: Sabine
+      last_name: Iatridou
+      function: PI
+    - first_name: Kees
+      last_name: Hengeveld
+      function: PI
+    - id: froelofsen
+      function: PI
+
+- title: 'Quantification and modality in the realm of questions'
+  start: 2016
+  end: 2021
+  funding:
+    - id: erc
+  grant_type: Starting Grant
+  people:
+    - id: froelofsen
+      function: PI
+    - id: iciardelli
+      function: External co-PI
+      info: (co-author of project proposal and former postdoc, now at MCMP Munich)
+    - id: tvangessel
+      function: PhD student
+    - id: ggrilletti
+      function: PhD student
+
+- title: 'Non-question uses of question words cross-linguistically'
+  start: 2016
+  end: 2017
+  funding:
+    - id: knaw
+  grant_type: Visiting Professors Programme
+  people:
+    - first_name: Sabine
+      last_name: Iatridou
+      affiliation: MIT
+      function: Nominee
+    - first_name: Kees
+      last_name: Hengeveld
+      function: Nominator
+    - id: froelofsen
+      function: Nominator
+
+- title: 'Inquisitiveness below and beyond the sentence boundary'
+  start: 2015
+  end: 2020
+  funding:
+    - id: nwo
+  grant_type: VIDI
+  people:
+    - id: froelofsen
+      function: PI
+    - id: acremers
+      function: Postdoc
+    - id: jdotlacil
+      function: Postdoc
+    - id: ntheiler
+      function: PhD student
+
+- title: 'Questions, assertions, and the land in between'
+  start: 2015
+  end: 2016
+  funding:
+    - id: knaw
+  grant_type: Visiting Professors Programme
+  people:
+    - id: dfarkas
+      affiliation: UCSC
+      function: Nominee
+    - id: froelofsen
+      function: Nominator
+    - first_name: Martin
+      last_name: Stokhof
+      function: Nominator
+
+- title: 'Channels of meaning: how information can be expressed without being said'
+  start: 2014
+  end: 2019
+  funding:
+    - id: scas
+  grant_type: Pro Futura Scientia
+  people:
+    - id: lcoppock
+    - function: PI
+
+- title: 'Deontic puzzles and suppositional inquisitive semantics in legal language'
+  start: 2014
+  end: 2016
+  funding:
+    - id: estrc
+  people:
+    - id: maher
+      function: PI
+
+- title: 'Compositional Semantics of Quantifier Words Cross-linguistically'
+  start: 2014
+  end: 2015
+  funding:
+    - id: knaw
+  grant_type: Visiting Professors Programme
+  people:
+    - id: aszabolcsi
+      function: Nominee
+    - id: froelofsen
+      function: Nominator
+    - first_name: Martin
+      last_name: Stokhof
+      function: Nominator
+
+- title: 'Interpreting questions: a fine-grained compositional semantics'
+  start: 2012
+  end: 2015
+  funding:
+    - id: nwo
+  grant_type: VENI
+  people:
+    - id: froelofsen
+      function: PI
+
+- title: 'The inquisitive turn: a new perspective on semantics, logic, and pragmatics'
+  start: 2010
+  end: 2015
+  funding:
+    - id: nwo
+  grant_type: Free Competition
+  people:
+    - id: jgroenendijk
+      function: PI
+    - id: froelofsen
+      function: Postdoc and co-PI
+      info: (co-author of project proposal)
+    - id: iciardelli
+      function: PhD student
+    - id: mwestera
+      function: PhD student
