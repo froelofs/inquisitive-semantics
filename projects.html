@@ -1,0 +1,9 @@
+---
+layout: default
+title: Projects
+---
+
+{%- assign projects = site.data.projects | sort: "end" | reverse %}
+{%- for project in projects %}
+	{%- include project.html %}
+{%- endfor %}

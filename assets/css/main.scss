@@ -4,9 +4,16 @@
 // @import "main";
 @import 'bootstrap/bootstrap';
 
-// temporary css for people images
-.person .card-header .img {
+// temporary css for people/project images
+.person .img {
     height: 120px;
     width: 120px;
     background-size: cover;
+    background-position: center; }
+
+.project .img {
+    height: 120px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center; }

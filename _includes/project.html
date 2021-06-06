@@ -1,0 +1,47 @@
+<div class="project card my-5 bg-light border-0">
+	<div class="card-header border-0">
+		<h4 class="card-title mt-4 mb-3"> {{project.start}} - {{project.end}}: {{project.title}}</h4>
+	</div>
+		<div class="card-body">
+			{% if project.website %}
+				<p>
+					<b>Website:</b>
+					<a href="{{ project.website }}">{{ project.website }}</a>
+				</p>
+			{% endif %}
+
+			<b>Funding:</b> 
+			{% if project.funding.size > 1 %}
+			{% for fund in project.funding %}
+				{%- capture fundName %}{% include getFunding object=fund field='name' %}{% endcapture %}
+				<li> {{ fundName }} </li>
+			{% endfor %}
+			{% else %}
+				{% assign fund = project.funding.first %}
+				{%- capture fundName %}{% include getFunding object=fund field='name' %}{% endcapture %}
+				{{ fundName }}
+			{% endif %}
+
+			{% if project.grant_type %}
+				<p>
+					<b>Grant type:</b>
+					{{ project.grant_type }}
+				</p>
+			{% endif %}
+
+			<b>People:</b>
+			{% for person in project.people | where: function,"PI" %}
+				{%- capture firstName %}{% include getPerson object=person field='first_name' %}{% endcapture %}
+				{%- capture lastName %}{% include getPerson object=person field='last_name' %}{% endcapture %}
+				<li>{{ firstName }} {{ lastName }}</li>
+			{% endfor %}
+		</div>
+		<div class="row">
+		{% for fund in project.funding %}
+			{%- capture fundImg %}{% include getFunding object=fund field='image' %}{% endcapture %}
+			<div class="col-sm">
+				<div class="img" style="background-image: url({{ fundImg }})"></div>
+			</div>
+		{% endfor %}
+		</div>
+</div>
