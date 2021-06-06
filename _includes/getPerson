@@ -4,7 +4,8 @@
   Usage:
     {% include getPerson object=people field='first_name' %}
 {% endcomment %}
+
 {%- include get 
-   dataFile=site.data.people2 
+   dataFile=site.data.people 
    object=include.object
    field=include.field -%}
