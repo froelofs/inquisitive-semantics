@@ -1,1 +1,55 @@
-$primary: #8d021f; // burgundy
+
+$color1: #05668D;
+$color2: #028090;
+$color3: #00A896;
+$color4: #02C39A;
+$color5: #ECE947;
+
+$primary: $color3;
+
+$font-family-sans-serif: "Lato", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-serif: "Crimson Pro", serif;
+$font-family-base: $font-family-sans-serif;
+
+$serif-ratio: calc(6 / 5);
+$line-height-serif: 1.2;
+$line-height-sans: 1.45;
+$line-height-base: $line-height-sans;
+
+// $font-weight-light: 200;
+$font-weight-normal: 380;
+// $font-weight-bold: 600;
+
+// Font sizes
+$font-size-base: 1rem;
+$h2-font-size: $font-size-base;
+$display-font-sizes: (
+  1: 3rem,
+  2: 2.5rem,
+  3: 2rem,
+  4: 1.5rem,
+  5: 1rem,
+  6: 1rem
+);
+
+// Mark
+$mark-transparency: 0.6;
+$mark-padding: 0em 0.2em;
+$mark-bg: transparentize($color4, $mark-transparency);
+
+$border-width: 0;
+
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 960px,
+  xxl: 960px
+  //xl: 1140px,
+  //xxl: 1140px
+);
+
+// Brand
+$navbar-brand-font-size: 1rem;
+$navbar-brand-margin-end: 0;

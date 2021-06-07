@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<article class="container">
+  <header class="row mt-5">
+    <div class="col-md-3">
+      To do : figure goes here
+    </div>
+    <div class="col-md-9">
+      <h1 class="title display-1 mb-5">
+        {{ page.title }}
+        {%- if page.subtitle -%}
+          <span class="colon d-none">:</span>
+          <span class="subtitle d-block">{{ page.subtitle }}</span>
+        {%- endif %}
+      </h1>
+      {%- if page.description %}
+      <div class="lead serif">
+        {{ page.description | markdownify }}
+      </div>
+      {%- endif %}
+    </div>
+  </header>
+
+  <section class="serif row">
+    <div class="col-md-3 d-none d-md-block"></div>
+    <div class="col-md-9">
+      {{ content }}
+    </div>
+  </section>
+</article>

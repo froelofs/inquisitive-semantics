@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<article class="container">
+  <header class="row mt-5">
+    <div class="col-md-3">
+      To do : figure goes here
+    </div>
+    <div class="col-md-9">
+      <h1 class="title display-1 mb-5">
+        {{ page.title }}
+        {%- if page.subtitle -%}
+          <span class="colon d-none">:</span>
+          <span class="subtitle d-block">{{ page.subtitle }}</span>
+        {%- endif %}
+      </h1>
+      {%- if page.description %}
+      <div class="lead serif">
+        {{ page.description | markdownify }}
+      </div>
+      {%- endif %}
+    </div>
+  </header>
+
+  <section class="row practicalities my-5">
+    <div class="col-md-3 d-none d-md-block">
+      To do: decoration goes here
+    </div>
+    <div class="col-md-9 container">
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
+        {%- for item in page.practicalities %}
+        <div class="col mb-3">
+          <h5 class="small my-0">{{ item.label }}</h5>
+          <p class="small my-0">{{ item.text | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="serif row">
+    <div class="col-md-3 d-none d-md-block"></div>
+    <div class="col-md-9">
+      {{ content }}
+    </div>
+  </section>
+</article>

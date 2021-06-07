@@ -1,0 +1,57 @@
+.serif {
+    font-family: $font-family-serif;
+    line-height: $line-height-serif;
+    font-size: calc(6 / 5.2 * 1rem);
+    font-weight: 300;
+}
+
+.lead p {
+    font-size: $lead-font-size;
+}
+
+article {
+    strong, mark, .mark {
+        font-weight: inherit;
+        @extend .mark;
+    }
+}
+
+article {
+    // background: $gray-100;
+}
+
+
+h2::before {
+    content: "[[";
+    display: inline-block;
+    margin-left: -1rem;
+    width: 1rem;
+}
+
+h2 {
+    font-family: $font-family-sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 2rem;
+
+    text-decoration: underline;
+    text-decoration-color: transparentize($color5, .5);
+    text-decoration-thickness: auto;
+    text-underline-offset: -.3em;
+    text-decoration-thickness: .7em;
+    text-decoration-skip-ink: none;
+}
+
+
+h1.title {
+    font-weight: bold;
+    .subtitle {
+        font-weight: 300;
+        font-style: italic;
+    }
+}
+
+.practicalities {
+    color: $color2;
+    font-family: $font-family-sans-serif;
+}
