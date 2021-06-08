@@ -39,6 +39,21 @@ layout: default
     </div>
   </section>
 
+  <section class="row people my-5">
+    <div class="col-md-3 d-none d-md-block">
+    </div>
+    <div class="col-md-9 container">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4">
+          {%- for person in page.people %}
+          <div class="col my-4">	
+            {% include person-card person=person %}
+          </div>
+          {%- endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="serif row">
     <div class="col-md-3 d-none d-md-block"></div>
     <div class="col-md-9">

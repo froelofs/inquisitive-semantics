@@ -27,24 +27,7 @@ subtitle: Working in inquisitive semantics
 		{%- assign people = site.data.people | where:"",True | sort: "last_name" %}
 		{%- for person in people %}
 		<div class="col my-4">	
-			<div class="person card h-100">
-				{%- if person.image %}
-				<img src="{{ person.image }}" class="card-img img">
-				{%- endif %}
-				<div class="card-img-overlay d-flex flex-column justify-content-end text-light">
-					{% capture name %}{{person.first_name}} {{person.last_name}}{% endcapture %}
-					<h4 class="card-title mb-1 text-light">
-						{%- if person.website %}
-						<a href="{{ person.website }}" title="Website of {{ name }}">
-						{%- endif %}
-						{{ name }}
-						{% if person.website %}</a>{% endif %}
-					</h4>
-					{%- if person.affiliation %}
-					<p class="card-text small">{{ person.affiliation }}</p>
-					{%- endif %}
-				</div>
-			</div>
+			{% include person-card person=person %}
 		</div>
 		{%- endfor %}
 	</div>
