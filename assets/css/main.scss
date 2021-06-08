@@ -9,12 +9,58 @@
 @import 'typography';
 
 // temporary css for people/project images
-.person .img {
-    height: 120px;
-    width: 120px;
-    background-size: cover;
-    background-position: center; }
+.person {
+    overflow: hidden;
+    // background: transparentize($primary, .8);
 
+    .img {
+        background-size: cover;
+        background-position: center; 
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        // mix-blend-mode: darken;
+
+        height: 100%;
+        min-height: 150px;
+        object-fit: cover;
+        scale: 1;
+        transition: scale ease 1500ms;
+    }
+
+    &:hover img {
+        scale: 1.05;
+    }
+
+    .card-img-overlay {
+        padding-top: 50%;
+        background: linear-gradient(
+            10deg, 
+            rgba(0, 0, 0, .5) 0%, 
+            rgba(0, 0, 0, 0) 50%,
+            transparentize($primary, .85) 100%)
+    }
+        
+    .card-title{
+        font-family: $font-family-serif;
+        text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+        line-height: 1;
+        
+        a {
+            // text-decoration: none;
+            color: $white;
+            text-decoration: underline;
+            text-decoration-color: transparentize($primary, .5);
+            text-decoration-thickness: auto;
+            text-underline-offset: -.3em;
+            text-decoration-thickness: .5em;
+            text-decoration-skip-ink: none;
+
+            &:hover {
+                text-decoration-color: transparentize($color5, .5);
+            }
+        }
+    }
+}
 .project .img {
     height: 120px;
     width: 200px;
