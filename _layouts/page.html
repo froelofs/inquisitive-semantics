@@ -4,10 +4,11 @@ layout: default
 
 <article class="container">
   <header class="row mt-5">
+    {% if page.indent %}
     <div class="col-md-3">
       To do : figure goes here
-    </div>
-    <div class="col-md-9">
+    {% endif %}
+    <div class="{% if page.indent %}col-md-9{% endif %}">
       <h1 class="title display-1 mb-5">
         {{ page.title }}
         {%- if page.subtitle -%}
@@ -23,9 +24,9 @@ layout: default
     </div>
   </header>
 
-  <section class="serif row">
-    <div class="col-md-3 d-none d-md-block"></div>
-    <div class="col-md-9">
+  <section class="row">
+    {% if page.indent %}<div class="col-md-3 d-none d-md-block"></div>{% endif %}
+    <div class="{% if page.indent %}col-md-9{% endif %}">
       {{ content }}
     </div>
   </section>

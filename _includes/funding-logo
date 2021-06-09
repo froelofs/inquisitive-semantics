@@ -1,0 +1,15 @@
+{% assign fund = include.fund %}
+
+{%- capture image -%}
+	{% include getFunding object=fund field='image' %}
+{%- endcapture -%}
+
+{%- capture name -%}
+	{% include getFunding object=fund field='name' %}
+{%- endcapture -%}
+
+<div class="fund-logo m-2">
+	{%- if image != '' %}
+		<img src="{{ image }}" class="fund-logo grayscale-img">
+	{%- endif %}
+</div>

@@ -8,11 +8,11 @@
     <title>{{ page.title }} - {{ site.title }}</title>
   
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    
+    <script src="{{ "/assets/js/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
     <!-- Font Awesome files -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="bg-light">
     {% include navigation.html %}
     
     {{ content }}

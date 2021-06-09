@@ -18,11 +18,11 @@
 {%- endcapture -%}
 
 <div class="person card h-100">
-	<img src="{{ image }}" class="card-img img">
+	<img src="{{ image }}" class="card-img img portrait grayscale-img">
 	<div class="card-img-overlay d-flex flex-column justify-content-end text-light">
 		<h4 class="card-title mb-1 text-light">
 			{%- if website %}
-			<a href="{{ website }}" title="Website of {{ name }}">
+			<a href="{{ website }}" title="Website of {{ name }}" class="text-light">
 			{%- endif %}
 			{{ name }}
 			{% if website %}</a>{% endif %}

@@ -1,0 +1,57 @@
+{% assign person = include.person %}
+
+{%- capture image -%}
+	{% include getPerson object=person field='image' %}
+{%- endcapture -%}
+
+{%- capture firstname -%}
+	{% include getPerson object=person field='first_name' %}
+{%- endcapture -%}
+
+{%- capture lastname -%}
+	{% include getPerson object=person field='last_name' %}
+{%- endcapture %}
+
+{%- capture initials -%}
+	{{ firstname | slice: 0, 1 }}{{ lastname | slice: 0, 1 }}
+{%- endcapture -%}
+
+{%- capture website -%}
+	{% include getPerson object=person field='website' %}
+{%- endcapture -%}
+
+{%- capture affiliation -%}
+	{% include getPerson object=person field='affiliation' %}
+{%- endcapture -%}
+
+{%- capture function -%}
+	{% include getPerson object=person field='function' %}
+{%- endcapture -%}
+
+{%- capture location -%}
+	{% include getPerson object=person field='location' %}
+{%- endcapture -%}
+
+<div class="person tag d-flex mb-3">
+	<div class="rounded-img me-2">
+		{%- if image != '' %}
+			<img src="/{{ image }}" class="portrait">
+		{%- else %}
+			<span class="initials">{{ initials }}</span>
+		{%- endif %}
+	</div>
+	<p class="h-100  d-flex flex-column justify-content-center">
+	{%- if website %}
+	<a href="{{ website }}" title="Website of {{ firstname }} {{ lastname }}">
+	{%- endif %}
+  {{ firstname }} {{ lastname }}
+	{% if website %}</a>{% endif %}
+	<span class="small text-muted">
+		{{ function }}
+		{%- if function != '' and location != '' %}
+			<span class="px-1">•</span>
+		{%- endif %}
+		{{ location }}
+	</span>
+	</p>
+</div>

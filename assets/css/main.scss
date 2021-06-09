@@ -8,6 +8,50 @@
 
 @import 'typography';
 
+
+.grayscale-img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.portrait {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1;
+    transition: scale ease 1500ms;
+}
+
+.rounded-img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: $gray-500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .initials {
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-family: $font-family-sans-serif;
+        color: $white;
+
+    }
+}
+
+.fund-logo {
+    max-width: 3rem;;
+}
+
+.person.tag {
+    height: 2.5rem;
+    border-radius: 2.5rem;
+    // font-family: $font-family-sans-serif;
+}
+
 // temporary css for people/project images
 .person {
     overflow: hidden;
@@ -16,15 +60,11 @@
     .img {
         background-size: cover;
         background-position: center; 
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
         // mix-blend-mode: darken;
 
         height: 100%;
         min-height: 150px;
         object-fit: cover;
-        scale: 1;
-        transition: scale ease 1500ms;
     }
 
     &:hover img {
@@ -41,29 +81,22 @@
     }
         
     .card-title{
-        font-family: $font-family-serif;
         text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
         line-height: 1;
-        
-        a {
-            // text-decoration: none;
-            color: $white;
-            text-decoration: underline;
-            text-decoration-color: transparentize($primary, .5);
-            text-decoration-thickness: auto;
-            text-underline-offset: -.3em;
-            text-decoration-thickness: .5em;
-            text-decoration-skip-ink: none;
 
-            &:hover {
-                text-decoration-color: transparentize($color5, .5);
-            }
+        a {
+            text-decoration-color: transparentize($primary, .5);
+        }
+
+        a:hover {
+            text-decoration-color: transparentize($color5, .5);
         }
     }
 }
-.project .img {
-    height: 120px;
-    width: 200px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; }
+// .project .img {
+//     height: 120px;
+//     width: 200px;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     background-position: center; 
+// }

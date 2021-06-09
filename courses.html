@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: page
 title: Courses
 ---
 
 <!-- Sanity check page -->
 {% for course in site.courses %}
-	<h3><a href="{{ course.url }}">{{ course.title }}</a></h3>
+	<h2><a href="{{ course.url }}">{{ course.title }}</a></h2>
 	<ul>
 		<li>Location: {{ course.location }} ({{ course.venue}})</li>
 		<li>Lecturers: {{ course.lecturers }}</li>

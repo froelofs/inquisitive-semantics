@@ -56,4 +56,34 @@ h1.title {
     font-family: $font-family-sans-serif;
 }
 
+.card-title {
+    font-family: $font-family-serif;
+    a {
+        text-decoration: underline;
+        text-decoration-color: transparentize($primary, .85);
+        text-decoration-thickness: auto;
+        text-underline-offset: -.3em;
+        text-decoration-thickness: .5em;
+        text-decoration-skip-ink: none;
 
+        &:hover {
+            text-decoration-color: transparentize($color5, .5);
+        }
+    }
+}
+
+span.sep {
+    color: $color5;
+}
+
+// a {
+//     &::before {
+//         content: '[[';
+//         color: $primary;
+//     }
+
+//     &::after {
+//         content: ']]';
+//         color: $primary;
+//     }
+// }
