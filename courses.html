@@ -1,13 +1,36 @@
 ---
 layout: page
 title: Courses
+description: An overview of courses in inquisitive semantics given around the world.
 ---
 
 <!-- Sanity check page -->
-{% for course in site.courses %}
-	<h2><a href="{{ course.url }}">{{ course.title }}</a></h2>
-	<ul>
-		<li>Location: {{ course.location }} ({{ course.venue}})</li>
-		<li>Lecturers: {{ course.lecturers }}</li>
-	</ul>
-{% endfor %}
+<div class="container-full">
+	<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+		{% assign courses = site.courses | sort: "date" | reverse %}
+		{% for course in courses %}
+		<div class="project col my-3">
+			<div class="card h-100 bg-white">
+				<div class="card-body">
+					<h4 class="card-title">
+						<a href="{{ course.url }}" class="text-dark">{{ course.title }}</a>
+					</h4>
+					<p class="text-muted">
+						{{ course.date | date: "%Y"}}
+						<span class="sep px-1">][</span>
+						{{ course.location }}
+					</p>
+					<p>
+						{{ course.description | truncatewords: 30, "..." | markdownify }}
+					</p>
+					<!-- {% for person in course.lecturers %}
+						{% include person-tag person=person %}
+					{% endfor %} -->
+					<a href="{{ course.url }}" class="btn btn-secondary">Go to course</a>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+
+	</div>
+</div>

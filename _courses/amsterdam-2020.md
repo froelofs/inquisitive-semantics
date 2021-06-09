@@ -4,6 +4,7 @@ title: Logic and Conversation
 subtitle: Fall 2020
 location: Amsterdam
 venue: MSc logic
+date: 2020-09-01
 time_and_place: 'Monday 9.00-11.00 (online), Friday 9.00-11.00 (online)'
 lecturers: Floris Roelofsen, Ciyang Qing
 description: >

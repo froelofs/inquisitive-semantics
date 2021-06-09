@@ -4,6 +4,7 @@ title: Logic and Conversation
 subtitle: Fall 2019
 location: Amsterdam
 venue: MSc logic
+date: 2019-09-01
 practicalities:
   - label: Time and place
     text: Tuesdays 13.00-15.00 (B0.206), Fridays 13.00-15.00 (B0.208) [test](https://google.com)
