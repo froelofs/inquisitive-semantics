@@ -24,7 +24,7 @@ subtitle: Working in inquisitive semantics
 
 <div class="container">
 	<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4">
-		{%- assign people = site.data.people | where:"",True | sort: "last_name" %}
+		{%- assign people = site.data.people %}
 		{%- for person in people %}
 		<div class="col my-4">	
 			{% include person-card person=person %}
