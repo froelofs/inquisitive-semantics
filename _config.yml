@@ -13,3 +13,4 @@ collections:
     output: true
   workshops:
     output: true
+theme: jekyll-theme-minimal
