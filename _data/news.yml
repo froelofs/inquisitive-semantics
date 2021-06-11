@@ -1,11 +1,227 @@
-- date: 2021-05-18
-  text: 'Marianne made another news item'
+- date: 2010-12-04
+  text: >
+    Katsuhiko Sano posted a new paper on [first-order inquisitive pair logic](/assets/files/papers/Sano2010_ICLA.pdf). Katsuhiko will present the paper at the Fourth Indian Conference on Logic and its Applications [[ICLA-11](http://ali.cmi.ac.in/icla2011/)] in Dehli, India, 5-11 January 2011.
 
-- date: 2021-05-18
-  text: 'Marianne made a website!'
 
-- date: 1202-01-01
-  text: 'Timetravel happened.'
+# dead link below
+- date: 2010-10-28
+  text: >
+    Floris Roelofsen presented a joint paper with Jeroen Groenendijk on [inquisitive and alternative semantics](/assets/files/slides/GroenendijkRoelofsen2010_Nantes.pdf) at a [workshop](http://www.alternative-semantics.univ-nantes.fr/73700429/1/fiche___pagelibre/&RH=ALTSEMANTIC_H&RF=ALTSEMANTIC_H) on alternative-based semantics in Nantes.
 
-- date: 2021-01-01
-  text: '[Questions](https://www.visualizingsep.com/#/entries/questions/) were asked.'
+- date: 2010-10-11
+  text: >
+    Floris Roelofsen gave an introductory talk on inquisitive semantics, pragmatics, and logic for Master of Logic students at the ILLC. Here are the [slides](/assets/files/slides/Roelofsen2010_LoLaCo.pdf) of the talk.
+
+- date: 2010-10-10
+  text: >
+    Andreas Haida posted a new [paper](/assets/files/papers/Haida2010_DisjunctiveQuestions.pdf) on disjunctive questions. The paper develops a compositional inquisitive semantics, as well as an inquisitive semantics of focus, and applies this framework to the analysis of disjunctive questions, drawing evidence in particular from Chadic languages.
+
+- date: 2010-10-02
+  text: >
+    Jeroen Groenendijk gave a keynote talk at the [Amsterdam Philosophy Graduate Conference](http://www.illc.uva.nl/agpc/agpc10/) on truth, meaning, and normativity in inquisitive semantics and pragmatics. Here are the [slides](/assets/files/slides/Groenendijk2010_AGPC.pdf) of the talk.
+
+- date: 2010-09-03
+  text: >
+    Jeroen Groenendijk presented joint work with Ivano Ciardelli and Floris Roelofsen on modelling attentive content in inquisitive semantics at a workshop in honor of Hans Kamp's 70th birthday in Stuttgart, Germany.
+
+- date: 2010-09-01
+  text: >
+    Morgan Mameni arrived in Amsterdam to join the team!
+
+# dead link (2x) below
+- date: 2010-08-20
+  text: >
+    The [inquisitive logic](http://www.springerlink.com/content/0l26v16t28660515/) paper by Ivano Ciardelli and Floris Roelofsen is now online at the [website](http://www.springerlink.com/content/0l26v16t28660515/) of the Journal of Philosophical Logic.
+
+# dead link (esslli) below
+- date: 2010-08-17
+  text: >
+    Jeroen Groenendijk gave a keynote talk on [radical inquisitive semantics](GroenendijkRoelofsen2010_radical-seminar-handout.pdf) at the [TIDIAD](http://www.irit.fr/~Laure.Vieu/Esslli10) workshop at [ESSLLI](http://esslli2010cph.info/) in Kopenhagen, Denmark.
+
+# dead link below
+- date: 2010-07-04
+  text: >
+    [Matthijs Westera](http://www.phil.uu.nl/~westera/) (Utrecht) and Morgan Mameni (Vancouver) will join the inquisitive research program as PhD students this fall!
+
+# dead link below
+- date: 2010-06-18
+  text: >
+    Jeroen Groenendijk gave a keynote talk on [radical inquisitive semantics](GroenendijkRoelofsen2010_radical-seminar-handout.pdf) at the [SemDial](http://www.semdial2010.amu.edu.pl/) workshop on the semantics and pragmatics of dialogue in Poznan, Poland.
+
+- date: 2010-06-08
+  text: >
+    Ivano Ciardelli and Floris Roelofsen sent out the final version of their [inquisitive logic paper](/assets/files/papers/CiardelliRoelofsen2010_JPL-final.pdf) to the Journal of Philosophical Logic. The paper will be in print soon.
+
+# relative link
+- date: 2010-06-06
+  text: >
+    We have added a number of [resources](/resources.html) to the website for people working on or learning about inquisitive semantics.
+
+- date: 2010-06-01
+  text: >
+    Today Floris Roelofsen started on his three-year postdoc project within the NWO-funded programme The Inquisitive Turn. This marks the official start of the programme.
+
+# dead link below
+- date: 2010-05-14
+  text: >
+    Jeroen Groenendijk and Floris Roelofsen gave a joint 3-hour talk about inquisitive semantics at Rutgers, on the occasion of [Sarah Murray](http://www.rci.rutgers.edu/~semurray/index.shtml)'s PhD defense.
+
+# dead link (2x) below
+- date: 2010-05-01
+  text: >
+    We received funding for two PhD positions. \
+
+    The official call for application is [here](http://www.english.uva.nl/vacancies/vacancies.cfm/94363E7C-D4BD-4AA6-B5EF1F49B3ECEEDB). \
+    
+    The deadline for application is May 22, 2010. \
+    
+    More information can be found [here](https://sites.google.com/site/inquisitivesemantics/system/errors/NodeNotFound?suri=wuid:gx:62c12408b7cfdf0b). \
+
+    Please spread the news to potential applicants!
+
+- date: 2010-03-25
+  text: >
+    Jeroen Groenendijk gave a keynote talk on radical inquisitive semantics at the [Journees Semantique et Modelisation](http://jsm.loria.fr/jsm10/index.fr.html) in Nancy.
+
+# dead link below
+- date: 2010-02-18
+  text: >
+    Jeroen Groenendijk will give a keynote talk on [radical inquisitive semantics](/assets/files/papers/GroenendijkRoelofsen2010_radical-seminar-handout.pdf) at the conference on [Formal theories of communication](http://www.lorentzcenter.nl/lc/web/2010/381/info.php3?wsid=381), Lorentz Center, Leiden February 22-26.
+
+# dead link below
+- date: 2010-02-05
+  text: >
+    A [paper](/assets/files/papers/GroenendijkRoelofsen2010_CLC.pdf) by Jeroen Groenendijk and Floris Roelofsen has been accepted for presentation at the [6th International Symposium on Cognition, Logic, and Communication](http://cogito.lagado.org/node/286) in Latvia, April 23-25, 2010.
+
+- date: 2010-01-13
+  text: >
+    Jeroen Groenendijk presented a new Groenendijk & Roelofsen [paper](/assets/files/papers/GroenendijkRoelofsen2010_CLC.pdf) at the Colloquium of the Institute for Cognitive Science, University of Osnabrück.
+
+# dead link below
+- date: 2009-12-18
+  text: >
+    FUNDING FOR TWO PHD POSITIONS! \
+
+    Jeroen Groenendijk and Floris Roelofsen received a grant from NWO for more research on inquisitive semantics. The grant includes funding for two PhD positions. For more information click [here](https://sites.google.com/site/inquisitivesemantics/system/errors/NodeNotFound?suri=wuid:gx:62c12408b7cfdf0b). \
+
+    Please spread the news to potential applicants!
+
+
+# dead link below
+- date: 2009-12-18
+  text: >
+    Ivano Ciardelli, Floris Roelofsen, and Sam van Gool presented their work at the [Amsterdam Colloquium](http://www.illc.uva.nl/AC2009/).
+
+# dead link below
+- date: 2009-12-14
+  text: >
+    Salvador Mascarenhas successfully defended his MSc [thesis](http://homepages.nyu.edu/~sdm330/docs/mascarenhas09_inquisitive_semantics.pdf) on Inquisitive Semantics and Logic.
+
+# dead link below
+- date: 2009-12-01
+  text: >
+    Ivano Ciardelli posted a new [paper](/assets/files/papers/Ciardelli2009_AC.pdf), which will be included in the pre-proceedings of the [Amsterdam Colloquium](http://www.illc.uva.nl/AC2009/).
+
+# dead link below
+- date: 2009-12-01
+  text: >
+    Floris Roelofsen and Sam van Gool posted a new [paper](/assets/files/papers/RoelofsenVanGool2009_AC.pdf), which will be included in the pre-proceedings of the [Amsterdam Colloquium](http://www.illc.uva.nl/AC2009/).
+
+- date: 2009-11-30
+  text: >
+    Floris Roelofsen presented a joint [paper](/assets/files/papers/RoelofsenVanGool2009_AC.pdf) with Sam van Gool at MIT.
+
+- date: 2009-11-19
+  text: >
+    Talk at the ILLC by Ivano Ciardelli on his thesis Inquisitive Semantics and Intermediate Logics at the [Logic and Interactive Rationality Seminar](http://www.illc.uva.nl/lgc/seminar/?p=501). Thursday, November 19, 14:30, Room A1.10, Science Park 904.
+
+- date: 2009-11-18
+  text: >
+    Congratulations Ivano and Floris! \
+    
+    The paper [Generalized Inquisitive Semantics and Logic](/assets/files/papers/CiardelliRoelofsen2009_JPL.pdf) by Ivano Ciardelli and Floris Roelofsen has been accepted for publication in the Journal of Philosophical Logic.
+
+# dead link below
+- date: 2009-10-20
+  text: >
+    An abstract by Ivano Ciardelli was accepted for presentation at the [Amsterdam Colloquium](http://www.illc.uva.nl/AC2009/).
+
+# dead link below
+- date: 2009-10-20
+  text: >
+    An abstract by Floris Roelofsen and Sam van Gool was accepted for presentation at the [Amsterdam Colloquium](http://www.illc.uva.nl/AC2009/).
+
+- date: 2009-10-16
+  text: >
+    Ivano Ciardelli, Irma Cornelisse, Jeroen Groenendijk, and Floris Roelofsen presented a [paper](/assets/files/papers/CiardelliCornelisseGroenendijkRoelofsen2009_LORI.pdf) at [LORI-09](http://loriweb.org/lori2009/index.html) in Chongqing, China.
+
+
+# dead link below
+- date: 2009-10-01
+  text: >
+    Kata Balogh's successfully defended her [dissertation](http://staff.science.uva.nl/~kbalogh/thesis-balogh.pdf).
+
+# dead link below
+- date: 2009-10-01
+  text: >
+    Ivano Ciardelli, Jeroen Groenendijk, and Floris Roelofsen posted a [paper](/assets/files/papers/CiardelliGroenendijkRoelofsen2009_MightSALT.pdf) on might, that will appear in the proceedings of [SALT-09](http://ling.osu.edu/events/salt19/).
+
+- date: 2009-09-18
+  text: >
+    Ivano Ciardelli's MSc [thesis](/assets/files/papers/Ciardelli2009_MSCthesis.pdf) is available online. Ivano received the highest possible grade for this thesis, 10/10, something that very rarely happens in the Master of Logic program in Amsterdam.
+
+- date: 2009-08-28
+  text: >
+    Ivano Ciardelli and Floris Roelofsen posted a new [paper](/assets/files/papers/CiardelliRoelofsen2009_JPL.pdf) on inquisitive logic. The paper has been submitted for publication.
+
+- date: 2009-08-28
+  text: >
+    The [paper](/assets/files/papers/CiardelliCornelisseGroenendijkRoelofsen2009_LORI.pdf) by Ivano Ciardelli, Irma Cornelisse, Jeroen Groenendijk, and Floris Roelofsen on computing compliant responses has been accepted for publication.
+
+- date: 2009-07-28
+  text: >
+    A website providing [computational tools](http://www.illc.uva.nl/inquisitivesemantics/computing-compliance/) for inquisitive semantics has been launched.
+
+- date: 2009-07-28
+  text: >
+    Irma Cornelisse completed her BSc [thesis](/assets/files/papers/Cornelisse2009_BSCthesis.pdf), which investigates an algorithm for computing compliant responses to a given initiative. Irma received the highest grade of her class for this thesis.
+
+- date: 2009-07-13
+  text: >
+    Ivano Ciardelli, Irma Cornelisse, Jeroen Groenendijk, and Floris Roelofsen posted a new [paper](/assets/files/papers/CiardelliCornelisseGroenendijkRoelofsen2009_LORI.pdf) on computing compliant responses. The paper has been submitted for publication.
+
+- date: 2009-07-06
+  text: >
+    Ivano Ciardelli and Floris Roelofsen presented a paper about inquisitive logic at [TARK](http://ai.stanford.edu/~epacuit/tark09/), which was held at Stanford.
+
+- date: 2009-05-25
+  text: >
+    Jeroen Groenendijk and Floris Roelofsen posted a new [paper](/assets/files/papers/GroenendijkRoelofsen2009_LCRA.pdf) on inquisitive semantics and pragmatics. The paper will be presented at the Stanford [workshop](http://ai.stanford.edu/~epacuit/lmh-spr09/index.html) on Language, Communication, and Rational Agency.
+
+- date: 2009-04-26
+  text: >
+    Ivano Ciardelli and Floris Roelofsen's paper has been accepted for presentation at [TARK](http://ai.stanford.edu/~epacuit/tark09/).
+
+# dead link (2x) below
+- date: 2009-04-11
+  text: >
+    Katsuhiko Sano's [paper](http://www.k2sn.com/ts4inql2.pdf) was accepted for presentation at [WOLLIC](http://research.nii.ac.jp/wollic2009/index.html).
+
+# dead link below
+- date: 2009-04-06
+  text: >
+    Ivano Ciardelli, Jeroen Groenendijk, and Floris Roelofsen presented a [paper](/assets/files/papers/CiardelliGroenendijkRoelofsen2009_SALT.pdf) about inquisitive semantics at [SALT](http://ling.osu.edu/events/salt19/).
+
+# dead link below
+- date: 2009-04-01
+  text: >
+    Jeroen Groenendijk and Floris Roelofsen posted a new [paper](/assets/files/papers/GroenendijkRoelofsen2009_SPR.pdf) on inquisitive semantics and pragmatics. The paper will be presented at [SPR](http://www.ilcli.ehu.es/p287-content/en/contenidos/evento/spr09_third/en_spr09_3r/spr09_third.html).
+
+- date: 2009-03-15
+  text: >
+    Ivano Ciardelli and Floris Roelofsen submitted a [paper](/assets/files/papers/CiardelliRoelofsen2009_TARK.pdf) about inquisitive logic to [TARK](http://ai.stanford.edu/~epacuit/tark09/).
+
+# dead link (2x) below
+- date: 2009-03-05
+  text: >
+    Katsuhiko Sano submitted a [paper](http://www.k2sn.com/ts4inql2.pdf) about inquisitive logic to [WOLLIC](http://research.nii.ac.jp/wollic2009/index.html).
