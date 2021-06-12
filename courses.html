@@ -13,7 +13,7 @@ description: An overview of courses in inquisitive semantics given around the wo
 			<div class="card h-100 bg-white">
 				<div class="card-body">
 					<h4 class="card-title">
-						<a href="{{ course.url }}" class="text-dark">{{ course.title }}</a>
+						<a href="{{ course.url | relative_url }}" class="text-dark">{{ course.title }}</a>
 					</h4>
 					<p class="text-muted">
 						{{ course.date | date: "%Y"}}
@@ -23,10 +23,7 @@ description: An overview of courses in inquisitive semantics given around the wo
 					<p>
 						{{ course.description | truncatewords: 30, "..." | markdownify }}
 					</p>
-					<!-- {% for person in course.lecturers %}
-						{% include person-tag person=person %}
-					{% endfor %} -->
-					<a href="{{ course.url }}" class="btn btn-secondary">Go to course</a>
+					<a href="{{ course.url | relative_url}}" class="btn btn-secondary">Go to course</a>
 				</div>
 			</div>
 		</div>
