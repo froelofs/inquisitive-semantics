@@ -16,6 +16,19 @@ Then we check if there exists an object in the data file, and if so we use
 that as a default object. We output the field, either from the object or the default object
 {%- endcomment -%}
 {%- if object.first -%}
+
+  {%- comment -%}
+    If the object is a hash of the form `id: {id: ...}`,
+    then object[0] is the key and object[1] is the actual
+    object. We only look the latter (so currently you still 
+    have to specify the id!)
+    https://stackoverflow.com/questions/51211556/check-if-variable-type-is-hash-or-array-in-liquid
+  {%- endcomment -%}
+  {%- if object.first.first -%}
+  {%- else -%}
+    {%- assign object = object[1] -%}
+  {%- endif -%}
+
   {%- assign defaultObject = "" | split: "," -%}
   {%- if object contains "id" -%}
     {%- if dataFile contains object["id"] -%}
