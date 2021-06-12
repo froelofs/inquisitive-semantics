@@ -1,8 +1,45 @@
 ---
-layout: page
+layout: default
 title: News
 ---
 
-{% for item in site.data.news %}
-	{% include news-item.html %}
+{% assign itemsByYear = site.data.news | group_by_exp: "item", "item.date | date: '%Y'"  %}
+{% for yearItems in itemsByYear %}
+	<div class="news bg-white container-fluid mb-5 p-5">
+		<div class="container">
+			
+			<h3 class="py-5 display-2 text-primary sticky-md-top">
+				<span class="bg-white">
+					{{ yearItems.name }}
+				</span>
+			</h3>
+
+			{% assign itemsByMonth = yearItems.items | group_by_exp: "item", "item.date | date: '%B'"  %}
+			{% for monthItems in itemsByMonth %}
+			{% assign firstItem = monthItems.items.first %}
+			<div class="row mb-3">
+				<div class="col-md-2 d-none d-md-block">
+					{% assign firstItem = monthItems.items.first %}
+					<time datetime="{{ firstItem.date | date: '%Y-%m' }}" class="mark">
+						{{ firstItem.date | date: "%B" }}
+					</time>
+				</div>
+				<div class="col-12 col-md-10 border-bottom">
+					<div class=" row row-cols-1 row-cols-sm-2">
+						{% for item in monthItems.items %}
+						<div class="col">
+							<time datetime="{{ item.date | date: '%Y-%m-%d' }}">
+								{{ item.date | date: '%B %d, %Y' }}
+							</time>
+							{{ item.text | markdownify }}
+						</div>
+					{% endfor %}
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+
+		</div>
+	</div>
+</div>
 {% endfor %}
