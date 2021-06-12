@@ -25,7 +25,7 @@ subtitle: In inquisitive semantics
 						{%- endif %}
 					</p>
 					<div class="mt-4">
-					{% for person in project.people | where: function,"PI" %}
+					{% for person in project.people %}
 						{% include person-tag person=person %}
 					{% endfor %}
 					</div>
