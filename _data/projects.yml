@@ -140,7 +140,7 @@
   grant_type: Pro Futura Scientia
   people:
     - id: lcoppock
-    - function: PI
+      function: PI
 
 - title: 'Deontic puzzles and suppositional inquisitive semantics in legal language'
   start: 2014
