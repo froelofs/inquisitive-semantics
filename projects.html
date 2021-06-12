@@ -5,38 +5,42 @@ subtitle: In inquisitive semantics
 ---
 
 <div class="container-full">
-	<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
 
-		{%- assign projects = site.data.projects | sort: "end" | reverse %}
-		{%- for project in projects %}
-		<div class="project col my-3">
-			<div class="card h-100 bg-white">
-				<div class="card-body">
-					<h4 class="card-title">
-						<a href="{{ project.website }}" class="text-dark plain">
-							{{project.title}}
-							</a>
-					</h4>
-					<p class="text-muted">
-						{{ project.start }}&ndash;{{ project.end }}
-						{%- if project.grant_type %}
-							<span class="sep px-1">][</span>
-							{{ project.grant_type }}
-						{%- endif %}
-					</p>
-					<div class="mt-4">
-					{% for person in project.people %}
-						{% include person-tag person=person %}
-					{% endfor %}
-					</div>
-				</div>
-				<div class="card-footer bg-white d-flex">
-					{% for fund in project.funding %}
-						{% include funding-logo fund=fund %}
-					{% endfor %}
-				</div>
-			</div>
-		</div>
-		{%- endfor %}
-	</div>
+    {%- assign projects = site.data.projects | sort: "end" | reverse %}
+    {%- for project in projects %}
+    <div class="project col my-3">
+      <div class="card h-100 bg-white">
+        <div class="card-body">
+          <h4 class="card-title">
+            {%- if project.website -%}
+            <a href="{{ project.website }}" class="text-dark plain">
+              {{project.title}}
+            </a>
+            {%- else -%}
+            {{project.title}}
+            {%- endif -%}
+          </h4>
+          <p class="text-muted">
+            {{ project.start }}&ndash;{{ project.end }}
+            {%- if project.grant_type -%}
+            <span class="sep px-1">][</span>
+            {{ project.grant_type }}
+            {%- endif -%}
+          </p>
+          <div class="mt-4">
+          {%- for person in project.people -%}
+            {% include person-tag person=person %}
+          {%- endfor -%}
+          </div>
+        </div>
+        <div class="card-footer bg-white d-flex">
+          {%- for fund in project.funding -%}
+            {% include funding-logo fund=fund %}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
 </div>
