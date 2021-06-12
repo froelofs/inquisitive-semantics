@@ -13,12 +13,12 @@
 			<b>Funding:</b> 
 			{% if project.funding.size > 1 %}
 			{% for fund in project.funding %}
-				{%- capture fundName %}{% include getFunding object=fund field='name' %}{% endcapture %}
+				{%- capture fundName %}{% include funding object=fund field='name' %}{% endcapture %}
 				<li> {{ fundName }} </li>
 			{% endfor %}
 			{% else %}
 				{% assign fund = project.funding.first %}
-				{%- capture fundName %}{% include getFunding object=fund field='name' %}{% endcapture %}
+				{%- capture fundName %}{% include funding object=fund field='name' %}{% endcapture %}
 				{{ fundName }}
 			{% endif %}
 
@@ -31,14 +31,14 @@
 
 			<b>People:</b>
 			{% for person in project.people | where: function,"PI" %}
-				{%- capture firstName %}{% include getPerson object=person field='first_name' %}{% endcapture %}
-				{%- capture lastName %}{% include getPerson object=person field='last_name' %}{% endcapture %}
+				{%- capture firstName %}{% include person object=person field='first_name' %}{% endcapture %}
+				{%- capture lastName %}{% include person object=person field='last_name' %}{% endcapture %}
 				<li>{{ firstName }} {{ lastName }}</li>
 			{% endfor %}
 		</div>
 		<div class="row">
 		{% for fund in project.funding %}
-			{%- capture fundImg %}{% include getFunding object=fund field='image' %}{% endcapture %}
+			{%- capture fundImg %}{% include funding object=fund field='image' %}{% endcapture %}
 			<div class="col-sm">
 				<div class="img" style="background-image: url({{ fundImg }})"></div>
 			</div>

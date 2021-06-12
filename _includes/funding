@@ -2,7 +2,7 @@
   This is a shorthand for retrieving fields from the funding.yml file.
 
   Usage:
-    {% include getFunding object=fund field='name' %}
+    {% include funding object=fund field='name' %}
 {% endcomment %}
 
 {%- include get 

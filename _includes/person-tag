@@ -1,15 +1,15 @@
 {% assign person = include.person %}
 
 {%- capture image -%}
-	{% include getPerson object=person field='image' %}
+	{% include person object=person field='image' %}
 {%- endcapture -%}
 
 {%- capture firstname -%}
-	{% include getPerson object=person field='first_name' %}
+	{% include person object=person field='first_name' %}
 {%- endcapture -%}
 
 {%- capture lastname -%}
-	{% include getPerson object=person field='last_name' %}
+	{% include person object=person field='last_name' %}
 {%- endcapture %}
 
 {%- capture initials -%}
@@ -17,25 +17,25 @@
 {%- endcapture -%}
 
 {%- capture website -%}
-	{% include getPerson object=person field='website' %}
+	{% include person object=person field='website' %}
 {%- endcapture -%}
 
 {%- capture affiliation -%}
-	{% include getPerson object=person field='affiliation' %}
+	{% include person object=person field='affiliation' %}
 {%- endcapture -%}
 
 {%- capture function -%}
-	{% include getPerson object=person field='function' %}
+	{% include person object=person field='function' %}
 {%- endcapture -%}
 
 {%- capture location -%}
-	{% include getPerson object=person field='location' %}
+	{% include person object=person field='location' %}
 {%- endcapture -%}
 
 <div class="person tag d-flex mb-3">
 	<div class="rounded-img me-2">
 		{%- if image != '' %}
-			<img src="/{{ image }}" class="portrait">
+			<img src="{{ image | relative_url }}" class="portrait">
 		{%- else %}
 			<span class="initials">{{ initials }}</span>
 		{%- endif %}

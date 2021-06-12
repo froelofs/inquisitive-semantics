@@ -1,15 +1,15 @@
 {% assign fund = include.fund %}
 
 {%- capture image -%}
-	{% include getFunding object=fund field='image' %}
+	{% include funding object=fund field='image' %}
 {%- endcapture -%}
 
 {%- capture name -%}
-	{% include getFunding object=fund field='name' %}
+	{% include funding object=fund field='name' %}
 {%- endcapture -%}
 
 <div class="fund-logo m-2">
 	{%- if image != '' %}
-		<img src="{{ image }}" class="fund-logo grayscale-img">
+		<img src="{{ image | relative_url }}" class="fund-logo grayscale-img">
 	{%- endif %}
 </div>

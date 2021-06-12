@@ -2,7 +2,7 @@
   This is a shorthand for retrieving fields from the people.yml file.
 
   Usage:
-    {% include getPerson object=people field='first_name' %}
+    {% include person object=people field='first_name' %}
 {% endcomment %}
 
 {%- include get 

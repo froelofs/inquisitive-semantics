@@ -1,24 +1,24 @@
 {% assign person = include.person %}
 
 {%- capture image -%}
-	/{% include getPerson object=person field='image' %}
+	/{% include person object=person field='image' %}
 {%- endcapture -%}
 
 {%- capture name -%}
-	{% include getPerson object=person field='first_name' %}
-	{% include getPerson object=person field='last_name' %}
+	{% include person object=person field='first_name' %}
+	{% include person object=person field='last_name' %}
 {%- endcapture -%}
 
 {%- capture website -%}
-	{% include getPerson object=person field='website' %}
+	{% include person object=person field='website' %}
 {%- endcapture -%}
 
 {%- capture affiliation -%}
-	{% include getPerson object=person field='affiliation' %}
+	{% include person object=person field='affiliation' %}
 {%- endcapture -%}
 
 <div class="person card h-100">
-	<img src="{{ image }}" class="card-img img portrait grayscale-img">
+	<img src="{{ image | relative_url }}" class="card-img img portrait grayscale-img">
 	<div class="card-img-overlay d-flex flex-column justify-content-end text-light">
 		<h4 class="card-title mb-1 text-light">
 			{%- if website %}
