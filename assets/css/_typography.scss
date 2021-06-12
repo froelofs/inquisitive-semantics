@@ -76,37 +76,54 @@ span.sep {
     color: $color5;
 }
 
-// a {
-//     &::before {
-//         content: '[[';
-//         color: $primary;
-//     }
+*:not(h1, h2, h3, h4) > a:not(.plain, .btn) {
+    color: $black;
+    text-decoration: underline;
+    text-decoration-color: transparentize($primary, .9);
+    text-decoration-thickness: auto;
+    text-underline-offset: -.3em;
+    text-decoration-thickness: .5em;
+    text-decoration-skip-ink: none;
 
-//     &::after {
-//         content: ']]';
-//         color: $primary;
-//     }
-// }
+    &:hover {
+        text-decoration-color: transparentize($color5, .5);
+    }
+
+    &::before {
+        content: '[[';
+        padding-right: .15em;
+    }
+
+    &::after {
+        content: ']]';
+        padding-left: .1em;
+    }
+
+    &::before, &::after {
+        color: transparentize($primary, 0);
+        letter-spacing: -.1em;
+    }
+}
 
 
 
 .news {
 
-    ul {
-        padding: 0;
-    }
+//     ul {
+//         padding: 0;
+//     }
 
-    li {
-        list-style: none;
-        padding: 0;
-    }
+//     li {
+//         list-style: none;
+//         padding: 0;
+//     }
 
     time {
-        display: inline;
+        // display: inline;
         font-weight: 600;
-        // &::before {
-        //     content: '[[';
-        //     color: $color5;
-        // }
+//         // &::before {
+//         //     content: '[[';
+//         //     color: $color5;
+//         // }
     }
 }

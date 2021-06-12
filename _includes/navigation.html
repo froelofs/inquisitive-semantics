@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-light py-2 sticky-top bg-white">
 	<div class="container">
-		<a href="{{ site.baseurl }}/" class="navbar-brand serif col-md-3">
+		<a href="{{ site.baseurl }}/" class="navbar-brand serif col-md-3 plain">
 			{{ site.title }}
 		</a>
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
@@ -10,7 +10,7 @@
     		<ul class="navbar-nav">
 			  {% for item in site.data.navigation %}
 			  	<li class="nav-item">
-				    <a href="{{ item.link | relative_url }}" class="nav-link">
+				    <a href="{{ item.link | relative_url }}" class="nav-link plain">
 				      {{ item.name }}
 				    </a>
 				</li>
