@@ -5,7 +5,7 @@ title: News
 
 {% assign itemsByYear = site.data.news | group_by_exp: "item", "item.date | date: '%Y'"  %}
 {% for yearItems in itemsByYear %}
-	<div class="news bg-white container-fluid mb-5 p-5">
+	<div class="news bg-white container-fluid mb-5 py-5">
 		<div class="container">
 			
 			<h3 class="py-5 display-2 text-primary sticky-md-top">
