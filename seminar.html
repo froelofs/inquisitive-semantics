@@ -1,12 +1,23 @@
 ---
 layout: page
+indent: true
 title: Seminar
+description: >
+  Since 2020, members of the inquisitive semantics group in Amsterdam 
+  co-organise the [Meaning, Logic, and Cognition Seminar](http://projects.illc.uva.nl/LoLa/MLC-Seminar/)
+  together with other research groups at the ILLC interested in meaning. 
+  The schedule of this seminar is available on [the MLC website](http://projects.illc.uva.nl/LoLa/MLC-Seminar/).
+
+  From 2016 till 2019, there was a regular seminar in Amsterdam 
+  dedicated specifically to inquisitive semantics and closely related 
+  topics. Below is a list of talks given in that period.
+  
 ---
 
 {%- assign visitorsByYear = site.data.visitors2 | group_by_exp: "item", "item.start | date: '%Y'"  -%}
-
 {%- assign itemsByYear = site.data.seminars | group_by_exp: "item", "item.date | date: '%Y'"  -%}
 {% for yearItems in itemsByYear %}
+  {%- assign visitors = visitorsByYear | where: "name", yearItems.name | first -%}
 	<div class="news bg-white container-fluid mb-5 py-5">
 		<div class="container">
 
@@ -18,10 +29,10 @@ title: Seminar
 						</span>
 					</h3>
 				</div>
-				<div class="col-12 col-md-9">
+				<div class="col-12 col-md-9 {% if visitors %}border-bottom pb-2 mb-2{% endif %}">
 					<div class=" row row-cols-1 row-cols-sm-2">
 						{% for item in yearItems.items %}
-						<div class="col mb-4">
+						<div class="col mb-3">
 							<time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bold">
 								{{ item.date | date: '%B %d, %Y' }}
 							</time>
@@ -46,10 +57,9 @@ title: Seminar
 				</div>
 			</div>
 
-			{%- assign visitors = visitorsByYear | where: "name", yearItems.name | first -%}
 			{%- if visitors -%}
 			<div class="row mb-3">
-				<div class="col-md-3">
+				<div class="col-md-3 pb-2">
 					<strong class="mark fw-bold">Visitors</strong>
 				</div>
 				<div class="col-12 col-md-9">
