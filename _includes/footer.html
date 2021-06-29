@@ -60,7 +60,7 @@
 
         <section class="mt-5">
           <h3 class="fs-5"><a href="{{ '/seminar.html' | relative_url }}">Seminars</a></h3>
-          {% assign seminarItems = site.data.seminars | sort: "date" %}
+          {% assign seminarItems = site.data.seminar | sort: "date" %}
           {% for item in seminarItems %}
             {% if forloop.index <= 2 %}
             <p>

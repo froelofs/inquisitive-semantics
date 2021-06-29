@@ -1,5 +1,7 @@
 - name: News
   link: /news.html
+- name: Publications
+  link: /publications.html
 - name: Courses
   link: /courses.html
   subs:
@@ -9,6 +11,8 @@
     link: /courses/amsterdam-2019.html
 - name: Seminar
   link: /seminar.html
+- name: Workshops
+  link: /workshops.html
 - name: People
   link: /people.html
 - name: Projects
