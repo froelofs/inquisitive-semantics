@@ -5,7 +5,7 @@ title: News
 
 {% assign itemsByYear = site.data.news | group_by_exp: "item", "item.date | date: '%Y'"  %}
 {% for yearItems in itemsByYear %}
-	<div class="news bg-white container-fluid mb-5 py-5">
+	<section class="news bg-white container-fluid mb-5 py-5">
 		<div class="container">
 			
 			<h3 class="py-5 display-1 col-2 sticky-md-top">
@@ -20,7 +20,7 @@ title: News
 			<div class="row mb-3">
 				<div class="col-md-2 d-none d-md-block">
 					{% assign firstItem = monthItems.items.first %}
-					<time datetime="{{ firstItem.date | date: '%Y-%m' }}" class="mark">
+					<time datetime="{{ firstItem.date | date: '%Y-%m' }}" class="mark fw-bolder">
 						{{ firstItem.date | date: "%B" }}
 					</time>
 				</div>
@@ -28,7 +28,7 @@ title: News
 					<div class=" row row-cols-1 row-cols-sm-2">
 						{% for item in monthItems.items %}
 						<div class="col mb-3">
-							<time datetime="{{ item.date | date: '%Y-%m-%d' }}">
+							<time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bolder">
 								{{- item.date | date: '%B %d, %Y' -}}
 							</time>
 							<div class="serif">
@@ -43,5 +43,5 @@ title: News
 
 		</div>
 	</div>
-</div>
+</section>
 {% endfor %}

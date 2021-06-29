@@ -3,24 +3,26 @@ layout: page
 title: Seminar
 ---
 
-{% assign itemsByYear = site.data.seminars | group_by_exp: "item", "item.date | date: '%Y'"  %}
+{%- assign visitorsByYear = site.data.visitors2 | group_by_exp: "item", "item.start | date: '%Y'"  -%}
+
+{%- assign itemsByYear = site.data.seminars | group_by_exp: "item", "item.date | date: '%Y'"  -%}
 {% for yearItems in itemsByYear %}
 	<div class="news bg-white container-fluid mb-5 py-5">
 		<div class="container">
 
 			<div class="row mb-3">
-				<div class="col-md-2 d-none d-md-block">
+				<div class="col-md-3">
 					<h3 class="py-5 display-1 col-2 sticky-md-top">
 						<span class="bg-white">
 							{{ yearItems.name }}
 						</span>
 					</h3>
 				</div>
-				<div class="col-12 col-md-10">
+				<div class="col-12 col-md-9">
 					<div class=" row row-cols-1 row-cols-sm-2">
 						{% for item in yearItems.items %}
 						<div class="col mb-4">
-							<time datetime="{{ item.date | date: '%Y-%m-%d' }}">
+							<time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bold">
 								{{ item.date | date: '%B %d, %Y' }}
 							</time>
 							<p class="mb-0 serif">
@@ -44,6 +46,93 @@ title: Seminar
 				</div>
 			</div>
 
+			{%- assign visitors = visitorsByYear | where: "name", yearItems.name | first -%}
+			{%- if visitors -%}
+			<div class="row mb-3">
+				<div class="col-md-3">
+					<strong class="mark fw-bold">Visitors</strong>
+				</div>
+				<div class="col-12 col-md-9">
+					{%- for visitor in visitors.items -%}
+					<div class="col mb-3">
+						{%- capture info -%}
+							{%- include person object=visitor field='affiliation' -%}
+							<span class="px-1">•</span>
+							{%- assign startMonth = visitor.start | date: '%b' %}
+							{%- assign endMonth = visitor.end | date: '%b' %}
+							{%- if startMonth == endMonth -%}
+								<time datetime="{{ visitor.start | date: '%Y-%m-%d' }}">
+									{{- visitor.start | date: '%d' -}}
+								</time>&ndash;<time datetime="{{ visitor.end | date: '%Y-%m-%d' }}">
+									{{- visitor.end | date: "%d %b '%y" -}}
+								</time>
+							{%- else -%}
+								<time datetime="{{ visitor.start | date: '%Y-%m-%d' }}">
+									{{- visitor.start | date: '%b %d' -}}
+								</time>&ndash;
+								<time datetime="{{ visitor.end | date: '%Y-%m-%d' }}">
+									{{- visitor.end | date: '%b %d %Y' -}}
+								</time>
+							{%- endif -%}
+						{%- endcapture -%}
+
+						{% include person-tag person=visitor info=info %}
+
+					</div>
+					{%- endfor %}
+				</div>
+			</div>
+			{% endif %}
+
 		</div>
 	</div>
 {% endfor %}
+
+<!-- 
+<section class="news bg-white container-fluid mb-5 py-5">
+	<div class="container">
+		
+		<h3 class="py-5 display-1 col-3 sticky-md-top">
+			<span class="bg-white">
+				Visitors
+			</span>
+		</h3>
+
+		<div class="row mb-3">
+			<div class="col-md-3 d-none d-md-block">
+			</div>
+			<div class="col-12 col-md-10 border-bottom">
+				<div class=" row row-cols-1 row-cols-sm-2">
+					{%- for visitor in site.data.visitors2 %}
+					<div class="col mb-3">
+						{%- capture info -%}
+							{%- include person object=visitor field='affiliation' -%}
+							<span class="px-1">•</span>
+							{%- assign startMonth = visitor.start | date: '%b' %}
+							{%- assign endMonth = visitor.end | date: '%b' %}
+							{%- if startMonth == endMonth -%}
+								<time datetime="{{ visitor.start | date: '%Y-%m-%d' }}">
+									{{- visitor.start | date: '%d' -}}
+								</time>&ndash;<time datetime="{{ visitor.end | date: '%Y-%m-%d' }}">
+									{{- visitor.end | date: "%d %b '%y" -}}
+								</time>
+							{%- else -%}
+								<time datetime="{{ visitor.start | date: '%Y-%m-%d' }}">
+									{{- visitor.start | date: '%b %d' -}}
+								</time>&ndash;
+								<time datetime="{{ visitor.end | date: '%Y-%m-%d' }}">
+									{{- visitor.end | date: '%b %d %Y' -}}
+								</time>
+							{%- endif -%}
+						{%- endcapture -%}
+
+						{% include person-tag person=visitor info=info %}
+
+					</div>
+					{%- endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section> -->

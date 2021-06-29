@@ -1,5 +1,7 @@
 {% assign person = include.person %}
 
+{% assign info = include.info %}
+
 {%- capture image -%}
 	{% include person object=person field='image' %}
 {%- endcapture -%}
@@ -46,6 +48,11 @@
 	{%- endif %}
   {{ firstname }} {{ lastname }}
 	{% if website %}</a>{% endif %}
+	{%- if info %}
+	<span class="small text-muted">
+		{{- info -}}
+	</span>
+	{%- else %}
 	<span class="small text-muted">
 		{{ function }}
 		{%- if function != '' and location != '' %}
@@ -53,5 +60,6 @@
 		{%- endif %}
 		{{ location }}
 	</span>
+	{% endif %}
 	</p>
 </div>
