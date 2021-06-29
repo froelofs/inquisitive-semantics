@@ -2,32 +2,38 @@
 layout: default
 ---
 
-<article class="container">
-  <header class="row mt-5">
-    {% if page.indent %}
-    <div class="col-md-3">
-      To do : figure goes here
-    {% endif %}
-    <div class="{% if page.indent %}col-md-9{% endif %}">
-      <h1 class="title display-1 mb-5">
-        {{ page.title }}
-        {%- if page.subtitle -%}
-          <span class="colon d-none">:</span>
-          <span class="subtitle d-block">{{ page.subtitle }}</span>
+<article>
+  <div class="container py-5">
+    <header class="row mt-5">
+      {% if page.indent %}
+      <div class="col-md-3">
+        To do : figure goes here
+      {% endif %}
+      <div class="{% if page.indent %}col-md-9{% endif %}">
+        <h1 class="title display-1 mb-5">
+          {{ page.title }}
+          {%- if page.subtitle -%}
+            <span class="colon d-none">:</span>
+            <span class="subtitle d-block">{{ page.subtitle }}</span>
+          {%- endif %}
+        </h1>
+        {%- if page.description %}
+        <div class="lead serif">
+          {{ page.description | markdownify }}
+        </div>
         {%- endif %}
-      </h1>
-      {%- if page.description %}
-      <div class="lead serif">
-        {{ page.description | markdownify }}
       </div>
-      {%- endif %}
-    </div>
-  </header>
-
-  <section class="row">
-    {% if page.indent %}<div class="col-md-3 d-none d-md-block"></div>{% endif %}
-    <div class="{% if page.indent %}col-md-9{% endif %}">
-      {{ content }}
-    </div>
-  </section>
+    </header>
+  </div>
+  
+  <div class="bg-light py-4">
+    <!-- <div class="container"> -->
+      <!-- <section class="row">
+        {% if page.indent %}<div class="col-md-3 d-none d-md-block"></div>{% endif %}
+        <div class="{% if page.indent %}col-md-9{% endif %}"> -->
+          {{ content }}
+        <!-- </div> -->
+      <!-- </section> -->
+    <!-- </div> -->
+  </div>
 </article>

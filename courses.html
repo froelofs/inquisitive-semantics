@@ -4,13 +4,12 @@ title: Courses
 description: An overview of courses in inquisitive semantics given around the world.
 ---
 
-<!-- Sanity check page -->
-<div class="container-full">
+<div class="container">
 	<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
 		{% assign courses = site.courses | sort: "date" | reverse %}
 		{% for course in courses %}
 		<div class="project col my-3">
-			<div class="card h-100 bg-white">
+			<div class="card h-100 bg-white shadow-sm">
 				<div class="card-body">
 					<h4 class="card-title">
 						<a href="{{ course.url | relative_url }}" class="text-dark">{{ course.title }}</a>
@@ -28,6 +27,5 @@ description: An overview of courses in inquisitive semantics given around the wo
 			</div>
 		</div>
 		{% endfor %}
-
 	</div>
 </div>

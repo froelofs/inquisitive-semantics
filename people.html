@@ -1,34 +1,19 @@
 ---
-layout: default
+layout: page
 title: People
 subtitle: Working in inquisitive semantics
+description: > 
+  This website is maintained by Floris Roelofsen. 
+  If you have any questions or want to contribute, please get in touch!
 ---
 
-<div class="container my-5">
-	<div class="row">
-		  <div class="col-md-9">
-			<h1 class="title display-1 mb-5">
-				{{ page.title }}
-				<span class="colon d-none">:</span>
-				<span class="subtitle d-block">{{ page.subtitle }}</span>
-			</h1>
-			<div class="lead serif">
-				<p>
-					This website is maintained by Floris Roelofsen. 
-					If you have any questions or want to contribute, please get in touch!
-				</p>
-			</div>
-		  </div>
-	</div>
-</div>
-
 <div class="container">
-	<div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4">
-		{%- assign people = site.data.people %}
-		{%- for person in people %}
-		<div class="col my-4">	
-			{% include person-card object=person %}
-		</div>
-		{%- endfor %}
-	</div>
+  <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4">
+    {%- assign people = site.data.people %}
+    {%- for person in people %}
+    <div class="col my-4">	
+      {% include person-card object=person %}
+    </div>
+    {%- endfor %}
+  </div>
 </div>

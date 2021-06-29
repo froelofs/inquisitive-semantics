@@ -4,13 +4,13 @@ title: Research projects
 subtitle: In inquisitive semantics
 ---
 
-<div class="container-full">
+<div class="container">
   <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
 
     {%- assign projects = site.data.projects | sort: "end" | reverse %}
     {%- for project in projects %}
     <div class="project col my-3">
-      <div class="card h-100 bg-white">
+      <div class="card h-100 bg-white shadow-sm">
         <div class="card-body">
           <h4 class="card-title">
             {%- if project.website -%}

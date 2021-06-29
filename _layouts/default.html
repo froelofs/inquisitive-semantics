@@ -13,16 +13,30 @@
     <!-- Font Awesome files -->
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"> -->
   </head>
-  <body class="bg-light">
+  <body>
     {% include navigation.html %}
     
     {{ content }}
     
     <footer class="py-5">
-      <div class="container text-center text-info">
+      <div class="container">
         <div class="row">
-          <div class="col">
-            Footer text &copy; {{ site.time | date: '%Y' }}.
+          <div class="col-4">
+            <a href="{{ site.baseurl }}/" class="serif plain">
+              {{ site.title }}
+            </a>
+            Copyright Floris Roelofsen &copy; {{ site.time | date: '%Y' }}.
+          </div>
+          <div class="col-4">
+            <ul>
+              {% for item in site.data.navigation %}
+                <li>
+                  <a href="{{ item.link | relative_url }}" class="nav-link plain">
+                    {{ item.name }}
+                  </a>
+              </li>
+              {% endfor %}
+            </ul>
           </div>
         </div>
       </div>

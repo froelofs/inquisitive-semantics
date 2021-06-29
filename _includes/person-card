@@ -17,7 +17,7 @@
 	{% include person object=person field='affiliation' %}
 {%- endcapture -%}
 
-<div class="person card h-100">
+<div class="person card h-100 shadow-sm">
 	<img src="{{ image | relative_url }}" class="card-img img portrait grayscale-img">
 	<div class="card-img-overlay d-flex flex-column justify-content-end text-light">
 		<h4 class="card-title mb-1 text-light">
