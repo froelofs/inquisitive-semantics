@@ -1,0 +1,80 @@
+<footer class="py-5 text-muted site-footer small">
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <a href="{{ site.baseurl }}/" class="serif plain">
+          {{ site.title }}
+        </a>
+        <p class="serif">
+          {{ site.description }}
+        </p>
+        <p class="credits pt-5" style="opacity: 0.5">
+          This website is maintained by Floris Roelofsen, &copy; {{ site.time | date: '%Y' }}.
+          It was designed and built by Bas Cornelissen and Marianne de Heer-Kloots
+          using Jekyll.
+        </p>
+      </div>
+      <!-- <div class="col-4">
+        <ul class="list-unstyled">
+          {% for item in site.data.navigation %}
+            <li>
+              <a href="{{ item.link | relative_url }}" class="nav-link plain">
+                {{ item.name }}
+              </a>
+          </li>
+          {% endfor %}
+        </ul> 
+      </div> -->
+      <section class="col-4">
+        <h3 class="fs-5"><a href="{{ '/news.html' | relative_url }}">News</a></h3>
+        {% assign newsItems = site.data.news | sort: "date" %}
+        {% for item in newsItems %}
+          {% if forloop.index <= 4 %}
+          <p>
+            <time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bold">
+              {{- item.date | date: "%-d %b '%y" -}}
+            </time>
+            {{ item.text | markdownify | replace: "<p>", "" | replace: "</p>", "" | strip -}}
+          </p>
+          {% endif %}
+        {% endfor %}
+        <a href="{{ '/news.html' | relative_url }}" class="btn btn-outline-secondary btn-sm">All news ]]</a>
+      </section>
+      <div class="col-4">
+        <section>
+          <h3 class="fs-5"><a href="{{ '/courses.html' | relative_url }}">Courses</a></h3>
+          {% assign newsItems = site.courses | sort: "date" %}
+          {% for item in newsItems %}
+            {% if forloop.index <= 2 %}
+            <p>
+              <time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bold">
+                {{- item.date | date: "%-d %b '%y" -}}
+              </time>
+              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>,
+              {{item.venue}}, {{item.location}}
+            </p>
+            {% endif %}
+          {% endfor %}
+          <a href="{{ '/courses.html' | relative_url }}" class="btn btn-outline-secondary btn-sm">All courses ]]</a>
+        </section>
+
+        <section class="mt-5">
+          <h3 class="fs-5"><a href="{{ '/seminar.html' | relative_url }}">Seminars</a></h3>
+          {% assign seminarItems = site.data.seminars | sort: "date" %}
+          {% for item in seminarItems %}
+            {% if forloop.index <= 2 %}
+            <p>
+              <time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bold">
+                {{- item.date | date: "%-d %b '%y" -}}
+              </time>
+              {{ item.presenter }}:
+              {{ item.title }}
+            </p>
+            {% endif %}
+          {% endfor %}
+          <a href="{{ '/seminar.html' | relative_url }}" class="btn btn-outline-secondary btn-sm">All seminars ]]</a>
+        </section>
+      </div>
+    </div>
+  </div>
+</footer>

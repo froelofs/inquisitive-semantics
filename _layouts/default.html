@@ -18,28 +18,6 @@
     
     {{ content }}
     
-    <footer class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-4">
-            <a href="{{ site.baseurl }}/" class="serif plain">
-              {{ site.title }}
-            </a>
-            Copyright Floris Roelofsen &copy; {{ site.time | date: '%Y' }}.
-          </div>
-          <div class="col-4">
-            <ul>
-              {% for item in site.data.navigation %}
-                <li>
-                  <a href="{{ item.link | relative_url }}" class="nav-link plain">
-                    {{ item.name }}
-                  </a>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
+    {% include footer.html %}
   </body>
 </html>

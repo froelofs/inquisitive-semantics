@@ -2,6 +2,11 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/inquisitive-semantics" # the subpath of your site, e.g. /blog
 title: "Inquisitive Semantics" # the name of your site, e.g. ACME Corp.
+description: >
+  Inquisitive semantics is a semantic framework that is 
+  based on a formal notion of meaning which, unlike the 
+  traditional truth-conditional notion, captures both 
+  informative and inquisitive content.
 
 # Build settings
 sass:
