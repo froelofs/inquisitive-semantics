@@ -27,11 +27,13 @@ title: News
 				<div class="col-12 col-md-10 border-bottom">
 					<div class=" row row-cols-1 row-cols-sm-2">
 						{% for item in monthItems.items %}
-						<div class="col">
+						<div class="col mb-3">
 							<time datetime="{{ item.date | date: '%Y-%m-%d' }}">
-								{{ item.date | date: '%B %d, %Y' }}
+								{{- item.date | date: '%B %d, %Y' -}}
 							</time>
-							{{ item.text | markdownify }}
+							<div class="serif">
+								{{- item.text | markdownify -}}
+							</div>
 						</div>
 					{% endfor %}
 					</div>
