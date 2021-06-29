@@ -4,6 +4,7 @@ title: InqBnB3
 subtitle: Inquisitiveness Below and Beyond the Sentence Boundary
 start: 2019-06-26
 end: 2019-06-27
+location: Amsterdam
 venue:
   title: Workshop venue and accommodation
   description: >
@@ -48,6 +49,8 @@ local_speakers:
 ---
 
 The InqBnB workshop series brings together researchers working on inquisitive semantics and closely related topics. 
+
+<img src="{{ site.baseurl }}/assets/images/workshops/inqbnb3.jpg" width=300> 
 
 We are particularly interested in research that studies the semantics/pragmatics of questions and other inquisitive constructions, and in work investigating expressions which interact with the meaning of questions in interesting ways. 
 

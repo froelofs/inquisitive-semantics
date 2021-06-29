@@ -1,0 +1,28 @@
+---
+layout: page
+title: Workshops
+description: An overview of workshops in inquisitive semantics given around the world.
+---
+
+<div class="container">
+	<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+		{% assign workshops = site.workshops | sort: "date" | reverse %}
+		{% for workshop in workshops %}
+		<div class="project col my-3">
+			<div class="card h-100 bg-white shadow-sm">
+				<div class="card-body">
+					<h4 class="card-title">
+						<a href="{{ workshop.url | relative_url }}" class="text-dark">{{ workshop.title }}</a>
+					</h4>
+					<p class="text-muted">
+						{{ workshop.start | date: "%B %d"}} - {{ workshop.end | date: "%B %d, %Y" }}
+						<span class="sep px-1">][</span>
+						{{ workshop.location }}
+					</p>
+					<a href="{{ workshop.url | relative_url}}" class="btn btn-secondary">Go to workshop</a>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
