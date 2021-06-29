@@ -14,7 +14,7 @@ description: >
   
 ---
 
-{%- assign visitorsByYear = site.data.visitors2 | group_by_exp: "item", "item.start | date: '%Y'"  -%}
+{%- assign visitorsByYear = site.data.visitors | group_by_exp: "item", "item.start | date: '%Y'"  -%}
 {%- assign itemsByYear = site.data.seminar | group_by_exp: "item", "item.date | date: '%Y'"  -%}
 {% for yearItems in itemsByYear %}
   {%- assign visitors = visitorsByYear | where: "name", yearItems.name | first -%}

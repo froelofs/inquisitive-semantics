@@ -1,136 +1,169 @@
-- visitor: Gennaro Chierchia
+- id: gchierchia
   affiliation: Harvard
-  start: 2019-11-07
+  first_name: Gennaro
+  last_name: Chierchia
+  start: 2019-11-07 
   end: 2019-11-09
 
-- visitor: Lucas Champollion
+- id: lchampollion
   affiliation: NYU
   start: 2019-12-19
   end: 2019-12-22
 
-- visitor: Kathryn Davidson
+- id: kdavidson
   affiliation: Harvard
+  first_name: Kathryn
+  last_name: Davidson
   start: 2019-12-19
   end: 2019-12-22
 
-- visitor: Sabine Iatridou
+- id: siatridou
   affiliation: MIT
-  start: 2020-01-06
-  end: 2020-01-11
-
-- visitor: Sabine Iatridou
-  affiliation: MIT
+  first_name: Sabine
+  last_name: Iatridou
   start: 2018-08-22
   end: 2018-08-29
 
-# TODO update link below
-- visitor: >
-    various guests as part of the [third InqBnB](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb3) workshop
-  start: 2018-06-26
-  end: 2018-06-27
-
-- visitor: Sabine Iatridou
+- id: siatridou
   affiliation: MIT
+  first_name: Sabine
+  last_name: Iatridou
+  start: 2020-01-06
+  end: 2020-01-11
+
+# TODO 
+# - visitor: >
+#     various guests as part of the [third InqBnB](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb3) workshop
+#   start: 2018-06-26
+#   end: 2018-06-27
+
+- id: siatridou
+  affiliation: MIT
+  first_name: Sabine
+  last_name: Iatridou
   start: 2018-10-08
   end: 2018-10-09
 
-- visitor: Erlinde Meertens
+- id: emeertens
   affiliation: Konstanz
+  first_name: Erlinde
+  last_name: Meertens
   start: 2018-11-21
   end: 2018-11-23
 
-- visitor: Amir Anvari
+- id: aanvari
   affiliation: Paris
+  first_name: Amir
+  last_name: Anvari
   start: 2018-12-06
   end: 2018-12-07
 
-- visitor: Sabine Iatridou
+- id: siatridou
   affiliation: MIT
+  first_name: Sabine
+  last_name: Iatridou
   start: 2019-01-13
   end: 2019-01-27
 
-- visitor: Sabine Iatridou
+- id: siatridou
   affiliation: MIT
+  first_name: Sabine
+  last_name: Iatridou
   start: 2018-01-08
   end: 2018-01-22
 
-- visitor: Andreas Haida
+- id: ahaida
   affiliation: Jerusalem
   start: 2018-02-05 
   end: 2018-02-09
 
-- visitor: Sabine Iatridou
+- id: siatridou
   affiliation: MIT
+  first_name: Sabine
+  last_name: Iatridou
   start: 2018-05-28
   end: 2018-05-30
 
-- visitor: Dora Mihoc
+- id: dmihoc
   affiliation: Harvard
+  first_name: Dora
+  last_name: Mihoc
   start: 2018-06-11
   end: 2018-06-14
 
-- visitor: Malte Zimmermann
-  affiliation: Potsdam
-  start: 2018-06-15
+# TODO
+# - id: mzimmermann
+#   affiliation: Potsdam
+#   first_name: Malte
+#   last_name: Zimmermann
+#   start: 2018-06-15
 
-- visitor: Liz Coppock
+- id: lcoppock
   affiliation: Boston University
   start: 2018-06-16
   end: 2018-06-23
 
-- visitor: Donka Farkas
+- id: dfarkas
   affiliation: UC Santa Cruz
   start: 2018-06-21
   end: 2018-06-25
 
-- visitor: Danny Fox
+- id: dfox
   affiliation: MIT
+  first_name: Danny
+  last_name: Fox
   start: 2018-06-25
   end: 2018-06-27
 
-- visitor: Sabine Iatridou
+- id: siatridou
   affiliation: MIT
+  first_name: Sabine
+  last_name: Iatridou
   start: 2016-09-01
   end: 2016-12-15
 
-- visitor: Liz Coppock
+- id: lcoppock
   affiliation: Gothenburg/Uppsala
   start: 2016-09-01
   end: 2017-07-01
 
-- visitor: Andrzej Wiśniewski
+- id: awisniewski
   affiliation: Poznań
   start: 2017-01-19
   end: 2017-01-20
 
-- visitor: Clemens Mayr
+- id: cmayr
+  first_name: Clemens
+  last_name: Mayr
   affiliation: Berlin
   start: 2017-01-25
   end: 2017-01-27
 
-- visitor: Yimei Xiang
+- id: yxiang
+  first_name: Yimei 
+  last_name: Xiang
   affiliation: Harvard
   start: 2017-03-11
   end: 2017-03-18
 
-- visitor: Vit Puncochar
+- id: vpuncochar
   affiliation: Prague
   start: 2017-04-03
   end: 2017-04-24
 
-- visitor: Salvador Mascarenhas
+- id: smascarenhas
   affiliation: Paris
   start: 2017-05-17
   end: 2017-05-19
 
-# TODO update link below
-- visitor: >
-    various guests as part of the [first InqBnB](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb-summer-2017) workshop
-  start: 2017-06-26
-  end: 2017-06-30
+# TODO 
+# - visitor: >
+#     various guests as part of the [first InqBnB](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb-summer-2017) workshop
+#   start: 2017-06-26
+#   end: 2017-06-30
 
-# TODO update link below
-- visitor: >
-    various guests as part of the [second InqBnB](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb2) workshop
-  start: 2017-12-18
-  end: 2017-12-19
+# TODO 
+# - visitor: >
+#     various guests as part of the [second InqBnB](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb2) workshop
+#   start: 2017-12-18
+#   end: 2017-12-19
