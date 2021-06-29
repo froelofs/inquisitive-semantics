@@ -1,0 +1,49 @@
+---
+layout: page
+title: Seminar
+---
+
+{% assign itemsByYear = site.data.seminars | group_by_exp: "item", "item.date | date: '%Y'"  %}
+{% for yearItems in itemsByYear %}
+	<div class="news bg-white container-fluid mb-5 py-5">
+		<div class="container">
+
+			<div class="row mb-3">
+				<div class="col-md-2 d-none d-md-block">
+					<h3 class="py-5 display-1 col-2 sticky-md-top">
+						<span class="bg-white">
+							{{ yearItems.name }}
+						</span>
+					</h3>
+				</div>
+				<div class="col-12 col-md-10">
+					<div class=" row row-cols-1 row-cols-sm-2">
+						{% for item in yearItems.items %}
+						<div class="col mb-4">
+							<time datetime="{{ item.date | date: '%Y-%m-%d' }}">
+								{{ item.date | date: '%B %d, %Y' }}
+							</time>
+							<p class="mb-0 serif">
+								{%- if item.presenter %}
+								<span class="mark">
+									{{- item.presenter | markdownify | replace: "<p>", "" | replace: "</p>", "" | strip -}}
+								</span>
+								{%- endif %}
+								{% if item.link %}<a href="{{item.link}}">{% endif %}
+									{{- item.title | markdownify | replace: "<p>", "" | replace: "</p>", "" -}}
+								{% if item.link %}</a>{% endif %}
+							</p>
+							{%- if item.info %}
+							<p class="text-muted mt-0 fst-italic serif">
+								{{- item.info  | markdownify | replace: "<p>", "" | replace: "</p>", "" -}}
+							</p>
+							{%- endif %}
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+{% endfor %}
