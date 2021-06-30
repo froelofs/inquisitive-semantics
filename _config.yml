@@ -7,6 +7,9 @@ description: >
   based on a formal notion of meaning which, unlike the 
   traditional truth-conditional notion, captures both 
   informative and inquisitive content.
+credits: >
+  This website is maintained by Floris Roelofsen.
+  Webdesign and development by Bas Cornelissen and Marianne de Heer-Kloots.
 
 # Build settings
 sass:

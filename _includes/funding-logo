@@ -10,6 +10,6 @@
 
 <div class="fund-logo m-2">
 	{%- if image != '' %}
-		<img src="{{ image | relative_url }}" class="fund-logo grayscale-img">
+		<img src="{{ image | relative_url }}" class="fund-logo">
 	{%- endif %}
 </div>

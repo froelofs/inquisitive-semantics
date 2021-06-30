@@ -18,33 +18,32 @@ description: >
 {%- assign itemsByYear = site.data.seminar | group_by_exp: "item", "item.date | date: '%Y'"  -%}
 {% for yearItems in itemsByYear %}
   {%- assign visitors = visitorsByYear | where: "name", yearItems.name | first -%}
-	<div class="news bg-white container-fluid mb-5 py-5">
+	<div class="news bg-white container-fluid mb-3 mb-sm-5 py-3 py-sm-5">
 		<div class="container">
-
 			<div class="row mb-3">
 				<div class="col-md-3">
-					<h3 class="py-5 display-1 col-2 sticky-md-top">
+					<h3 class="pt-md-5 pb-2 display-1 col-2 sticky-md-top">
 						<span class="bg-white">
-							{{ yearItems.name }}
+							{{- yearItems.name -}}
 						</span>
 					</h3>
 				</div>
 				<div class="col-12 col-md-9 {% if visitors %}border-bottom pb-2 mb-2{% endif %}">
 					<div class=" row row-cols-1 row-cols-sm-2">
-						{% for item in yearItems.items %}
+						{%- for item in yearItems.items %}
 						<div class="col mb-3">
 							<time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bold">
-								{{ item.date | date: '%B %d, %Y' }}
+								{{- item.date | date: '%B %d, %Y' -}}
 							</time>
 							<p class="mb-0 serif">
 								{%- if item.presenter %}
 								<span class="mark">
 									{{- item.presenter | markdownify | replace: "<p>", "" | replace: "</p>", "" | strip -}}
 								</span>
-								{%- endif %}
-								{% if item.link %}<a href="{{item.link}}">{% endif %}
+								{%- endif -%}
+								{%- if item.link %}<a href="{{item.link}}">{% endif -%}
 									{{- item.title | markdownify | replace: "<p>", "" | replace: "</p>", "" -}}
-								{% if item.link %}</a>{% endif %}
+								{%- if item.link %}</a>{%- endif %}
 							</p>
 							{%- if item.info %}
 							<p class="text-muted mt-0 fst-italic serif">
@@ -52,53 +51,35 @@ description: >
 							</p>
 							{%- endif %}
 						</div>
-						{% endfor %}
+						{%- endfor %}
 					</div>
 				</div>
 			</div>
 
 			{%- if visitors -%}
 			<div class="row mb-3">
-				<div class="col-md-3 pb-2">
+				<div class="col-md-3 pb-3">
 					<strong class="mark fw-bold">Visitors</strong>
 				</div>
 				<div class="col-12 col-md-9">
           <div class=" row row-cols-1 row-cols-sm-2">
             {%- for visitor in visitors.items -%}
-            <div class="col mb-3">
+            <div class="col">
               {%- capture info -%}
                 {%- include person object=visitor field='affiliation' -%}
                 <span class="px-1">•</span>
-                {%- assign startMonth = visitor.start | date: '%b' %}
-                {%- assign endMonth = visitor.end | date: '%b' %}
-                {%- if startMonth == endMonth -%}
-                  <time datetime="{{ visitor.start | date: '%Y-%m-%d' }}">
-                    {{- visitor.start | date: '%d' -}}
-                  </time>&ndash;<time datetime="{{ visitor.end | date: '%Y-%m-%d' }}">
-                    {{- visitor.end | date: "%d %b '%y" -}}
-                  </time>
-                {%- else -%}
-                  <time datetime="{{ visitor.start | date: '%Y-%m-%d' }}">
-                    {{- visitor.start | date: '%b %d' -}}
-                  </time>&ndash;
-                  <time datetime="{{ visitor.end | date: '%Y-%m-%d' }}">
-                    {{- visitor.end | date: '%b %d %Y' -}}
-                  </time>
-                {%- endif -%}
+                {%- include period start=visitor.start end=visitor.end %}
               {%- endcapture -%}
-
-              {% include person-tag person=visitor info=info %}
-
+              {%- include person-tag person=visitor info=info %}
             </div>
             {%- endfor %}
           </div>
 				</div>
 			</div>
-			{% endif %}
-
+			{%- endif %}
 		</div>
 	</div>
-{% endfor %}
+{%- endfor %}
 
 <!-- 
 <section class="news bg-white container-fluid mb-5 py-5">

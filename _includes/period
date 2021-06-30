@@ -1,0 +1,18 @@
+{%- assign start = include.start %}
+{%- assign end = include.end %}
+{%- assign startMonth = start | date: '%b' %}
+{%- assign endMonth = end | date: '%b' %}
+{%- if startMonth == endMonth -%}
+  <time datetime="{{ start | date: '%Y-%m-%d' }}">
+    {{- start | date: '%d' -}}
+  </time>&ndash;<time datetime="{{ end | date: '%Y-%m-%d' }}">
+    {{- end | date: "%d %b '%y" -}}
+  </time>
+{%- else -%}
+  <time datetime="{{ start | date: '%Y-%m-%d' }}">
+    {{- start | date: '%b %d' -}}
+  </time>&ndash;{{--}}
+  <time datetime="{{ end | date: '%Y-%m-%d' }}">
+    {{- end | date: '%b %d %Y' -}}
+  </time>
+{%- endif -%}

@@ -9,11 +9,10 @@
       function: PI
       location: Amsterdam
 
-- title: 'Questions in sign language'
+- title: New territories for modal logic
   start: 2021
   end: 2026
-  funding:
-    - id: dfg
+  funding: [dfg]
   grant_type: Emmy Noether
   people:
     - id: iciardelli

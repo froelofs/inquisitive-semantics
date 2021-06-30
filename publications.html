@@ -1,115 +1,104 @@
 ---
-layout: default
-title: Papers
+layout: page
+title: Publications
+indent: true
+description: >
+  This website is maintained by Floris Roelofsen. 
+  If you have any questions or want to contribute, please get in touch!
 ---
-<div class="container my-5">
-	<div class="row">
-		  <div class="col-md-9">
-			<h1 class="title display-1 mb-5">
-				Publications
-			</h1>
-			<div class="lead serif">
-				<p>
-					This website is maintained by Floris Roelofsen. 
-					If you have any questions or want to contribute, please get in touch!
-				</p>
-			</div>
-		  </div>
-	</div>
-</div>
 
-<!-- <div class="container-full bg-white py-5"> -->
+<div class="container-full">
   <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <form id="publicationForm" class="sticky-top pt-5">
+          <div class="row form-row align-items-end mt-2">
+            <div class="mb-2">
+              <label for="searchPubs" class="visually-hidden">Search</label>
+              <input id="searchPubs" class="form-control" placeholder="Search..."></input>
+            </div>
 
-    <div style="display:block;">
-      <form id="publicationForm" class="small">
-        <div class="row form-row align-items-end">
+            <div class="mb-2">
+              <label for="selectPublicationType">Publication type</label>
+              <select id="selectPublicationType" class="form-select pubSelect">
+                <option value="">All</option>
+                <option value="submitted/to appear/in press">Submitted / in press</option>
+                <option value="ongoing">In preparation</option>
+                <option value="textbook/monograph">Textbook</option>
+                <option value="survey/encyclopedia">Surveys</option>
+                <option value="article{">Journal articles</option>
+                <option value="inproceedings">Conference papers</option>
+                <option value="incollection">Book chapters</option>
+                <option value="edited collection/special issue">Edited collections</option>
+                <option value="phdthesis/mastersthesis">PhD/MSc theses</option>
+                <option value="manuscript/handout/slides/technical report">Unpublished manuscripts</option>
+              </select>
+            </div>
 
-          <div class="col-2">
-            <label for="searchPubs">Search</label>
-            <input id="searchPubs" class="form-control" placeholder="Search..."></input>
+            <div class="mb-2">
+              <label for="selectEmpiricalTopic">Empirical topic</label>
+              <select id="selectEmpiricalTopic" class="form-select pubSelect">
+                <option value="">All</option>
+                <option value="Anaphora">Anaphora</option>
+                <option value="answer particle/yes/polarity particle">Answer particles</option>
+                <option value="Attitude predicates/believe/wonder/surprise/embedding">Attitude predicates</option>
+                <option value="Comparative">Comparatives</option>
+                <option value="Disjunct">Disjunction</option>
+                <option value="Ellipsis">Ellipsis</option>
+                <option value="Free choice">Free choice inferences</option>
+                <option value="Ignorance inferences">Ignorance inferences</option>
+                <option value="Indefinite/n-word">Indefinites</option>
+                <option value="modality/modals/believe/wonder/attitude">Modality</option>
+                <option value="Negation/n-word">Negation</option>
+                <option value="Numerals">Numerals</option>
+                <option value="Polarity sensitive items/npi/negative polarity/positive polarity">Polarity sensitive items</option>
+                <option value="Quantification/quantifier">Quantification</option>
+                <option value="Question/interrogative">Questions</option>
+                <option value="Rising declaratives">Rising declaratives</option>
+                <option value="Tag questions">Tag questions</option>
+              </select>
+            </div>
+
+            <div class="mb-2">
+              <label for="selectTheoreticalTopic">Theoretical topic</label>
+              <select id="selectTheoreticalTopic" class="form-select pubSelect">
+                <option value="">All</option>
+                <option value="attention">Attentional semantics</option>
+                <option value="Compositionality/composing">Compositionality</option>
+                <option value="commitments">Discourse commitments</option>
+                <option value="Dynamic semantics">Dynamic semantics</option>
+                <option value="Exhaustivity/exhaustification">Exhaustivity</option>
+                <option value="Highlighting">Highlighting</option>
+                <option value="Inquisitive semantics">Inquisitive semantics</option>
+                <option value="intonation/prosody">Intonational meaning</option>
+                <option value="asymmetry">Production/comprehension asymmetry</option>
+              </select>
+            </div>
+
+            <div class="mb-2">
+              <label for="selectDiscipline">Discipline</label>
+              <select id="selectDiscipline" class="form-select pubSelect">
+                <option value="">All</option>
+                <option value="Theoretical linguistics">Theoretical linguistics</option>
+                <option value="Experimental linguistics/experiment">Experimental linguistics</option>
+                <option value="Philosophical logic">Philosophical logic</option>
+                <option value="Artificial intelligence">Artificial intelligence</option>
+              </select>
+            </div>
+
+            <div class="mb-2">
+              <button id="pubFormReset" type="reset" class="btn btn-outline-dark">Reset</button>
+            </div>
           </div>
+        </form>
+      </div>
 
-          <div class="col-2">
-            <label for="selectPublicationType">Publication type</label>
-            <select id="selectPublicationType" class="form-select pubSelect">
-              <option value="">All</option>
-              <option value="submitted/to appear/in press">Submitted / in press</option>
-              <option value="ongoing">In preparation</option>
-              <option value="textbook/monograph">Textbook</option>
-              <option value="survey/encyclopedia">Surveys</option>
-              <option value="article{">Journal articles</option>
-              <option value="inproceedings">Conference papers</option>
-              <option value="incollection">Book chapters</option>
-              <option value="edited collection/special issue">Edited collections</option>
-              <option value="phdthesis/mastersthesis">PhD/MSc theses</option>
-              <option value="manuscript/handout/slides/technical report">Unpublished manuscripts</option>
-            </select>
-          </div>
-
-          <div class="col-2">
-            <label for="selectEmpiricalTopic">Empirical topic</label>
-            <select id="selectEmpiricalTopic" class="form-select pubSelect">
-              <option value="">All</option>
-              <option value="Anaphora">Anaphora</option>
-              <option value="answer particle/yes/polarity particle">Answer particles</option>
-              <option value="Attitude predicates/believe/wonder/surprise/embedding">Attitude predicates</option>
-              <option value="Comparative">Comparatives</option>
-              <option value="Disjunct">Disjunction</option>
-              <option value="Ellipsis">Ellipsis</option>
-              <option value="Free choice">Free choice inferences</option>
-              <option value="Ignorance inferences">Ignorance inferences</option>
-              <option value="Indefinite/n-word">Indefinites</option>
-              <option value="modality/modals/believe/wonder/attitude">Modality</option>
-              <option value="Negation/n-word">Negation</option>
-              <option value="Numerals">Numerals</option>
-              <option value="Polarity sensitive items/npi/negative polarity/positive polarity">Polarity sensitive items</option>
-              <option value="Quantification/quantifier">Quantification</option>
-              <option value="Question/interrogative">Questions</option>
-              <option value="Rising declaratives">Rising declaratives</option>
-              <option value="Tag questions">Tag questions</option>
-            </select>
-          </div>
-
-          <div class="col-2">
-            <label for="selectTheoreticalTopic">Theoretical topic</label>
-            <select id="selectTheoreticalTopic" class="form-select pubSelect">
-              <option value="">All</option>
-              <option value="attention">Attentional semantics</option>
-              <option value="Compositionality/composing">Compositionality</option>
-              <option value="commitments">Discourse commitments</option>
-              <option value="Dynamic semantics">Dynamic semantics</option>
-              <option value="Exhaustivity/exhaustification">Exhaustivity</option>
-              <option value="Highlighting">Highlighting</option>
-              <option value="Inquisitive semantics">Inquisitive semantics</option>
-              <option value="intonation/prosody">Intonational meaning</option>
-              <option value="asymmetry">Production/comprehension asymmetry</option>
-            </select>
-          </div>
-
-          <div class="col-2">
-            <label for="selectDiscipline">Discipline</label>
-            <select id="selectDiscipline" class="form-select pubSelect">
-              <option value="">All</option>
-              <option value="Theoretical linguistics">Theoretical linguistics</option>
-              <option value="Experimental linguistics/experiment">Experimental linguistics</option>
-              <option value="Philosophical logic">Philosophical logic</option>
-              <option value="Artificial intelligence">Artificial intelligence</option>
-            </select>
-          </div>
-
-          <div class="col-2">
-            <button id="pubFormReset" type="reset" class="btn btn-outline-dark">Reset</button>
-          </div>
-        </div>
-      </form>
-    </div>
-
-    <!-- TODO update link -->
-    <div class="">
-      <script 
-        type="text/javascript" 
-        src="https://bibbase.org/show?bib=bacor.github.io/inquisitive-semantics/assets/files/papers.bib&theme=simple&commas=true&group0=year&fullnames=1&jsonp=1"></script>
+      <!-- TODO update link -->
+      <div class="col-md-9">
+        <script 
+          type="text/javascript" 
+          src="https://bibbase.org/show?bib=bacor.github.io/inquisitive-semantics/assets/files/papers.bib&theme=simple&commas=true&group0=year&fullnames=1&jsonp=1"></script>
+      </div>
     </div>
   </div>
-<!-- </div> -->
+</div>

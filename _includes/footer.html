@@ -1,79 +1,75 @@
-<footer class="py-5 text-muted site-footer small">
+<footer class="py-3 py-sm-5 text-muted site-footer small bg-light">
+  <hr class="my-3 my-md-5" />
   <div class="container">
     <div class="row">
-      <div class="col-4">
+      <div class="col-sm-6 col-md-3 col-12">
         <a href="{{ site.baseurl }}/" class="serif plain">
           {{ site.title }}
         </a>
         <p class="serif">
           {{ site.description }}
         </p>
-        <p class="credits pt-5" style="opacity: 0.5">
-          This website is maintained by Floris Roelofsen, &copy; {{ site.time | date: '%Y' }}.
-          It was designed and built by Bas Cornelissen and Marianne de Heer-Kloots
-          using Jekyll.
-        </p>
       </div>
-      <!-- <div class="col-4">
-        <ul class="list-unstyled">
-          {% for item in site.data.navigation %}
-            <li>
-              <a href="{{ item.link | relative_url }}" class="nav-link plain">
-                {{ item.name }}
-              </a>
-          </li>
+      
+      <div class="col-sm-6 col-md-9 d-none d-sm-block">
+        <h3 class="fs-5"><a href="{{ '/news.html' | relative_url }}">Latest news</a></h3>
+        <div class="row row-cols-md-2 row-cols-1">
+          {% assign newsItems = site.data.news | sort: "date" %}
+          {% for item in newsItems %}
+            {% if forloop.index <= 6 %}
+            <div class="col {% if forloop.index > 2 %}d-none d-md-block{% endif %}">
+              <p>
+                <time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bold">
+                  {{- item.date | date: "%-d %b '%y" -}}
+                </time>
+                {{ item.text | markdownify | replace: "<p>", "" | replace: "</p>", "" | strip -}}
+              </p>
+            </div>
+            {% endif %}
           {% endfor %}
-        </ul> 
-      </div> -->
-      <section class="col-4">
-        <h3 class="fs-5"><a href="{{ '/news.html' | relative_url }}">News</a></h3>
-        {% assign newsItems = site.data.news | sort: "date" %}
+        </div>
+        <a href="{{ '/news.html' | relative_url }}" class="btn btn-outline-secondary btn-sm">All news ]]</a>
+      </div>
+      {% comment %}
+      <!-- <section>
+        <h3 class="fs-5"><a href="{{ '/courses.html' | relative_url }}">Courses</a></h3>
+        {% assign newsItems = site.courses | sort: "date" %}
         {% for item in newsItems %}
-          {% if forloop.index <= 4 %}
+          {% if forloop.index <= 2 %}
+          <p>
+            <time datetime="{{ item.date | date:                                                                                                                                                                                           '%Y-%m-%d' }}" class="fw-bold">
+              {{- item.date | date: "%-d %b '%y" -}}
+            </time>
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>,
+            {{item.venue}}, {{item.location}}
+          </p>
+          {% endif %}
+        {% endfor %}
+        <a href="{{ '/courses.html' | relative_url }}" class="btn btn-outline-secondary btn-sm">All courses ]]</a>
+      </section> -->
+
+      <!-- <section class="mt-5">
+        <h3 class="fs-5"><a href="{{ '/seminar.html' | relative_url }}">Seminars</a></h3>
+        {% assign seminarItems = site.data.seminar | sort: "date" %}
+        {% for item in seminarItems %}
+          {% if forloop.index <= 2 %}
           <p>
             <time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bold">
               {{- item.date | date: "%-d %b '%y" -}}
             </time>
-            {{ item.text | markdownify | replace: "<p>", "" | replace: "</p>", "" | strip -}}
+            {{ item.presenter }}:
+            {{ item.title }}
           </p>
           {% endif %}
         {% endfor %}
-        <a href="{{ '/news.html' | relative_url }}" class="btn btn-outline-secondary btn-sm">All news ]]</a>
-      </section>
-      <div class="col-4">
-        <section>
-          <h3 class="fs-5"><a href="{{ '/courses.html' | relative_url }}">Courses</a></h3>
-          {% assign newsItems = site.courses | sort: "date" %}
-          {% for item in newsItems %}
-            {% if forloop.index <= 2 %}
-            <p>
-              <time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bold">
-                {{- item.date | date: "%-d %b '%y" -}}
-              </time>
-              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>,
-              {{item.venue}}, {{item.location}}
-            </p>
-            {% endif %}
-          {% endfor %}
-          <a href="{{ '/courses.html' | relative_url }}" class="btn btn-outline-secondary btn-sm">All courses ]]</a>
-        </section>
-
-        <section class="mt-5">
-          <h3 class="fs-5"><a href="{{ '/seminar.html' | relative_url }}">Seminars</a></h3>
-          {% assign seminarItems = site.data.seminar | sort: "date" %}
-          {% for item in seminarItems %}
-            {% if forloop.index <= 2 %}
-            <p>
-              <time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bold">
-                {{- item.date | date: "%-d %b '%y" -}}
-              </time>
-              {{ item.presenter }}:
-              {{ item.title }}
-            </p>
-            {% endif %}
-          {% endfor %}
-          <a href="{{ '/seminar.html' | relative_url }}" class="btn btn-outline-secondary btn-sm">All seminars ]]</a>
-        </section>
+        <a href="{{ '/seminar.html' | relative_url }}" class="btn btn-outline-secondary btn-sm">All seminars ]]</a>
+      </section> -->
+      {% endcomment %}
+    </div>
+    <div class="row">
+      <div class="col-3 d-none d-md-block"></div>
+      <div class="col-md-9 col-12 credits pt-sm-5" style="opacity: 0.5">
+        {{ site.credits | markdownify }}
       </div>
     </div>
   </div>
