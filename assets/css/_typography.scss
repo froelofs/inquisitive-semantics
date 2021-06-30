@@ -76,7 +76,7 @@ span.sep {
     color: $color5;
 }
 
-*:not(h1, h2, h3, h4) > a:not(.plain, .btn) {
+.content *:not(h1, h2, h3, h4) > a:not(.plain, .btn) {
     color: $black;
     text-decoration: underline;
     text-decoration-color: transparentize($primary, .9);

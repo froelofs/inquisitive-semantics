@@ -63,33 +63,35 @@ description: >
 					<strong class="mark fw-bold">Visitors</strong>
 				</div>
 				<div class="col-12 col-md-9">
-					{%- for visitor in visitors.items -%}
-					<div class="col mb-3">
-						{%- capture info -%}
-							{%- include person object=visitor field='affiliation' -%}
-							<span class="px-1">•</span>
-							{%- assign startMonth = visitor.start | date: '%b' %}
-							{%- assign endMonth = visitor.end | date: '%b' %}
-							{%- if startMonth == endMonth -%}
-								<time datetime="{{ visitor.start | date: '%Y-%m-%d' }}">
-									{{- visitor.start | date: '%d' -}}
-								</time>&ndash;<time datetime="{{ visitor.end | date: '%Y-%m-%d' }}">
-									{{- visitor.end | date: "%d %b '%y" -}}
-								</time>
-							{%- else -%}
-								<time datetime="{{ visitor.start | date: '%Y-%m-%d' }}">
-									{{- visitor.start | date: '%b %d' -}}
-								</time>&ndash;
-								<time datetime="{{ visitor.end | date: '%Y-%m-%d' }}">
-									{{- visitor.end | date: '%b %d %Y' -}}
-								</time>
-							{%- endif -%}
-						{%- endcapture -%}
+          <div class=" row row-cols-1 row-cols-sm-2">
+            {%- for visitor in visitors.items -%}
+            <div class="col mb-3">
+              {%- capture info -%}
+                {%- include person object=visitor field='affiliation' -%}
+                <span class="px-1">•</span>
+                {%- assign startMonth = visitor.start | date: '%b' %}
+                {%- assign endMonth = visitor.end | date: '%b' %}
+                {%- if startMonth == endMonth -%}
+                  <time datetime="{{ visitor.start | date: '%Y-%m-%d' }}">
+                    {{- visitor.start | date: '%d' -}}
+                  </time>&ndash;<time datetime="{{ visitor.end | date: '%Y-%m-%d' }}">
+                    {{- visitor.end | date: "%d %b '%y" -}}
+                  </time>
+                {%- else -%}
+                  <time datetime="{{ visitor.start | date: '%Y-%m-%d' }}">
+                    {{- visitor.start | date: '%b %d' -}}
+                  </time>&ndash;
+                  <time datetime="{{ visitor.end | date: '%Y-%m-%d' }}">
+                    {{- visitor.end | date: '%b %d %Y' -}}
+                  </time>
+                {%- endif -%}
+              {%- endcapture -%}
 
-						{% include person-tag person=visitor info=info %}
+              {% include person-tag person=visitor info=info %}
 
-					</div>
-					{%- endfor %}
+            </div>
+            {%- endfor %}
+          </div>
 				</div>
 			</div>
 			{% endif %}
