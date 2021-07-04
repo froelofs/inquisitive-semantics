@@ -5,13 +5,13 @@ title: Resources
 
 ## Diagrams
 
-Here is a [tex file](/assets/files/diagrams.tex) that can be used to create inquisitive semantics diagrams, and its [pdf](/assets/files/diagrams.pdf) output.
+Here is a [tex file]({{ site.baseurl }}/assets/files/diagrams.tex) that can be used to create inquisitive semantics diagrams, and its [pdf]({{ site.baseurl }}/assets/files/diagrams.pdf) output.
 
 <img src="{{ site.baseurl }}/assets/images/resources/diagrams.jpg" width=300> 
 
 ## Bib file
 
-Here is a recent [bib file](/assets/files/inquisitive.bib) that can be used to create the bibliography of a paper on inquisitive semantics.
+Here is a recent [bib file]({{ site.baseurl }}/assets/files/inquisitive.bib) that can be used to create the bibliography of a paper on inquisitive semantics.
 
 ## Computational tools
 
