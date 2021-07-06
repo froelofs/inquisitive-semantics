@@ -1307,19 +1307,20 @@
 
 - date: 2012-12-23
   text: >
-    Ivano Ciardelli and Floris Roelofsen submitted a new paper on inquisitive dynamic epistemic logic.
+    Ivano Ciardelli and Floris Roelofsen submitted a new paper on [inquisitive dynamic epistemic logic](assets/files/papers/CiardelliRoelofsen2012_Synthese-IDEL.pdf).
 
 - start_date: 2012-12-17
   end_date: 2012-12-18
-    Matthijs Westera gives four talks on inquisitive semantics, inquisitive pragmatics, scalar modifiers and dynamic inquisitive semantics at a workshop on questions and inquisitive semantics at the University of Gothenburg.
+    Matthijs Westera gives four talks on inquisitive semantics, inquisitive pragmatics, scalar modifiers and dynamic inquisitive semantics at a [workshop on questions and inquisitive semantics](http://eecoppock.info/workshop.html) at the University of Gothenburg.
 
+# dead link below
 - date: 2012-12-14
   text: >
-    Ivano Ciardelli gives a talk at NYU about the notion of meaning developed in inquisitive semantics.
+    Ivano Ciardelli gives a [talk at NYU](http://blogs.nyu.edu/gsas/dept/lingu/2012/12/semantics_group_talk_ivano_cia.html) about the notion of meaning developed in inquisitive semantics.
 
 - date: 2012-12-10
   text: >
-    Floris Roelofsen posted a revised paper on the algebraic foundations of the semantics treatment of inquisitive content.
+    Floris Roelofsen posted a revised paper on the [algebraic foundations of the semantics treatment of inquisitive content](assets/files/papers/Roelofsen2012_Synthese-revised.pdf).
 
 - date: 2012-11-21
   text: >
@@ -1327,35 +1328,45 @@
 
 - date: 2012-11-15
   text: >
-    Scott AnderBois submitted a new paper on the semantics of sluicing.
+    Scott AnderBois submitted a new paper on [the semantics of sluicing](assets/files/papers/AnderBois2012_Sluicing).
 
 - date: 2012-11-14
   text: >
-    The long-awaited paper by Scott AnderBois on Focus and uninformativity in Yukatek Maya questions is included in the current issue of Natural Language Semantics.
+    The long-awaited paper by Scott AnderBois on [Focus and uninformativity in Yukatek Maya questions](assets/files/papers/AnderBois2012_NatLangSem.pdf) is included in the current issue of Natural Language Semantics.
 
+# dead link below
 - date: 2012-11-04
   text: >
-    Wataru Uegaki and Paul Marty (MIT) presented new work on a grammatical source of the Gettier judgment at a Symposium on 'knowledge' in Japanese, at the University of Tokyo.
+    Wataru Uegaki and Paul Marty (MIT) presented new work on a [grammatical source of the Gettier judgment](http://web.mit.edu/wuegaki/www/UegakiMarty-slides.pdf) at a Symposium on 'knowledge' in Japanese, at the University of Tokyo.
 
 - date: 2012-10-30
   text: >
-    A new paper by Ivano Ciardelli, Jeroen Groenendijk, and Floris Roelofsen about inquisitive witness semantics has been accepted for publication in the Proceedings of the 9th International Tbilisi Symposium on Language, Logic, and Computation, published by Springer.
+    A new paper by Ivano Ciardelli, Jeroen Groenendijk, and Floris Roelofsen about [inquisitive witness semantics](assets/files/papers/CiardelliGroenendijkRoelofsen2012_Tbilisi-final.pdf) has been accepted for publication in the Proceedings of the 9th International Tbilisi Symposium on Language, Logic, and Computation, published by Springer.
 
 - date: 2012-10-29
   text: >
-    A new course on Logic and Conversation by Jeroen Groenendijk and Floris Roelofsen started today in Amsterdam.
+    There will be a workshop on [Logic, Questions, and Inquiry](http://loqi.sciencesconf.org/) in Paris in the Spring of 2013. Jeroen Groenendijk will be one of the invited speakers.
+
+# update link below
+- date: 2012-10-29
+  text: >
+    A new course on [Logic and Conversation](https://sites.google.com/site/inquisitivesemantics/courses/amsterdam-2012) by Jeroen Groenendijk and Floris Roelofsen started today in Amsterdam.
 
 - date: 2012-10-10
   text: >
-    Floris Roelofsen, Noortje Venhuizen, and Galit Weidmann Sassoon posted a new paper on positive and negative polar questions in discourse, which will appear in the proceedings of Sinn und Bedeutung.
+    Floris Roelofsen, Noortje Venhuizen, and Galit Weidmann Sassoon posted a new paper on [positive and negative polar questions](assets/files/papers/RoelofsenVenhuizenWeidmanSassoon2012_SuB.pdf) in discourse, which will appear in the proceedings of Sinn und Bedeutung.
 
 - date: 2012-09-30
   text: >
-    A paper on the interpretation of prosody in disjunctive questions by Kathryn Pruitt and Floris Roelofsen has been accepted for publication in Linguistic Inquiry.
+    A paper on the [interpretation of prosody in disjunctive questions](assets/files/papers/PruittRoelofsen2012_LI.pdf) by Kathryn Pruitt and Floris Roelofsen has been accepted for publication in Linguistic Inquiry.
 
 - date: 2012-09-04
   text: >
-    Floris Roelofsen will present joint work with Donka Farkas at the Questions in Discourse network meeting in Paris this Friday, September 7, and joint work with Noortje Venhuizen and Galit Weidmann Sassoon at Sinn und Bedeutung, also in Paris, this Saturday, September 8.
+    Matthijs Westera will present a new [paper](assets/files/papers/Westera2012_SemDial.pdf) at the [SemDial](https://sites.google.com/site/semdial2012seinedial/programme) workshop in Paris on September 19, 2012.
+
+- date: 2012-09-04
+  text: >
+    Floris Roelofsen will present [joint work](assets/files/handouts/FarkasRoelofsen2012_Paris.pdf) with Donka Farkas at the Questions in Discourse network meeting in Paris this Friday, September 7, and [joint work](assets/files/handouts/RoelofsenVenhuizenWeidmanSassoon2012_SuB.pdf) with Noortje Venhuizen and Galit Weidmann Sassoon at Sinn und Bedeutung, also in Paris, this Saturday, September 8.
 
 - date: 2012-09-01
   text: >
@@ -1363,32 +1374,36 @@
 
 - date: 2012-07-15
   text: >
-    Donka Farkas and Floris Roelofsen submitted a new paper about polar initiatives and polarity particle responses in an inquisitive discourse model.
+    Donka Farkas and Floris Roelofsen submitted a new paper about [polar initiatives and polarity particle responses in an inquisitive discourse model](assets/files/papers/FarkasRoelofsen2012_PolarInitiatives.pdf).
 
+# update link below
 - date: 2012-07-05
   text: >
-    Papers by Martin Aher, Edgar Onea, Markus Steinbach, and Wataru Uegaki, presented at the inquisitiveness workshop in December 2011, are now out in print, in a Springer LNCS volume on Logic, Language, and Meaning.
+    Papers by Martin Aher, Edgar Onea, Markus Steinbach, and Wataru Uegaki, presented at the [inquisitiveness workshop](https://sites.google.com/site/inquisitivesemantics/workshops/inquisitiveness-2011) in December 2011, are now out in print, in a Springer LNCS volume on [Logic, Language, and Meaning](https://link.springer.com/book/10.1007/978-3-642-31482-7).
 
+# dead link below
 - date: 2012-06-24
   text: >
-    Jeroen Groenendijk gives a keynote lecture at TLS in Austin, presenting joint work with Ivano Ciardelli and Floris Roelofsen.
+    Jeroen Groenendijk gives a keynote lecture at [TLS](http://uts.cc.utexas.edu/~tls/2012tls/) in Austin, presenting joint work with Ivano Ciardelli and Floris Roelofsen.
 
 - date: 2012-06-19
   text: >
     Matthijs Westera presents new work at LOFT in Sevilla.
 
+# update link + dead link below
 - start_date: 2012-06-17
   end_date: 2012-06-22
   text: >
-    Jeroen Groenendijk and Floris Roelofsen teach a course on inquisitive semantics at NASSLLI this week. The lecture notes and the course schedule are available on the course website.
+    Jeroen Groenendijk and Floris Roelofsen teach a course on inquisitive semantics at [NASSLLI](http://nasslli2012.com/) this week. The lecture notes and the course schedule are available on the [course website](https://sites.google.com/site/inquisitivesemantics/courses/nasslli-2012).
 
+# dead link below
 - date: 2012-06-08
   text: >
-    Donka Farkas presents new work with Floris Roelofsen at the Polarity Particle Workshop in Newcastle.
+    Donka Farkas presents [new work](assets/files/papers/FarkasRoelofsen2012_Yale.pdf) with Floris Roelofsen at the [Polarity Particle Workshop](http://research.ncl.ac.uk/yesandno/YesNo_Workshop.php) in Newcastle.
 
 - date: 2012-06-06
   text: >
-    Ivano Ciardelli presents new work with Jeroen Groenendijk and Floris Roelofsen at Trends in Logic XI.
+    Ivano Ciardelli presents new work with Jeroen Groenendijk and Floris Roelofsen at [Trends in Logic XI](http://www.ruhr-uni-bochum.de/philosophy/trendsxi/).
 
 - date: 2012-04-18
   text: >
@@ -1396,39 +1411,50 @@
 
 - date: 2012-04-17
   text: >
-    Floris Roelofsen presented joint work with Donka Farkas on polar initiatives and polarity particles at a Colloquium in Nijmegen. The handout for the talk is here and the current version of the paper is here.
+    Floris Roelofsen presented joint work with Donka Farkas on [polar initiatives and polarity particles](assets/files/papers/FarkasRoelofsen2012_Yale.pdf) at a Colloquium in Nijmegen. The handout for the talk is [here](FarkasRoelofsen2012_Nijmegen.pdf) and the current version of the paper is [here](assets/files/papers/FarkasRoelofsen2012_Yale.pdf).
 
 - date: 2012-04-02
   text: >
-    Donka Farkas presented new joint work with Floris Roelofsen on polar initiatives and polarity particles during a Yale Linguistics Colloquium. The handout for the talk is here and the presented version of the paper is here.
+    Donka Farkas presented new joint work with Floris Roelofsen on [polar initiatives and polarity particles](assets/files/papers/FarkasRoelofsen2012_Yale.pdf) during a Yale Linguistics Colloquium. The handout for the talk is [here](assets/files/handouts/FarkasRoelofsen2012_Yale.pdf) and the presented version of the paper is [here](assets/files/papers/FarkasRoelofsen2012_Yale.pdf).
 
 - date: 2012-03-29
   text: >
-    Ivano Ciardelli gave a talk about presuppositions in inquisitive semantics in Paris.
+    Ivano Ciardelli gave a talk about [presuppositions in inquisitive semantics](assets/files/slides/Ciardelli2012_Paris.pdf) in Paris.
 
 - date: 2012-03-12
   text: >
-    Ivano Ciardelli, Jeroen Groenendijk, and Floris Roelofsen submitted a new paper, which develops an inquisitive semantics with witnesses.
+    Ivano Ciardelli, Jeroen Groenendijk, and Floris Roelofsen submitted a new paper, which develops an [inquisitive semantics with witnesses](assets/files/papers/CiardelliGroenendijkRoelofsen2012_Tbilisi.pdf).
 
+# update link below
 - date: 2012-03-09
   text: >
-    Martin Aher presented new work on free choice in radical inquisitive semantics at the Questions in Discourse workshop in Frankfurt.
+    Jeroen Groenendijk presented joint work with Ivano Ciardelli and Floris Roelofsen on an [inquisitive semantics with witnesses](assets/files/slides/CiardelliGroenendijkRoelofsen2012_QID.pdf) at the [Questions in Discourse workshop](https://sites.google.com/site/inquisitivesemantics/workshops/questions-in-discourse-2012) workshop in Frankfurt.
+
+# update link below
+- date: 2012-03-09
+  text: >
+    Martin Aher presented new work on [free choice in radical inquisitive semantics](assets/files/slides/Aher2012_QID.pdf) at the [Questions in Discourse workshop](https://sites.google.com/site/inquisitivesemantics/workshops/questions-in-discourse-2012) in Frankfurt.
 
 - date: 2012-02-21
   text: >
-    (palindrome day) Adrian Brasoveanu, Donka Farkas, and Floris Roelofsen submitted a new paper on n-words and sentential negation.
+    (palindrome day) Adrian Brasoveanu, Donka Farkas, and Floris Roelofsen submitted a new paper on [n-words and sentential negation](assets/files/papers/BrasoveanuFarkasRoelofsen2012_SP.pdf).
 
 - date: 2012-02-17
   text: >
-    Floris Roelofsen posted a new paper on algebraic inquisitive semantics.
+    Floris Roelofsen posted a new paper on [algebraic inquisitive semantics](assets/files/papers/Roelofsen2012_Synthese.pdf).
+
+# dead link below
+- date: 2012-02-03
+  text: >
+    Adrian Brasoveanu, Donka Farkas and Floris Roelofsen posted a new [paper](assets/files/papers/BrasoveanuFarkasRoelofsen2012_SuB.pdf) on polarity particles and n-words, which will appear soon in the proceedings of [Sinn und Bedeutung 16](http://www.hum.uu.nl/sub16/).
 
 - date: 2012-02-03
   text: >
-    Ivano Ciardelli, Jeroen Groenendijk, and Floris Roelofsen submitted a new paper: inquisitive semantics: a new notion of meaning.
+    Ivano Ciardelli, Jeroen Groenendijk, and Floris Roelofsen submitted a new paper: [inquisitive semantics: a new notion of meaning](assets/files/papers/CiardelliGroenendijkRoelofsen2012_Compass.pdf).
 
 - date: 2012-02-01
   text: >
-    Ivano Ciardelli and Jeroen Groenendijk gave a talk at the IMI workshop in Paris last week about hybrid, classical, and presuppositional inquisitive semantics.
+    Ivano Ciardelli and Jeroen Groenendijk gave a talk at the [IMI workshop](https://imi2012.sciencesconf.org/) in Paris last week about [hybrid, classical, and presuppositional inquisitive semantics](assets/files/slides/CiardelliGroenendijk2012_Paris.pdf).
 
 - date: 2011-12-21
   text: >
