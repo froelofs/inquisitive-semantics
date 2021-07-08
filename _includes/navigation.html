@@ -1,6 +1,6 @@
 
 
-<nav class="navbar navbar-expand-md navbar-light py-2 sticky-top bg-white">
+<nav class="navbar navbar-expand-md navbar-light py-2 sticky-top bg-white shadow-sm">
 	<div class="container">
 		<a href="{{ site.baseurl }}/" class="navbar-brand serif col-md-3 plain">
 			{{ site.title }}
@@ -13,9 +13,9 @@
     	<ul class="navbar-nav">
 				{%- for item in site.data.navigation %}
 					{%- if item.name == 'Courses' %}
-						{%- assign sub_menu = site.courses | sort: 'date' %}
+						{%- assign sub_menu = site.courses | sort: 'date' | reverse %}
 					{%- elsif item.name == 'Workshops' %}
-						{%- assign sub_menu = site.workshops | sort: 'date' %}
+						{%- assign sub_menu = site.workshops | sort: 'date' | reverse %}
 					{%- elsif item.name == 'More' %}
 						{%- assign sub_menu = item.sub_menu %}
 					{%- else %}

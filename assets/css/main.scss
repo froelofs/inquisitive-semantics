@@ -57,9 +57,11 @@
 
 // temporary css for people/project images
 .person {
-    // overflow: hidden;
-    // background: transparentize($primary, .8);
 
+    &.card {
+        overflow: hidden;
+    }
+    
     .img {
         background-size: cover;
         background-position: center; 
