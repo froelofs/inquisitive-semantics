@@ -40,7 +40,7 @@ description: >
 								<span class="mark">
 									{{- item.presenter | markdownify | replace: "<p>", "" | replace: "</p>", "" | strip -}}
 								</span>
-								{%- endif -%}
+								{% endif -%}
 								{%- if item.link %}<a href="{{item.link}}">{% endif -%}
 									{{- item.title | markdownify | replace: "<p>", "" | replace: "</p>", "" -}}
 								{%- if item.link %}</a>{%- endif %}
