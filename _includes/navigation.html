@@ -1,20 +1,68 @@
+
+
 <nav class="navbar navbar-expand-md navbar-light py-2 sticky-top bg-white">
 	<div class="container">
 		<a href="{{ site.baseurl }}/" class="navbar-brand serif col-md-3 plain">
 			{{ site.title }}
 		</a>
-		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"> -->
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
 		<div class="collapse navbar-collapse" id="navbarNav">
-    		<ul class="navbar-nav">
-			  {% for item in site.data.navigation %}
-			  	<li class="nav-item">
-				    <a href="{{ item.link | relative_url }}" class="nav-link plain">
+    	<ul class="navbar-nav">
+				{%- for item in site.data.navigation %}
+					{%- if item.name == 'Courses' %}
+						{%- assign sub_menu = site.courses | sort: 'date' %}
+					{%- elsif item.name == 'Workshops' %}
+						{%- assign sub_menu = site.workshops | sort: 'date' %}
+					{%- elsif item.name == 'More' %}
+						{%- assign sub_menu = item.sub_menu %}
+					{%- else %}
+						{%- assign sub_menu = false %}
+					{%- endif %}
+			  	<li class="nav-item {% if sub_menu %}dropdown{% endif %}
+						{%- if item.name == 'More' %} d-md-block d-lg-none d-none{% endif %}
+						{%- if item.in_more %} d-md-none d-lg-block{% endif %}">
+				    <a href="{% if sub_menu %}#{% else %}{{ item.url | relative_url }}{% endif %}" {{ -}}
+							class="nav-link plain
+								{%- if item.url == page.url %} active{% endif %}
+								{%- if sub_menu %} dropdown-toggle{% endif %}"
+							{% if sub_menu -%}
+							id="navbarDropDown{{item.name | handleize}}"
+							role="button" data-bs-toggle="dropdown" aria-expanded="false"
+							{% endif %}>
 				      {{ item.name }}
 				    </a>
-				</li>
-			  {% endfor %}
+						{%- if sub_menu %}
+							<ul class="dropdown-menu" aria-labelledby="navbarDropDown{{item.name | handleize}}">
+								{%- for sub_item in sub_menu limit: 10 %}
+								{%- capture sub_item_name -%}
+									{%- if sub_item.title %}
+										{{ sub_item.title }}
+										{%- if sub_item.subtitle -%}
+											: {{ sub_item.subtitle }}
+										{%- endif %}
+									{%- else -%}
+										{{ sub_item.name }}
+									{%- endif %}
+								{%- endcapture %}
+								<li>
+									<a class="dropdown-item
+											{%- if sub_item.url == page.url %} active{% endif %}" {{ -}}
+										href="{{ sub_item.url | relative_url}}">
+										{{ sub_item_name | truncate, 40 }}
+									</a>
+								</li>
+								{%- endfor %}
+								{% unless item.name == 'More' %}
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="{{ item.url | relative_url }}">All {{ item.name }}</a></li>
+								{% endunless %}
+							</ul>
+						{%- endif %}
+					</li>
+			  {%- endfor %}
 			</ul>
 		</div>
 	</div>

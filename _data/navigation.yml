@@ -1,21 +1,27 @@
 - name: News
-  link: /news.html
+  url: /news.html
 - name: Publications
-  link: /publications.html
+  url: /publications.html
 - name: Courses
-  link: /courses.html
-  subs:
-  - name: Amsterdam 2020
-    link: /courses/amsterdam-2020.html
-  - name: Amsterdam 2019
-    link: /courses/amsterdam-2019.html
+  url: /courses.html
 - name: Seminar
-  link: /seminar.html
+  url: /seminar.html
 - name: Workshops
-  link: /workshops.html
+  url: /workshops.html
 - name: People
-  link: /people.html
+  url: /people.html
+  in_more: true
 - name: Projects
-  link: /projects.html
+  url: /projects.html
+  in_more: true
 - name: Resources
-  link: /resources.html
+  url: /resources.html
+  in_more: true
+- name: More
+  sub_menu:
+    - name: Projects
+      url: /projects.html
+    - name: Resources
+      url: /resources.html
+    - name: People
+      url: /people.html
