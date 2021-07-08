@@ -29,9 +29,15 @@ title: News
 					<div class=" row row-cols-1 row-cols-sm-2">
 						{% for item in monthItems.items %}
 						<div class="col mb-3">
+							{% if item.end_date %}
+								<span class="fw-bolder">
+									{%- include period start=item.date end=item.end_date same_month_end_fmt="%d %B %Y" -%}
+								</span>
+							{% else %}
 							<time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bolder">
 								{{- item.date | date: '%B %d, %Y' -}}
 							</time>
+							{% endif %}
 							<div class="serif">
 								{{- item.text | markdownify -}}
 							</div>

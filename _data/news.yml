@@ -70,7 +70,7 @@
   text: >
     Matthijs Westera, who finished his PhD in the inquisitive semantics group in Amsterdam in 2017 and has been a Postdoc with Gemma Boleda in Barcelona since then, has accepted an Assistant Professor position at Leiden University!
 
-- start_date: 2020-09-02
+- date: 2020-09-02
   end_date: 2020-09-05
   text: >
     Many inquisitive semantics related talks at Sinn und Bedeutung this year:
@@ -99,7 +99,7 @@
   text: >
     Thom van Gessel and Gianluca Grilletti submitted their dissertations to their respective doctorate committees! The defences are planned in November. They are both starting as a Postdoc in Amsterdam in September.
 
-- start_date: 2020-08-17
+- date: 2020-08-17
   end_date: 2020-08-20
   text: >
     Many inquisitive semantics related talks at SALT this year:
@@ -176,8 +176,7 @@
   text: >
     A new paper by Vit Puncochar entitled A relevant logic for questions has been published in the Journal of Philosophical Logic. The paper integrates inquisitive semantics with relevance logic.
 
-- start_date: 2019-12-18
-  end_date: 2019-12-18
+- date: 2019-12-18
   text: >
     The inquisitive semantics group in Amsterdam co-organises the Amsterdam Colloquium, one of the top conferences in formal semantics and interfacing disciplines.
 
@@ -241,7 +240,7 @@
   text: >
     Nadine Theiler has successfully defended her PhD dissertation!
 
-- start_date: 2019-06-26
+- date: 2019-06-26
   end_date: 2019-06-27
   text: >
     The Third InqBnB workshop takes place in Amsterdam, with lots of great speakers.
@@ -262,22 +261,22 @@
   text: >
     Jos Tellings presented new work on tense in inquisitive semantics at SALT in Los Angeles.
 
-- start_date: 2019-04-12
+- date: 2019-04-12
   end_date: 2019-04-13
   text: >
     Jakub Dotlacil presented joint work with Floris Roelofsen on dynamic inquisitive semantics at PALLMYR 12 in Paris.
 
-- start_date: 2019-04-12
+- date: 2019-04-12
   end_date: 2019-04-13
   text: >
     Alexandre Cremers presented work on gradable adjectives at PALLMYR 12 in Paris.
 
-- start_date: 2019-04-12
+- date: 2019-04-12
   end_date: 2019-04-13
   text: >
     Nadine Theiler presented work on additive particles in questions at PALLMYR 12 in Paris.
 
-- start_date: 2019-03-27
+- date: 2019-03-27
   end_date: 2019-03-28
   text: >
     Alexandre Cremers presented joint work with Liz Coppock, Jakub Dotlacil and Floris Roelofsen on modified numerals at a workshop on the meaning of numerals in Berlin.
@@ -362,7 +361,7 @@
   text: >
     The international project Searching for semantic universals in the modal domain has started. The project is coordinated by Wataru Uegaki (Leiden) and funded by the Netherlands Organization for Scientific Research (NWO). More information is available on the project website: http://www.wataruuegaki.com/modal-universals
 
-- start_date: 2018-08-25
+- date: 2018-08-25
   end_date: 2018-08-30
   text: >
     Morwenna Hoeks, Hana Möller Kalpak, Jonathan Pesetsky, and Marvin Schmidt successfully defended their Master theses, each on topics related to inquisitive semantics. They will each implement some minor revisions over the next couple of weeks and then post the final version of their thesis online. 
@@ -371,12 +370,12 @@
   text: >
     A paper by Thom van Gessel on Action Models in Inquisitive Logic has appeared in Synthese (open access).
 
-- start_date: 2018-07-25
+- date: 2018-07-25
   end_date: 2018-07-27
   text: >
     A Workshop on Inquisitive Logic takes place in Amsterdam, with several invited speakers working on inquisitive logic and closely related logics.
 
-- start_date: 2018-07-16
+- date: 2018-07-16
   end_date: 2018-07-20
   text: >
     Floris Roelofsen will teach a course on the Semantics of Questions at the Crete Summer School of Linguistics (Creteling 2018).
@@ -393,17 +392,17 @@
   text: >
     A revised version of the paper Deriving selectional restrictions of clause-embedding predicates by Nadine Theiler, Floris Roelofsen, and Maria Aloni has been submitted.
 
-- start_date: 2018-06-25
+- date: 2018-06-25
   end_date: 2018-06-27
   text: >
     Danny Fox (MIT) visits the inquisitive semantics group in Amsterdam.
 
-- start_date: 2018-06-21
+- date: 2018-06-21
   end_date: 2018-06-25
   text: >
     Donka Farkas (UC Santa Cruz) visits the inquisitive semantics group in Amsterdam.
 
-- start_date: 2018-06-17
+- date: 2018-06-17
   end_date: 2018-06-23
   text: >
     Liz Coppock (Boston University) visits the inquisitive semantics group in Amsterdam.
@@ -412,7 +411,7 @@
   text: >
     Malte Zimmermann (Potsdam) visits the inquisitive semantics group in Amsterdam.
 
-- start_date: 2018-06-11
+- date: 2018-06-11
   end_date: 2018-06-14
   text: >
     Dora Mihoc (Harvard) visits the inquisitive semantics group in Amsterdam.
@@ -421,32 +420,32 @@
   text: >
     Floris Roelofsen gives a colloquium at the MCMP in Munchen, on NPIs in questions.
 
-- start_date: 2018-06-07
+- date: 2018-06-07
   end_date: 2018-06-09
   text: >
     Alexandre Cremers presents joint work with Thom van Gessel and Floris Roelofsen on polarity sensitivity of question embedding at the Meaning in Non-canonical Questions Workshop in Konstanz.
 
-- start_date: 2018-05-28
+- date: 2018-05-28
   end_date: 2018-05-30
   text: >
     Sabine Iatridou (MIT) visits the inquisitive semantics group in Amsterdam.
 
-- start_date: 2018-05-18
+- date: 2018-05-18
   end_date: 2018-05-20
   text: >
     Wataru Uegaki presents joint work with Floris Roelofsen on the Japanese particle darou at SALT (MIT).
 
-- start_date: 2018-05-18
+- date: 2018-05-18
   end_date: 2018-05-20
   text: >
     Thom van Gessel and Alexandre Cremers present joint work with Floris Roelofsen on polarity sensitivity of question embedding at SALT (MIT).
 
-- start_date: 2018-04-03
+- date: 2018-04-03
   end_date: 2018-04-10
   text: >
     Floris Roelofsen and Kees Hengeveld visit Sabine Iatridou at MIT to work on quexistentials.
 
-- start_date: 2018-04-01
+- date: 2018-04-01
   end_date: 2018-06-30
   text: >
     Thom van Gessel visits Lucas Champollion at NYU to work on presuppositional inquisitive semantics.
@@ -488,7 +487,7 @@
     Floris Roelofsen presents [work on the whether puzzle](http://semanticsarchive.net/Archive/jllNTlkO/slides.pdf) at a workshop in honor of Barbara Partee.
 
 # update link below
-- start_date: 2017-12-18
+- date: 2017-12-18
   end_date: 2017-12-19
   text: >
     The second [InqBnB workshop](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb20) takes place in Amsterdam!
@@ -590,7 +589,7 @@
   text: >
     Ivano Ciardelli, Rosalie Iemhoff and Fan Yang submit a new paper on [Questions and dependency in intuitionistic logic](https://arxiv.org/abs/1704.01866).
 
-- start_date: 2017-04-03
+- date: 2017-04-03
   end_date: 2017-04-24
   text: >
     Vit Puncochar (Prague) visits the inquisitive semantics group in Amsterdam.
@@ -758,7 +757,7 @@
   text: >
     Kaibo Xie will join the inquisitive semantics group in Amsterdam as a PhD student, with a scholarship from the China Scholarship Council!
 
-- start_date: 2016-05-17
+- date: 2016-05-17
   end_date: 2016-05-25
   text: >
     Ivano Ciardelli and Floris Roelofsen visit Lucas Champollion at NYU.
@@ -841,7 +840,7 @@
     Nadine Theiler presents joint work with Maria Aloni and Floris Roelofsen on the semantics of embedded questions in the [Questions in Logic and Language workshop](https://sites.google.com/site/inquisitivesemantics/workshops/inqturn-closing-event-2015) in Amsterdam.
 
 # update link below
-- start_date: 2015-12-14
+- date: 2015-12-14
   end_date: 2015-12-15
   text: >
     The Inquisitive Turn project comes to an end, after five very productive years, with [two workshops](https://sites.google.com/site/inquisitivesemantics/workshops/inqturn-closing-event-2015) on questions in semantics, pragmatics, and logic.
@@ -888,7 +887,7 @@
     Donka Farkas (UCSC) visits the inquisitive semantics group in Amsterdam for 6 weeks as a KNAW visiting professor.
 
 # update link below
-- start_date: 2015-08-05
+- date: 2015-08-05
   end_date: 2015-08-10
   text: >
     Ivano Ciardelli, Jeroen Groenendijk, and Floris Roelofsen teach a [course on inquisitive semantics](https://sites.google.com/site/inquisitivesemantics/courses/esslli-2015) at ESSLLI 2015 in Barcelona.
@@ -1121,7 +1120,7 @@
     Matthijs Westera presents his work on intonational meaning at McGill University, Montreal.
 
 # dead link below
-- start_date: 2014-05-21
+- date: 2014-05-21
   end_date: 2014-05-22
   text: >
     Ivano Ciardelli, Jeroen Groenendijk, Floris Roelofsen, and Matthijs Westera all present new work at the [QID Workshop](http://www.ims.uni-stuttgart.de/events/qid2014.html?__locale=en) in Stuttgart.
@@ -1205,7 +1204,7 @@
   text: >
     A paper by Ivano Ciardelli and Floris Roelofsen on [inquisitive dynamic epistemic logic](assets/files/papers/CiardelliRoelofsen2014_Synthese.pdf) has been accepted for publication in Synthese.
 
-- start_date: 2014-01-07
+- date: 2014-01-07
   end_date: 2014-04-22
   text: >
     Lucas Champollion (NYU) visits the inquisitive semantics group in Amsterdam.
@@ -1348,13 +1347,13 @@
     Matthijs Westera presents work on [The Rise and Fall of Cooperativity](http://staff.science.uva.nl/~westera/downloads/2013-08%20-%20Westera%20-%20final%20rise%20CISI%20slides.pdf) at a Workshop on Discourse Coherence, Information Structure, and Implicatures, in Düsseldorf.
 
 # dead link below
-- start_date: 2013-08-05
+- date: 2013-08-05
   end_date: 2013-08-16
   text: >
     Matthijs Westera presents a new paper, [[Attentive pragmatics: an account of exhaustivity and the final rise](assets/files/papers/Westera2013_ESSLLI-StuS.pdf), at the [ESSLLI student session](http://stus2013.loriweb.org/) in Düsseldorf.
 
 # update link + dead link below
-- start_date: 2013-08-05
+- date: 2013-08-05
   end_date: 2013-08-10
   text: >
     Donka Farkas and Floris Roelofsen give a [course](https://sites.google.com/site/inquisitivesemantics/courses/esslli-2013) at [ESSLLI](http://esslli2013.de/) in Düsseldorf.
@@ -1403,7 +1402,7 @@
     Matthijs Westera gives a talk at the University of California Santa Cruz on [exhaustivity, relatedness and the final rise](http://staff.science.uva.nl/~westera/downloads/2013-04%20-%20exhaustivity%20relatedness%20and%20the%20final%20rise.pdf).
 
 # dead link below
-- start_date: 2013-04-18
+- date: 2013-04-18
   end_date: 2013-04-19
   text: >
     Ivano Ciardelli and Jeroen Groenendijk present new work at a [workshop](http://kognitywistyka.amu.edu.pl/intquestpro/?page_id=89) on inquisitive semantics and inferential erotetic logic in Poznan, Poland.
@@ -1469,7 +1468,7 @@
   text: >
     Ivano Ciardelli and Floris Roelofsen submitted a new paper on [inquisitive dynamic epistemic logic](assets/files/papers/CiardelliRoelofsen2012_Synthese-IDEL.pdf).
 
-- start_date: 2012-12-17
+- date: 2012-12-17
   end_date: 2012-12-18
     Matthijs Westera gives four talks on inquisitive semantics, inquisitive pragmatics, scalar modifiers and dynamic inquisitive semantics at a [workshop on questions and inquisitive semantics](http://eecoppock.info/workshop.html) at the University of Gothenburg.
 
@@ -1551,7 +1550,7 @@
     Matthijs Westera presents new work at LOFT in Sevilla.
 
 # update link + dead link below
-- start_date: 2012-06-17
+- date: 2012-06-17
   end_date: 2012-06-22
   text: >
     Jeroen Groenendijk and Floris Roelofsen teach a course on inquisitive semantics at [NASSLLI](http://nasslli2012.com/) this week. The lecture notes and the course schedule are available on the [course website](https://sites.google.com/site/inquisitivesemantics/courses/nasslli-2012).

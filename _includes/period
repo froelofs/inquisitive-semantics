@@ -2,17 +2,21 @@
 {%- assign end = include.end %}
 {%- assign startMonth = start | date: '%b' %}
 {%- assign endMonth = end | date: '%b' %}
+{%- assign sameMonthStartFmt = include.same_month_start_fmt | default: '%d' -%}
+{%- assign sameMonthEndFmt = include.same_month_end_fmt | default: '%d %b '%y' -%}
+
 {%- if startMonth == endMonth -%}
   <time datetime="{{ start | date: '%Y-%m-%d' }}">
-    {{- start | date: '%d' -}}
+    {{- start | date: sameMonthStartFmt -}}
   </time>&ndash;<time datetime="{{ end | date: '%Y-%m-%d' }}">
-    {{- end | date: "%d %b '%y" -}}
+    {{- end | date: sameMonthEndFmt -}}
   </time>
 {%- else -%}
   <time datetime="{{ start | date: '%Y-%m-%d' }}">
     {{- start | date: '%b %d' -}}
   </time>&ndash;{{--}}
   <time datetime="{{ end | date: '%Y-%m-%d' }}">
+  {{format}}
     {{- end | date: '%b %d %Y' -}}
   </time>
 {%- endif -%}
