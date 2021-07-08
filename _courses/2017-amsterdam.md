@@ -1,10 +1,11 @@
 ---
 layout: course
 title: Logic and Conversation
+short_title: Amsterdam 2017
 subtitle: Fall 2017
-short_title: Logic & Conversation 2017
 location: Amsterdam
-venue: MSc logic
+venue: >
+  [Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)
 date: 2017-09-01
 practicalities:
   - label: Time and place
@@ -15,6 +16,8 @@ people: [jdotlacil, froelofsen, tvangessel]
 description: >
   Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. The focus of the course will be on **inquisitive semantics** and **dynamic semantics**, which both enrich the traditional truth-conditional picture in ways that allow for a more comprehensive logical analysis of the meaning of sentences in linguistic interaction. We will also explore some ways of combining inquisitive and dynamic semantics, an area of current research.
 ---
+
+<img src="{{ site.baseurl }}/assets/images/courses/conversation.jpg" width=300>
 
 ## Prerequisites
 Good working knowledge of first-order logic is required, and some background in formal semantics is convenient, though not really necessary. For students of the Master of Logic, it is usually best to take this course in your second year (although there may be exceptions of course, depending on your specific background).
@@ -124,7 +127,7 @@ There are lecture notes for the first part of the course. The current version of
   <tr>
     <td> 11</td>
     <td> </td>
-    <td> <a href="http://jakubdotlacil.com/inqcourse/HaidaThesis.pdf">Haida ch. 5</a>,<br> <a href="https://sites.google.com/site/inquisitivesemantics/documents/AnderBois-2012.pdf?attredirects=0">AnderBois 2012</a><br> </td>
+    <td> <a href="http://jakubdotlacil.com/inqcourse/HaidaThesis.pdf">Haida ch. 5</a>,<br> <a href="{{ site.baseurl }}/assets/files/papers/AnderBois2012_NatLangSem.pdf">AnderBois 2012</a><br> </td>
     <td> <a href="http://jakubdotlacil.com/inqcourse/class4.pdf">Indefinite-interrogative affinity, focus</a><br> </td>
     <td> Jakub</td>
   </tr>

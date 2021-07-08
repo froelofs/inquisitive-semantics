@@ -1,9 +1,11 @@
 ---
 layout: course
 title: Logic and Conversation
+short_title: Amsterdam 2018
 subtitle: Fall 2018
 location: Amsterdam
-venue: MSc logic
+venue: >
+  [Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)
 date: 2018-09-01
 practicalities:
   - label: Time and place
@@ -14,6 +16,8 @@ people: [froelofsen, ntheiler]
 description: >
   Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. The focus of the course will be on **inquisitive semantics**, which enriches the traditional truth-conditional picture in ways that allow for a more comprehensive logical analysis of the meaning of sentences in linguistic interaction. We will not only present the basic inquisitive semantics framework, but also some current research in this area.
 ---
+
+<img src="{{ site.baseurl }}/assets/images/courses/conversation.jpg" width=300>
 
 ## Prerequisites
 Good working knowledge of first-order logic is required, and some background in formal semantics is convenient, though not really necessary. For students of the Master of Logic, it is usually best to take this course in your second year (although there may be exceptions of course, depending on your specific background).
@@ -134,7 +138,7 @@ There are lecture notes for the first part of the course. The current version of
   <tr>
     <td> 13</td>
     <td>16/10</td>
-    <td> <a href="http://eecoppock.info/Presupposition/Readings/Sense_and_Sensitivity.pdf">Beaver &amp; Clark (2008)</a><br>     pp. 68-73<br>  <a href="https://4f669968-a-62cb3a1a-s-sites.googlegroups.com/site/sinnundbedeutung21/proceedings-preprints/Grubic-SuB2016-proceedings.pdf?attachauth=ANoY7cps9cP-CdNUKkRrYjYwL2P4vB461qIG3s3_jEteklw5wWXseqTClSKvEosKpIYZyaFzHTvkBYT5qJsgGfj70FUVS6y_qw9STmzw67OV9lSwwMzVYwFrD4qcvUwT2pSRrkn24crFJS2-MuxuepCtjU2431nmNylmMDkUoZg6WPhZiNAcSnbMHLuZ5_YpyU994SdZWZbuhUmqShLfwUsJFEMm7fjZciNYrO0bmxOYKJWivbFsrAwidmzotqiX_ZukVvNPbmWde47W3nAndpfdQyr6AASAWQ%3D%3D&attredirects=0">Grubic (2018)</a><br>     Sec. 3.1–3.3.1</td>
+    <td> <a href="http://eecoppock.info/Presupposition/Readings/Sense_and_Sensitivity.pdf">Beaver &amp; Clark (2008)</a><br>     pp. 68-73<br>  <a href="{{ site.baseurl }}/assets/files/papers/Grubic2018_SuB.pdf">Grubic (2018)</a><br>     Sec. 3.1–3.3.1</td>
     <td> Additive particles in questions</td>
     <td> Nadine</td>
   </tr>

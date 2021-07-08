@@ -1,12 +1,12 @@
 ---
 layout: course
 title: The Semantics of Questions
+short_title: CreteLing 2018
 subtitle: Summer 2018
 location: Rethymnon
 venue: >
   [Crete Summer School of Linguistics (Creteling)](http://www.phl.uoc.gr/confs/cssl18/)
 date: 2018-07-16
-start_date: 2018-07-16
 end_date: 2018-07-20
 people: [froelofsen]
 description: >
@@ -22,7 +22,7 @@ The textbook contains a number of exercises, which students are encouraged to do
 
 ## Programme
 
-**Monday**
+### Monday
 
 How can we model the semantic content of questions? Introduction to inquisitive semantics.
 
@@ -32,7 +32,7 @@ _Additional material:_
 
 - [Scanned whiteboard notes](https://www.dropbox.com/s/z3rwwf4kobpretc/scanned-lecture-notes-01-monday.pdf?dl=0)
 
-**Tuesday**
+### Tuesday
 
 Polar questions, alternative questions, and wh-questions.
 
@@ -46,7 +46,7 @@ _Additional material:_
 
 - [Scanned whiteboard notes](https://www.dropbox.com/s/nbrtqzlonzh6xu7/scanned-lecture-notes-02-tuesday.pdf?dl=0)
 
-**Thursday**
+### Thursday
 
 Embedded questions and the semantics of question-embedding verbs like "know" and "wonder".
 
@@ -60,7 +60,7 @@ _Additional material:_
 
 - [Scanned whiteboard notes](https://www.dropbox.com/s/cafgafjcfprwoz8/scanned-lecture-notes-03-thursday.pdf?dl=0)
 
-**Friday**
+### Friday
 
 Overview of how semantic theories of questions have evolved over the years.
 

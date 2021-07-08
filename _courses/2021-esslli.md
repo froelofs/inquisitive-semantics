@@ -1,18 +1,22 @@
 ---
 layout: course
 title: Dynamic inquisitive semantics
+short_title: ESSLLI 2021
 subtitle: Summer 2021
 location: Utrecht (virtual)
-venue: European Summer School for Logic, Language, and Information (ESSLLI)
+venue: >
+  [European Summer School for Logic, Language, and Information (ESSLLI)](https://esslli2021.unibz.it/)
 date: 2021-07-07
-start_date: 2021-08-09
+# start_date: 2021-08-09
 end_date: 2021-08-13
 people: [jdotlacil, froelofsen]
 description: >
-  This course brings together two important strands in the formal analysis of natural language meaning: dynamic semantics and inquisitive semantics. It develops an integrated logical framework, dynamic inquisitive semantics, and demonstrates how this framework can be used to analyze various dynamic aspects of the meaning of questions in discourse. \
+  This course brings together two important strands in the formal analysis of natural language meaning: dynamic semantics and inquisitive semantics. It develops an integrated logical framework, dynamic inquisitive semantics, and demonstrates how this framework can be used to analyze various dynamic aspects of the meaning of questions in discourse.\
 
   Specific topics include anaphora within and across questions, intervention effects in questions analyzed as failed dynamic binding, multiple wh-questions, the semantics of Q particles as dynamic identification operators, dynamic quantification and the derivation of pair-list readings in questions with quantifiers, and connections between weak/strong donkey anaphora and exhaustive/non-exhaustive question readings. We will see that the analysis of these phenomena in the proposed framework goes beyond the current state of the art.
 ---
+
+<img src="{{ site.baseurl }}/assets/images/courses/conversation.jpg" width=300>
 
 ## Prerequisites
 It is assumed that students are familiar with dynamic semantics, though not necessarily with dynamic approaches to questions. It is helpful to be familiar with compositional dynamic systems, in particular, Muskens (1996), but we will go through the most important concepts in this area. Similarly, familiarity with static inquisitive semantics is helpful, even though here as well, we will try to cover the most important concepts during the course.
