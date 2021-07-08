@@ -81,6 +81,7 @@
   $(document).ready(function() {
     // collect all pubSelect elements
     var selectElements = document.getElementsByClassName("pubSelect");
+    console.log(selectElements)
     // for all pubSelect elements
     for (var i = 0; i < selectElements.length; i++) {
       // collection all option elements

@@ -5,7 +5,7 @@
 		<a href="{{ site.baseurl }}/" class="navbar-brand serif col-md-3 plain">
 			{{ site.title }}
 		</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		<!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"> -->
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
@@ -57,7 +57,7 @@
 								{%- endfor %}
 								{% unless item.name == 'More' %}
 								<li><hr class="dropdown-divider"></li>
-								<li><a class="dropdown-item" href="{{ item.url | relative_url }}">All {{ item.name }}</a></li>
+								<li><a class="dropdown-item" href="{{ item.url | relative_url }}">More {{ item.name }}</a></li>
 								{% endunless %}
 							</ul>
 						{%- endif %}
