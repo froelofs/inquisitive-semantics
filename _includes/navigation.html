@@ -32,13 +32,15 @@
 							id="navbarDropDown{{item.name | handleize}}"
 							role="button" data-bs-toggle="dropdown" aria-expanded="false"
 							{% endif %}>
-				      {{ item.name }}
+							{{ item.name }}	
 				    </a>
 						{%- if sub_menu %}
 							<ul class="dropdown-menu" aria-labelledby="navbarDropDown{{item.name | handleize}}">
 								{%- for sub_item in sub_menu limit: 10 %}
 								{%- capture sub_item_name -%}
-									{%- if sub_item.title %}
+									{%- if sub_item.short_title %}	
+										{{ sub_item.short_title }}
+									{%- elsif sub_item.title %}
 										{{ sub_item.title }}
 										{%- if sub_item.subtitle -%}
 											: {{ sub_item.subtitle }}

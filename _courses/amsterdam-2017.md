@@ -2,6 +2,7 @@
 layout: course
 title: Logic and Conversation
 subtitle: Fall 2017
+short_title: Logic & Conversation 2017
 location: Amsterdam
 venue: MSc logic
 date: 2017-09-01
