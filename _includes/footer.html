@@ -14,7 +14,7 @@
       <div class="col-sm-6 col-md-9 d-none d-sm-block">
         <h3 class="fs-5"><a href="{{ '/news.html' | relative_url }}">Latest news</a></h3>
         <div class="row row-cols-md-2 row-cols-1">
-          {% assign newsItems = site.data.news | sort: "date" %}
+          {% assign newsItems = site.data.news | sort: "date" | reverse %}
           {% for item in newsItems %}
             {% if forloop.index <= 6 %}
             <div class="col {% if forloop.index > 2 %}d-none d-md-block{% endif %}">
