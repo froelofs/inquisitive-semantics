@@ -1,0 +1,29 @@
+# Course links to external websites or pdf files
+
+- title: Block Seminar on Inquisitive Semantics
+  short_title: Osnabrueck 2011
+  location: Osnabrueck
+  date: 2011-05-19
+  link: >
+    https://sites.google.com/site/discoursepragmatics/block-seminar-on-inquisitive-semantics
+
+- title: Inquisitive Semantics
+  short_title: Amsterdam 2008
+  location: Amsterdam
+  date: 2008-10-15
+  link: >
+    {{ site.baseurl }}/assets/files/courses/amsterdam-fall-2008.pdf
+
+- title: Inquisitive Semantics and Dialogue Management
+  short_title: ESSLLI Hamburg 2008
+  location: Hamburg
+  date: 2008-08-11
+  link: >
+    {{ site.baseurl }}/assets/files/courses/esslli-2008.pdf
+
+- title: Inquisitive Semantics and Dialogue Pragmatics
+  short_title: Rutgers 2008
+  location: Berlin
+  date: 2008-03-01
+  link: >
+    {{ site.baseurl }}/assets/files/courses/rutgers-spring-2008.pdf
