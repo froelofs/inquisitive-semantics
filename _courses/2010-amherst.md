@@ -17,11 +17,11 @@ description: >
 ---
 <img src="{{ site.baseurl }}/assets/images/courses/new-roads.jpg" width=300>
 
-## Schedule TODO fix links
+## Schedule
 <table>
 <thead>
   <tr>
-    <th> Date<br> </th>
+    <th> Date </th>
     <th> Topic             </th>
     <th> Reading </th>
     <th> Optional reading </th>
@@ -29,92 +29,92 @@ description: >
 </thead>
 <tbody>
   <tr>
-    <td> <br>Week 1<br> <br>1/25 </td>
-    <td> <br> Intro to inquisitive semantics (<a href="https://sites.google.com/site/inquisitivesemantics/documents/inq-sem-handout-25-1-2010.pdf?attredirects=0">slides</a>)<br> <br> <br> From truth- and answerhood-conditions to propositions as proposals<br> <br> From partitions to possibilities  </td>
-    <td> <br> <a href="https://sites.google.com/site/inquisitivesemantics/documents/SanSebDefFrozen.pdf?attredirects=0">GR-09a</a><br> sections 1-3<br> <br> <a href="https://sites.google.com/site/inquisitivesemantics/documents/historical-notes.pdf?attredirects=0">GR-10-notes</a><br> <br> <br> <a href="https://sites.google.com/site/inquisitivesemantics/documents/masc09-2x1.pdf?attredirects=0">Masc-09-first-part</a><br> <br> </td>
-    <td> <br> <a href="https://sites.google.com/site/inquisitivesemantics/documents/jpl-ciardelli-roelofsen.pdf?attredirects=0">CR-09-jpl</a><br> <br> <br> <a href="http://www.illc.uva.nl/Publications/ResearchReports/PP-2009-05.text.pdf">Groe-09</a><br> <a href="https://sites.google.com/site/inquisitivesemantics/documents/logic_of_interrogation.pdf?attredirects=0">Groe-99</a><br> <br> <a href="http://homepages.nyu.edu/~sdm330/docs/mascarenhas09_inquisitive_semantics.pdf">Masc-09</a></td>
+    <td> Week 1 (1/25) </td>
+    <td>  Intro to inquisitive semantics (<a href="{{ site.baseurl }}/assets/files/slides/Roelofsen2010_Amherst-1.pdf">slides</a>) <br> From truth- and answerhood-conditions to propositions as proposals <br> From partitions to possibilities  </td>
+    <td>  <a href="{{ site.baseurl }}/assets/files/papers/GroenendijkRoelofsen2009_SPR.pdf">GR-09a</a><br> sections 1-3 <br> <a href="{{ site.baseurl }}/assets/files/notes/GroenendijkRoelofsen2010_history.pdf">GR-10-notes</a>  <br> <a href="{{ site.baseurl }}/assets/files/papers/Mascarenhas2009.pdf">Masc-09-first-part</a>  </td>
+    <td>  <a href="{{ site.baseurl }}/assets/files/papers/CiardelliRoelofsen2009_JPL.pdf">CR-09-jpl</a>  <br> <a href="http://www.illc.uva.nl/Publications/ResearchReports/PP-2009-05.text.pdf">Groe-09</a><br> <a href="{{ site.baseurl }}/assets/files/papers/Groenendijk1999_LogicOfInterrogation.pdf">Groe-99</a> <br> <a href="http://homepages.nyu.edu/~sdm330/docs/mascarenhas09_inquisitive_semantics.pdf">Masc-09</a></td>
   </tr>
   <tr>
-    <td> <br> Week 2<br> <br>2/1 </td>
-    <td>  Inquisitive semantics and pragmatics (<a href="https://sites.google.com/site/inquisitivesemantics/system/errors/NodeNotFound?suri=wuid:gx:1a7d78c46c9d3688">slides</a>)<br> </td>
-    <td> <a href="https://sites.google.com/site/inquisitivesemantics/documents/ISP-Stanford-edition.pdf?attredirects=0">GR-09b</a><br> sections 4-6<br> </td>
+    <td>  Week 2 (2/1) </td>
+    <td>  Inquisitive semantics and pragmatics (<a href="https://sites.google.com/site/inquisitivesemantics/system/errors/NodeNotFound?suri=wuid:gx:1a7d78c46c9d3688">slides</a>) </td>
+    <td> <a href="{{ site.baseurl }}/assets/files/papers/GroenendijkRoelofsen2009_ISP-Stanford.pdf">GR-09b</a><br> sections 4-6 </td>
     <td></td>
   </tr>
   <tr>
-    <td> <br> Week 3<br> <br> <br> <br>2/8 </td>
-    <td>  Inquisitive implicatures (<a href="https://sites.google.com/site/inquisitivesemantics/system/errors/NodeNotFound?suri=wuid:gx:1a7d78c46c9d3688">slides</a>)<br> <br> <br> Focus, congruence, and exhaustification (<a href="https://sites.google.com/site/inquisitivesemantics/documents/inq-sem-slides-1-2-2010-focus.pdf?attredirects=0">slides</a>)<br> <br> <br> Computing compliance (<a href="https://sites.google.com/site/inquisitivesemantics/documents/inq-sem-slides-1-2-2010-computing.pdf?attredirects=0">slides</a>) (<a href="http://www.illc.uva.nl/inquisitive-semantics/computing-compliance/">website</a>)<br> <br> </td>
-    <td> <a href="https://sites.google.com/site/inquisitivesemantics/documents/ISP-Stanford-edition.pdf?attredirects=0">GR-09b</a><br> sections 7<br> <br> <br> <br> <br> </td>
-    <td> <br> <br> <br> <a href="http://www.illc.uva.nl/Publications/Dissertations/DS-2009-07.text.pdf">Balogh-09</a><br> chapters 2-4<br> <br> <a href="https://sites.google.com/site/inquisitivesemantics/documents/lori.pdf?attredirects=0">CCGR-09-lori</a><br> <a href="https://sites.google.com/site/inquisitivesemantics/documents/jpl-ciardelli-roelofsen.pdf?attredirects=0">CR-09-jpl</a> <br> <br> </td>
+    <td>  Week 3   (2/8) </td>
+    <td>  Inquisitive implicatures (<a href="https://sites.google.com/site/inquisitivesemantics/system/errors/NodeNotFound?suri=wuid:gx:1a7d78c46c9d3688">slides</a>)  <br> Focus, congruence, and exhaustification (<a href="{{ site.baseurl }}/assets/files/slides/Roelofsen2010_Amherst-3-focus.pdf">slides</a>)  <br> Computing compliance (<a href="{{ site.baseurl }}/assets/files/slides/Roelofsen2010_Amherst-3-compliance.pdf">slides</a>) (<a href="http://www.illc.uva.nl/inquisitive-semantics/computing-compliance/">website</a>)  </td>
+    <td> <a href="{{ site.baseurl }}/assets/files/papers/GroenendijkRoelofsen2009_ISP-Stanford.pdf">GR-09b</a><br> sections 7     </td>
+    <td>    <a href="http://www.illc.uva.nl/Publications/Dissertations/DS-2009-07.text.pdf">Balogh-09</a><br> chapters 2-4 <br> <a href="{{ site.baseurl }}/assets/files/papers/CiardelliCornelisseGroenendijkRoelofsen2009_LORI.pdf">CCGR-09-lori</a><br> <a href="{{ site.baseurl }}/assets/files/papers/CiardelliRoelofsen2009_JPL.pdf">CR-09-jpl</a>   </td>
   </tr>
   <tr>
-    <td> <br> Week 4<br> <br>2/16 (TUE) </td>
-    <td> Attentive might in inquisitive semantics<br>&nbsp;&nbsp;&nbsp;&nbsp;<br> </td>
-    <td> <a href="https://sites.google.com/site/inquisitivesemantics/documents/might-february-seminar-version.pdf?attredirects=0">CGR-10</a></td>
+    <td>  Week 4 (2/16) (TUE) </td>
+    <td> Attentive <i>might</i> in inquisitive semantics </td>
+    <td> <a href="{{ site.baseurl }}/assets/files/papers/CiardelliGroenendijkRoelofsen2010_Might.pdf">CGR-10</a></td>
     <td> <a href="http://www2.sfs.uni-tuebingen.de/~arnim10/Lehre/WS06_7/FreeChoice/zimmermann00_FC.pdf">Zimmermann-00</a> </td>
   </tr>
   <tr>
-    <td> Week 5<br> 2/22</td>
-    <td> <br> Attentive might in inquisitive pragmatics<br> <br> </td>
-    <td> <br> <br> <br><a href="https://sites.google.com/site/inquisitivesemantics/documents/might-february-seminar-version.pdf?attredirects=0">CGR-10</a> </td>
+    <td> Week 5 (2/22)</td>
+    <td>  Attentive <i>might</i> in inquisitive pragmatics  </td>
+    <td>   <a href="{{ site.baseurl }}/assets/files/papers/CiardelliGroenendijkRoelofsen2010_Might.pdf">CGR-10</a> </td>
     <td> </td>
   </tr>
   <tr>
-    <td> Week 6<br> 3/1</td>
-    <td>   Disjunction, intonation, and highlighting (<a href="https://sites.google.com/site/inquisitivesemantics/documents/amherst-seminar-slides.pdf?attredirects=0">slides</a>)<br> Joint presentation with Kathryn Pruitt<br>  </td>
-    <td> <br> <a href="https://sites.google.com/site/inquisitivesemantics/documents/jos-complete-draft.pdf?attredirects=0">PR-10</a><br> <br> </td>
-    <td> <a href="http://people.umass.edu/kpruitt/pruitt_miniconf.pdf">Pruitt-07</a>, <a href="https://sites.google.com/site/inquisitivesemantics/documents/ac10-preproceedings.pdf?attredirects=0">RvG-10</a><br>  <a href="http://staff.science.uva.nl/~maloni/esslli_aej1.pdf">Aloni-Egre-de-Jager-09</a>, <a href="http://rsss.anu.edu.au/~schaffer/papers/KnowAnswer.pdf">Schaffer-07</a></td>
+    <td> Week 6 (3/1)</td>
+    <td>   Disjunction, intonation, and highlighting (<a href="{{ site.baseurl }}/assets/files/slides/PruittRoelofsen2010_Amherst-disjunction.pdf">slides</a>)<br> <i>Joint presentation with Kathryn Pruitt</i>  </td>
+    <td>  <a href="{{ site.baseurl }}/assets/files/papers/PruittRoelofsen2010_JoS-draft.pdf">PR-10</a>  </td>
+    <td> <a href="http://people.umass.edu/kpruitt/pruitt_miniconf.pdf">Pruitt-07</a>, <a href="{{ site.baseurl }}/assets/files/papers/RoelofsenVanGool2009_AC.pdf">RvG-10</a><br>  <a href="http://staff.science.uva.nl/~maloni/esslli_aej1.pdf">Aloni-Egre-de-Jager-09</a>, <a href="http://rsss.anu.edu.au/~schaffer/papers/KnowAnswer.pdf">Schaffer-07</a></td>
   </tr>
   <tr>
-    <td> Week 7<br> 3/8</td>
-    <td> Location: Bartlett 125<br> <br> Inner negation polar questions<br> Martin Walkow<br>&nbsp;&nbsp;<br> Polar questions in Finnish<br>  Anisa Schardl<br>&nbsp;&nbsp;&nbsp;Seminar ends at 4:25, job-talk at 4:30<br>  <br> </td>
-    <td> </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> </td>
-    <td>  Spring break<br> <br> </td>
+    <td> Week 7 (3/8)</td>
+    <td> <strong>Location: Bartlett 125</strong> <br> Inner negation polar questions<br> <i>Martin Walkow</i><br> Polar questions in Finnish<br>  <i>Anisa Schardl</i><br><strong>Seminar ends at 4:25, job-talk at 4:30 </strong>  </td>
     <td> </td>
     <td> </td>
   </tr>
   <tr>
-    <td> Week 8<br> 3/22</td>
-    <td> <br> Location: Bartlett 125<br> <br> Evidentials in Cheyenne<br> Sarah Murray (Rutgers)<br> <br> Seminar ends at 4:25, job-talk at 4:30<br> <br> </td>
-    <td> <br> <br> <br> <a href="http://www.rci.rutgers.edu/~semurray/A-Hamblin-Semantics-for-Evidentials.pdf">Murray-09a</a></td>
-    <td> <br> <br> <br> <a href="http://www.rci.rutgers.edu/~semurray/Evidentials-and-Questions-in-Cheyenne.pdf">Murray-09b</a></td>
-  </tr>
-  <tr>
-    <td> Week 11<br> 3/29</td>
-    <td> <br> Questions in Yukatek Maya<br> Scott Anderbois (UCSC)<br> <br> </td>
-    <td> <a href="https://sites.google.com/site/inquisitivesemantics/documents/AnderBois-NLS.pdf?attredirects=0">Anderbois-10a</a></td>
-    <td>  <a href="https://sites.google.com/site/inquisitivesemantics/documents/SluicingasAnaphoratoIssues.pdf?attredirects=0">Anderbois-10b</a> </td>
-  </tr>
-  <tr>
-    <td> Week 10<br> 4/5</td>
-    <td> <br> Wh-questions in Tlingit<br> Seth Cable<br> <br> </td>
-    <td> <a href="https://sites.google.com/site/inquisitivesemantics/documents/Cable-2008.pdf?attredirects=0">Cable-08</a><br> <a href="https://sites.google.com/site/inquisitivesemantics/documents/Jayaseelan-2001.pdf?attredirects=0">Jayaseelan-01</a><br> <a href="https://sites.google.com/site/inquisitivesemantics/documents/Jayaseelan-2008.pdf?attredirects=0">Jayaseelan-08</a><br> <br> </td>
-    <td> <a href="https://sites.google.com/site/inquisitivesemantics/documents/Cable-2010.pdf?attredirects=0">Cable-10</a><br>  </td>
-  </tr>
-  <tr>
-    <td> Week 9<br> 4/12</td>
-    <td> <br> Radical inquisitive semantics<br> <br> </td>
-    <td> <br><a href="https://sites.google.com/site/inquisitivesemantics/documents/amherst-seminar-april-handout-scaled-up.pdf?attredirects=0">GR-10</a>  <br> </td>
-    <td> <br>&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td> Week 12<br> 4/21 (WED)</td>
-    <td> More radical inquisitive semantics <br> <br> Alternatives and counterfactuals<br> <br> </td>
-    <td> <br><a href="https://sites.google.com/site/inquisitivesemantics/documents/amherst-seminar-april-handout-scaled-up.pdf?attredirects=0">GR-10</a><br> <br> <br> <br><a href="http://alonso-ovalle.net/index.php?page_id=28">Alonso-Ovalle-06</a>,  chapters 1-2<br> <br> </td>
-    <td> <br> <br> <a href="http://semanticsarchive.net/Archive/WEwNjc4Z/Indeterminate%20Pronouns.pdf">Kratzer-Shimoyama-01</a> </td>
-  </tr>
-  <tr>
-    <td> Week 13<br> 4/26</td>
-    <td> Rise-fall-rise and inquisitive semantics<br> Noah Constant  <br> <br> Questions in Yudja<br> Suzi Lima<br> <br> Modality and evidentiality<br> Aynat Rubinstein<br> <br> </td>
-    <td> <br> <br>  </td>
+    <td> </td>
+    <td>  ----Spring break----  </td>
+    <td> </td>
     <td> </td>
   </tr>
   <tr>
-    <td> Week 14<br> 5/3</td>
-    <td> <br> Finale<br> <br> </td>
+    <td> Week 8 (3/22)</td>
+    <td>  <strong>Location: Bartlett 125</strong> <br> Evidentials in Cheyenne<br> <i>Sarah Murray (Rutgers)</i> <br> <strong>Seminar ends at 4:25, job-talk at 4:30</strong>  </td>
+    <td>    <a href="http://www.rci.rutgers.edu/~semurray/A-Hamblin-Semantics-for-Evidentials.pdf">Murray-09a</a></td>
+    <td>    <a href="http://www.rci.rutgers.edu/~semurray/Evidentials-and-Questions-in-Cheyenne.pdf">Murray-09b</a></td>
+  </tr>
+  <tr>
+    <td> Week 11 (3/29)</td>
+    <td>  Questions in Yukatek Maya<br> <i>Scott Anderbois (UCSC)</i>  </td>
+    <td> <a href="{{ site.baseurl }}/assets/files/papers/AnderBois2010_NatLangSem.pdf">Anderbois-10a</a></td>
+    <td>  <a href="{{ site.baseurl }}/assets/files/papers/AnderBois2010_Sluicing-abstract.pdf">Anderbois-10b</a> </td>
+  </tr>
+  <tr>
+    <td> Week 10 (4/5)</td>
+    <td>  Wh-questions in Tlingit<br> <i>Seth Cable</i>  </td>
+    <td> <a href="{{ site.baseurl }}/assets/files/papers/Cable2008_Q-particles.pdf">Cable-08</a><br> <a href="{{ site.baseurl }}/assets/files/papers/Jayaseelan2001_Malayalam.pdf">Jayaseelan-01</a><br> <a href="{{ site.baseurl }}/assets/files/papers/Jayaseelan2008_Disjunction.pdf">Jayaseelan-08</a> <br> </td>
+    <td> <a href="{{ site.baseurl }}/assets/files/papers/Cable2010_Tlingit.pdf">Cable-10</a>  </td>
+  </tr>
+  <tr>
+    <td> Week 9 (4/12)</td>
+    <td>  Radical inquisitive semantics  </td>
+    <td> <a href="{{ site.baseurl }}/assets/files/papers/GroenendijkRoelofsen2010_Radical-Amherst.pdf">GR-10</a>   </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> Week 12 (4/21) (WED)</td>
+    <td> More radical inquisitive semantics  <br> Alternatives and counterfactuals  </td>
+    <td> <a href="{{ site.baseurl }}/assets/files/papers/GroenendijkRoelofsen2010_Radical-Amherst.pdf">GR-10</a>   <br><a href="http://alonso-ovalle.net/index.php?page_id=28">Alonso-Ovalle-06</a>,  chapters 1-2 <br> </td>
+    <td>  <br> <a href="http://semanticsarchive.net/Archive/WEwNjc4Z/Indeterminate%20Pronouns.pdf">Kratzer-Shimoyama-01</a> </td>
+  </tr>
+  <tr>
+    <td> Week 13 (4/26)</td>
+    <td> Rise-fall-rise and inquisitive semantics<br> <i>Noah Constant</i>   <br> Questions in Yudja<br> <i>Suzi Lima</i> <br> Modality and evidentiality<br> <i>Aynat Rubinstein</i> <br> </td>
+    <td>    </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> Week 14 (5/3)</td>
+    <td>  ----Finale----  </td>
     <td> </td>
     <td> </td>
   </tr>
