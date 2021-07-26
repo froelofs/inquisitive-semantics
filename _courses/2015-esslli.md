@@ -11,16 +11,15 @@ end_date: 2015-08-14
 people: [iciardelli, jgroenendijk, froelofsen]
 description: >
   Inquisitive semantics is a relatively new logical framework for natural language semantics. It enriches the standard framework in that its notion of meaning encompasses both informative and inquisitive content. The aim of the course is to familiarize students and researchers with the framework, and to engage them in the further development of its logical-theoretical foundations, and its linguistic applications. This is the perfect time for such engagement, since the fundamental building blocks of the framework are in place, the central research questions are clear, and the wide applicability of the framework can be illustrated with several concrete case studies. At the same time, many open questions remain and there is much room and demand for contributions from students and researchers in logic, linguistics, philosophy, and computer science.
+image: assets/images/courses/conversation.jpg
 ---
-
-<img src="{{ site.baseurl }}/assets/images/courses/conversation.jpg" width=300>
 
 ## Lecture notes
 
 The lecture notes for the course (including exercises) can be downloaded [here](http://semanticsarchive.net/Archive/DkxNDY5Z/lecture-notes.pdf).
 
 ## Course outline
-<table>
+<table class="table">
 <thead>
   <tr>
     <th> Day</th>
@@ -31,31 +30,31 @@ The lecture notes for the course (including exercises) can be downloaded [here](
 </thead>
 <tbody>
   <tr>
-    <td> 1</td>
+    <th> 1</th>
     <td> 1-2</td>
     <td> Motivation and basic notions</td>
     <td> Floris Roelofsen</td>
   </tr>
   <tr>
-    <td> 2</td>
+    <th> 2</th>
     <td> 3-4</td>
     <td> Inquisitive first-order logic</td>
     <td> Ivano Ciardelli</td>
   </tr>
   <tr>
-    <td> 3</td>
+    <th> 3</th>
     <td> 5</td>
     <td> Question semantics</td>
     <td> Jeroen Groenendijk</td>
   </tr>
   <tr>
-    <td> 4</td>
+    <th> 4</th>
     <td> 6</td>
     <td> Disjunction and intonation</td>
     <td> Floris Roelofsen</td>
   </tr>
   <tr>
-    <td> 5</td>
+    <th> 5</th>
     <td> 7</td>
     <td> Inquisitive epistemic logic</td>
     <td> Ivano Ciardelli</td>

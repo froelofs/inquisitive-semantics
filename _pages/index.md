@@ -1,6 +1,8 @@
 ---
-layout: page
-title: Home
+layout: home
+title: Inquisitive Semantics
+subtitle: A semantic framework
+indent: true
 ---
 
 ## What is inquisitive semantics?

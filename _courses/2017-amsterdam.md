@@ -15,9 +15,131 @@ practicalities:
 people: [jdotlacil, froelofsen, tvangessel]
 description: >
   Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. The focus of the course will be on **inquisitive semantics** and **dynamic semantics**, which both enrich the traditional truth-conditional picture in ways that allow for a more comprehensive logical analysis of the meaning of sentences in linguistic interaction. We will also explore some ways of combining inquisitive and dynamic semantics, an area of current research.
+image: assets/images/courses/conversation.jpg
+schedule: >
+  <table class="table">
+  <thead>
+    <tr>
+      <th> Lecture </th>
+      <th> Date</th>
+      <th> Material</th>
+      <th> Content</th>
+      <th> Lecturer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="5" class="table-section">
+        Inquisitive semantics
+      </td>
+    </tr>
+    <tr>
+      <th> 1</th>
+      <td> 5/9</td>
+      <td> LN chapter 1</td>
+      <td> Motivation</td>
+      <td> Floris</td>
+    </tr>
+    <tr>
+      <th> 2</th>
+      <td> </td>
+      <td> LN chapter 2</td>
+      <td> Basic notions</td>
+      <td> Thom</td>
+    </tr>
+    <tr>
+      <th> 3</th>
+      <td> </td>
+      <td> LN chapter 3</td>
+      <td> Operations on propositions (room B0.206)</td>
+      <td> Floris</td>
+    </tr>
+    <tr>
+      <th> 4</th>
+      <td> </td>
+      <td> LN chapter 4</td>
+      <td> First-order inquisitive semantics</td>
+      <td> Floris</td>
+    </tr>
+    <tr>
+      <th> 5</th>
+      <td> </td>
+      <td> LN chapter 5-6</td>
+      <td> Question semantics</td>
+      <td> Thom</td>
+    </tr>
+    <tr>
+      <th> 6</th>
+      <td> </td>
+      <td> LN chapter 8</td>
+      <td> Propositional attitudes: inquisitive epistemic logic</td>
+      <td> Floris</td>
+    </tr>
+    <tr>
+      <th> 7</th>
+      <td> </td>
+      <td> LN chapter 9</td>
+      <td> Comparison with other frameworks</td>
+      <td> Floris</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="table-section">
+        Dynamic semantics
+      </td>
+    </tr>
+    <tr>
+      <th> 8</th>
+      <td> 29/9</td>
+      <td> <a href="http://jakubdotlacil.com/inqcourse/HaidaThesis.pdf">Haida ch. 2&amp;3</a></td>
+      <td> <a href="http://jakubdotlacil.com/inqcourse/class1.pdf">Dynamic semantics with questions</a> </td>
+      <td> Jakub    </td>
+    </tr>
+    <tr>
+      <th> 9</th>
+      <td> </td>
+      <td> <a href="http://jakubdotlacil.com/inqcourse/Muskens_96.pdf">Muskens 1996</a><br> </td>
+      <td> <a href="http://jakubdotlacil.com/inqcourse/class2.pdf">Compositional dynamic semantics</a><br> </td>
+      <td> Jakub</td>
+    </tr>
+    <tr>
+      <th> 10</th>
+      <td> </td>
+      <td> <a href="http://jakubdotlacil.com/inqcourse/HaidaThesis.pdf">Haida ch. 4</a><br> </td>
+      <td> <a href="http://jakubdotlacil.com/inqcourse/class3.pdf">Compositional dynamic semantics with questions</a><br> </td>
+      <td> Jakub</td>
+    </tr>
+    <tr>
+      <th> 11</th>
+      <td> </td>
+      <td> <a href="http://jakubdotlacil.com/inqcourse/HaidaThesis.pdf">Haida ch. 5</a>,<br> <a href="{{ site.baseurl }}/assets/files/papers/AnderBois2012_NatLangSem.pdf">AnderBois 2012</a><br> </td>
+      <td> <a href="http://jakubdotlacil.com/inqcourse/class4.pdf">Indefinite-interrogative affinity, focus</a><br> </td>
+      <td> Jakub</td>
+    </tr>
+    <tr>
+      <th> 12</th>
+      <td> </td>
+      <td> <a href="http://jakubdotlacil.com/inqcourse/HaidaThesis.pdf">Haida ch. 6</a></td>
+      <td> <a href="http://jakubdotlacil.com/inqcourse/class5.pdf">Application of dynamic semantics to questions</a><br> </td>
+      <td> Jakub</td>
+    </tr>
+    <tr>
+      <th> 13</th>
+      <td> </td>
+      <td> <a href="http://www.jakubdotlacil.com/inqcourse/cdrt_inq.pdf">Dotlacil &amp; Roelofsen 2017</a><br> </td>
+      <td> <a href="http://www.jakubdotlacil.com/inqcourse/class6-slides.pdf">First sketch of inquisitive dynamic semantics</a><br> </td>
+      <td> Jakub</td>
+    </tr>
+    <tr>
+      <th> 14</th>
+      <td>  20/10</td>
+      <td> </td>
+      <td> Project presentations</td>
+      <td> </td>
+    </tr>
+  </tbody>
+  </table>
 ---
 
-<img src="{{ site.baseurl }}/assets/images/courses/conversation.jpg" width=300>
 
 ## Prerequisites
 Good working knowledge of first-order logic is required, and some background in formal semantics is convenient, though not really necessary. For students of the Master of Logic, it is usually best to take this course in your second year (although there may be exceptions of course, depending on your specific background).
@@ -28,132 +150,6 @@ If you are not familiar with lambda calculus or discourse representation theory,
 ## Lecture notes
 There are lecture notes for the first part of the course. The current version of the lecture notes can be downloaded [here](https://www.dropbox.com/s/urxamczijsy8v5z/inquisitive-semantics-lecture-notes-2017-course-version.pdf?dl=0).
 
-## Schedule
-<table>
-<thead>
-  <tr>
-    <th> Lecture </th>
-    <th> Date</th>
-    <th> Material</th>
-    <th> Content</th>
-    <th> Lecturer</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> Inquisitive semantics</td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> 1</td>
-    <td> 5/9</td>
-    <td> LN chapter 1</td>
-    <td> Motivation</td>
-    <td> Floris</td>
-  </tr>
-  <tr>
-    <td> 2</td>
-    <td> </td>
-    <td> LN chapter 2</td>
-    <td> Basic notions</td>
-    <td> Thom</td>
-  </tr>
-  <tr>
-    <td> 3</td>
-    <td> </td>
-    <td> LN chapter 3</td>
-    <td> Operations on propositions (room B0.206)</td>
-    <td> Floris</td>
-  </tr>
-  <tr>
-    <td> 4</td>
-    <td> </td>
-    <td> LN chapter 4</td>
-    <td> First-order inquisitive semantics</td>
-    <td> Floris</td>
-  </tr>
-  <tr>
-    <td> 5</td>
-    <td> </td>
-    <td> LN chapter 5-6</td>
-    <td> Question semantics</td>
-    <td> Thom</td>
-  </tr>
-  <tr>
-    <td> 6</td>
-    <td> </td>
-    <td> LN chapter 8</td>
-    <td> Propositional attitudes: inquisitive epistemic logic</td>
-    <td> Floris</td>
-  </tr>
-  <tr>
-    <td> 7</td>
-    <td> </td>
-    <td> LN chapter 9</td>
-    <td> Comparison with other frameworks</td>
-    <td> Floris</td>
-  </tr>
-  <tr>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> Dynamic semantics</td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> 8</td>
-    <td> 29/9</td>
-    <td> <a href="http://jakubdotlacil.com/inqcourse/HaidaThesis.pdf">Haida ch. 2&amp;3</a><br> </td>
-    <td> <a href="http://jakubdotlacil.com/inqcourse/class1.pdf">Dynamic semantics with questions</a> </td>
-    <td> Jakub    </td>
-  </tr>
-  <tr>
-    <td> 9<br> </td>
-    <td> </td>
-    <td> <a href="http://jakubdotlacil.com/inqcourse/Muskens_96.pdf">Muskens 1996</a><br> </td>
-    <td> <a href="http://jakubdotlacil.com/inqcourse/class2.pdf">Compositional dynamic semantics</a><br> </td>
-    <td> Jakub</td>
-  </tr>
-  <tr>
-    <td> 10</td>
-    <td> </td>
-    <td> <a href="http://jakubdotlacil.com/inqcourse/HaidaThesis.pdf">Haida ch. 4</a><br> </td>
-    <td> <a href="http://jakubdotlacil.com/inqcourse/class3.pdf">Compositional dynamic semantics with questions</a><br> </td>
-    <td> Jakub</td>
-  </tr>
-  <tr>
-    <td> 11</td>
-    <td> </td>
-    <td> <a href="http://jakubdotlacil.com/inqcourse/HaidaThesis.pdf">Haida ch. 5</a>,<br> <a href="{{ site.baseurl }}/assets/files/papers/AnderBois2012_NatLangSem.pdf">AnderBois 2012</a><br> </td>
-    <td> <a href="http://jakubdotlacil.com/inqcourse/class4.pdf">Indefinite-interrogative affinity, focus</a><br> </td>
-    <td> Jakub</td>
-  </tr>
-  <tr>
-    <td> 12</td>
-    <td> </td>
-    <td> <a href="http://jakubdotlacil.com/inqcourse/HaidaThesis.pdf">Haida ch. 6</a></td>
-    <td> <a href="http://jakubdotlacil.com/inqcourse/class5.pdf">Application of dynamic semantics to questions</a><br> </td>
-    <td> Jakub</td>
-  </tr>
-  <tr>
-    <td> 13</td>
-    <td> </td>
-    <td> <a href="http://www.jakubdotlacil.com/inqcourse/cdrt_inq.pdf">Dotlacil &amp; Roelofsen 2017</a><br> </td>
-    <td> <a href="http://www.jakubdotlacil.com/inqcourse/class6-slides.pdf">First sketch of inquisitive dynamic semantics</a><br> </td>
-    <td> Jakub</td>
-  </tr>
-  <tr>
-    <td> 14</td>
-    <td>  20/10</td>
-    <td> </td>
-    <td> Project presentations</td>
-    <td> </td>
-  </tr>
-</tbody>
-</table>
 
 ## Grading
 The grade will be based on three **homework assignments** (each counting for 15%) and a **final paper** (55%).

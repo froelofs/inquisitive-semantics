@@ -111,3 +111,9 @@ span.sep {
     //     opacity: .4;
     // }
 }
+
+
+.table-section {
+    @extend .bg-white;
+    font-style: italic;
+}
