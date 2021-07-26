@@ -3,6 +3,9 @@
 {%- capture image -%}
 	/{% include person object=person field='image' %}
 {%- endcapture -%}
+{%- if image == '/' %}
+	{%- assign image = '/assets/images/missing-dark.jpg' %}
+{%- endif %}
 
 {%- capture name -%}
 	{% include person object=person field='first_name' %}

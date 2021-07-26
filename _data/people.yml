@@ -108,7 +108,7 @@ yhamami:
   last_name: Hamami
   affiliation: Free University Brussels
   website:
-  image: assets/images/people/anonymous-m.jpeg
+  # image: assets/images/people/anonymous-m.jpeg
 
 yhara:
   id: yhara
@@ -116,7 +116,7 @@ yhara:
   last_name: Hara
   affiliation: Hokkaido University
   website: https://yuriehara.github.io/website/
-  image: assets/images/people/anonymous-f.jpeg
+  # image: assets/images/people/anonymous-f.jpeg
 
 mhoeks:
   id: mhoeks
@@ -148,7 +148,7 @@ hkalpak:
   last_name: Möller Kalpak
   affiliation: Stockholm University
   website: https://www.su.se/english/profiles/haka9069-1.276311
-  image: assets/images/people/anonymous-f.jpeg
+  # image: assets/images/people/anonymous-f.jpeg
 
 lnorthrup:
   id: lnorthrup
