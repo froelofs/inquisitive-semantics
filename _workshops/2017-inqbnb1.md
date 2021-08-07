@@ -2,8 +2,8 @@
 layout: course
 title: InqBnB1
 subtitle: Inquisitiveness Below and Beyond the Sentence Boundary
-start: 2017-06-26
-end: 2017-06-30
+date: 2017-06-26
+end_date: 2017-06-30
 location: Amsterdam
 venue: >
   [Broekerhuis](http://www.broekerhuis.nl/) (Leeteinde 16, 1151 AK, Broek in Waterland)

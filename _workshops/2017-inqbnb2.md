@@ -2,8 +2,8 @@
 layout: course
 title: InqBnB2
 subtitle: Inquisitiveness Below and Beyond the Sentence Boundary
-start: 2017-12-18
-end: 2017-12-19
+date: 2017-12-18
+end_date: 2017-12-19
 location: Amsterdam
 venue: >
   [University library (Singel 425)](https://www.uva.nl/en/shared-content/locaties/en/binnenstad/university-library.html), University of Amsterdam

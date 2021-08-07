@@ -2,8 +2,8 @@
 layout: course
 title: InqBnB3
 subtitle: Inquisitiveness Below and Beyond the Sentence Boundary
-start: 2019-06-26
-end: 2019-06-27
+date: 2019-06-26
+end_date: 2019-06-27
 location: Amsterdam
 venue: >
   [Oudemanhuispoort building](http://www.uva.nl/locaties/binnenstad/oudemanhuispoort.html), University of Amsterdam

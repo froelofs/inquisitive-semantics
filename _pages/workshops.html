@@ -12,14 +12,24 @@ description: An overview of workshops in inquisitive semantics given around the 
 			<div class="card h-100 bg-white shadow-sm">
 				<div class="card-body">
 					<h4 class="card-title">
-						<a href="{{ workshop.url | relative_url }}" class="text-dark">{{ workshop.title }}</a>
+						<a href="{% if workshop.external %}{{workshop.link}}{% else %}{{ workshop.url | relative_url }}{% endif %}" class="text-dark">
+							{{ workshop.title }}
+							{%- if workshop.external -%}
+							<span class="ms-2">{% include icons/arrow-up-right-square.svg %}</span>
+							{%- endif -%}
+						</a>
 					</h4>
 					<p class="text-muted">
-						{% include period start=workshop.start end=workshop.end %}
+						{% include period start=workshop.date end=workshop.end_date %}
 						<span class="sep px-1">][</span>
 						{{ workshop.location }}
 					</p>
-					<a href="{{ workshop.url | relative_url}}" class="btn btn-secondary">Go to workshop</a>
+					<a href="{% if workshop.external %}{{workshop.link}}{% else %}{{ workshop.url | relative_url }}{% endif %}" class="btn btn-secondary">
+						Go to workshop
+						{%- if workshop.external -%}
+						<span class="ms-2">{% include icons/arrow-up-right-square.svg %}</span>
+						{%- endif -%}
+					</a>
 				</div>
 			</div>
 		</div>
