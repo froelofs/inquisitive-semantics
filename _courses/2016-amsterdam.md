@@ -7,12 +7,16 @@ location: Amsterdam
 venue: >
   [Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)
 date: 2016-09-01
-practicalities:
-  - label: Time and place
-    text: Tuesdays 11.00-13.00 (G0.23), Thursdays 13.00-15.00 (B0.208)
-  - label: Teaching staff
-    text: Floris Roelofsen and Nadine Theiler (TA)
-people: [froelofsen, ntheiler]
+# practicalities:
+#   - label: Time and place
+#     text: Tuesdays 11.00-13.00 (G0.23), Thursdays 13.00-15.00 (B0.208)
+people: 
+  - id: froelofsen
+    function: Lecturer
+    affiliation: ILLC, UvA
+  - id: ntheiler
+    function: TA
+    affiliation: ILLC, UvA
 description: >
   Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. Truth conditions capture the information that a sentence provides. But some sentences do not provide **information**, but rather **raise an issue** (e.g., Where are my keys?), or **draw attention** to a certain possibility (e.g., They might be in the car).
 
@@ -20,6 +24,7 @@ description: >
   The focus of the course will be on **inquisitive semantics** and **attentive semantics**, which both enrich the traditional truth-conditional picture in ways that allow for a more comprehensive logical analysis of the meaning of sentences in linguistic interaction. We will also explore some ways of combining inquisitive and attentive semantics, an area of current research.
 image: assets/images/courses/conversation.jpg
 schedule: >
+  <p>Tuesdays 11.00-13.00 (G0.23), Thursdays 13.00-15.00 (B0.208)</p>
   <table class="table">
   <thead>
     <tr>

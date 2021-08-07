@@ -3,6 +3,7 @@ layout: course
 title: Inquisitive semantics
 short_title: ESSLLI 2015
 subtitle: Summer 2015
+image: assets/images/courses/conversation.jpg
 location: Barcelona
 venue: >
   [European Summer School for Logic, Language, and Information (ESSLLI)](http://esslli2015.folli.info/)
@@ -11,7 +12,6 @@ end_date: 2015-08-14
 people: [iciardelli, jgroenendijk, froelofsen]
 description: >
   Inquisitive semantics is a relatively new logical framework for natural language semantics. It enriches the standard framework in that its notion of meaning encompasses both informative and inquisitive content. The aim of the course is to familiarize students and researchers with the framework, and to engage them in the further development of its logical-theoretical foundations, and its linguistic applications. This is the perfect time for such engagement, since the fundamental building blocks of the framework are in place, the central research questions are clear, and the wide applicability of the framework can be illustrated with several concrete case studies. At the same time, many open questions remain and there is much room and demand for contributions from students and researchers in logic, linguistics, philosophy, and computer science.
-image: assets/images/courses/conversation.jpg
 ---
 
 ## Lecture notes

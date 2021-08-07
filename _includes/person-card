@@ -16,9 +16,19 @@
 	{% include person object=person field='website' %}
 {%- endcapture -%}
 
-{%- capture affiliation -%}
-	{% include person object=person field='affiliation' %}
-{%- endcapture -%}
+{%- assign show_affiliation = include.show_affiliation | default: true %}
+{% if show_affiliation != 'false' -%}
+	{%- capture affiliation -%}
+		{% include person object=person field='affiliation' %}
+	{%- endcapture -%}
+{%- endif -%}
+
+{%- assign show_function = include.show_function | default: true %}
+{%- if show_function != 'false' -%}
+	{%- capture function -%}
+		{% include person object=person field='function' %}
+	{%- endcapture -%}
+{%- endif -%}
 
 <div class="person card h-100 shadow-sm">
 	<img src="{{ image | relative_url }}" class="card-img img portrait grayscale-img">
@@ -30,8 +40,12 @@
 			{{ name }}
 			{% if website %}</a>{% endif %}
 		</h4>
-		{%- if affiliation %}
-		<p class="card-text small">{{ affiliation }}</p>
+
+		{%- if function != null or affiliation != null %}
+		<p class="card-text small">
+			{{ function }}
+			{%- if function != null and affiliation != null %}<span>•</span>{%- endif %}
+			{{ affiliation }}
 		{%- endif %}
 	</div>
 </div>

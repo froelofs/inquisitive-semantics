@@ -3,6 +3,7 @@ layout: course
 title: Dynamic inquisitive semantics
 short_title: ESSLLI 2021
 subtitle: Summer 2021
+image: assets/images/courses/conversation.jpg
 location: Utrecht (virtual)
 venue: >
   [European Summer School for Logic, Language, and Information (ESSLLI)](https://esslli2021.unibz.it/)
@@ -15,7 +16,7 @@ description: >
 
   
   Specific topics include anaphora within and across questions, intervention effects in questions analyzed as failed dynamic binding, multiple wh-questions, the semantics of Q particles as dynamic identification operators, dynamic quantification and the derivation of pair-list readings in questions with quantifiers, and connections between weak/strong donkey anaphora and exhaustive/non-exhaustive question readings. We will see that the analysis of these phenomena in the proposed framework goes beyond the current state of the art.
-image: assets/images/courses/conversation.jpg
+  
 schedule: >
   <table class="table">
   <thead>

@@ -3,24 +3,29 @@ layout: course
 title: Logic and Conversation
 short_title: Amsterdam 2015
 subtitle: Fall 2015
+image: assets/images/courses/conversation.jpg
 location: Amsterdam
 venue: >
   [Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)
 date: 2015-09-01
-practicalities:
-  - label: Time and place
-    text: Tuesdays 11.00-13.00 (G0.23), Thursdays 13.00-15.00 (B0.208)
-  - label: Coordinator
-    text: Floris Roelofsen
-  - label: Lecturers
-    text: Ivano Ciardelli, Lucas Champollion (NYU), Jeroen Groenendijk, Floris Roelofsen
-people: [iciardelli, lchampollion, jgroenendijk, froelofsen]
+people: 
+  - id: iciardelli
+    function: Lecturer
+  - id: lchampollion
+    function: Lecturer (NYU)
+  - id: jgroenendijk
+    function: Lecturer
+  - id: froelofsen
+    function: Course coordinator and lecturer
+
 description: >
   The theme of the course is the interplay between **semantics and pragmatics** in the interpretation of natural language in conversation, and the role of **logic** in formulating semantic and pragmatic theories. Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore focusses on informative content, defined in terms of truth conditions. When analyzing conversation, however, other notions become of interest as well. In particular, besides informative content, **inquisitive content** also comes to play a crucial role.
 
 
   The main focus of the course will be on recent work in **inquisitive semantics**, starting with a general introduction and then moving to more advanced topics.
-image: assets/images/courses/conversation.jpg
+
+schedule_intro: >
+  Tuesdays 11.00-13.00 (G0.23), Thursdays 13.00-15.00 (B0.208)
 schedule: >
   <table class="table">
   <thead>

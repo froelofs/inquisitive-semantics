@@ -3,21 +3,26 @@ layout: course
 title: Logic and Conversation
 short_title: Amsterdam 2014
 subtitle: Fall 2014
+image: assets/images/courses/conversation.jpg
 location: Amsterdam
 venue: >
   [Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)
 date: 2014-11-01
-practicalities:
-  - label: Time and place
-    text: Tuesdays 13.00-15.00, Fridays 13.00-15.00 (room differs from class to class)
-  - label: Lecturers
-    text: Floris Roelofsen and Anna Szabolcsi (NYU)
-  - label: Guest lecturers
-    text: Jeroen Groenendijk (ILLC), Liz Coppock (Gothenburg)
-people: [froelofsen, aszabolcsi, jgroenendijk, lcoppock]
+people: 
+  - id: froelofsen
+    function: Lecturer
+  - id: aszabolcsi
+    function: Lecturer (NYU)
+  - id: jgroenendijk
+    function: Guest lecturer (ILLC)
+  - id: lcoppock
+    function: Guest lecturer (Gothenburg)
+    
 description: >
   This year we will have a special edition of the course featuring a number of lectures by Prof. [Anna Szabolcsi](https://files.nyu.edu/as109/public/) from New York University, who will be visiting the Inquisitive Semantics group at the ILLC during the Fall semester as a KNAW Visiting Professor. The theme of the course will be **Quantification and Inquisitiveness**. After reviewing some classical work in formal semantics and pragmatics related to quantification and the interpretation of questions, we will look at the framework of inquisitive semantics in some detail and then dive into several issues involving the interaction between quantification and inquisitiveness, exploring various themes from Prof. Szabolcsi's 2010 [book](http://www.amazon.com/Quantification-Research-Surveys-Linguistics-Szabolcsi/dp/0521715938/ref=sr_1_1?ie=UTF8&s=books&qid=1293428804&sr=1-1#reader_0521715938) on quantification as well as her more recent work in this area.
-image: assets/images/courses/conversation.jpg
+
+schedule_intro: >
+   Tuesdays 13.00-15.00, Fridays 13.00-15.00 (room differs from class to class)
 schedule: >
   <table class="table">
   <thead>

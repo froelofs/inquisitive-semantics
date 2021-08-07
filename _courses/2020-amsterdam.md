@@ -3,15 +3,11 @@ layout: course
 title: Logic and Conversation
 short_title: Amsterdam 2020
 subtitle: Fall 2020
+image: assets/images/courses/conversation.jpg
 location: Amsterdam
 venue: >
   [Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)
 date: 2020-09-01
-practicalities:
-  - label: Time and place
-    text: Mondays 9.00-11.00 (online), Fridays 9.00-11.00 (online)
-  - label: Teaching staff
-    text: Floris Roelofsen, Ciyang Qing
 people: 
   - froelofsen
   - first_name: Ciyang
@@ -20,7 +16,8 @@ people:
     website: https://sites.google.com/site/qciyang/
 description: >
     Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. The course focuses on the important role of **alternatives** in linguistic interpretation. The first part of the course concentrates on the role of alternatives in the semantics of **questions**, as analysed in the framework of **inquisitive semantics**. The second part focusses on the role of alternatives in the interpretation of **indefinite referential expressions**, as analysed in **dynamic semantics** and related frameworks.
-image: assets/images/courses/conversation.jpg
+schedule_intro: >
+  Mondays 9.00-11.00 (online), Fridays 9.00-11.00 (online)
 schedule: >
   <table class="table">
   <thead>

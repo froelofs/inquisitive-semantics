@@ -13,10 +13,9 @@
   </time>
 {%- else -%}
   <time datetime="{{ start | date: '%Y-%m-%d' }}">
-    {{- start | date: '%b %d' -}}
+    {{- start | date: '%d %b' -}}
   </time>&ndash;{{--}}
   <time datetime="{{ end | date: '%Y-%m-%d' }}">
-  {{format}}
-    {{- end | date: '%b %d %Y' -}}
+    {{- end | date: '%d %b %Y' -}}
   </time>
 {%- endif -%}

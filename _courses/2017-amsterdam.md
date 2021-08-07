@@ -3,19 +3,22 @@ layout: course
 title: Logic and Conversation
 short_title: Amsterdam 2017
 subtitle: Fall 2017
+image: assets/images/courses/conversation.jpg
 location: Amsterdam
 venue: >
   [Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)
 date: 2017-09-01
-practicalities:
-  - label: Time and place
-    text: Tuesdays 15.00-17.00 (B0.203; except on 12/9 it's in B0.206), Fridays 13.00-15.00 (B0.204)
-  - label: Teaching staff
-    text: Jakub Dotlacil, Floris Roelofsen and Thom van Gessel (TA)
-people: [jdotlacil, froelofsen, tvangessel]
+people: 
+  - jdotlacil
+  - froelofsen
+  - id: tvangessel
+    function: TA
+    
 description: >
   Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. The focus of the course will be on **inquisitive semantics** and **dynamic semantics**, which both enrich the traditional truth-conditional picture in ways that allow for a more comprehensive logical analysis of the meaning of sentences in linguistic interaction. We will also explore some ways of combining inquisitive and dynamic semantics, an area of current research.
-image: assets/images/courses/conversation.jpg
+
+schedule_intro: >
+  Tuesdays 15.00-17.00 (B0.203; except on 12/9 it's in B0.206), Fridays 13.00-15.00 (B0.204)
 schedule: >
   <table class="table">
   <thead>

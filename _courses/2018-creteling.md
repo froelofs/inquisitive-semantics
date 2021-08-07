@@ -9,8 +9,10 @@ venue: >
 date: 2018-07-16
 end_date: 2018-07-20
 people: [froelofsen]
+
 description: >
   Standard semantic theories identify the meaning of a sentence with its truth-conditions. This is a fruitful notion of meaning for the analysis of declarative sentences like "Mary left", but it is not suitable for the analysis of questions, like "Did Mary leave?" or "Who left?". The meaning of a question cannot be characterised in terms of its truth-conditions, because it does not make much sense to say of a question that it is true or false. Rather, a natural way to characterise the meaning of a question is in terms of the information that is needed to resolve the question. The course will provide an overview of this approach to the semantics of questions, as pursued in recent work on inquisitive semantics.
+
 schedule: >
   <table class="table">
     <thead>

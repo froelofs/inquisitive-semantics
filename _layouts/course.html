@@ -18,11 +18,37 @@ layout: default
             <span class="subtitle d-block">{{ page.subtitle }}</span>
           {%- endif %}
         </h1>
+
+        <p class="text-primary mb-3">
+          {%- if page.date %}
+            {%- if page.end_date %}
+              {% include period start=page.date end=page.end_date %}
+            {%- else %}
+            <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
+              {{- page.date | date: '%d %b %Y' -}}
+            </time>
+            {%- endif %}
+            {%- if page.location %}
+              <span class="sep">•</span>
+            {%- endif %}
+          {%- endif %}
+          {%- if page.location %}
+            {{ page.location }}
+            {%- if page.venue %}
+              <span class="sep">•</span>
+            {%- endif %}
+          {%- endif %}
+          {%- if page.venue %}
+            {{ page.venue | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+          {%- endif %}
+        </p>
+
         {%- if page.description %}
         <div class="lead serif">
           {{ page.description | markdownify }}
         </div>
         {%- endif %}
+
         {%- if page.schedule %}
           <a class="btn btn-outline-primary mt-3" href="#schedule">Jump to schedule</a>
         {%- endif %}
@@ -30,8 +56,13 @@ layout: default
     </header>
 
     {%- if page.practicalities and false %}
-    <section class="row practicalities my-5">
-      <div class="col-md-3 d-none d-md-block"></div>
+    <section class="row practicalities mt-5 mb-1">
+      <div class="col-md-3 d-none d-md-block">
+        <!-- <span class="text-primary small">Practicalities</span> -->
+        {%- if page.schedule %}
+          <a class="btn btn-outline-primary mt-3" href="#schedule">Jump to schedule</a>
+        {%- endif %}
+      </div>
       <div class="col-md-9 container">
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
           {%- for item in page.practicalities %}
@@ -40,20 +71,24 @@ layout: default
             <p class="small my-0">{{ item.text | markdownify | remove: '<p>' | remove: '</p>'}}</p>
           </div>
           {% endfor %}
+          
         </div>
       </div>
     </section>
     {%- endif %}
 
     <section class="row people my-3">
-      <div class="col-md-3 d-none d-md-block align-right"></div>
+      <div class="col-md-3 d-none d-md-flex align-items-center">
+        <!-- <span class="text-primary small">Teaching staff</span> -->
+      </div>
       <div class="col-md-9 container">
         <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-4">
           {%- for person in page.people %}
           <div class="col my-4">	
-            {% include person-card person=person %}
+            {% include person-card person=person show_affiliation='false' %}
           </div>
           {%- endfor %}
+          <div></div>
         </div>
       </div>
     </section>
@@ -70,7 +105,12 @@ layout: default
   <div class="container-full border-top border-bottom bg-light">
     <section class="container my-5 py-3" id="schedule">
       <h3 class="display-3 fw-bold pb-3">Schedule</h3>
+      {% if page.schedule_intro %}  
+        <div class="">{{ page.schedule_intro | markdownify }}</div>
+      {% endif %}
+      <div class="table-responsive">
       {{ page.schedule }}
+      </div>
     </section>
   </div>
   {%-endif %}
