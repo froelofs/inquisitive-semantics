@@ -3,7 +3,7 @@
 {%- assign startMonth = start | date: '%b' %}
 {%- assign endMonth = end | date: '%b' %}
 {%- assign sameMonthStartFmt = include.same_month_start_fmt | default: '%d' -%}
-{%- assign sameMonthEndFmt = include.same_month_end_fmt | default: '%d %b '%y' -%}
+{%- assign sameMonthEndFmt = include.same_month_end_fmt | default: "%d %b '%y" -%}
 
 {%- if startMonth == endMonth -%}
   <time datetime="{{ start | date: '%Y-%m-%d' }}">
