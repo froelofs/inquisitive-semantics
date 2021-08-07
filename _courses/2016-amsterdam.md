@@ -29,7 +29,6 @@ schedule: >
   <thead>
     <tr>
       <th>#</th>
-      <th> Date</th>
       <th> Material</th>
       <th> Content</th>
       <th> Lecturer</th>
@@ -43,49 +42,42 @@ schedule: >
     </tr>
     <tr>
       <th> 1</th>
-      <td> </td>
       <td> LN chapter 1</td>
       <td> Motivation</td>
       <td> Floris</td>
     </tr>
     <tr>
       <th> 2</th>
-      <td> </td>
       <td> LN chapter 2</td>
       <td> Basic notions</td>
       <td> Floris</td>
     </tr>
     <tr>
       <th> 3</th>
-      <td> </td>
       <td> LN chapter 3</td>
       <td> Operations on propositions</td>
       <td> Floris</td>
     </tr>
     <tr>
       <th> 4</th>
-      <td> </td>
       <td> LN chapter 4</td>
       <td> First-order inquisitive semantics</td>
       <td> Floris</td>
     </tr>
     <tr>
       <th> 5</th>
-      <td> </td>
       <td> LN chapter 6</td>
       <td> Declarative and interrogative lists</td>
       <td> Floris</td>
     </tr>
     <tr>
       <th> 6</th>
-      <td> </td>
       <td> LN chapter 5</td>
       <td> Question semantics</td>
       <td> Floris</td>
     </tr>
     <tr>
       <th> 7</th>
-      <td> </td>
       <td> LN chapter 7</td>
       <td> Inquisitive epistemic logic</td>
       <td> Floris</td>
@@ -97,42 +89,36 @@ schedule: >
     </tr>
     <tr>
       <th> 8</th>
-      <td> </td>
       <td> <a href="{{ site.baseurl }}/assets/files/papers/CiardelliGroenendijkRoelofsen2009_MightSALT.pdf">CGR 2009</a></td>
       <td> Inquisitive semantics with attentive content</td>
       <td> Floris    </td>
     </tr>
     <tr>
       <th> 9</th>
-      <td> </td>
       <td> <a href="http://www.illc.uva.nl/Festschrift-JMF/papers/25_Roelofsen.pdf">Roelofsen 2013</a></td>
       <td> Bare bone attentive semantics</td>
       <td> Floris</td>
     </tr>
     <tr>
       <th> 10</th>
-      <td> </td>
       <td> <a href="http://mwestera.humanities.uva.nl/downloads/Westera%202013%20-%20festschriftJMF.pdf">Westera 2013</a><br>  <a href="https://www.dropbox.com/s/ym9wqw0f5dbh2bj/gamut-chapter6.pdf">Gamut Ch6</a></td>
       <td> Attentive pragmatics<br>  For background on standard Gricean pragmatics</td>
       <td> Floris</td>
     </tr>
     <tr>
       <th> 11</th>
-      <td> </td>
       <td> <a href="http://www.maltewiller.net/Epistemic_Modals.pdf">Willer 2013</a></td>
       <td> Attention as live possibilities</td>
       <td> Nadine</td>
     </tr>
     <tr>
       <th> 12</th>
-      <td> </td>
       <td> <a href="https://www.dropbox.com/s/gdkcqlmycxuzh69/paper_15.pdf?dl=0">Willer 2015</a></td>
       <td> Integrating inquisitive and attentive content I</td>
       <td> Nadine</td>
     </tr>
     <tr>
       <th> 13</th>
-      <td> </td>
       <td> <a href="https://www.dropbox.com/s/f9z61ndxct62zms/inquisitive-live-possibilities-reorganized.pdf?dl=0">Roelofsen 2016</a></td>
       <td> First sketch of inquisitive live possibility semantics</td>
       <td> Floris</td>
@@ -140,7 +126,6 @@ schedule: >
     <tr>
       <th> 14</th>
       <td>  </td>
-      <td> </td>
       <td> Project presentations</td>
       <td> </td>
     </tr>
