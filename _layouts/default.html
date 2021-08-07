@@ -9,13 +9,6 @@
   
     <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
     <script src="{{ '/assets/js/bootstrap/bootstrap.bundle.min.js' | relative_url }}"></script>
-
-    <!-- Font Awesome files -->
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"> -->
-
-    {%- if page.load_bibbase %}
-    <script src="{{ '/assets/js/custom_bibbase.js' | relative_url }}" type="text/javascript"></script>
-    {%- endif %}
   </head>
   <body>
     {% include navigation.html %}

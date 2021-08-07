@@ -12,11 +12,11 @@ description: >
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <form id="publicationForm" class="sticky-top pt-5">
+        <form id="publications-form" class="sticky-top pt-5">
           <div class="row form-row align-items-end mt-2">
             <div class="mb-2">
               <label for="searchPubs" class="visually-hidden">Search</label>
-              <input id="searchPubs" class="form-control" placeholder="Search..."></input>
+              <input id="searchPubs" class="form-control search" placeholder="Search..."></input>
             </div>
 
             <div class="mb-2">
@@ -88,7 +88,7 @@ description: >
             </div>
 
             <div class="mb-2">
-              <button id="pubFormReset" type="reset" class="btn btn-outline-dark">Reset</button>
+              <button type="reset" class="btn btn-outline-dark">Reset</button>
             </div>
           </div>
         </form>
@@ -96,9 +96,15 @@ description: >
 
       <!-- TODO update link -->
       <div class="col-md-9">
-        <script 
-          type="text/javascript" 
-          src="https://bibbase.org/show?bib=bacor.github.io/inquisitive-semantics/assets/files/papers.bib&theme=simple&commas=true&group0=year&fullnames=1&jsonp=1"></script>
+        <div id="publications-container">
+          <script src="https://bibbase.org/show?bib=bacor.github.io/inquisitive-semantics/assets/files/papers.bib&theme=simple&commas=true&group0=year&fullnames=1&jsonp=1" type="text/javascript"></script>
+          <script src="{{ '/assets/js/pubfilter.js' | relative_url }}" type="text/javascript"></script>
+          <script type="text/javascript">
+            $(document).ready(function() {
+              form = PubFilter('publications-form', 'publications-container')
+            })
+          </script>
+        </div>
       </div>
     </div>
   </div>
