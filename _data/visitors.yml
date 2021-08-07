@@ -156,13 +156,15 @@
   start: 2017-05-17
   end: 2017-05-19
 
-# TODO 
+#==============================================================
+# The following items have not been migrated to the new website
+# as they cannot be fitted in the new data format
+
 # - visitor: >
 #     various guests as part of the [first InqBnB](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb-summer-2017) workshop
 #   start: 2017-06-26
 #   end: 2017-06-30
 
-# TODO 
 # - visitor: >
 #     various guests as part of the [second InqBnB](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb2) workshop
 #   start: 2017-12-18
