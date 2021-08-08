@@ -44,7 +44,7 @@
 		{%- if function != null or affiliation != null %}
 		<p class="card-text small">
 			{{ function }}
-			{%- if function != null and affiliation != null %}<span>•</span>{%- endif %}
+			{%- if function != '' and affiliation != null %}<span>•</span>{%- endif %}
 			{{ affiliation }}
 		{%- endif %}
 	</div>

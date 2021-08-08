@@ -1,7 +1,7 @@
 /**
  * PubFilter
  * 
- * Author: Bas Cornelissen, inspired by a script by Floris Roelofsen
+ * Author: Bas Cornelissen, based on a script by Floris Roelofsen
  * Copyright: Bas Cornelissen
  * Date: 7 august 2021
  * Version 0.1
@@ -21,14 +21,15 @@
   }
 
   // Register key elements
-  this.form = $('#' + formId)
-  this.container = $('#'+ containerId)
-  this.resetBtn = this.form.find('[type="reset"]')
+  this.form = $('#' + formId).addClass('pf-form');
+  this.container = $('#'+ containerId).addClass('pf-container');
+  this.resetBtn = $.merge(this.form.find('.pf-reset'), this.container.find('.pf-reset'))
   this.selectors = this.form.find('select')
   this.search = this.form.find('input.search')
 
   this.publications = this.container.find('.bibbase_paper')
   this.publicationGroups = this.container.find('.bibbase_group_whole')
+  this.noMatches = this.container.find('.pf-no-matches').addClass('pf-hidden');
 
   // Update the form whenever a selection is changed
   this.selectors.change(this.update.bind(this));
@@ -40,7 +41,8 @@
   // reset the selection elements and update pubList
   this.resetBtn.click(this.reset.bind(this));
 
-  this.showCounts()
+  this.showCounts();
+  this.update();
 }
 
 /**
@@ -112,30 +114,33 @@ PubFilter.prototype.update = function() {
 
   // First hide all publications
   this.publications.each(function(index, pub) { 
-    $(pub).removeClass('visible').addClass("hidden");
+    $(pub).removeClass('pf-visible').addClass("pf-hidden");
   });
 
   // Then make the matches visible
   matches.each(function(index, pub){
-    $(pub).removeClass('hidden').addClass("visible");
+    $(pub).removeClass('pf-hidden').addClass("pf-visible");
   })
 
   // Only show publication groups that contain visible publications
   this.publicationGroups.each(function(index, group) {
-    var pubs = $(group).find('.bibbase_paper.visible')
+    var pubs = $(group).find('.bibbase_paper.pf-visible')
     if(pubs.length > 0) {
-      $(group).removeClass('hidden')
+      $(group).removeClass('pf-hidden')
     } else {
-      $(group).addClass('hidden')
+      $(group).addClass('pf-hidden')
     }
   })
+
+  // Show message when there are no matches
+  this.noMatches.toggleClass('pf-hidden', matches.length > 0)
 }
 
 /**
  * Reset the form and publications
  */
  PubFilter.prototype.reset = function() {
-  this.form.reset();
+  this.form[0].reset();
   this.update();
 }
 

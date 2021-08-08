@@ -88,7 +88,7 @@ description: >
             </div>
 
             <div class="mb-2">
-              <button type="reset" class="btn btn-outline-dark">Reset</button>
+              <button type="reset" class="btn btn-outline-dark pf-reset">Reset</button>
             </div>
           </div>
         </form>
@@ -104,6 +104,15 @@ description: >
               form = PubFilter('publications-form', 'publications-container')
             })
           </script>
+          <div class="pf-no-matches card shadow-sm mt-4">
+            <div class="card-body">
+              <h5 class="card-title">No matches...</h5>
+              <p class="card-text">
+                None of the publications matched the filters you have selected.
+              </p>
+              <button type="reset" class="btn btn-outline-dark pf-reset">Reset all filters</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
