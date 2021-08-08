@@ -1,0 +1,163 @@
+---
+layout: default
+---
+
+<article>
+  <div class="container pt-5">
+    <header class="row mt-5">
+      <div class="col-md-3 align-content-end d-flex flex-column justify-content-end">
+        {%- if page.image %}
+        <div class="blurred-image w-100 h-100 d-none d-md-block">
+          <img src="{{ page.image | relative_url }}" class="w-100 h-100" />
+        </div>
+        {%- endif %}
+      </div>
+      <div class="col-md-9">
+        <h1 class="title display-1 mb-5">
+          {{ page.title }}
+          {%- if page.subtitle -%}
+            <span class="colon d-none">:</span>
+            <span class="subtitle d-block">{{ page.subtitle }}</span>
+          {%- endif %}
+        </h1>
+
+        <p class="text-primary mb-3">
+          {%- if page.date %}
+            {%- if page.end_date %}
+              {% include period start=page.date end=page.end_date %}
+            {%- else %}
+            <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
+              {{- page.date | date: '%d %b %Y' -}}
+            </time>
+            {%- endif %}
+            {%- if page.location %}
+              <span class="sep">•</span>
+            {%- endif %}
+          {%- endif %}
+          {%- if page.location %}
+            {{ page.location }}
+            {%- if page.venue %}
+              <span class="sep">•</span>
+            {%- endif %}
+          {%- endif %}
+          {%- if page.venue %}
+            {{ page.venue | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+          {%- endif %}
+        </p>
+
+        {%- if page.description %}
+        <div class="lead serif">
+          {{ page.description | markdownify }}
+        </div>
+        {%- endif %}
+
+        <!-- {%- if page.schedule %}
+          <a class="btn btn-outline-primary mt-3 me-3" href="#schedule">Jump to schedule</a>
+        {%- endif %}
+        {%- if page.people %}
+          <a class="btn btn-outline-primary mt-3" href="#people">Jump to speakers</a>
+        {%- endif %} -->
+      </div>
+    </header>
+  </div>
+
+  <div style="padding-top: 3.25rem;" class="container-full sticky-top shadow-sm small">
+    <nav id="workshop-navbar" class="navbar navbar-expand navbar-light bg-white">
+      <div class="container">
+        <div class="col-md-3"></div>
+        <div class="col-12 col-md-9 d-flex">
+          <span class="py-2 me-2">{{page.title}}</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#people" class="nav-link">People</a>
+              </li>
+              <li class="nav-item">
+                <a href="#information" class="nav-link">Information</a>
+              </li>
+              <li class="nav-item">
+                <a href="#schedule" class="nav-link">Schedule</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  {% if page.people %}
+  <div class="container-full border-top bg-light pb-4">
+    <section class="container my-5 py-3" id="people">
+      <h3 class="display-3 fw-bold pb-3">People</h3>
+      {%- for group in page.people %}
+      <div class="row">
+        <div class="col-md-3 pt-3">
+          <strong class="mark fw-bold">{{ group.label }}</strong>
+        </div>
+        <div class="col-12 col-md-9 border-bottom pt-3">
+          <div class="row row-cols-2 row-cols-sm-3">
+            {% for person in group.list %}
+              {% include person-tag person=person info=person.affiliation %}
+            {% endfor %}
+          </div>
+          {%- if group.text %}
+          {{ group.text | markdownify}}
+          {%- endif %}
+        </div>
+      </div>
+      {%- endfor %}
+    </section>
+  </div>
+  {%- endif %}
+
+  <div class="container-full border-top pb-4">
+    <section class="container my-5 py-3" id="information">
+      <h3 class="display-3 fw-bold pb-3">Information</h3>
+      <div class="row">
+        <div class="col-md-3 pt-3">
+        </div>
+        <div class="col-12 col-md-9 border-bottom pt-3">
+          {{ content }}
+        </div>
+      </div>
+    </section>
+  </div>
+
+  {%- if page.schedule %}
+  <div class="container-full border-top border-bottom bg-light">
+    <section class="container my-5 py-3" id="schedule">
+      <h3 class="display-3 fw-bold pb-3">Schedule</h3>
+      {% if page.schedule_intro %}  
+        <div class="">{{ page.schedule_intro | markdownify }}</div>
+      {% endif %}
+      <div class="table-responsive">
+      {{ page.schedule }}
+      </div>
+    </section>
+  </div>
+  {%-endif %}
+
+
+  {%- if page.sponsors %}
+  <div class="container-full">
+    <section class="container my-5 py-3" id="schedule">
+      <div class="row">
+        <div class="col-md-3 pt-3">
+          <strong class="mark fw-bold">{{ page.sponsors.title }}</strong>
+        </div>
+        <div class="col-12 col-md-9">
+          {{ page.sponsors.text | markdownify }}
+
+          {% for fund in page.sponsors.funds %}
+          {% include funding-logo fund=fund %}
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  </div>
+  {%-endif %}
+  
+</article>

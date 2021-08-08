@@ -34,7 +34,7 @@
 	{% include person object=person field='location' %}
 {%- endcapture -%}
 
-<div class="person tag d-flex mb-3">
+<div class="person tag d-flex mb-3 pe-0">
 	<div class="rounded-img me-2">
 		{%- if image != '' %}
 			<img src="{{ image | relative_url }}" class="portrait">

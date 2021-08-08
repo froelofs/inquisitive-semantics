@@ -8,8 +8,8 @@
 	{% include funding object=fund field='name' %}
 {%- endcapture -%}
 
-<div class="fund-logo m-2">
+<span class="fund-logo m-2">
 	{%- if image != '' %}
 		<img src="{{ image | relative_url }}" class="fund-logo">
 	{%- endif %}
-</div>
+</span>

@@ -111,3 +111,12 @@
 .navbar {
     z-index: 9999;
 }
+
+.blurred-image {
+    overflow: hidden;
+    img {
+        object-fit: cover;
+        filter: blur(5px);
+        scale: 1.1;
+    }
+}
