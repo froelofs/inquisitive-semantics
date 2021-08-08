@@ -71,7 +71,7 @@ image: assets/images/workshops/broek-in-waterland.jpeg
 schedule_intro: >
   [PDF version with color coding](https://www.dropbox.com/s/83y02jn0ipimxw9/programme.pdf)
 schedule: >
-  <table class="table">
+  <table class="table" style="min-width: 500px;">
     <thead>
       <tr>
         <th>Time</th>
