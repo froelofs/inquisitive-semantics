@@ -38,10 +38,8 @@ that as a default object. We output the field, either from the object or the def
 
   {%- if object contains field -%}
     {{ object[field] }}
-  {%- else -%}
-    {%- if defaultObject contains field -%}
-      {{ defaultObject[field] }}
-    {%- endif -%}
+  {%- elsif defaultObject contains field -%}
+    {{ defaultObject[field] }}
   {%- endif -%}
 
 {%- comment -%}
@@ -59,9 +57,7 @@ that as a default object. We output the field, either from the object or the def
   {%- comment -%}
     object does not exist, output raw text only if field = 'fulltext'
   {%- endcomment -%}
-  {%- else -%}
-    {%- if field == "fulltext" -%}
-      {{ object }}
-    {%- endif -%}
+  {%- elsif field == "fulltext" -%}
+    {{ object }}
   {%- endif -%}
 {%- endif -%}
