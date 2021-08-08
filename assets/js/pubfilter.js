@@ -11,38 +11,93 @@
  * This class allows you to filter a list of BibBase publications 
  * using a form with a search option and several selectors.
  * 
+ * Replacements
+ * ------------
+ * 
+ * BibBase generates references that often contain things like 
+ * "Author 1, & Author 2" where you want  "Author 1 & Author 2". 
+ * To fix this, PubFilter iterates over the leafs of every 
+ * publication to replace all such patterns. You can specify
+ * more patterns by passing the option `replacements`:
+ * 
+ *  PubFilter('myFormId', 'myContainerId', {
+ *    replacements: {
+ *      'myRegexPattern': 'replacement'
+ *    }
+ *  })
+ * 
  * @param {string} formId The id of the filtering form
  * @param {string} containerId The id of the container with all publications
  * @returns null
  */
- function PubFilter(formId, containerId) {
+ function PubFilter(formId, containerId, options) {
   if (!(this instanceof PubFilter)) {
-    return new PubFilter(formId, containerId);
+    return new PubFilter(formId, containerId, options);
   }
+
+  // Options
+  var defaultOptions = {
+    // Selectors
+    searchSelector: 'input.search',
+    pubGroupSelector: '.bibbase_group_whole',
+    pubSelector: '.bibbase_paper',
+    
+    // Core replacements; please override using the replacements option
+    _coreReplacements: {
+      ',\\s+&': ' &',
+      '.,\\s+editor(s)': ', editor(s)'
+    },
+    
+    // Use this to pass (additional) replacements (same format as above)
+    replacements: {},
+
+    // Leafs of the publications to which the replacements are applied
+    replacementSelector: '.bibbase_paper_author, .bibbase_paper_title a, i'
+  };
+  this.opts = Object.assign({}, defaultOptions, options);
+  this.opts.replacements = Object.assign({}, this.opts._coreReplacements, this.opts.replacements);
 
   // Register key elements
   this.form = $('#' + formId).addClass('pf-form');
   this.container = $('#'+ containerId).addClass('pf-container');
-  this.resetBtn = $.merge(this.form.find('.pf-reset'), this.container.find('.pf-reset'))
-  this.selectors = this.form.find('select')
-  this.search = this.form.find('input.search')
+  this.resetBtn = $.merge(this.form.find('.pf-reset'), this.container.find('.pf-reset'));
+  this.selectors = this.form.find('select');
+  this.search = this.form.find(this.opts.searchSelector);
 
-  this.publications = this.container.find('.bibbase_paper')
-  this.publicationGroups = this.container.find('.bibbase_group_whole')
+  this.publications = this.container.find(this.opts.pubSelector);
+  this.publicationGroups = this.container.find(this.opts.pubGroupSelector);
   this.noMatches = this.container.find('.pf-no-matches').addClass('pf-hidden');
 
   // Update the form whenever a selection is changed
   this.selectors.change(this.update.bind(this));
 
   // Whenever text is entered in the search box, update pubList
-  this.search.keyup(this.update.bind(this))
+  this.search.keyup(this.update.bind(this));
   
   // Whenever the reset button is clicked, 
   // reset the selection elements and update pubList
   this.resetBtn.click(this.reset.bind(this));
 
+  this.applyReplacements();
   this.showCounts();
   this.update();
+}
+
+/**
+ * Applies all replacements specified in the options. The function
+ * iterates over all the leafs of every publication and applies the
+ * replacement to the text of every leaf.
+ */
+PubFilter.prototype.applyReplacements = function() {
+  var elements = this.publications.find(this.opts.replacementSelector);
+  elements.each(function(index, el) {
+    var text = $(el).text();
+    $.each(this.opts.replacements, function(key, value) {
+      var expr = RegExp(key, 'g');
+      text = text.replace(expr, value);
+    })
+    $(el).text(text);
+  }.bind(this));
 }
 
 /**
@@ -69,14 +124,14 @@ PubFilter.prototype.collectKeywords = function() {
 
   // add keywords from the selection elements
   this.selectors.each(function(index, selector) {   
-    value = $(selector).val()
+    value = $(selector).val();
     parts = value.split(/\s*\/\s*/)
     parts.forEach(function(part) {
-      keywords.push(part)
-    })
+      keywords.push(part);
+    });
   });
 
-  return this.cleanKeywords(keywords)
+  return this.cleanKeywords(keywords);
 }
 
 /**
@@ -110,7 +165,7 @@ PubFilter.prototype.filterPublications = function(keywords) {
 PubFilter.prototype.update = function() {
   var keywords = this.collectKeywords();
   var matches = this.filterPublications(keywords);
-  console.log('Keywords:', keywords)
+  console.log('Keywords:', keywords);
 
   // First hide all publications
   this.publications.each(function(index, pub) { 
@@ -120,20 +175,20 @@ PubFilter.prototype.update = function() {
   // Then make the matches visible
   matches.each(function(index, pub){
     $(pub).removeClass('pf-hidden').addClass("pf-visible");
-  })
+  });
 
   // Only show publication groups that contain visible publications
   this.publicationGroups.each(function(index, group) {
-    var pubs = $(group).find('.bibbase_paper.pf-visible')
+    var pubs = $(group).find('.bibbase_paper.pf-visible');
     if(pubs.length > 0) {
-      $(group).removeClass('pf-hidden')
+      $(group).removeClass('pf-hidden');
     } else {
-      $(group).addClass('pf-hidden')
+      $(group).addClass('pf-hidden');
     }
-  })
+  });
 
   // Show message when there are no matches
-  this.noMatches.toggleClass('pf-hidden', matches.length > 0)
+  this.noMatches.toggleClass('pf-hidden', matches.length > 0);
 }
 
 /**
@@ -149,14 +204,14 @@ PubFilter.prototype.update = function() {
  */
 PubFilter.prototype.showCounts = function() { 
   this.selectors.each(function(index, selector) {
-    var options = $(selector).find('option')
+    var options = $(selector).find('option');
     options.each(function(index, option) {
-      var keywords = this.cleanKeywords(option.value.split(/\s*\/\s*/))
-      var matches = this.filterPublications(keywords)
-      var count = matches.length
+      var keywords = this.cleanKeywords(option.value.split(/\s*\/\s*/));
+      var matches = this.filterPublications(keywords);
+      var count = matches.length;
       if (option.value != "") {
         option.innerHTML = option.innerHTML + ' (' + count + ')';
       }
-    }.bind(this))
-  }.bind(this))
+    }.bind(this));
+  }.bind(this));
 }
