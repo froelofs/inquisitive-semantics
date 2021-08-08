@@ -19,14 +19,14 @@ title: News
 		{% assign itemsByMonth = yearItems.items | group_by_exp: "item", "item.date | date: '%B'"  %}
 		{% for monthItems in itemsByMonth %}
 		{% assign firstItem = monthItems.items.first %}
-		<div class="row mb-3">
-			<div class="col-md-2 d-none d-md-block">
+		<div class="row mb-4">
+			<div class="col-md-3 d-none d-md-block">
 				{% assign firstItem = monthItems.items.first %}
 				<time datetime="{{ firstItem.date | date: '%Y-%m' }}" class="mark fw-bolder">
 					{{ firstItem.date | date: "%B" }}
 				</time>
 			</div>
-			<div class="col-12 col-md-10 border-bottom">
+			<div class="col-12 col-md-9 border-bottom">
 				<div class=" row row-cols-1 row-cols-sm-2">
 					{% for item in monthItems.items %}
 					<div class="col mb-3">

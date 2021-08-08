@@ -13,7 +13,7 @@
   @extend .py-4, .row;
   
   .bibbase_group {
-    @extend .col-12, .col-md-2;
+    @extend .col-12, .col-lg-3;
     @extend .display-2, .px-3, .mb-3;
     @extend .d-flex, .flex-row-reverse, .justify-content-between;
 
@@ -25,7 +25,7 @@
   }
 
   .bibbase_group_body {
-    @extend .col-12, .col-md-10;
+    @extend .col-12, .col-lg-9;
     @extend .row, .row-cols-1, .row-cols-sm-2;
     @extend .border-bottom, .pb-4;
   }
