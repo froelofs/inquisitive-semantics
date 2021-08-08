@@ -29,13 +29,6 @@ content_classes: bg-light
   </div>
   
   <div class="{{ page.content_classes }} py-4">
-    <!-- <div class="container"> -->
-      <!-- <section class="row">
-        {% if page.indent %}<div class="col-md-3 d-none d-md-block"></div>{% endif %}
-        <div class="{% if page.indent %}col-md-9{% endif %}"> -->
-          {{ content }}
-        <!-- </div> -->
-      <!-- </section> -->
-    <!-- </div> -->
+    {{ content }}
   </div>
 </article>

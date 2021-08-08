@@ -1,54 +1,54 @@
 ---
 layout: page
 indent: true
+content_classes: bg-light
 title: News
 ---
 
 {% assign itemsByYear = site.data.news | group_by_exp: "item", "item.date | date: '%Y'"  %}
 {% for yearItems in itemsByYear %}
-	<section class="news bg-white container-fluid mb-5 py-5">
-		<div class="container">
-			
-			<h3 class="pt-md-5 pb-2 display-1 col-2 sticky-md-top">
-				<span class="bg-white d-block pt-md-5">
-					{{ yearItems.name }}
-				</span>
-			</h3>
+<section class="news bg-white container-fluid mb-5 py-5">
+	<div class="container">
+		
+		<h3 class="pt-md-5 pb-2 display-1 col-2 sticky-md-top">
+			<span class="bg-white d-block pt-md-5">
+				{{ yearItems.name }}
+			</span>
+		</h3>
 
-			{% assign itemsByMonth = yearItems.items | group_by_exp: "item", "item.date | date: '%B'"  %}
-			{% for monthItems in itemsByMonth %}
-			{% assign firstItem = monthItems.items.first %}
-			<div class="row mb-3">
-				<div class="col-md-2 d-none d-md-block">
-					{% assign firstItem = monthItems.items.first %}
-					<time datetime="{{ firstItem.date | date: '%Y-%m' }}" class="mark fw-bolder">
-						{{ firstItem.date | date: "%B" }}
-					</time>
-				</div>
-				<div class="col-12 col-md-10 border-bottom">
-					<div class=" row row-cols-1 row-cols-sm-2">
-						{% for item in monthItems.items %}
-						<div class="col mb-3">
-							{% if item.end_date %}
-								<span class="fw-bolder">
-									{%- include period start=item.date end=item.end_date same_month_end_fmt="%d %B %Y" -%}
-								</span>
-							{% else %}
-							<time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bolder">
-								{{- item.date | date: '%B %d, %Y' -}}
-							</time>
-							{% endif %}
-							<div class="serif">
-								{{- item.text | markdownify -}}
-							</div>
+		{% assign itemsByMonth = yearItems.items | group_by_exp: "item", "item.date | date: '%B'"  %}
+		{% for monthItems in itemsByMonth %}
+		{% assign firstItem = monthItems.items.first %}
+		<div class="row mb-3">
+			<div class="col-md-2 d-none d-md-block">
+				{% assign firstItem = monthItems.items.first %}
+				<time datetime="{{ firstItem.date | date: '%Y-%m' }}" class="mark fw-bolder">
+					{{ firstItem.date | date: "%B" }}
+				</time>
+			</div>
+			<div class="col-12 col-md-10 border-bottom">
+				<div class=" row row-cols-1 row-cols-sm-2">
+					{% for item in monthItems.items %}
+					<div class="col mb-3">
+						{% if item.end_date %}
+							<span class="fw-bolder">
+								{%- include period start=item.date end=item.end_date same_month_end_fmt="%d %B %Y" -%}
+							</span>
+						{% else %}
+						<time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bolder">
+							{{- item.date | date: '%B %d, %Y' -}}
+						</time>
+						{% endif %}
+						<div class="serif">
+							{{- item.text | markdownify -}}
 						</div>
-					{% endfor %}
 					</div>
+				{% endfor %}
 				</div>
 			</div>
-			{% endfor %}
-
 		</div>
+		{% endfor %}
+
 	</div>
 </section>
 {% endfor %}
