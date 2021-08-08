@@ -43,7 +43,7 @@
 		{%- endif %}
 	</div>
 	<p class="h-100  d-flex flex-column justify-content-center">
-	{%- if website %}
+	{%- if website != '' %}
 	<a href="{{ website }}" title="Website of {{ firstname }} {{ lastname }}" class="plain">
 	{%- endif %}
   {{ firstname }} {{ lastname }}
