@@ -125,6 +125,7 @@ PubFilter.prototype.collectKeywords = function() {
   // add keywords from the selection elements
   this.selectors.each(function(index, selector) {   
     value = $(selector).val();
+    if(value === null) return;
     parts = value.split(/\s*\/\s*/)
     parts.forEach(function(part) {
       keywords.push(part);

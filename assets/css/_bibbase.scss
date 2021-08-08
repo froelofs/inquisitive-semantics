@@ -1,29 +1,58 @@
-.bibbase_group_whole {
-  margin-bottom: 3em;
+// .bibbase_group_whole {
+//   margin-bottom: 3em;
 
-  .bibbase_group_body {
-    margin-left: 0
-  }
-}
-
+//   .bibbase_group_body {
+//     margin-left: 0
+//   }
+// }
 #bibbase_header {
   display: none;
 }
 
-.bibbase_paper {
-  @extend .py-3, .px-4, .mb-3;
-  @extend .bg-white, .rounded, .shadow-sm;
-  @extend .serif, .text-muted;
+.bibbase_group_whole {
+  @extend .py-4, .row;
+  
+  .bibbase_group {
+    @extend .col-12, .col-md-2;
+    @extend .display-2, .px-3, .mb-3;
+    @extend .d-flex, .flex-row-reverse, .justify-content-between;
+
+    .bibbase_group_head_icon {
+      @extend .pt-2;
+      font-size: 2rem;
+      opacity: .25;
+    }
+  }
+
+  .bibbase_group_body {
+    @extend .col-12, .col-md-10;
+    @extend .row, .row-cols-1, .row-cols-sm-2;
+    @extend .border-bottom, .pb-4;
+  }
 }
 
-.bibbase_paper_title {
-  @extend .text-dark;
-  font-weight: bold;
+
+.bibbase_paper {
+  @extend .py-2;
+  @extend .serif;
+
+  span.bibbase_paper_title {
+    @extend .text-dark;
+    font-family: $font-family-sans-serif;
+    font-size: .8em;
+    a {
+      font-weight: bolder !important;
+    }
+  }
+
+  .bibbase_paper_author {
+    @extend .mark;
+  }
 }
 
 .bibbase_paper_content {
   font-family: $font-family-sans-serif;
-  @extend .mt-1;
+  @extend .d-block, .mt-1;
 }
 
 .bibbase.link,
@@ -35,31 +64,20 @@
 }
 
 .bibbase.well {
-  @extend .m-0, .mt-4, .pt-4, .pb-2, .text-dark, .border-top;
-  
-  &[data-type=abstract] {
-    @include media-breakpoint-up(md) { 
-      -webkit-column-count: 2;
-      -moz-column-count: 2;
-      column-count: 2;
-      -webkit-column-gap: 1em;
-      -moz-column-gap: 1em;
-      column-gap: 1em;
-     }
-  }
+  @extend .m-0, .pt-4, .pb-2, .text-primary, .small;
 
   &[data-type=abstract]:before {
     content: "Abstract";
     font-weight: bold;
     column-span: all;
     font-family: $font-family-sans-serif;
-    font-size: .95rem;
+    font-size: .8rem;
 
     @extend .d-block, .mb-1;
   }
 
   &[data-type=bibtex] {
-    font-size: .8em;
+    font-size: .7em;
     @extend .text-primary, .mb-0;
   }
 }

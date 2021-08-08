@@ -2,119 +2,64 @@
 layout: page
 title: Publications
 indent: true
-load_bibbase: true
+content_classes: ''
 description: >
   This website is maintained by Floris Roelofsen. 
   If you have any questions or want to contribute, please get in touch!
 ---
 
-<div class="container-full">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <form id="publications-form" class="sticky-top pt-5">
-          <div class="row form-row align-items-end mt-2">
-            <div class="mb-2">
-              <label for="searchPubs" class="visually-hidden">Search</label>
-              <input id="searchPubs" class="form-control search" placeholder="Search..."></input>
-            </div>
-
-            <div class="mb-2">
-              <label for="selectPublicationType">Publication type</label>
-              <select id="selectPublicationType" class="form-select pubSelect">
-                <option value="">All</option>
-                <option value="submitted/to appear/in press">Submitted / in press</option>
-                <option value="ongoing">In preparation</option>
-                <option value="textbook/monograph">Textbook</option>
-                <option value="survey/encyclopedia">Surveys</option>
-                <option value="article{">Journal articles</option>
-                <option value="inproceedings">Conference papers</option>
-                <option value="incollection">Book chapters</option>
-                <option value="edited collection/special issue">Edited collections</option>
-                <option value="phdthesis/mastersthesis">PhD/MSc theses</option>
-                <option value="manuscript/handout/slides/technical report">Unpublished manuscripts</option>
-              </select>
-            </div>
-
-            <div class="mb-2">
-              <label for="selectEmpiricalTopic">Empirical topic</label>
-              <select id="selectEmpiricalTopic" class="form-select pubSelect">
-                <option value="">All</option>
-                <option value="Anaphora">Anaphora</option>
-                <option value="answer particle/yes/polarity particle">Answer particles</option>
-                <option value="Attitude predicates/believe/wonder/surprise/embedding">Attitude predicates</option>
-                <option value="Comparative">Comparatives</option>
-                <option value="Disjunct">Disjunction</option>
-                <option value="Ellipsis">Ellipsis</option>
-                <option value="Free choice">Free choice inferences</option>
-                <option value="Ignorance inferences">Ignorance inferences</option>
-                <option value="Indefinite/n-word">Indefinites</option>
-                <option value="modality/modals/believe/wonder/attitude">Modality</option>
-                <option value="Negation/n-word">Negation</option>
-                <option value="Numerals">Numerals</option>
-                <option value="Polarity sensitive items/npi/negative polarity/positive polarity">Polarity sensitive items</option>
-                <option value="Quantification/quantifier">Quantification</option>
-                <option value="Question/interrogative">Questions</option>
-                <option value="Rising declaratives">Rising declaratives</option>
-                <option value="Tag questions">Tag questions</option>
-              </select>
-            </div>
-
-            <div class="mb-2">
-              <label for="selectTheoreticalTopic">Theoretical topic</label>
-              <select id="selectTheoreticalTopic" class="form-select pubSelect">
-                <option value="">All</option>
-                <option value="attention">Attentional semantics</option>
-                <option value="Compositionality/composing">Compositionality</option>
-                <option value="commitments">Discourse commitments</option>
-                <option value="Dynamic semantics">Dynamic semantics</option>
-                <option value="Exhaustivity/exhaustification">Exhaustivity</option>
-                <option value="Highlighting">Highlighting</option>
-                <option value="Inquisitive semantics">Inquisitive semantics</option>
-                <option value="intonation/prosody">Intonational meaning</option>
-                <option value="asymmetry">Production/comprehension asymmetry</option>
-              </select>
-            </div>
-
-            <div class="mb-2">
-              <label for="selectDiscipline">Discipline</label>
-              <select id="selectDiscipline" class="form-select pubSelect">
-                <option value="">All</option>
-                <option value="Theoretical linguistics">Theoretical linguistics</option>
-                <option value="Experimental linguistics/experiment">Experimental linguistics</option>
-                <option value="Philosophical logic">Philosophical logic</option>
-                <option value="Artificial intelligence">Artificial intelligence</option>
-              </select>
-            </div>
-
-            <div class="mb-2">
-              <button type="reset" class="btn btn-outline-dark pf-reset">Reset</button>
-            </div>
+<div class="container-full sticky-top shadow-sm pt-5 mt-5 pb-2 bg-white">
+  <div class="container pt-4">
+    <form id="publications-form">
+      <div class="row">
+        <div class="col-4 col-md-2 pe-0">
+          <input id="searchPubs" class="form-control form-control-sm search" placeholder="Search..."></input>
+        </div>
+      
+        {% for group in site.data.pubfilters %}
+          {% assign groupId = group.label | strip_html |capitalize | replace: ' ', '' | prepend: 'select' %}
+          <div class="col-4 col-md-2 pb-2 pe-0">
+            <label for="{{ groupId }}" class="small text-muted mb-2 visually-hidden">{{ group.label }}</label>
+            <select id="{{ groupId }}" class="form-select form-select-sm">
+              <option selected disabled value="">{{group.label}}</option>
+              {% for option in group.options %}
+                <option value={{ option.value }}>{{ option.label }}</option>
+              {% endfor %}
+            </select>
           </div>
-        </form>
-      </div>
+        {% endfor %}
 
-      <!-- TODO update link -->
-      <div class="col-md-9">
-        <div id="publications-container">
-          <script src="https://bibbase.org/show?bib=bacor.github.io/inquisitive-semantics/assets/files/papers.bib&theme=simple&commas=true&group0=year&fullnames=1&jsonp=1" type="text/javascript"></script>
-          <script src="{{ '/assets/js/pubfilter.js' | relative_url }}" type="text/javascript"></script>
-          <script type="text/javascript">
-            $(document).ready(function() {
-              form = PubFilter('publications-form', 'publications-container')
-            })
-          </script>
-          <div class="pf-no-matches card shadow-sm mt-4">
-            <div class="card-body">
-              <h5 class="card-title">No matches...</h5>
-              <p class="card-text">
-                None of the publications matched the filters you have selected.
-              </p>
-              <button type="reset" class="btn btn-outline-dark pf-reset">Reset all filters</button>
-            </div>
-          </div>
+        <div class="col-4 col-md-2 col-auto">
+          <button type="reset" class="btn btn-sm btn-outline-secondary pf-reset w-100">Reset</button>
         </div>
       </div>
+    </form>
+  </div>
+</div>
+
+<div class="container-full">
+  <div class="container">
+      
+    <div id="publications-container" class="pt-2">
+      <script src="https://bibbase.org/show?bib=bacor.github.io/inquisitive-semantics/assets/files/papers.bib&theme=simple&commas=true&group0=year&fullnames=1&jsonp=1" type="text/javascript"></script>
+      <script src="{{ '/assets/js/pubfilter.js' | relative_url }}" type="text/javascript"></script>
+      <script type="text/javascript">
+        $(document).ready(function() {
+          form = PubFilter('publications-form', 'publications-container')
+        })
+      </script>
+
+      <div class="pf-no-matches my-5 py-5 row">
+        <div class="col-md-2 d-none d-md-block"></div>
+				<div class="col-12 col-md-10">
+          <h5 class="serif text-muted fs-1">No matches...</h5>
+          <p class="card-text">
+            None of the publications matched the filters you have selected.
+          </p>
+          <button type="reset" class="btn btn-outline-dark pf-reset">Reset all filters</button>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
