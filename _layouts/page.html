@@ -1,17 +1,21 @@
 ---
 layout: default
-content_classes: bg-light
 ---
-
+{%- assign indent = page.indent | default: false %}
+{%- assign content_classes = page.content_classes | default: "bg-white" %}
 <article>
   <div class="container py-5">
     <header class="row mt-5">
-      {% if page.indent %}
+      {%- if indent %}
       <div class="col-md-3">
-        {% comment %}To do : figure goes here {% endcomment %}
+        {%- if page.image %}
+        <div class="{% if page.blur-image %}blurred-image{% endif %} w-100 h-100 d-none d-md-block">
+          <img src="{{ page.image | relative_url }}" class="w-100 h-100" />
+        </div>
+        {%- endif %}
       </div>
-      {% endif %}
-      <div class="{% if page.indent %}col-md-9{% endif %}">
+      {%- endif %}
+      <div class="{% if indent %}col-md-9{% endif %}">
         <h1 class="title display-1 mb-5">
           {{ page.title }}
           {%- if page.subtitle -%}
@@ -28,7 +32,7 @@ content_classes: bg-light
     </header>
   </div>
   
-  <div class="{{ page.content_classes }} py-4">
+  <div class="{{ content_classes }}">
     {{ content }}
   </div>
 </article>

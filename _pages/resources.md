@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: post
 title: Resources
+subtitle: Useful software and tools
+indent: true
 ---
 
 ## Diagrams

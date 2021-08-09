@@ -11,7 +11,8 @@ content_classes: bg-light
     {%- assign projects = site.data.projects | sort: "end" | reverse %}
     {%- for project in projects %}
     <div class="project col my-3">
-      <div class="card h-100 bg-white shadow-sm">
+      {% include project-card.html project=project %}
+      <!-- <div class="card h-100 bg-white shadow-sm">
         <div class="card-body">
           <h4 class="card-title">
             {%- if project.website -%}
@@ -40,7 +41,7 @@ content_classes: bg-light
             {% include funding-logo fund=fund %}
           {%- endfor -%}
         </div>
-      </div>
+      </div> -->
     </div>
     {%- endfor %}
   </div>

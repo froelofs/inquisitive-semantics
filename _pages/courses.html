@@ -3,15 +3,15 @@ layout: page
 title: Courses
 description: An overview of courses in inquisitive semantics given around the world.
 content_classes: bg-light
-
 ---
 
-<div class="container">
+<div class="container  py-4">
 	<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
 		{% assign courses = site.courses | sort: "date" | reverse %}
 		{% for course in courses %}
 		<div class="project col my-3">
-			<div class="card h-100 bg-white shadow-sm">
+			{% include course-card.html course=course %}
+			<!-- <div class="card h-100 bg-white shadow-sm">
 				<div class="card-body">
 					<h4 class="card-title">
 						<a href="{% if course.external %}{{ course.link }}{% else %}{{ course.url | relative_url }}{% endif %}" class="text-dark">
@@ -36,7 +36,7 @@ content_classes: bg-light
 						{%- endif -%}
 					</a>
 				</div>
-			</div>
+			</div> -->
 		</div>
 		{% endfor %}
 	</div>
