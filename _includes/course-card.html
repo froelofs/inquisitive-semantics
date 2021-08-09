@@ -1,0 +1,28 @@
+
+{%- assign course = include.course %}
+<div class="card h-100 bg-white shadow-sm">
+  <div class="card-body">
+    <h4 class="card-title">
+      <a href="{% if course.external %}{{ course.link }}{% else %}{{ course.url | relative_url }}{% endif %}" class="text-dark">
+        {{ course.title }}
+        {%- if course.external -%}
+        <span class="ms-2">{% include icons/arrow-up-right-square.svg %}</span>
+        {%- endif -%}
+      </a>
+    </h4>
+    <p class="text-muted">
+      {{ course.date | date: "%Y"}}
+      <span class="sep px-1">][</span>
+      {{ course.location }}
+    </p>
+    <p>
+      {{ course.description | truncatewords: 30, "..." | markdownify }}
+    </p>
+    <a href="{% if course.external %}{{ course.link }}{% else %}{{ course.url | relative_url }}{% endif %}" class="btn btn-secondary">
+      Go to course
+      {%- if course.external -%}
+      <span class="ms-2">{% include icons/arrow-up-right-square.svg %}</span>
+      {%- endif -%}
+    </a>
+  </div>
+</div>

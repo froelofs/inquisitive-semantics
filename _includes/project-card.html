@@ -1,0 +1,31 @@
+{% assign project = include.project %}
+<div class="card h-100 bg-white shadow-sm">
+  <div class="card-body">
+    <h4 class="card-title">
+      {%- if project.website -%}
+      <a href="{{ project.website }}" class="text-dark plain">
+        {{project.title}}
+      </a>
+      {%- else -%}
+      {{project.title}}
+      {%- endif -%}
+    </h4>
+    <p class="text-muted">
+      {{ project.start }}&ndash;{{ project.end }}
+      {%- if project.grant_type -%}
+      <span class="sep px-1">][</span>
+      {{ project.grant_type }}
+      {%- endif -%}
+    </p>
+    <div class="mt-4">
+    {%- for person in project.people -%}
+      {% include person-tag person=person %}
+    {%- endfor -%}
+    </div>
+  </div>
+  <div class="card-footer bg-white d-flex">
+    {%- for fund in project.funding -%}
+      {% include funding-logo fund=fund %}
+    {%- endfor -%}
+  </div>
+</div>
