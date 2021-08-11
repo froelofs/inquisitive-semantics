@@ -51,7 +51,7 @@ people:
       - id: jdotlacil
       - id: tvangessel
 schedule: >
-  <table class="table">
+  <table class="table" style="min-width: 500px;">
     <thead>
       <tr>
         <th>Time</th>

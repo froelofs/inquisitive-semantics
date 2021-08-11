@@ -19,10 +19,11 @@ description: >
 
   The closing event of the project will consist of **two workshops**. The event will be directly followed by the [Amsterdam Colloquium](http://www.illc.uva.nl/AC/AC2015/) (December 16-18).
 people:
-  - label: Workshop 1 organizer
+  - label: Organizers
     list: 
       - id: mwestera
-  - label: Workshop 1 speakers
+      - id: iciardelli
+  - label: Speakers
     list:
       - first_name: Daniel
         last_name: Büring
@@ -48,12 +49,6 @@ people:
       - first_name: Jennifer
         last_name: Spenader
         affiliation: Groningen
-
-  - label: Workshop 2 organizer
-    list:
-      - id: iciardelli
-  - label: Workshop 2 speakers
-    list:
       - first_name: Maria
         last_name: Aloni
         affiliation: Amsterdam
