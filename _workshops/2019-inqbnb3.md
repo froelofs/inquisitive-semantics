@@ -50,7 +50,6 @@ people:
       - id: acremers
       - id: jdotlacil
       - id: tvangessel
-
 schedule: >
   <table class="table">
     <thead>
