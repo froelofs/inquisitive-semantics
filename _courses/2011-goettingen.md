@@ -4,6 +4,7 @@ title: >
   Inquisitive semantics and pragmatics: theoretical foundations and empirical explorations
 short_title: Goettingen 2011
 subtitle: April 2011
+image: 'assets/images/courses/splitsing.jpg'
 location: Goettingen
 venue: >
   Georg August University of Goettingen
@@ -13,8 +14,6 @@ people: [froelofsen]
 description: >
   This mini-course provides an overview of the main ideas underlying inquisitive semantics and pragmatics, and discusses several empirical phenomena that can be given a novel analysis in this framework. Immediately after the mini-course, there will be a workshop on the semantics and pragmatics of questions.
 ---
-
-<img src="{{ site.baseurl }}/assets/images/courses/splitsing.jpg" width=300>
 
 ## Lecture 1: Monday April 11, 10am - 1pm
 

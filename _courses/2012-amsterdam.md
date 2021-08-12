@@ -1,12 +1,13 @@
 ---
 layout: course
 title: Logic and Conversation
-short_title: Amsterdam 2013
-subtitle: Fall 2013
+short_title: Amsterdam 2012
+subtitle: Fall 2012
 location: Amsterdam
+image: 'assets/images/courses/new-roads.jpg'
 venue: >
   [Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)
-date: 2013-10-29
+date: 2012-10-29
 practicalities:
   - label: Time and place
     text: Mondays 13.00-15.00, Wednesdays 17.30-19.30 (OMHP D1.18B)
@@ -16,8 +17,6 @@ people: [jgroenendijk, froelofsen]
 description: >
   The theme of the course is the interplay between semantics and pragmatics in the interpretation of natural language discourse, and the role of logic in formulating semantic and pragmatic theories. Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore focusses on informative content, defined in terms of truth conditions. When analyzing discourse, however, other notions become of interest as well. For instance, besides informative content, inquisitive content also plays a crucial role, and besides entailment/validity, logical notions of relatedness and relevance take center stage.
 ---
-
-<img src="{{ site.baseurl }}/assets/images/courses/new-roads.jpg" width=300>
 
 ## Schedule
 

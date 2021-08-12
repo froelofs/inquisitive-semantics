@@ -7,7 +7,7 @@ image: assets/images/courses/conversation.jpg
 location: Amsterdam
 venue: >
   [Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)
-date: 2014-11-01
+date: 2014-10-28
 people: 
   - id: froelofsen
     function: Lecturer

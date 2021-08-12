@@ -5,6 +5,7 @@ title: >
 short_title: San Diego 2011
 subtitle: March 2011
 location: San Diego
+image: 'assets/images/courses/splitsing.jpg'
 venue: >
   [Linguistics Department](http://linguistics.ucsd.edu/) of the University of California San Diego
 date: 2011-03-02
@@ -13,8 +14,6 @@ people: [froelofsen]
 description: >
   This mini-course provides an overview of the main ideas underlying inquisitive semantics and pragmatics, and discusses several empirical phenomena that can be given a novel analysis in this framework.
 ---
-
-<img src="{{ site.baseurl }}/assets/images/courses/splitsing.jpg" width=300>
 
 ## Lecture 1: Inquisitive semantics and pragmatics: information, issues, and attention ([slides]({{ site.baseurl }}/assets/files/slides/Roelofsen2011_SanDiego-1.pdf))
 The main aim of inquisitive semantics is to develop a notion of meaning that does not only capture informative content, but also inquisitive and attentive content. Changing the core notion of semantic meaning also has important consequences for pragmatics. We will give an overview of the main ideas, and present a simple formal system that embodies these ideas.

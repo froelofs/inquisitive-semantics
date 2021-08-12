@@ -4,6 +4,7 @@ title: Questions, assertions, and hybrids in an inquisitive discourse model
 short_title: ESSLLI 2013
 subtitle: Summer 2013
 location: Duesseldorf, Germany
+image: 'assets/images/courses/question-mark-blue.jpg'
 venue: >
   [European Summer School for Logic, Language, and Information (ESSLLI)](http://esslli2013.de/)
 date: 2013-08-05
@@ -12,8 +13,6 @@ people: [dfarkas, froelofsen]
 description: >
   The course aims to familiarize students with recent developments in semantics and pragmatics, focusing on assertions, questions, and a range of 'hybrid' discourse moves that combine features of both. At a theoretical level, it integrates recent work in inquisitive semantics with work on discourse structure, refining and enriching both. Empirically, it covers a range of discourse initiatives and responses to them, presenting in‐depth analyses of cross‐linguistic data from English, German, French, Romanian, and Hungarian.
 ---
-
-<img src="{{ site.baseurl }}/assets/images/courses/question-mark-blue.jpg" width=300>
 
 ## Reading material
 
