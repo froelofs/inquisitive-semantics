@@ -9,6 +9,9 @@
     @extend .col-12, .col-lg-3;
     @extend .display-2, .px-3, .mb-3;
     @extend .d-flex, .flex-row-reverse, .justify-content-between;
+    
+    // To avoid all whitespace below a year becoms clickable 
+    max-height: 3rem;
 
     .bibbase_group_head_icon {
       @extend .pt-2;
