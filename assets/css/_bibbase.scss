@@ -44,6 +44,10 @@
     @extend .mark;
     padding: 0;
   }
+
+  span.note {
+    @extend .d-block, .text-muted, .small, .mt-1;
+  }
 }
 
 .bibbase_paper_content {
