@@ -1,8 +1,10 @@
 ---
 layout: page
+indent: true
+hide_footer: true
+
 title: Inquisitive Semantics
 subtitle: A semantic framework
-indent: true
 image: /assets/images/book-cover.jpeg
 ---
 
@@ -62,8 +64,33 @@ image: /assets/images/book-cover.jpeg
   </div>
 </div>
 
-<div class="container-fluid bg-light py-5">
-  <div class="container">
+<div class="bg-light py-5">
+  
+  <div class="container mb-5">
+    <h3 class="display-3 fw-bold pb-3">
+      News
+      <a class="btn btn-small btn-outline-primary ms-4" href="news.html">
+        [[ View all news ]]
+      </a>
+    </h3>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 bg-light">
+      {% assign newsItems = site.data.news | sort: "date" | reverse %}
+      {% for item in newsItems %}
+        {% if forloop.index <= 6 %}
+        <div class="col {% if forloop.index > 2 %}d-none d-md-block{% endif %}">
+          <p>
+            <time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bold">
+              {{- item.date | date: "%-d %b '%y" -}}
+            </time>
+            {{ item.text | markdownify | replace: "<p>", "" | replace: "</p>", "" | strip -}}
+          </p>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="container mb-5">
     <h3 class="display-3 fw-bold pb-3">
       Featured courses
       <a class="btn btn-small btn-outline-primary ms-4" href="courses.html">
