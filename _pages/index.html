@@ -8,11 +8,6 @@ image: /assets/images/book-cover.jpeg
 
 <div class="container pb-5">
   <div class="row">
-    <!-- <div class="col-md-3 d-none d-md-block pt-5">
-      <a href="http://fdslive.oup.com/www.oup.com/academic/pdf/openaccess/9780198814788.pdf" style="float:right">
-        <img src="{{ site.baseurl }}/assets/images/book-cover.jpeg" style="max-height: 200px">
-      </a>      
-    </div> -->
     <div class="col-md-6 serif px-4">
       <h2>What is inquisitive semantics?</h2>
       {{ 'Inquisitive semantics is a semantic framework that is based 
@@ -70,13 +65,13 @@ image: /assets/images/book-cover.jpeg
 <div class="container-fluid bg-light py-5">
   <div class="container">
     <h3 class="display-3 fw-bold pb-3">
-      Recent courses
+      Featured courses
       <a class="btn btn-small btn-outline-primary ms-4" href="courses.html">
         [[ View all courses ]]
       </a>
     </h3>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 bg-light">
-      {% assign courses = site.courses | sort: "date" | reverse %}
+      {% assign courses = site.courses | where: "featured", true | sort: "date" | reverse %}
       {% for course in courses limit: 3 %}
         <div class="col my-3 {% if forloop.index == 3 %}d-none d-lg-block{% endif %}">
           {% include course-card.html course=course %}
@@ -87,13 +82,13 @@ image: /assets/images/book-cover.jpeg
   
   <div class="container mt-5">
     <h3 class="display-3 fw-bold pb-3">
-      Recent projects
+      Featured projects
       <a class="btn btn-small btn-outline-primary ms-4" href="projects.html">
         [[ View all projects ]]
       </a>
     </h3>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 bg-light">
-      {% assign projects = site.data.projects | sort: "date" | reverse %}
+      {% assign projects = site.data.projects | where: "featured", true | sort: "start" | reverse %}
       {% for project in projects limit: 3 %}
         <div class="col my-3 {% if forloop.index == 3 %}d-none d-lg-block{% endif %}">
           {% include project-card.html project=project %}

@@ -1,12 +1,12 @@
 ---
 layout: course
+featured: true
 title: Logic and Conversation
 short_title: Amsterdam 2020
 subtitle: Fall 2020
 image: assets/images/courses/conversation.jpg
 location: Amsterdam
-venue: >
-  [Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)
+venue: "[Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)"
 date: 2020-09-01
 people: 
   - froelofsen

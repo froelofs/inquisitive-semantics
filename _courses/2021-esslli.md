@@ -1,5 +1,6 @@
 ---
 layout: course
+featured: true
 title: Dynamic inquisitive semantics
 short_title: ESSLLI 2021
 subtitle: Summer 2021

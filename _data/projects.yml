@@ -23,6 +23,7 @@
     - id: froelofsen
       function: PI
       location: Amsterdam
+  featured: true
 
 - title: New territories for modal logic
   start: 2021
@@ -33,6 +34,7 @@
     - id: iciardelli
       function: PI
       location: Munich
+  featured: true
 
 - title: Cross-linguistic investigation of meaning-driven combinatorial restrictions in clausal embedding
   start: 2021
@@ -50,6 +52,7 @@
       function: PI
       location: Amsterdam
   website: https://wuegaki.ppls.ed.ac.uk/mecore/
+  featured: true
 
 - title: 'Searching for semantic universals in the modal domain'
   start: 2018

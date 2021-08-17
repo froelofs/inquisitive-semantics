@@ -1,18 +1,17 @@
 ---
 layout: course
+featured: true
 title: Logic and Conversation
 short_title: Amsterdam 2019
 subtitle: Fall 2019
 image: assets/images/courses/conversation.jpg
 location: Amsterdam
-venue: >
-  [Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)
+venue: "[Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)"
 date: 2019-09-01
 people: [froelofsen, tvangessel]
 
 description: >
   Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. The focus of the course will be on **inquisitive semantics**, which enriches the traditional truth-conditional picture in ways that allow for a more comprehensive logical analysis of the meaning of sentences in linguistic interaction. The first part of the course introduces the basic inquisitive semantics framework. The second part discusses some current research in this area.
-
 
 schedule_intro: >
   Tuesdays 13.00-15.00 (B0.206), Fridays 13.00-15.00 (B0.208)
