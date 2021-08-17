@@ -1,3 +1,13 @@
+# Navigation
+# ==========
+#
+# The main menu. On smaller screens, some items are grouped under 
+# a dropdown menu named 'More'. Those items have to be listed both
+# in the main list and under the More subitem, and moreover the 
+# property `in_more` should be set to `true`.
+#
+# ===================================================================
+
 - name: News
   url: /news.html
 - name: Publications
