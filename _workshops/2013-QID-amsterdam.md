@@ -35,7 +35,7 @@ people:
         last_name: Simons
         affiliation: Carnegie Mellon University
       - id: mwestera
-        affiliation: ILLC, University of Amsterdam
+        affiliation: ILLC, Univ. of Amsterdam
       - first_name: Daniel
         last_name: Hole
         affiliation: Stuttgart University
@@ -43,7 +43,7 @@ people:
         last_name: Rojas-Esponda
         affiliation: Stanford
       - id: eonea
-        affiliation: Georg August Universität Göttingen
+        affiliation: Georg August Uni. Göttingen
       - first_name: Hans
         last_name: Kamp
         affiliation: Stuttgart University
@@ -51,12 +51,12 @@ people:
         last_name: Jasinskaja
         affiliation: ZAS, Berlin
       - id: iciardelli
-        affiliation: ILLC, University of Amsterdam
+        affiliation: ILLC, Univ. of Amsterdam
       - first_name: Arndt
         last_name: Riester
         affiliation: Stuttgart University
       - id: jgroenendijk
-        affiliation: ILLC, University of Amsterdam
+        affiliation: ILLC, Univ. of Amsterdam
       - first_name: David
         last_name: Beaver
         affiliation: University of Texas, Austin

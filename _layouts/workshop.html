@@ -50,13 +50,6 @@ layout: default
           {{ page.description | markdownify }}
         </div>
         {%- endif %}
-
-        <!-- {%- if page.schedule %}
-          <a class="btn btn-outline-primary mt-3 me-3" href="#schedule">Jump to schedule</a>
-        {%- endif %}
-        {%- if page.people %}
-          <a class="btn btn-outline-primary mt-3" href="#people">Jump to speakers</a>
-        {%- endif %} -->
       </div>
     </header>
   </div>
@@ -98,7 +91,7 @@ layout: default
           <strong class="mark fw-bold">{{ group.label }}</strong>
         </div>
         <div class="col-12 col-md-9 border-bottom pt-3">
-          <div class="row row-cols-2 row-cols-sm-3">
+          <div class="row row-cols-2 row-cols-lg-3">
             {% for person in group.list %}
               {% include person-tag person=person info=person.affiliation %}
             {% endfor %}
