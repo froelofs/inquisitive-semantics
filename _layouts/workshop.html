@@ -113,6 +113,7 @@ layout: default
   </div>
   {%- endif %}
 
+  {% if content %}
   <div class="container-full border-top pb-4">
     <section class="container my-5 py-3" id="information">
       <h3 class="display-3 fw-bold pb-3">Information</h3>
@@ -125,6 +126,7 @@ layout: default
       </div>
     </section>
   </div>
+  {% endif %}
 
   {%- if page.schedule %}
   <div class="container-full border-top border-bottom bg-light">

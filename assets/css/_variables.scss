@@ -1,9 +1,11 @@
-
+// https://coolors.co/05668d-028090-00a896-02c39a-ece947-edce39
 $color1: #05668D;
 $color2: #028090;
 $color3: #00A896;
 $color4: #02C39A;
 $color5: #ECE947;
+$color6: #EDD128;
+$color5: $color6;
 
 $primary: $color3;
 
@@ -16,9 +18,7 @@ $line-height-serif: 1.2;
 $line-height-sans: 1.45;
 $line-height-base: $line-height-sans;
 
-// $font-weight-light: 200;
 $font-weight-normal: 400;
-// $font-weight-bold: 600;
 
 // Font sizes
 $font-size-base: 1rem;
@@ -37,7 +37,6 @@ $mark-transparency: 0.6;
 $mark-padding: 0em 0.2em;
 $mark-bg: transparentize($color4, $mark-transparency);
 
-// $border-width: 0;
 $card-border-width: 0;
 
 $container-max-widths: (
@@ -55,4 +54,3 @@ $navbar-brand-font-size: 1rem;
 $navbar-brand-margin-end: 0;
 
 $link-decoration: none;
-// $link-color: #333;

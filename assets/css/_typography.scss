@@ -16,11 +16,6 @@ article {
     }
 }
 
-article {
-    // background: $gray-100;
-}
-
-
 h2::before {
     content: "[[";
     display: inline-block;
@@ -35,7 +30,7 @@ h2 {
     margin-top: 2rem;
 
     text-decoration: underline;
-    text-decoration-color: transparentize($color5, .5);
+    text-decoration-color: transparentize($color5, .4);
     text-decoration-thickness: auto;
     text-underline-offset: -.3em;
     text-decoration-thickness: .7em;
@@ -104,14 +99,6 @@ span.sep {
         letter-spacing: -.1em;
     }
 }
-
-.site-footer {
-    // opacity: .5;
-    // .credits {
-    //     opacity: .4;
-    // }
-}
-
 
 .table-section {
     @extend .bg-white;
