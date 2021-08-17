@@ -1,3 +1,13 @@
+# Publication filters
+# ===================
+#
+# Contains a list of publication filters. Every filter has a label
+# and a list of options. Every option in turn has a label and a value
+# The label is shown in the interface, the value is used to find any
+# matching publications.
+#
+# ===================================================================
+
 - label: Publication type
   options:
     - label: Sumitted / in press

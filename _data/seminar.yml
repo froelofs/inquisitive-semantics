@@ -1,28 +1,34 @@
+# Seminars
+# ========
+#
+# A list of seminar meetings. Seminar items have three fields: a date
+# a title and a presenter.
+#
+# ===================================================================
+
 - date: 2019-11-08
   presenter: Gennaro Chierchia
-  title: >
-    Dynamic predication
+  title: Dynamic predication
 
 - date: 2019-06-14
   presenter: Sunwoo Jeong
-  title: >
-    Varieties of biased questions
+  title: Varieties of biased questions
 
 - date: 2019-05-24
   presenter: Sophie Repp
   title: >
-    Yes/No, response particles are not trivial! German and German Sign Language in the multimethodical data lab and under the theoretical microscope
+    Yes/No, response particles are not trivial! 
+    German and German Sign Language in the multimethodical 
+    data lab and under the theoretical microscope
   link: https://drive.google.com/file/d/1Gh8ZeK6qPQ0ogFJwjD-BIO8oZVTUlyPb/view?usp=sharing
 
 - date: 2019-05-17
   presenter: Dominique Blok
-  title: >
-    Pragmatic inferences of modified numerals and modals
+  title: Pragmatic inferences of modified numerals and modals
 
 - date: 2019-05-10
   presenter: Jakub Dotlacil
-  title: >
-    Dynamic inquisitive semantics
+  title: Dynamic inquisitive semantics
 
 - date: 2019-05-03
   presenter: Wataru Uegaki
@@ -31,13 +37,11 @@
 
 - date: 2019-04-08
   presenter: Gianluca Grilletti
-  title: >
-    Algebraic and topological semantics for inquisitive logic via choice-free duality
+  title: Algebraic and topological semantics for inquisitive logic via choice-free duality
 
 - date: 2019-04-05
   presenter: Dean McHugh
-  title: >
-    Negation and alternatives in conditional antecedents
+  title: Negation and alternatives in conditional antecedents
 
 - date: 2019-04-05
   presenter: Zhuyoe Zhao

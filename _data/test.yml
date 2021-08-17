@@ -1,9 +1,0 @@
-- id: test1
-  people:
-    - maher
-    - Nonexistent person
-    - id: iciardelli
-      first_name: The Dude
-    - first_name: Henk
-      last_name: de Vries
-      affiliation: Albert Heijn

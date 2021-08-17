@@ -1,8 +1,23 @@
-- title: 'Questions in sign language'
+# Projects
+# ========
+#
+# This file contains a list of all projects:
+#
+#   - title: Questions in sign language
+#     start: 2000    # start year
+#     end: 2100      # end year
+#     funding: [nwo] # list (!) of funding agencies ids
+#     grant_type: VICI
+#     website: https://...
+#     people: [froelofsen, another_id]
+#
+# ===================================================================
+
+
+- title: Questions in sign language
   start: 2021
   end: 2026
-  funding: 
-    - id: nwo
+  funding: [nwo]
   grant_type: VICI
   people:
     - id: froelofsen
@@ -19,12 +34,10 @@
       function: PI
       location: Munich
 
-- title: 'Cross-linguistic investigation of meaning-driven combinatorial restrictions in clausal embedding'
+- title: Cross-linguistic investigation of meaning-driven combinatorial restrictions in clausal embedding
   start: 2021
   end: 2024
-  funding:
-    - id: dfg
-    - id: ahrc
+  funding: [dfg, ahrc]
   people:
     - id: wuegaki
       function: PI
@@ -41,8 +54,7 @@
 - title: 'Searching for semantic universals in the modal domain'
   start: 2018
   end: 2021
-  funding:
-    - id: nwo
+  funding: [nwo]
   grant_type: Internationalisation Grant
   people:
     - id: wuegaki
@@ -52,8 +64,7 @@
 - title: 'Quexistentials'
   start: 2018
   end: 2019
-  funding:
-    - id: mit
+  funding: [mit]
   grant_type: MIT International Science and Technology Initiatives (MISTI)
   people:
     - first_name: Sabine
@@ -68,8 +79,7 @@
 - title: 'Quantification and modality in the realm of questions'
   start: 2016
   end: 2021
-  funding:
-    - id: erc
+  funding: [erc]
   grant_type: Starting Grant
   people:
     - id: froelofsen
@@ -85,8 +95,7 @@
 - title: 'Non-question uses of question words cross-linguistically'
   start: 2016
   end: 2017
-  funding:
-    - id: knaw
+  funding: [knaw]
   grant_type: Visiting Professors Programme
   people:
     - first_name: Sabine
@@ -102,8 +111,7 @@
 - title: 'Inquisitiveness below and beyond the sentence boundary'
   start: 2015
   end: 2020
-  funding:
-    - id: nwo
+  funding: [nwo]
   grant_type: VIDI
   people:
     - id: froelofsen
@@ -118,8 +126,7 @@
 - title: 'Questions, assertions, and the land in between'
   start: 2015
   end: 2016
-  funding:
-    - id: knaw
+  funding: [knaw]
   grant_type: Visiting Professors Programme
   people:
     - id: dfarkas
@@ -134,8 +141,7 @@
 - title: 'Channels of meaning: how information can be expressed without being said'
   start: 2014
   end: 2019
-  funding:
-    - id: scas
+  funding: [scas]
   grant_type: Pro Futura Scientia
   people:
     - id: lcoppock
@@ -144,8 +150,7 @@
 - title: 'Deontic puzzles and suppositional inquisitive semantics in legal language'
   start: 2014
   end: 2016
-  funding:
-    - id: estrc
+  funding: [estrc]
   people:
     - id: maher
       function: PI
@@ -153,8 +158,7 @@
 - title: 'Compositional Semantics of Quantifier Words Cross-linguistically'
   start: 2014
   end: 2015
-  funding:
-    - id: knaw
+  funding: [knaw]
   grant_type: Visiting Professors Programme
   people:
     - id: aszabolcsi
@@ -168,8 +172,7 @@
 - title: 'Interpreting questions: a fine-grained compositional semantics'
   start: 2012
   end: 2015
-  funding:
-    - id: nwo
+  funding: [nwo]
   grant_type: VENI
   people:
     - id: froelofsen
@@ -178,8 +181,7 @@
 - title: 'The inquisitive turn: a new perspective on semantics, logic, and pragmatics'
   start: 2010
   end: 2015
-  funding:
-    - id: nwo
+  funding: [nwo]
   grant_type: Free Competition
   people:
     - id: jgroenendijk

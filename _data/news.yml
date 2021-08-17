@@ -1,3 +1,15 @@
+# News items
+# ==========
+#
+# This file contains a list of news items, with two fields:
+#
+#   - date: 2000-01-01
+#     text: >
+#       **Markdown** text of the message
+#       You can use multiple lines as long as the indentation is right
+#
+# ===================================================================
+
 - date: 2021-07-05
   text: >
     **Deniz Ozyildiz**'s UMass dissertation [The event structure of attitudes](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=3292&context=dissertations_2) is now available.

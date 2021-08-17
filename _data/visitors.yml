@@ -1,3 +1,20 @@
+# Visitors
+# ========
+# 
+# Visitors are shown on the seminar page, grouped per year.
+# Visitors correspond to entries in people, but you can override
+# all values, and specify some other fields: `start` and `end` 
+# in particular.
+#
+#   - id: person_id
+#     # you can leave the affiliation, first_name, last_name, etc. 
+#     # empty: they default to the values in people.yml. But you
+#     # can also specify/override them here.
+#     start: 2000-01-01 # start date of visit
+#     end: 2000-02-01 # start date of visit
+#
+# ===================================================================
+
 - id: gchierchia
   affiliation: Harvard
   first_name: Gennaro

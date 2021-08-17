@@ -1,3 +1,30 @@
+# People database
+# ===============
+#
+# This file contains details about people. Every person has a unique 
+# id, like `froelofsen`, this is the only required field.
+#   
+#   my_id:
+#     id: my_id
+#     first_name: Firstname
+#     last_name: Last Name
+#     affiliation: ...
+#     website: https://www....
+#     image: assets/images/people/myimg.jpg
+#     # These are only used by some pages:
+#     function: PI/TA/etc ...
+#
+# You can override all fields on particular pages. So if a person 
+# gave a talk at a workshop, but had a different affiliation at the 
+# time, you use something like this:
+#
+#   people:
+#     - id: froelofsen
+#     - id: maher
+#       affiliation: override the affiliation
+#
+# ===================================================================
+
 maher:
   id: maher
   first_name: Martin

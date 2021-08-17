@@ -4,8 +4,6 @@
   url: /publications.html
 - name: Courses
   url: /courses.html
-- name: Seminar
-  url: /seminar.html
 - name: Workshops
   url: /workshops.html
 - name: People
@@ -14,14 +12,20 @@
 - name: Projects
   url: /projects.html
   in_more: true
+- name: Seminar
+  url: /seminar.html  
+  in_more: true
 - name: Resources
   url: /resources.html
   in_more: true
 - name: More
   sub_menu:
-    - name: Projects
-      url: /projects.html
-    - name: Resources
-      url: /resources.html
     - name: People
       url: /people.html
+    - name: Projects
+      url: /projects.html
+    - name: Seminar
+      url: /seminar.html  
+    - name: Resources
+      url: /resources.html
+    

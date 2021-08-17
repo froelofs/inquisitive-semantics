@@ -16,7 +16,7 @@ description: >
           <input id="searchPubs" class="form-control form-control-sm search" placeholder="Search..."></input>
         </div>
       
-        {% for group in site.data.pubfilters %}
+        {% for group in site.data.publication_filters %}
           {% assign groupId = group.label | strip_html |capitalize | replace: ' ', '' | prepend: 'select' %}
           <div class="col-4 col-md-2 pb-2 pe-0">
             <label for="{{ groupId }}" class="small text-muted mb-2 visually-hidden">{{ group.label }}</label>
@@ -45,7 +45,13 @@ description: >
       <script src="{{ '/assets/js/pubfilter.js' | relative_url }}" type="text/javascript"></script>
       <script type="text/javascript">
         $(document).ready(function() {
-          form = PubFilter('publications-form', 'publications-container')
+          form = PubFilter('publications-form', 'publications-container', {
+            // You can specify other options here
+            // replacements: {
+              // 'my_regex': 'replace',
+              //...
+            // }
+          })
         })
       </script>
 

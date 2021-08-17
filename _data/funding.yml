@@ -1,3 +1,16 @@
+# Funding agencies
+# ================
+#
+# This file contains a database of funding agencies. We mostly use
+# these easily show the right logo's on the right places. So every
+# agency has only two fields, the name and the image:
+#   
+#   fund_id: 
+#     name: Name of the fund
+#     image: /assets/images/funding/myimg.jpg       
+#
+# ===================================================================
+
 nwo:
   name: Netherlands Organization for Scientific Research (NWO)
   image: /assets/images/funding/nwo.jpg
