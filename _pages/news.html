@@ -3,15 +3,18 @@ layout: page
 indent: true
 content_classes: bg-light
 title: News
+description: > 
+  This page is maintained by Floris Roelofsen. 
+  If you have any questions or want to contribute, please get in touch!
 ---
 
 {% assign itemsByYear = site.data.news | group_by_exp: "item", "item.date | date: '%Y'"  %}
 {% for yearItems in itemsByYear %}
-<section class="news bg-white container-fluid mb-5 py-5">
+<section class="news bg-white mb-5">
 	<div class="container">
 		
 		<h3 class="pt-md-5 pb-2 display-1 col-2 sticky-md-top">
-			<span class="bg-white d-block pt-md-5">
+			<span class="bg-white d-block pt-md-3">
 				{{ yearItems.name }}
 			</span>
 		</h3>
@@ -26,7 +29,7 @@ title: News
 					{{ firstItem.date | date: "%B" }}
 				</time>
 			</div>
-			<div class="col-12 col-md-9 border-bottom">
+			<div class="col-12 col-md-9 {% if forloop.index < forloop.length %} border-bottom{% endif %}">
 				<div class=" row row-cols-1 row-cols-sm-2">
 					{% for item in monthItems.items %}
 					<div class="col mb-3">

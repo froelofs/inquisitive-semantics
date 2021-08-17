@@ -3,15 +3,15 @@ layout: default
 ---
 
 <article>
-  <div class="container py-5">
-    <header class="row mt-5">
+  <div class="container mt-md-5 py-5">
+    <header class="row">
       <div class="col-md-3 align-content-end d-flex flex-column justify-content-end">
         {%- if page.image %}
         <img src="{{ page.image | relative_url }}" class="w-100 d-none d-md-block mb-4" style="object-fit: contain" />
         {%- endif %}
       </div>
       <div class="col-md-9">
-        <h1 class="title display-1 mb-5">
+        <h1 class="title display-1 mb-md-5 mb-3">
           {{ page.title }}
           {%- if page.subtitle -%}
             <span class="colon d-none">:</span>
