@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resources
-subtitle: Useful software and tools
+# subtitle: Latex resources and computational tools
 indent: true
 ---
 

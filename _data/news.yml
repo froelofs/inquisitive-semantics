@@ -10,6 +10,41 @@
 #
 # ===================================================================
 
+- date: 2021-09-01
+  text: >
+    **Deniz Ozyildiz** starts a Postdoc at Konstanz University.
+
+- date: 2021-09-01
+  text: >
+    **Ciyang Qing** starts a Postdoc at the University of Edinburgh.
+
+- date: 2021-09-01
+  text: >
+    **Thom Roberts** starts a Postdoc at the University of Amsterdam.
+
+- date: 2021-09-01
+  text: >
+    **Nadine Theiler** starts a Postdoc at Konstanz University.
+
+- date: 2021-08-27
+  text: >
+    **Terence Hui** defends his Master thesis on dependency statements,
+    concealed questions, and propositional anaphora at the ILLC in Amsterdam.
+
+- date: 2021-08-12
+  text: >
+    **Thom Roberts** defends his dissertation on
+    clausal embedding at UC Santa Cruz.
+
+- date: 2021-08-09
+  text: >
+    **Jakub Dotlacil** and **Floris Roelofsen** teach a one-week course on dynamic inquisitive semantics at ESSLLI.
+
+- date: 2021-08-01
+  text: >
+    **Will Stafford** has finished his PhD project at UC Irvine on 
+    proof-theoretic semantics, and starts a Postdoc at the Czech Academy of Science.
+
 - date: 2021-07-05
   text: >
     **Deniz Ozyildiz**'s UMass dissertation [The event structure of attitudes](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=3292&context=dissertations_2) is now available.
@@ -93,6 +128,10 @@
 - date: 2020-09-03
   text: >
     **Matthijs Westera**, who finished his PhD in the inquisitive semantics group in Amsterdam in 2017 and has been a Postdoc with Gemma Boleda in Barcelona since then, has accepted an Assistant Professor position at Leiden University!
+
+- date: 2020-09-03
+  text: >
+    **Marco Degano** starts his PhD project at the ILLC in Amsterdam.
 
 - date: 2020-09-02
   end_date: 2020-09-05

@@ -15,8 +15,8 @@
 
 
 - title: Questions in sign language
-  start: 2021
-  end: 2026
+  start: 2022
+  end: 2027
   funding: [nwo]
   grant_type: VICI
   people:
@@ -34,6 +34,12 @@
     - id: iciardelli
       function: PI
       location: Munich
+    - id: ggrilletti
+      function: Postdoc
+      location: Munich
+    - id: aommundsen
+      function: PhD student
+      location: Munich
   featured: true
 
 - title: Cross-linguistic investigation of meaning-driven combinatorial restrictions in clausal embedding
@@ -42,15 +48,20 @@
   funding: [dfg, ahrc]
   people:
     - id: wuegaki
-      function: PI
+      function: co-PI
       location: Edinburgh
-    - first_name: Maribel
-      last_name: Romero
-      function: PI
+    - id: mromero
+      function: co-PI
       location: Konstanz
     - id: froelofsen
-      function: PI
+      function: co-I
       location: Amsterdam
+    - id: cqing
+      function: Postdoc
+      location: Edinburgh
+    - id: dozyildiz
+      function: Postdoc
+      location: Konstanz
   website: https://wuegaki.ppls.ed.ac.uk/mecore/
   featured: true
 
@@ -62,6 +73,25 @@
   people:
     - id: wuegaki
       function: PI
+      location: "Leiden/Edinburgh"
+    - id: froelofsen
+      function: co-I
+      location: Amsterdam
+    - id: mromero
+      function: co-I
+      location: Konstanz
+    - first_name: Jakub
+      last_name: Szymanik
+      function: co-I
+      location: Amsterdam
+    - first_name: Malte
+      last_name: Zimmerman
+      function: co-I
+      location: Postdam
+    - first_name: Uli
+      last_name: Sauerland
+      function: co-I
+      location: Berlin
   website: http://www.wataruuegaki.com/modal-universals
 
 - title: 'Quexistentials'
@@ -70,15 +100,15 @@
   funding: [mit]
   grant_type: MIT International Science and Technology Initiatives (MISTI)
   people:
-    - first_name: Sabine
-      last_name: Iatridou
+    - id: siatridou
       function: PI
-    - first_name: Kees
-      last_name: Hengeveld
+      location: MIT
+    - id: khengeveld
       function: PI
+      location: Amsterdam
     - id: froelofsen
       function: PI
-
+      location: Amsterdam
 - title: 'Quantification and modality in the realm of questions'
   start: 2016
   end: 2021
@@ -87,13 +117,23 @@
   people:
     - id: froelofsen
       function: PI
+      location: Amsterdam
     - id: iciardelli
       function: External co-PI
       info: (co-author of project proposal and former postdoc, now at MCMP Munich)
+      location: Munich
+    - id: acremers
+      function: Postdoc
+      location: Amsterdam
+    - id: cqing
+      function: Postdoc
+      location: Amsterdam
     - id: tvangessel
       function: PhD student
+      location: Amsterdam
     - id: ggrilletti
       function: PhD student
+      location: Amsterdam
 
 - title: 'Non-question uses of question words cross-linguistically'
   start: 2016
@@ -101,15 +141,16 @@
   funding: [knaw]
   grant_type: Visiting Professors Programme
   people:
-    - first_name: Sabine
-      last_name: Iatridou
+    - id: siatridou
       affiliation: MIT
       function: Nominee
-    - first_name: Kees
-      last_name: Hengeveld
+      location: MIT
+    - id: khengeveld
       function: Nominator
+      location: Amsterdam
     - id: froelofsen
       function: Nominator
+      location: Amsterdam
 
 - title: 'Inquisitiveness below and beyond the sentence boundary'
   start: 2015
@@ -119,12 +160,16 @@
   people:
     - id: froelofsen
       function: PI
+      location: Amsterdam
     - id: acremers
       function: Postdoc
+      location: Amsterdam
     - id: jdotlacil
       function: Postdoc
+      location: Amsterdam
     - id: ntheiler
       function: PhD student
+      location: Amsterdam
 
 - title: 'Questions, assertions, and the land in between'
   start: 2015
@@ -135,11 +180,14 @@
     - id: dfarkas
       affiliation: UCSC
       function: Nominee
+      location: Santa Cruz
     - id: froelofsen
       function: Nominator
+      location: Amsterdam
     - first_name: Martin
       last_name: Stokhof
       function: Nominator
+      location: Amsterdam
 
 - title: 'Channels of meaning: how information can be expressed without being said'
   start: 2014
@@ -149,6 +197,7 @@
   people:
     - id: lcoppock
       function: PI
+      location: G&Ouml;teborg
 
 - title: 'Deontic puzzles and suppositional inquisitive semantics in legal language'
   start: 2014
@@ -166,11 +215,14 @@
   people:
     - id: aszabolcsi
       function: Nominee
+      location: New York
     - id: froelofsen
       function: Nominator
+      location: Amsterdam
     - first_name: Martin
       last_name: Stokhof
       function: Nominator
+      location: Amsterdam
 
 - title: 'Interpreting questions: a fine-grained compositional semantics'
   start: 2012
@@ -180,6 +232,7 @@
   people:
     - id: froelofsen
       function: PI
+      location: Amsterdam
 
 - title: 'The inquisitive turn: a new perspective on semantics, logic, and pragmatics'
   start: 2010
@@ -189,10 +242,14 @@
   people:
     - id: jgroenendijk
       function: PI
+      location: Amsterdam
     - id: froelofsen
       function: Postdoc and co-PI
       info: (co-author of project proposal)
+      location: Amsterdam
     - id: iciardelli
       function: PhD student
+      location: Amsterdam
     - id: mwestera
       function: PhD student
+      location: Amsterdam
