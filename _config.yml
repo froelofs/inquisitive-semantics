@@ -25,3 +25,6 @@ collections:
   pages:
     output: true
     permalink: /:name
+
+exclude: 
+  - README.md

@@ -77,7 +77,7 @@ my_object:
     lines. In Jekyll this will typically contain **markdown**.
 
 
-    A new paragraph is separated by two newlines.\
+    A new paragraph is separated by two blank lines.\
     The backslash at end of the previous line 
     results in a newline.
   
@@ -154,7 +154,7 @@ don't need this when maintaining the website**.
 the comments at the top of every file.
 - **[`_pages`](/_pages)**: all pages except pages for individual workshops and courses
 - **[`_workshops`](/_workshops) and [`_courses`](/courses)**: these directories contain markdown files, one for each workshop/course.
-- **[`_layouts`](_layouts) and [`_includes](_includes)**: contains the template
+- **[`_layouts`](_layouts) and [`_includes`](_includes)**: contains the template
 files that are used by Jekyll to generate the website. These are largely written
 in Liquid and HTML. A _layout_ is used to generate a page, an _include_ is
 usually a part of a layout that is reused multiple times (e.g. a card showing one person)

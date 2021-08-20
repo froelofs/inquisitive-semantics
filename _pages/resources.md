@@ -9,7 +9,7 @@ indent: true
 
 Here is a [tex file]({{ site.baseurl }}/assets/files/diagrams.tex) that can be used to create inquisitive semantics diagrams, and its [pdf]({{ site.baseurl }}/assets/files/diagrams.pdf) output.
 
-<img src="{{ site.baseurl }}/assets/images/resources/diagrams.jpg" width=300> 
+<img src="{{ '/assets/images/resources/diagrams.jpg' | relative_url }}" width=300> 
 
 ## Bib file
 
