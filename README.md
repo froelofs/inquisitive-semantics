@@ -37,7 +37,7 @@ A blank line indicates a paragraph break.
 
 YAML is a very flexible, human readable language for describing structured data
 (similar to JSON or XML). It is used extensively: for data files in the
-[_data directory](/_data), but also for (meta)data in Jekyll headers
+[_data directory](/_data), but also for (meta)data in Jekyll Front Matter
 (those are the initial section of documents delimited by three dashes `---`).
 YAML cheatsheet:
 
@@ -102,12 +102,12 @@ GitHub Pages can also generate Jekyll sites. This means that we don't
 upload the compiled html site to github, but only the source files.
 GitHub then generates the site and hosts it.
 
-Jekyll processes all files that start with a **header**: a section
+Jekyll processes all files that start with a **Front Matter**: a section
 delimited by three dashes.
 
 ```markdown
 ---
-# this is the YAML header with metadata
+# this is the YAML front matter with metadata
 title: My title
 subtitle: the subtitle
 
@@ -118,7 +118,7 @@ layout: post
 Contents of the page, in this case: markdown.
 ```
 
-You usually find those headers at the top of markdown files,
+You usually find the front matter at the top of markdown files,
 but also in some HTML files, or even the (s)css files.
 
 ### Liquid (only for development)
