@@ -1,34 +1,84 @@
 {%- comment -%}
-See http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/
+This file defines a Liquid function that outputs the value of a field
+in an object if it exists, and otherwise tries to retrieve a default value
+from a datafile. To put it differently, it retrieves a default value from
+a datafile, but allows you to override the defaults. 
+
+Suppose you have a datafile `data/people.yaml`:
+
+  john:
+    id: john
+    first_name: John
+    age: 20
+
+  susan:
+    id: susan
+    first_name: Susan
+    age: 40
+
+You reference this file in the front matter of a page :
+
+  people: 
+    - id: john
+    - id: susan
+      age: 20
+
+And then output the names and ages:
+
+  {% for person in page.people %}
+    {% include get object=person field="first_name" dataFile=site.data.people %}
+    ({% include get object=person field="age" dataFile=site.data.people %})<br />
+  {% endfor %}
+
+Output:
+
+  John (20)
+  Susan (20)
+
+For both, their first name was retrieved from the people.yaml file. The age
+of John was also retrieved there, but the age of Susan was overridden in 
+the front matter.
 {%- endcomment -%}
 
+{%- comment -%}
+  Parameters
+{%- endcomment -%}
 {%- assign dataFile = include.dataFile -%}
 {%- assign object = include.object -%}
 {%- assign field = include.field -%}
 
 {%- comment -%}
-First we check if the object is an array or a string. 
-We can do this using object.first: https://stackoverflow.com/questions/38917552/check-if-variable-is-type-of-string-or-array-in-liquid
-If it is an array, we define a defaultObject, which initially is just an empty
-array. To create such a thing in liquid you need to do strange things, see
-https://blog.rampatra.com/how-to-create-an-array-in-liquid
-Then we check if there exists an object in the data file, and if so we use
-that as a default object. We output the field, either from the object or the default object
+  We use http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/
+  First we check if the object is an array or a string. 
+  We can do this using object.first: https://stackoverflow.com/questions/38917552/check-if-variable-is-type-of-string-or-array-in-liquid
+  If it is an array, we define a defaultObject, which initially is just an empty
+  array. To create such a thing in liquid you need to do strange things, see
+  https://blog.rampatra.com/how-to-create-an-array-in-liquid
+  Then we check if there exists an object in the data file, and if so we use
+  that as a default object. We output the field, either from the object or the default object
+{%- endcomment -%}
+
+{%- comment -%}
+  CASE 1: Object is an array
 {%- endcomment -%}
 {%- if object.first -%}
 
   {%- comment -%}
     If the object is a hash of the form `id: {id: ...}`,
     then object[0] is the key and object[1] is the actual
-    object. We only look the latter (so currently you still 
-    have to specify the id!)
+    object. We only look the latter (so you have 
+    have to specify the id in the object!)
     https://stackoverflow.com/questions/51211556/check-if-variable-type-is-hash-or-array-in-liquid
   {%- endcomment -%}
-  {%- if object.first.first -%}
-  {%- else -%}
+  {%- unless object.first.first -%}
     {%- assign object = object[1] -%}
-  {%- endif -%}
+  {%- endunless -%}
 
+  {%- comment -%}
+    Get the default object: datafile[id], unless that does not exists,
+    then the default is an empty object.
+    (we create that in a hacky way: by splitting an empty string)
+  {%- endcomment -%}
   {%- assign defaultObject = "" | split: "," -%}
   {%- if object contains "id" -%}
     {%- if dataFile contains object["id"] -%}
@@ -36,28 +86,32 @@ that as a default object. We output the field, either from the object or the def
     {%- endif -%}
   {%- endif -%}
 
+  {%- comment -%}
+    Output the value: object[field] or otherwise defaultObject[field] 
+    if the former does not exist
+  {%- endcomment -%}
   {%- if object contains field -%}
-    {{ object[field] }}
+    {{- object[field] -}}
   {%- elsif defaultObject contains field -%}
-    {{ defaultObject[field] }}
+    {{- defaultObject[field] -}}
   {%- endif -%}
 
 {%- comment -%}
-  object is not an array, but a string
+  CASE 2: object is not an array, but a string
 {%- endcomment -%}
 {%- else -%}
   {%- comment -%}
-    If the object exists, try to output 
+    If the object exists in the datafile, try to output 
   {%- endcomment -%}
   {%- if dataFile contains object -%}
     {%- if dataFile[object] contains field -%}
-      {{ dataFile[object][field] }}
+      {{- dataFile[object][field] -}}
     {%- endif -%}
 
   {%- comment -%}
     object does not exist, output raw text only if field = 'fulltext'
   {%- endcomment -%}
   {%- elsif field == "fulltext" -%}
-    {{ object }}
+    {{- object -}}
   {%- endif -%}
 {%- endif -%}
