@@ -1,43 +1,47 @@
 {%- comment -%}
-This file defines a Liquid function that outputs the value of a field
-in an object if it exists, and otherwise tries to retrieve a default value
-from a datafile. To put it differently, it retrieves a default value from
-a datafile, but allows you to override the defaults. 
+  This file defines a Liquid function that outputs the value of a field
+  in an object if it exists, and otherwise tries to retrieve a default value
+  from a datafile. To put it differently, it retrieves a default value from
+  a datafile, but allows you to override the defaults. 
 
-Suppose you have a datafile `data/people.yaml`:
+  Suppose you have a datafile `data/people.yaml`:
 
-  john:
-    id: john
-    first_name: John
-    age: 20
-
-  susan:
-    id: susan
-    first_name: Susan
-    age: 40
-
-You reference this file in the front matter of a page :
-
-  people: 
-    - id: john
-    - id: susan
+    john:
+      id: john
+      first_name: John
       age: 20
 
-And then output the names and ages:
+    susan:
+      id: susan
+      first_name: Susan
+      age: 40
 
-  {% for person in page.people %}
-    {% include get object=person field="first_name" dataFile=site.data.people %}
-    ({% include get object=person field="age" dataFile=site.data.people %})<br />
-  {% endfor %}
+  You reference this file in the front matter of a page :
 
-Output:
+    people: 
+      - id: john
+      - id: susan
+        age: 20
 
-  John (20)
-  Susan (20)
+  And then output the names and ages:
 
-For both, their first name was retrieved from the people.yaml file. The age
-of John was also retrieved there, but the age of Susan was overridden in 
-the front matter.
+    {% for person in page.people %}
+      {% include get object=person field="first_name" dataFile=site.data.people %}
+      ({% include get object=person field="age" dataFile=site.data.people %})<br />
+    {% endfor %}
+
+  Output:
+
+    John (20)
+    Susan (20)
+
+  For both, their first name was retrieved from the people.yaml file. The age
+  of John was also retrieved there, but the age of Susan was overridden in 
+  the front matter.
+
+  License: MIT
+  Author: Bas Cornelissen
+  Date: 29 June 2021
 {%- endcomment -%}
 
 {%- comment -%}
