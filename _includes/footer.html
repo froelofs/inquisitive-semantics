@@ -29,46 +29,14 @@
         </div>
         <a href="{{ '/news.html' | relative_url }}" class="btn btn-outline-secondary btn-sm">All news ]]</a>
       </div>
-      {% comment %}
-      <!-- <section>
-        <h3 class="fs-5"><a href="{{ '/courses.html' | relative_url }}">Courses</a></h3>
-        {% assign newsItems = site.courses | sort: "date" %}
-        {% for item in newsItems %}
-          {% if forloop.index <= 2 %}
-          <p>
-            <time datetime="{{ item.date | date:                                                                                                                                                                                           '%Y-%m-%d' }}" class="fw-bold">
-              {{- item.date | date: "%-d %b '%y" -}}
-            </time>
-            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>,
-            {{item.venue}}, {{item.location}}
-          </p>
-          {% endif %}
-        {% endfor %}
-        <a href="{{ '/courses.html' | relative_url }}" class="btn btn-outline-secondary btn-sm">All courses ]]</a>
-      </section> -->
-
-      <!-- <section class="mt-5">
-        <h3 class="fs-5"><a href="{{ '/seminar.html' | relative_url }}">Seminars</a></h3>
-        {% assign seminarItems = site.data.seminar | sort: "date" %}
-        {% for item in seminarItems %}
-          {% if forloop.index <= 2 %}
-          <p>
-            <time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="fw-bold">
-              {{- item.date | date: "%-d %b '%y" -}}
-            </time>
-            {{ item.presenter }}:
-            {{ item.title }}
-          </p>
-          {% endif %}
-        {% endfor %}
-        <a href="{{ '/seminar.html' | relative_url }}" class="btn btn-outline-secondary btn-sm">All seminars ]]</a>
-      </section> -->
-      {% endcomment %}
     </div>
     <div class="row">
       <div class="col-3 d-none d-md-block"></div>
       <div class="col-md-9 col-12 credits pt-sm-5" style="opacity: 0.5">
-        {{ site.credits | markdownify }}
+        <p>
+          {{ site.credits | markdownify | remove: '<p>' | remove: '</p>' }}
+          <a href="{{ 'credits.html' | relative_url }}">Credits.</a>
+        </p>
       </div>
     </div>
   </div>
