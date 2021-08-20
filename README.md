@@ -13,7 +13,7 @@ in order to maintain the website: markdown, YAML and Jekyll.
 Markdown is a very simple markup language that can be used throughout the website. Cheatsheet:
 
 ```markdown
-**boldface**, _italic_, [link text](https://domain.com)
+**boldface (highlighed on this site)**, _italic_, [link text](https://domain.com)
 
 * Unordered list item 1
 * Unordered list item 2
@@ -27,7 +27,7 @@ Markdown is a very simple markup language that can be used throughout the websit
 
 ## Heading 2
 
-## Heading 3
+### Heading 3
 
 A blank line indicates a paragraph break.
 
@@ -75,6 +75,11 @@ my_object:
   key6: >
     This is a particularly long passage of text, spanning multiple
     lines. In Jekyll this will typically contain **markdown**.
+
+
+    A new paragraph is separated by two newlines.\
+    The backslash at end of the previous line 
+    results in a newline.
   
   # Some other data types
   my_date: 2020-02-01
