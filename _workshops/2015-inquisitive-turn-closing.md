@@ -81,7 +81,7 @@ schedule: >
 
   <p><i>Questions constitute a central topic in the fields of pragmatics and semantics -- as do closely related phenomena such as intonational meaning, information structure and exhaustivity implicatures. What do these phenomena teach us about pragmatics, for instance about its relation to semantics? And, conversely, what does a critical evaluation of the foundations of pragmatics teach us about these phenomena?</i></p>
 
-  <p><a href="https://sites.google.com/site/inquisitivesemantics/documents/QiP-program.pdf?attredirects=0&d=1">PDF programme with abstracts</a></p>
+  <p><a href="https://projects.illc.uva.nl/inquisitivesemantics/assets/files/QiP-program.pdf">PDF programme with abstracts</a></p>
 
   <table class="table" style="min-width: 500px;">
   <thead>
@@ -159,7 +159,7 @@ schedule: >
 
   <p><strong>Tuesday 15th of December, 2015</strong></p>
 
-  <p><a href="https://sites.google.com/site/inquisitivesemantics/documents/QiSL-program.pdf?attredirects=0">PDF programme with abstracts</a></p>
+  <p><a href="https://projects.illc.uva.nl/inquisitivesemantics/assets/files/QiSL-program.pdf">PDF programme with abstracts</a></p>
 
   <table class="table" style="min-width: 500px;">
   <thead>

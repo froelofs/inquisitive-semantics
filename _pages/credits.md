@@ -8,7 +8,7 @@ title: Credits
 ## People
 
 * Editor: [Floris Roelofsen](https://florisroelofsen.com)
-* Development: [Bas Cornelissen](https://bascornelissen.nl) and Marianne de Heer Kloots
+* Development: [Bas Cornelissen](https://bascornelissen.nl) and [Marianne de Heer Kloots](https://mdhk.net/)
 * Design: [Bas Cornelissen](https://bascornelissen.nl)
 
 ## Software and services

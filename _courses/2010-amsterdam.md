@@ -51,7 +51,7 @@ schedule: >
     <tr>
       <td> Week 4 (29/9) </td>
       <td> Inquisitive logic  <br>  Philosophical foundations of inquisitive pragmatics </td>
-      <td>   <a href="http://www.springerlink.com/content/0l26v16t28660515/">CR-10-jpl</a><br><a href="https://sites.google.com/site/inquisitivesemantics/system/errors/NodeNotFound?suri=wuid:gx:7c39b41932fe1863">Gamut-91</a><br> <a href="{{ site.baseurl }}/assets/files/papers/GroenendijkRoelofsen2009_ISP-Stanford.pdf">GR-09</a> </td>
+      <td>   <a href="http://www.springerlink.com/content/0l26v16t28660515/">CR-10-jpl</a><br><a href="https://projects.illc.uva.nl/inquisitivesemantics/404.html">Gamut-91</a><br> <a href="{{ site.baseurl }}/assets/files/papers/GroenendijkRoelofsen2009_ISP-Stanford.pdf">GR-09</a> </td>
       <td> <a href="{{ site.baseurl }}/assets/files/theses/Ciardelli2009_InquisitiveSemanticsAndIntermediateLogics.pdf">Ciardelli-09a</a>      </td>
     </tr>
     <tr>
@@ -146,7 +146,7 @@ We will also extend the system we have presented so far to the first-order setti
 **Programme and reading material for 29/9** _(posted: 23/09/10)_\
 During the first part of the class we will finish our exploration of _inquisitive logic_, and the connection with intuitionistic and classical logic.\
  \
-Then we will turn to the _philosophical foundations of inquisitive pragmatics_. We would like this part of the class to be a _discussion_, rather than just a presentation. So please carefully read the [pragmatics chapter](https://sites.google.com/site/inquisitivesemantics/system/errors/NodeNotFound?suri=wuid:gx:7c39b41932fe1863) from Gamut and section 4 of the [inquisitive semantics and pragmatics]({{ site.baseurl }}/assets/files/papers/GroenendijkRoelofsen2009_ISP-Stanford.pdf) paper, and share your questions and/or ideas with us in class.\
+Then we will turn to the _philosophical foundations of inquisitive pragmatics_. We would like this part of the class to be a _discussion_, rather than just a presentation. So please carefully read the [pragmatics chapter](https://projects.illc.uva.nl/inquisitivesemantics/404.html) from Gamut and section 4 of the [inquisitive semantics and pragmatics]({{ site.baseurl }}/assets/files/papers/GroenendijkRoelofsen2009_ISP-Stanford.pdf) paper, and share your questions and/or ideas with us in class.\
  \
 Finally, we decided not to explicitly talk about the move from the pair semantics to the generalized semantics in class. Please carefully go through the arguments in section 8 of the inquisitive logic paper, and let us know if you have any questions.
 

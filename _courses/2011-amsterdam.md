@@ -69,7 +69,7 @@ schedule: >
     <tr>
       <td> Week 7 (19/10)</td>
       <td> The logic of interrogation from the perspective of inquisitive semantics </td>
-      <td> <a href="https://sites.google.com/site/inquisitivesemantics/system/errors/NodeNotFound?suri=wuid:gx:4971c97ba7842ddf">Groenendijk-11</a> </td>
+      <td> <a href="https://projects.illc.uva.nl/inquisitivesemantics/404.html">Groenendijk-11</a> </td>
       <td> <a href="{{ site.baseurl }}/assets/files/papers/Groenendijk1999_LogicOfInterrogation.pdf">Groenendijk-99</a> </td>
     </tr>
     <tr class="table-section">

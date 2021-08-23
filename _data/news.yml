@@ -314,7 +314,7 @@
 - date: 2019-06-26
   end_date: 2019-06-27
   text: >
-    The [Third InqBnB workshop](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb3) takes place in Amsterdam, with lots of great speakers.
+    The [Third InqBnB workshop](workshops/2019-inqbnb3.html) takes place in Amsterdam, with lots of great speakers.
 
 - date: 2019-06-17
   text: >
@@ -477,7 +477,7 @@
 - date: 2018-07-16
   end_date: 2018-07-20
   text: >
-    Floris Roelofsen will teach a [course on the Semantics of Questions](https://sites.google.com/site/inquisitivesemantics/courses/creteling-2018) at the Crete Summer School of Linguistics (Creteling 2018).
+    Floris Roelofsen will teach a [course on the Semantics of Questions](courses/2018-creteling.html) at the Crete Summer School of Linguistics (Creteling 2018).
 
 - date: 2018-07-10
   text: >
@@ -597,7 +597,7 @@
 - date: 2017-12-18
   end_date: 2017-12-19
   text: >
-    The second [InqBnB workshop](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb20) takes place in Amsterdam!
+    The second [InqBnB workshop](workshops/2017-inqbnb2.html) takes place in Amsterdam!
 
 - date: 2017-12-15
   text: >
@@ -674,7 +674,7 @@
 # update link below
 - date: 2017-06-30
   text: >
-    We've had a great [workshop on inquisitive semantics and related topics](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb-summer-2017) this week in Broek in Waterland (near Amsterdam).
+    We've had a great [workshop on inquisitive semantics and related topics](workshops/2017-inqbnb1.html) this week in Broek in Waterland (near Amsterdam).
 
 - date: 2017-06-11
   text: >
@@ -939,18 +939,18 @@
 
 - date: 2015-12-15
   text: >
-    Lucas Champollion presents joint work with Ivano Ciardelli and Floris Roelofsen on the compositional semantics of questions in the [Questions in Logic and Language workshop](https://sites.google.com/site/inquisitivesemantics/workshops/inqturn-closing-event-2015) in Amsterdam.
+    Lucas Champollion presents joint work with Ivano Ciardelli and Floris Roelofsen on the compositional semantics of questions in the [Questions in Logic and Language workshop](workshops/2015-inquisitive-turn-closing.html) in Amsterdam.
 
 # update link below
 - date: 2015-12-15
   text: >
-    Nadine Theiler presents joint work with Maria Aloni and Floris Roelofsen on the semantics of embedded questions in the [Questions in Logic and Language workshop](https://sites.google.com/site/inquisitivesemantics/workshops/inqturn-closing-event-2015) in Amsterdam.
+    Nadine Theiler presents joint work with Maria Aloni and Floris Roelofsen on the semantics of embedded questions in the [Questions in Logic and Language workshop](workshops/2015-inquisitive-turn-closing.html) in Amsterdam.
 
 # update link below
 - date: 2015-12-14
   end_date: 2015-12-15
   text: >
-    The Inquisitive Turn project comes to an end, after five very productive years, with [two workshops](https://sites.google.com/site/inquisitivesemantics/workshops/inqturn-closing-event-2015) on questions in semantics, pragmatics, and logic.
+    The Inquisitive Turn project comes to an end, after five very productive years, with [two workshops](workshops/2015-inquisitive-turn-closing.html) on questions in semantics, pragmatics, and logic.
 
 - date: 2015-12-11
   text: >
@@ -997,7 +997,7 @@
 - date: 2015-08-05
   end_date: 2015-08-10
   text: >
-    Ivano Ciardelli, Jeroen Groenendijk, and Floris Roelofsen teach a [course on inquisitive semantics](https://sites.google.com/site/inquisitivesemantics/courses/esslli-2015) at ESSLLI 2015 in Barcelona.
+    Ivano Ciardelli, Jeroen Groenendijk, and Floris Roelofsen teach a [course on inquisitive semantics](courses/2015-esslli.html) at ESSLLI 2015 in Barcelona.
 
 # dead link below
 - date: 2015-07-29
@@ -1020,7 +1020,7 @@
 # update link below
 - date: 2015-06-30
   text: >
-    There will be a [course on inquisitive semantics](https://sites.google.com/site/inquisitivesemantics/courses/esslli-2015) at ESSLLI 2015 in Barcelona.
+    There will be a [course on inquisitive semantics](courses/2015-esslli.html) at ESSLLI 2015 in Barcelona.
 
 - date: 2015-06-29
   text: >
@@ -1131,7 +1131,7 @@
 # update link below
 - date: 2014-10-28
   text: >
-    A course on [inquisitive semantics and quantification](https://sites.google.com/site/inquisitivesemantics/courses/amsterdam-2014) has started at the University of Amsterdam.
+    A course on [inquisitive semantics and quantification](courses/2014-amsterdam.html) has started at the University of Amsterdam.
 
 - date: 2014-10-27
   text: >
@@ -1381,7 +1381,7 @@
 # update link below
 - date: 2013-10-28
   text: >
-    Today is the first class of a new edition of the course [Logic and Conversation](https://sites.google.com/site/inquisitivesemantics/courses/amsterdam-2013) at the University of Amsterdam, featuring, besides other topics in semantics and pragmatics, a series of introductory lectures on inquisitive semantics.
+    Today is the first class of a new edition of the course [Logic and Conversation](courses/2013-amsterdam.html) at the University of Amsterdam, featuring, besides other topics in semantics and pragmatics, a series of introductory lectures on inquisitive semantics.
 
 - date: 2013-10-28
   text: >
@@ -1435,7 +1435,7 @@
 # update link below
 - date: 2013-09-19
   text: >
-    December 16-18 there will be a Workshop on [Questions in Discourse](https://sites.google.com/site/inquisitivesemantics/workshops/questions-in-discourse-2013) in Amsterdam, just before the Amsterdam Colloquium.
+    December 16-18 there will be a Workshop on [Questions in Discourse](workshops/2013-QID-amsterdam.html) in Amsterdam, just before the Amsterdam Colloquium.
 
 - date: 2013-09-17
   text: >
@@ -1463,7 +1463,7 @@
 - date: 2013-08-05
   end_date: 2013-08-10
   text: >
-    Donka Farkas and Floris Roelofsen give a [course](https://sites.google.com/site/inquisitivesemantics/courses/esslli-2013) at [ESSLLI](http://esslli2013.de/) in Düsseldorf.
+    Donka Farkas and Floris Roelofsen give a [course](courses/2013-esslli.html) at [ESSLLI](http://esslli2013.de/) in Düsseldorf.
 
 - date: 2013-07-26
   text: >
@@ -1498,7 +1498,7 @@
 # update link + dead link below
 - date: 2013-04-25
   text: >
-    Donka Farkas and Floris Roelofsen will teach a course on [Questions, Assertions, and Hybrids in an Inquisitive Discourse Model](https://sites.google.com/site/inquisitivesemantics/courses/esslli-2013) at [ESSLLI](http://esslli2013.de/) this summer in Duesseldorf. The course website is now online.
+    Donka Farkas and Floris Roelofsen will teach a course on [Questions, Assertions, and Hybrids in an Inquisitive Discourse Model](courses/2013-esslli.html) at [ESSLLI](http://esslli2013.de/) this summer in Duesseldorf. The course website is now online.
 
 - date: 2013-04-25
   text: >
@@ -1616,7 +1616,7 @@
 # update link below
 - date: 2012-10-29
   text: >
-    A new course on [Logic and Conversation](https://sites.google.com/site/inquisitivesemantics/courses/amsterdam-2012) by Jeroen Groenendijk and Floris Roelofsen started today in Amsterdam.
+    A new course on [Logic and Conversation](courses/2012-amsterdam.html) by Jeroen Groenendijk and Floris Roelofsen started today in Amsterdam.
 
 - date: 2012-10-10
   text: >
@@ -1645,7 +1645,7 @@
 # update link below
 - date: 2012-07-05
   text: >
-    Papers by Martin Aher, Edgar Onea, Markus Steinbach, and Wataru Uegaki, presented at the [inquisitiveness workshop](https://sites.google.com/site/inquisitivesemantics/workshops/inquisitiveness-2011) in December 2011, are now out in print, in a Springer LNCS volume on [Logic, Language, and Meaning](https://link.springer.com/book/10.1007/978-3-642-31482-7).
+    Papers by Martin Aher, Edgar Onea, Markus Steinbach, and Wataru Uegaki, presented at the [inquisitiveness workshop](workshops/2011-inquisitiveness.html) in December 2011, are now out in print, in a Springer LNCS volume on [Logic, Language, and Meaning](https://link.springer.com/book/10.1007/978-3-642-31482-7).
 
 # dead link below
 - date: 2012-06-24
@@ -1660,7 +1660,7 @@
 - date: 2012-06-17
   end_date: 2012-06-22
   text: >
-    Jeroen Groenendijk and Floris Roelofsen teach a course on inquisitive semantics at [NASSLLI](http://nasslli2012.com/) this week. The lecture notes and the course schedule are available on the [course website](https://sites.google.com/site/inquisitivesemantics/courses/nasslli-2012).
+    Jeroen Groenendijk and Floris Roelofsen teach a course on inquisitive semantics at [NASSLLI](http://nasslli2012.com/) this week. The lecture notes and the course schedule are available on the [course website](courses/2012-nassli.html).
 
 # dead link below
 - date: 2012-06-08
@@ -1694,12 +1694,12 @@
 # update link below
 - date: 2012-03-09
   text: >
-    Jeroen Groenendijk presented joint work with Ivano Ciardelli and Floris Roelofsen on an [inquisitive semantics with witnesses](assets/files/slides/CiardelliGroenendijkRoelofsen2012_QID.pdf) at the [Questions in Discourse workshop](https://sites.google.com/site/inquisitivesemantics/workshops/questions-in-discourse-2012) workshop in Frankfurt.
+    Jeroen Groenendijk presented joint work with Ivano Ciardelli and Floris Roelofsen on an [inquisitive semantics with witnesses](assets/files/slides/CiardelliGroenendijkRoelofsen2012_QID.pdf) at the [Questions in Discourse workshop](workshops/2012-QID-frankfurt.html) workshop in Frankfurt.
 
 # update link below
 - date: 2012-03-09
   text: >
-    Martin Aher presented new work on [free choice in radical inquisitive semantics](assets/files/slides/Aher2012_QID.pdf) at the [Questions in Discourse workshop](https://sites.google.com/site/inquisitivesemantics/workshops/questions-in-discourse-2012) in Frankfurt.
+    Martin Aher presented new work on [free choice in radical inquisitive semantics](assets/files/slides/Aher2012_QID.pdf) at the [Questions in Discourse workshop](workshops/2012-QID-frankfurt.html) in Frankfurt.
 
 - date: 2012-02-21
   text: >
@@ -1729,7 +1729,7 @@
 # update link below
 - date: 2011-12-19
   text: >
-    Today the [workshop on inquisitiveness](https://sites.google.com/site/inquisitivesemantics/workshops/inquisitiveness-2011) at the [Amsterdam Colloquium](http://www.illc.uva.nl/AC/AC2011/) took place, with talks by Manfred Krifka, Robin Cooper, Jonathan Ginzburg, Martin Aher, Markus Steinbach, Edgar Onea, and Wataru Uegaki.
+    Today the [workshop on inquisitiveness](workshops/2011-inquisitiveness.html) at the [Amsterdam Colloquium](http://www.illc.uva.nl/AC/AC2011/) took place, with talks by Manfred Krifka, Robin Cooper, Jonathan Ginzburg, Martin Aher, Markus Steinbach, Edgar Onea, and Wataru Uegaki.
 
 - date: 2011-12-16
   text: >
@@ -1766,12 +1766,12 @@
 # update link below
 - date: 2011-10-25
   text: >
-    The accepted papers for the [inquisitiveness workshop](https://sites.google.com/site/inquisitivesemantics/workshops/inquisitiveness-2011) at the Amsterdam Colloquium this coming December have been posted.
+    The accepted papers for the [inquisitiveness workshop](workshops/2011-inquisitiveness.html) at the Amsterdam Colloquium this coming December have been posted.
 
 # update link below
 - date: 2011-10-20
   text: >
-    Floris Roelofsen taught a [mini-seminar](https://sites.google.com/site/inquisitivesemantics/courses/beijing-2011) on inquisitive semantics and dynamic epistemic logic at Peking University.
+    Floris Roelofsen taught a [mini-seminar](courses/2011-beijing.html) on inquisitive semantics and dynamic epistemic logic at Peking University.
 
 
 - date: 2011-10-12
@@ -1789,7 +1789,7 @@
 # update link below
 - date: 2011-09-20
   text: >
-    The list of accepted papers for the workshop [Questions in Discourse](https://sites.google.com/site/inquisitivesemantics/workshops/questions-in-discourse-2012) has been posted.
+    The list of accepted papers for the workshop [Questions in Discourse](workshops/2012-QID-frankfurt.html) has been posted.
 
 - date: 2011-09-06
   text: >
@@ -1810,7 +1810,7 @@
 # update link below
 - date: 2011-06-24
   text: >
-    There are two [upcoming workshops](https://sites.google.com/site/inquisitivesemantics/workshops) related to inquisitive semantics. The deadlines for submission are August 15 and September 1, respectively.
+    There are two [upcoming workshops](workshops) related to inquisitive semantics. The deadlines for submission are August 15 and September 1, respectively.
 
 - date: 2011-06-23
   text: >
@@ -1824,7 +1824,7 @@
 # update link below
 - date: 2011-04-14
   text: >
-    Floris Roelofsen gave a three-day [seminar](https://sites.google.com/site/inquisitivesemantics/courses/goettingen-2011) on inquisitive semantics at the Georg-August University in Goettingen, based on joined work with Adrian Brasoveanu, Ivano Ciardelli, Donka Farkas, Jeroen Groenendijk, and Kathryn Pruitt.
+    Floris Roelofsen gave a three-day [seminar](courses/2011-goettingen.html) on inquisitive semantics at the Georg-August University in Goettingen, based on joined work with Adrian Brasoveanu, Ivano Ciardelli, Donka Farkas, Jeroen Groenendijk, and Kathryn Pruitt.
 
 # dead link below
 - date: 2011-04-14
@@ -1838,7 +1838,7 @@
 # update link below
 - date: 2011-03-06
   text: >
-    There will be a three-day mini-course on inquisitive semantics in Goettingen, April 11-13. See the [course website](https://sites.google.com/site/inquisitivesemantics/courses/goettingen-2011) for more information.
+    There will be a three-day mini-course on inquisitive semantics in Goettingen, April 11-13. See the [course website](courses/2011-goettingen.html) for more information.
 
 - date: 2011-02-02
   text: >
@@ -1931,7 +1931,7 @@
     
     The deadline for application is May 22, 2010. \
     
-    More information can be found [here](https://sites.google.com/site/inquisitivesemantics/system/errors/NodeNotFound?suri=wuid:gx:62c12408b7cfdf0b). \
+    More information can be found [here](404.html). \
 
     Please spread the news to potential applicants!
 
@@ -1958,7 +1958,7 @@
   text: >
     FUNDING FOR TWO PHD POSITIONS! \
 
-    Jeroen Groenendijk and Floris Roelofsen received a grant from NWO for more research on inquisitive semantics. The grant includes funding for two PhD positions. For more information click [here](https://sites.google.com/site/inquisitivesemantics/system/errors/NodeNotFound?suri=wuid:gx:62c12408b7cfdf0b). \
+    Jeroen Groenendijk and Floris Roelofsen received a grant from NWO for more research on inquisitive semantics. The grant includes funding for two PhD positions. For more information click [here](404.html). \
 
     Please spread the news to potential applicants!
 

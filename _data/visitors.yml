@@ -48,12 +48,6 @@
   start: 2020-01-06
   end: 2020-01-11
 
-# TODO 
-# - visitor: >
-#     various guests as part of the [third InqBnB](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb3) workshop
-#   start: 2018-06-26
-#   end: 2018-06-27
-
 - id: siatridou
   affiliation: MIT
   first_name: Sabine
@@ -108,12 +102,12 @@
   start: 2018-06-11
   end: 2018-06-14
 
-# TODO
-# - id: mzimmermann
-#   affiliation: Potsdam
-#   first_name: Malte
-#   last_name: Zimmermann
-#   start: 2018-06-15
+- id: mzimmermann
+  affiliation: Potsdam
+  first_name: Malte
+  last_name: Zimmermann
+  start: 2018-06-15
+  end: 2018-06-15
 
 - id: lcoppock
   affiliation: Boston University
@@ -178,11 +172,16 @@
 # as they cannot be fitted in the new data format
 
 # - visitor: >
-#     various guests as part of the [first InqBnB](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb-summer-2017) workshop
+#     various guests as part of the [third InqBnB](workshops/2019-inqbnb3.html) workshop
+#   start: 2018-06-26
+#   end: 2018-06-27
+
+# - visitor: >
+#     various guests as part of the [first InqBnB](workshops/2017-inqbnb2.html) workshop
 #   start: 2017-06-26
 #   end: 2017-06-30
 
 # - visitor: >
-#     various guests as part of the [second InqBnB](https://sites.google.com/site/inquisitivesemantics/workshops/inqbnb2) workshop
+#     various guests as part of the [second InqBnB](workshops/2017-inqbnb1.html) workshop
 #   start: 2017-12-18
 #   end: 2017-12-19

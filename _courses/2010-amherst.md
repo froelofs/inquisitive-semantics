@@ -34,13 +34,13 @@ schedule: >
     </tr>
     <tr>
       <td>  Week 2 (2/1) </td>
-      <td>  Inquisitive semantics and pragmatics (<a href="https://sites.google.com/site/inquisitivesemantics/system/errors/NodeNotFound?suri=wuid:gx:1a7d78c46c9d3688">slides</a>) </td>
+      <td>  Inquisitive semantics and pragmatics (<a href="https://projects.illc.uva.nl/inquisitivesemantics/404.html">slides</a>) </td>
       <td> <a href="{{ site.baseurl }}/assets/files/papers/GroenendijkRoelofsen2009_ISP-Stanford.pdf">GR-09b</a><br> sections 4-6 </td>
       <td></td>
     </tr>
     <tr>
       <td>  Week 3   (2/8) </td>
-      <td>  Inquisitive implicatures (<a href="https://sites.google.com/site/inquisitivesemantics/system/errors/NodeNotFound?suri=wuid:gx:1a7d78c46c9d3688">slides</a>)  <br> Focus, congruence, and exhaustification (<a href="{{ site.baseurl }}/assets/files/slides/Roelofsen2010_Amherst-3-focus.pdf">slides</a>)  <br> Computing compliance (<a href="{{ site.baseurl }}/assets/files/slides/Roelofsen2010_Amherst-3-compliance.pdf">slides</a>) (<a href="http://www.illc.uva.nl/inquisitive-semantics/computing-compliance/">website</a>)  </td>
+      <td>  Inquisitive implicatures (<a href="https://projects.illc.uva.nl/inquisitivesemantics/404.html">slides</a>)  <br> Focus, congruence, and exhaustification (<a href="{{ site.baseurl }}/assets/files/slides/Roelofsen2010_Amherst-3-focus.pdf">slides</a>)  <br> Computing compliance (<a href="{{ site.baseurl }}/assets/files/slides/Roelofsen2010_Amherst-3-compliance.pdf">slides</a>) (<a href="http://www.illc.uva.nl/inquisitive-semantics/computing-compliance/">website</a>)  </td>
       <td> <a href="{{ site.baseurl }}/assets/files/papers/GroenendijkRoelofsen2009_ISP-Stanford.pdf">GR-09b</a><br> sections 7     </td>
       <td>    <a href="http://www.illc.uva.nl/Publications/Dissertations/DS-2009-07.text.pdf">Balogh-09</a><br> chapters 2-4 <br> <a href="{{ site.baseurl }}/assets/files/papers/CiardelliCornelisseGroenendijkRoelofsen2009_LORI.pdf">CCGR-09-lori</a><br> <a href="{{ site.baseurl }}/assets/files/papers/CiardelliRoelofsen2009_JPL.pdf">CR-09-jpl</a>   </td>
     </tr>
