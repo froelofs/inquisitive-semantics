@@ -33,15 +33,13 @@ people:
         affiliation: Santa Cruz
       - id: mhoeks
         affiliation: Santa Cruz
-      - first_name: Sabine
-        last_name: Iatridou
+      - id: siatridou
         affiliation: MIT
       - id: hkalpak
         affiliation: Stockholm
       - id: jpesetsky
         affiliation: Amherst
-      - first_name: Maribel
-        last_name: Romero
+      - id: mromero
         affiliation: Konstanz
       - id: wuegaki
         affiliation: Leiden

@@ -196,10 +196,10 @@ siatridou:
 hkalpak:
   id: hkalpak
   first_name: Hana
-  last_name: Möller Kalpak
+  last_name: Kalpak
   affiliation: Stockholm University
   website: https://www.su.se/english/profiles/haka9069-1.276311
-  # image: assets/images/people/anonymous-f.jpeg
+  image: assets/images/people/kalpak-hana.jpg
 
 lnorthrup:
   id: lnorthrup
