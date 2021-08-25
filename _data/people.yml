@@ -29,7 +29,7 @@ iciardelli:
   id: iciardelli
   first_name: Ivano
   last_name: Ciardelli
-  affiliation: MCMP, LMU Münich
+  affiliation: LMU Munich
   website: http://www.ivanociardelli.altervista.org/
   image: assets/images/people/ciardelli-ivano.jpg
 
@@ -37,7 +37,7 @@ jgroenendijk:
   id: jgroenendijk
   first_name: Jeroen
   last_name: Groenendijk
-  affiliation: Emeritus, ILLC, University of Amsterdam
+  affiliation: Emeritus, University of Amsterdam
   website: https://www.uva.nl/en/profile/g/r/j.a.g.groenendijk/j.a.g.groenendijk.html
   image: assets/images/people/groenendijk-jeroen.jpeg
 
@@ -45,7 +45,7 @@ froelofsen:
   id: froelofsen
   first_name: Floris
   last_name: Roelofsen
-  affiliation: ILLC, University of Amsterdam
+  affiliation: University of Amsterdam
   website: https://www.florisroelofsen.com/
   image: assets/images/people/roelofsen-floris.jpg
 
@@ -133,7 +133,7 @@ dfarkas:
   id: dfarkas
   first_name: Donka
   last_name: Farkas
-  affiliation: University of California, Santa Cruz
+  affiliation: UC Santa Cruz
   website: http://people.ucsc.edu/~farkas/
   image: assets/images/people/farkas-donka.jpg
 
@@ -141,7 +141,7 @@ ggrilletti:
   id: ggrilletti
   first_name: Gianluca
   last_name: Grilletti
-  affiliation: MCMP, LMU Münich
+  affiliation: LMU Munich
   website: http://ggrilletti.scienceontheweb.net/
   image: assets/images/people/grilletti-gianluca.jpg
 
@@ -167,7 +167,7 @@ yhara:
   last_name: Hara
   affiliation: Hokkaido University
   website: https://yuriehara.github.io/website/
-  # image: assets/images/people/anonymous-f.jpeg
+  image: assets/images/people/hara-yurie.jpg
 
 khengeveld:
   id: khengeveld
@@ -181,7 +181,7 @@ mhoeks:
   id: mhoeks
   first_name: Morwenna
   last_name: Hoeks
-  affiliation: University of California Santa Cruz
+  affiliation: UC Santa Cruz
   website: https://people.ucsc.edu/~mhoeks/
   image: assets/images/people/hoeks-morwenna.jpeg
 
@@ -189,7 +189,7 @@ wholliday:
   id: wholliday
   first_name: Wesley
   last_name: Holliday
-  affiliation: University of California Berkeley
+  affiliation: UC Berkeley
   website: https://philosophy.berkeley.edu/holliday
   image: assets/images/people/holliday-wesley.jpg
 
@@ -197,7 +197,7 @@ smascarenhas:
   id: smascarenhas
   first_name: Salvador
   last_name: Mascarenhas
-  affiliation: Ecole Normale Superieure, Paris
+  affiliation: ENS Paris
   website: http://web-risc.ens.fr/~smascarenhas/
   image: assets/images/people/mascarenhas-salvador.jpg
 
@@ -221,7 +221,7 @@ lnorthrup:
   id: lnorthrup
   first_name: Lauren
   last_name: Northrup
-  affiliation:
+  affiliation: Instagram
   website: https://lauren.northrup.me/
   image: assets/images/people/northrup-lauren.jpeg
 
@@ -229,7 +229,7 @@ aommundsen:
   id: aommundsen
   first_name: Adrian
   last_name: Ommundsen
-  affiliation: MCMP, LMU Münich
+  affiliation: LMU Munich
 
 eonea:
   id: eonea
@@ -283,7 +283,7 @@ troberts:
   id: troberts
   first_name: Thom
   last_name: Roberts
-  affiliation: University of California Santa Cruz
+  affiliation: University of Amsterdam
   website: https://people.ucsc.edu/~tdrobert/
   image: assets/images/people/roberts-tom.jpg
 
@@ -291,7 +291,7 @@ cqing:
   id: cqing
   first_name: Ciyang
   last_name: Qing
-  affiliation: ILLC, University of Amsterdam
+  affiliation: University of Edinburgh
   website: https://sites.google.com/site/qciyang
   image: assets/images/people/qing-ciyang.jpg
 
@@ -347,7 +347,7 @@ tvangessel:
   id: tvangessel
   first_name: Thom
   last_name: van Gessel
-  affiliation: ILLC, University of Amsterdam
+  affiliation: University of Amsterdam
   website: https://thomvangessel.nl/
   image: assets/images/people/vangessel-thom.jpg
 
