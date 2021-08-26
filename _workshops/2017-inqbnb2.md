@@ -33,8 +33,7 @@ people:
       - first_name: Sven
         last_name: Lauer
         affiliation: Konstanz
-      - first_name: Maribel
-        last_name: Romero
+      - id: mromero
         affiliation: Konstanz
       - id: wuegaki
         affiliation: Leiden

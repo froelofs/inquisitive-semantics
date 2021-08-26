@@ -22,8 +22,7 @@ people:
       - id: froelofsen
   - label: Invited speakers
     list:
-      - first_name: Justin
-        last_name: Bledin
+      - id: jbledin
         affiliation: Johns Hopkins
       - first_name: Cleo
         last_name: Condoravdi
@@ -47,19 +46,16 @@ people:
       - first_name: Paolo
         last_name: Santorio
         affiliation: Leeds
-      - first_name: S.
-        last_name: Steinert-Threlkeld
+      - id: ssteinert
         affiliation: Amsterdam
       - first_name: Yasutada
         last_name: Sudo
         affiliation: London
-      - first_name: Malte
-        last_name: Willer
+      - id: mwiller
         affiliation: Chicago
   - label: Local speakers and commentators
     list:
-      - first_name: Maria
-        last_name: Aloni
+      - maloni
       - iciardelli
       - acremers
       - jdotlacil

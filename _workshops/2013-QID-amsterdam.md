@@ -26,9 +26,11 @@ people:
   - label: Organization
     list:
       - id: eonea
+        affiliation: University of Göttingen
       - id: froelofsen
-      - first_name: Malte
-        last_name: Zimmermann
+        affiliation: University of Amsterdam
+      - id: mzimmermann
+        affiliation: Potsdam University
   - label: Speakers
     list: 
       - first_name: Mandy

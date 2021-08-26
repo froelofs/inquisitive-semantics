@@ -65,6 +65,14 @@ maher:
   website: http://www.mindthemeaning.com/dr-martin-aher-eng/
   image: assets/images/people/aher-martin.jpg
 
+maloni:
+  id: maloni
+  first_name: Maria
+  last_name: Aloni
+  affiliation: University of Amsterdam
+  website: https://www.marialoni.org/
+  image: assets/images/people/aloni-maria.jpg
+
 sanderbois:
   id: sanderbois
   first_name: Scott
@@ -88,6 +96,14 @@ nbeshanishvili:
   affiliation: University of Amsterdam
   website: https://staff.fnwi.uva.nl/n.bezhanishvili/
   image: assets/images/people/beshanishvili-nick.jpeg
+
+jbledin:
+  id: jbledin
+  first_name: Justin
+  last_name: Bledin
+  affiliation: Johns Hopkins University
+  website: https://www.jbledin.com/
+  image: assets/images/people/bledin-justin.jpg
 
 lchampollion:
   id: lchampollion
@@ -327,6 +343,14 @@ aszabolcsi:
   website: https://annaszabolcsi.com/
   image: assets/images/people/szabolcsi-anna.jpg
 
+ssteinert:
+  id: ssteinert
+  first_name: Shane
+  last_name: Steinert-Threlkeld
+  affiliation: University of Washington
+  website: https://www.shane.st/
+  image: assets/images/people/steinert-shane.jpg
+
 wstafford:
   id: wstafford
   first_name: Will
@@ -367,6 +391,14 @@ mwestera:
   website: http://mwestera.nl/
   image: assets/images/people/westera-matthijs.JPG
 
+mwiller:
+  id: mwiller
+  first_name: Malte
+  last_name: Willer
+  affiliation: University of Chicago
+  website: https://www.maltewiller.net/
+  image: assets/images/people/willer-malte.jpg
+
 awisniewski:
   id: awisniewski
   first_name: Andrzej
@@ -382,6 +414,14 @@ fyang:
   affiliation: University of Helsinki
   website: https://sites.google.com/site/fanyanghp/
   image: assets/images/people/yang-fan.JPG
+
+mzimmermann:
+  id: mzimmermann
+  first_name: Malte
+  last_name: Zimmermann
+  affiliation: Potsdam University
+  website: https://www.ling.uni-potsdam.de/~zimmermann/
+  image: assets/images/people/zimmermann-malte.jpg
 
 zzhao:
   id: zzhao
