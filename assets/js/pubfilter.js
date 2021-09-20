@@ -119,20 +119,25 @@ PubFilter.prototype.cleanKeywords = function(keywords) {
  * @returns Array of keywords
  */
 PubFilter.prototype.collectKeywords = function() {
+  // Array of keyword groups: arrays of keywords
+  var keywordGroups = []
+
   // add keywords in the search field
-  var keywords = [this.search.val()];
+  var query = this.search.val()
+  if(query !== '') {
+    keywordGroups.push(this.cleanKeywords([query]))
+  }
 
   // add keywords from the selection elements
   this.selectors.each(function(index, selector) {   
     value = $(selector).val();
     if(value === null) return;
-    parts = value.split(/\s*\/\s*/)
-    parts.forEach(function(part) {
-      keywords.push(part);
-    });
-  });
+    var parts = value.split(/\s*\/\s*/);
+    keywords = this.cleanKeywords(parts);
+    keywordGroups.push(keywords);
+  }.bind(this));
 
-  return this.cleanKeywords(keywords);
+  return keywordGroups;
 }
 
 /**
@@ -144,17 +149,36 @@ PubFilter.prototype.collectKeywords = function() {
  * @param {Array} keywords An array of keywords
  * @returns An array of publication elements matching the keywords
  */
-PubFilter.prototype.filterPublications = function(keywords) {
+PubFilter.prototype.filterPublications = function(keywordGroups) {
   // No keywords: all publications match
-  if(keywords.length === 0) return this.publications;
+  if(
+    (keywordGroups.length === 0)
+    || ((keywordGroups.length === 1) && (keywordGroups[0].length === 0))
+  ){
+    return this.publications;
+  } 
   
   // Otherwise filter the publications
   var matches = this.publications.filter(function(index, pub) {
     var text = $(pub).text().toLowerCase();
-    for(var i=0; i <= keywords.length; i++) {
-      if(text.includes(keywords[i])) return true;
-    }
-    return false;
+    var isMatch = true;
+    for(var i=0; i < keywordGroups.length; i++) {
+      var keywords = keywordGroups[i];
+
+      // Disjunction: match any of the keywords in this group
+      var matchesGroup = false;
+      for(var j=0; j <= keywords.length; j++) {
+        if(text.includes(keywords[j])) {
+          var matchesGroup = true;
+        }
+      }
+
+      // Conjunction
+      isMatch = isMatch && matchesGroup
+      if(isMatch == false) return false;
+    } 
+   
+    return true;
   });
 
   return matches;
@@ -164,9 +188,9 @@ PubFilter.prototype.filterPublications = function(keywords) {
  * Update the publications shown based on selected options in the form
  */
 PubFilter.prototype.update = function() {
-  var keywords = this.collectKeywords();
-  var matches = this.filterPublications(keywords);
-  console.log('Keywords:', keywords);
+  var keywordGroups = this.collectKeywords();
+  var matches = this.filterPublications(keywordGroups);
+  console.log('Keyword groups:', keywordGroups);
 
   // First hide all publications
   this.publications.each(function(index, pub) { 
@@ -207,8 +231,8 @@ PubFilter.prototype.showCounts = function() {
   this.selectors.each(function(index, selector) {
     var options = $(selector).find('option');
     options.each(function(index, option) {
-      var keywords = this.cleanKeywords(option.value.split(/\s*\/\s*/));
-      var matches = this.filterPublications(keywords);
+      var keywordGroups = [this.cleanKeywords(option.value.split(/\s*\/\s*/))];
+      var matches = this.filterPublications(keywordGroups);
       var count = matches.length;
       if (option.value != "") {
         option.innerHTML = option.innerHTML + ' (' + count + ')';
