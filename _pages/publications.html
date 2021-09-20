@@ -25,7 +25,7 @@ description: >
             <select id="{{ groupId }}" class="form-select form-select-sm">
               <option selected disabled value="">{{group.label}}</option>
               {% for option in group.options %}
-                <option value={{ option.value }}>{{ option.label }}</option>
+                <option value="{{ option.value }}">{{ option.label }}</option>
               {% endfor %}
             </select>
           </div>

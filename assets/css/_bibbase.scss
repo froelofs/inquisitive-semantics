@@ -46,13 +46,13 @@
   }
 
   span.note {
-    @extend .d-block, .text-muted, .small, .mt-1;
+    @extend .d-block, .text-muted, .small, .mb-1;
   }
 }
 
 .bibbase_paper_content {
   font-family: $font-family-sans-serif;
-  @extend .d-block, .mt-1;
+  @extend .d-block;
 }
 
 .bibbase.link,
