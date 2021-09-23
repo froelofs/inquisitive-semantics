@@ -13,8 +13,24 @@ in order to maintain the website: markdown, YAML and Jekyll.
 Markdown is a very simple markup language that can be used throughout the website. Cheatsheet:
 
 ```markdown
+Text:
 **boldface (highlighed on this site)**, _italic_, [link text](https://domain.com)
 
+A blank line indicates a paragraph break.
+
+Headings:
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+Images:
+![alt text for the image](url/to/image.jpg)
+Or use html, to define e.g. image size and other style properties:
+<img src="url/to/image.jpg" width=300>
+
+Lists:
 * Unordered list item 1
 * Unordered list item 2
 * ...
@@ -23,15 +39,13 @@ Markdown is a very simple markup language that can be used throughout the websit
 2. Ordered list item 2
 3. ...
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-A blank line indicates a paragraph break.
-
 ```
+You can link to internal pages within the Inquisitive Semantics website using the `relative_url` [Liquid filter](https://jekyllrb.com/docs/liquid/filters/), for example (from [resources.md](https://raw.githubusercontent.com/froelofs/inquisitive-semantics/bec271f4dec171bafb53d5486500ef71f6f795d6/_pages/resources.md?token=ADFIY5UNADABLRJ4H2737ILBKWUG2)):
+```html
+<img src="{{ '/assets/images/resources/diagrams.jpg' | relative_url }}" width=300> 
+```
+This prepends the `baseurl` value as defined in [\_config.yml](https://github.com/froelofs/inquisitive-semantics/blob/main/_config.yml) to the string before the pipe character.
+An alternative option using `{{ site.baseurl }}` is also used throughout the site, but the `relative_url` option is preferred. We used the [Liquid language](#liquid-only-for-development) more generally for development of this website, but it should not be necessary for maintenance.
 
 ### YAML
 
