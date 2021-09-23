@@ -47,6 +47,9 @@ You can link to internal pages within the Inquisitive Semantics website using th
 This prepends the `baseurl` value as defined in [\_config.yml](https://github.com/froelofs/inquisitive-semantics/blob/main/_config.yml) to the string before the pipe character.
 An alternative option using `{{ site.baseurl }}` is also used throughout the site, but the `relative_url` option is preferred. We used the [Liquid language](#liquid-only-for-development) more generally for development of this website, but it should not be necessary for maintenance.
 
+### HTML tables
+Tables (as for example used for course and workshop schedules) can be added using a tool like [HTML Tables generator](https://www.tablesgenerator.com/html_tables); for example by starting from the HTML code of a previously used table (_File > Paste table data..._ on the Tables generator website), and editing as needed. When finished, generate the HTML code (with the _Do not generate CSS_ checkbox checked), and copy-paste into your .html or .md file. To apply formatting: make sure to include `<table class="table">`, and add `class="table-primary"` or `class="table-section"` to the `<tr>` or `<td>` tags for highlighting rows or cells. The header row (marked by `<thead>` and `<th>`) is automatically formatted boldface.
+
 ### YAML
 
 YAML is a very flexible, human readable language for describing structured data
