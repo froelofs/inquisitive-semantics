@@ -295,14 +295,6 @@ vpuncochar:
   website: http://logika.flu.cas.cz/en/vit-puncochar/puncochar
   image: assets/images/people/puncochar-vit.jpg
 
-troberts:
-  id: troberts
-  first_name: Thom
-  last_name: Roberts
-  affiliation: University of Amsterdam
-  website: https://people.ucsc.edu/~tdrobert/
-  image: assets/images/people/roberts-tom.jpg
-
 cqing:
   id: cqing
   first_name: Ciyang
@@ -310,6 +302,22 @@ cqing:
   affiliation: University of Edinburgh
   website: https://sites.google.com/site/qciyang
   image: assets/images/people/qing-ciyang.jpg
+
+vrichard:
+  id: vrichard
+  first_name: Valentin
+  last_name: Richard
+  affiliation: LORIA Nancy
+  website: http://valentin-d-richard.com/
+  image: assets/images/people/richard-valentin.jpg
+
+troberts:
+  id: troberts
+  first_name: Thom
+  last_name: Roberts
+  affiliation: University of Amsterdam
+  website: https://people.ucsc.edu/~tdrobert/
+  image: assets/images/people/roberts-tom.jpg
 
 mromero:
   id: mromero
