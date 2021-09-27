@@ -55,6 +55,10 @@
   @extend .d-block;
 }
 
+br.bibbase_paper_content {
+  display: none !important;
+}
+
 .bibbase.link,
 .bibbase_icon_text {
   @extend .badge, .rounded-pill, .bg-light, .text-dark;
