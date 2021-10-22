@@ -10,6 +10,14 @@
 #
 # ===================================================================
 
+- date: 2021-10-21
+  end_date: 2021-10-23
+  text: >
+    The [kickoff workshop](https://wuegaki.ppls.ed.ac.uk/mecore/mecore-kick-off-workshop/)
+    of the [MECORE project](https://wuegaki.ppls.ed.ac.uk/mecore/) takes place online, including presentations by
+    Sunwoo Jeong, Kajsa Djarv, Maribel Romero, Deniz Ozyildiz, Ciyang Qing, Shane Steinert-Threlkeld, Kristina Liefke,
+    Nadine Theiler, Tom Roberts, Donka Farkas, and Floris Roelofsen, among others.
+
 - date: 2021-10-01
   text: >
     A paper by **Karl Nygren** entitled [Deontic Logic Based on Inquisitive Semantics](https://www.su.se/english/profiles/kany2056-1.312584) has been
@@ -19,7 +27,7 @@
   end_date: 2021-09-10
   text: >
     The [Sinn und Bedeutung](https://idsl1.phil-fak.uni-koeln.de/abteilungen/sprachwissenschaft/sinn-und-bedeutung-26)
-    features presentations by 
+    conference features presentations by 
     **Ciyang Qing** and **Floris Roelofsen**.
 
 - date: 2021-09-01
