@@ -9,10 +9,10 @@ location: Amsterdam
 venue: "[Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)"
 date: 2021-11-01
 people: 
-  - troberts
   - froelofsen
+  - troberts
 description: >
-    Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. The focus of the course will be on **inquisitive semantics**, which enriches the traditional truth-conditional picture in ways that allow for a more comprehensive logical analysis of the meaning of sentences in linguistic interaction. The first part of the course introduces the basic inquisitive semantics framework. The second part discusses some current research in this area, integrating inquisitive semantics with **dynamic semantics**.
+    Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. The focus of the course will be on **inquisitive semantics**, which enriches the traditional truth-conditional picture in ways that allow for a more comprehensive logical analysis of the meaning of sentences in linguistic interaction. The first part of the course introduces the basic inquisitive semantics framework. The second part discusses some current research in this area, concerning in particular the semantics of **inquisitive attitude verbs** (like *wonder*) cross-linguistically and the integration of inquisitive semantics with **dynamic semantics**.
 schedule_intro: >
   Mondays 9.00-11.00, Wednesdays 11.00-13.00, all lectures take place in room **F2.19 in the NIKHEF/ILLC building**
 schedule: >
@@ -36,35 +36,35 @@ schedule: >
       <th scope="row"> 1</th>
       <td> 1/11</td>
       <td> Book chapter 1</td>
-      <td> Motivation and overview (<a href="">slides</a>)</td>
+      <td> Motivation and overview <!-- (<a href="">slides</a>) --></td>
       <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td> 3/11</td>
       <td> Book chapter 2</td>
-      <td> Basic notions (<a href="">slides</a>)</td>
+      <td> Basic notions <!-- (<a href="">slides</a>) --></td>
       <td> Tom</td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>   8/11</td>
       <td> Book chapter 3</td>
-      <td> Operations on propositions (<a href="">slides</a>)</td>
+      <td> Operations on propositions <!-- (<a href="">slides</a>) --></td>
       <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">4</th>
       <td>   10/11</td>
       <td> Book chapter 4</td>
-      <td> First-order inquisitive semantics (<a href="">slides</a>)</td>
+      <td> First-order inquisitive semantics <!-- (<a href="">slides</a>) --></td>
       <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">5</th>
       <td>   15/11</td>
       <td> Book chapter 5-6</td>
-      <td> Question semantics (<a href="">slides</a>)</td>
+      <td> Question semantics <!-- (<a href="">slides</a>) --></td>
       <td> Floris</td>
     </tr>
     <tr>
@@ -72,62 +72,63 @@ schedule: >
       <td> 17/11</td>
       <td> Book chapter 8</td>
       <td> Propositional attitudes: inquisitive epistemic logic 
-      (<a href="">slides</a>)</td>
+      <!-- (<a href="">slides</a>) --></td>
       <td> Tom</td>
     </tr>
     <tr>
       <th scope="row">7</th>
       <td> 22/11</td>
-      <td> ?? </td>
-      <td> Something based on Tom's work</td>
-      <td> Tom</td>
-    </tr>
-    <tr>
-      <th scope="row">8</th>
-      <td>24/11</td>
       <td> Book chapter 9</td>
       <td> Comparison with other frameworks </td>
       <td> Floris</td>
     </tr>
-    <tr>
       <td colspan="5" class="table-section">
-        Ongoing research: dynamic inquisitive semantics
+        Ongoing research: cross-linguistic attitude semantics and dynamic inquisitive semantics
       </td>
+    <tr>
+      <th scope="row">8</th>
+      <td>24/11</td>
+      <td> ... </td>
+      <td> Something based on Tom's work</td>
+      <td> Tom</td>
+    </tr>
+    <tr>
     </tr>
     <tr>
       <th scope="row">9</th>
       <td>29/11</td>
-      <td> <a href="">Dotlacil and Roelofsen 2021</a>, Section 1</td>
-      <td> Motivation and core ideas</td>
-      <td> Floris</td>
+      <td> ... </td>
+      <td> Something based on Tom's work</td>
+      <td> Tom</td>
     </tr>
     <tr>
       <th scope="row">10</th>
       <td>1/12</td>
-      <td> <a href="https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/download/538/437">Dotlacil and Roelofsen 2019</a></td>
-      <td> First-order dynamic inquisitive semantics
-          (<a href="">slides</a>)</td>
+      <td> Dotlacil and Roelofsen 2021, Section 1</td>
+      <td> Motivation and core ideas</td>
       <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">11</th>
       <td>6/12</td>
-      <td> <a href="">??</a></td>
-      <td> Compositionality and plurality (<a href="">slides</a>)</td>
-      <td> Jakub (tbc)</td>
+      <td> <a href="https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/download/538/437">Dotlacil and Roelofsen 2019</a></td>
+      <td> First-order dynamic inquisitive semantics
+          <!-- (<a href="">slides</a>) -->
+          </td>
+      <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">12</th>
       <td> 8/12</td>
-      <td> Dotlacil and Roelofsen 2020</td>
-      <td> Multiple wh-questions, weak and strong readings (<a href="">slides</a>)</td>
-      <td> Floris</td>
+      <td> <a href="https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/30.376">Dotlacil and Roelofsen 2020</a></td>
+      <td> Compositionality and plurality <!-- (<a href="">slides</a>) --></td>
+      <td> Jakub (tbc)</td>
     </tr>
     <tr>
       <th scope="row">13</th>
       <td> 13/12</td>
-      <td> <a href="">...</a></td>
-      <td> ... </td>
+      <td> Dotlacil and Roelofsen 2021</td>
+      <td> Multiple wh-questions, weak and strong readings <!-- (<a href="">slides</a>) --></td>
       <td> Floris</td>
     </tr>
     <tr>
