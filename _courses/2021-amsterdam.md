@@ -12,7 +12,7 @@ people:
   - froelofsen
   - troberts
 description: >
-    Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. The focus of the course will be on **inquisitive semantics**, which enriches the traditional truth-conditional picture in ways that allow for a more comprehensive logical analysis of the meaning of sentences in linguistic interaction. The first part of the course introduces the basic inquisitive semantics framework. The second part discusses some current research in this area, concerning in particular the semantics of **inquisitive attitude verbs** (like *wonder*) cross-linguistically and the integration of inquisitive semantics with **dynamic semantics**.
+    Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. The focus of the course will be on **inquisitive semantics**, which enriches the traditional truth-conditional picture in ways that allow for a more comprehensive logical analysis of the meaning of sentences in linguistic interaction. The first part of the course introduces the basic inquisitive semantics framework. The second part discusses some current research in this area, concerning in particular the semantics of **epistemic attitude verbs** (like *believe* and *think*) and the integration of inquisitive semantics with **dynamic semantics**.
 schedule_intro: >
   Mondays 9.00-11.00, Wednesdays 11.00-13.00, all lectures take place in room **F2.19 in the NIKHEF/ILLC building**
 schedule: >
@@ -36,7 +36,7 @@ schedule: >
       <th scope="row"> 1</th>
       <td> 1/11</td>
       <td> Book chapter 1</td>
-      <td> Motivation and overview <!-- (<a href="">slides</a>) --></td>
+      <td> Motivation and overview (<a href="https://www.dropbox.com/s/aswn61rr1gprjxs/logic-and-conversation-2021-slides-lecture-1.pdf?dl=0">slides</a>)</td>
       <td> Floris</td>
     </tr>
     <tr>
@@ -88,8 +88,8 @@ schedule: >
     <tr>
       <th scope="row">8</th>
       <td>24/11</td>
-      <td> ... </td>
-      <td> Something based on Tom's work</td>
+      <td> Roberts 2021 </td>
+      <td> Diving deaper into epistemic attitude verbs: <em>believe</em></td>
       <td> Tom</td>
     </tr>
     <tr>
@@ -97,15 +97,15 @@ schedule: >
     <tr>
       <th scope="row">9</th>
       <td>29/11</td>
-      <td> ... </td>
-      <td> Something based on Tom's work</td>
+      <td> <a href="https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=3292&context=dissertations_2">Ozyildiz 2021</a>, chapter 2</td>
+      <td> Diving deaper into epistemic attitude verbs: <em>think</em></td>
       <td> Tom</td>
     </tr>
     <tr>
       <th scope="row">10</th>
       <td>1/12</td>
       <td> Dotlacil and Roelofsen 2021, Section 1</td>
-      <td> Motivation and core ideas</td>
+      <td> Dynamic inquisitive semantics: motivation and core ideas</td>
       <td> Floris</td>
     </tr>
     <tr>
@@ -167,7 +167,7 @@ The grade will be based on two **homework assignments** (each counting for 20%) 
 ## Assignments
 
 - A latex template for drawing inquisitive semantics diagrams can be downloaded [here]({{ site.baseurl }}/resources.html).  
-- Assignment 1, posted on Monday 1/11, due on Monday 15/11 before class.  
+- [Assignment 1](https://www.dropbox.com/s/kzd9bt6afq8f76f/LC-2020-assignment1.pdf?dl=0), posted on Monday 1/11, due on Monday 15/11 before class.  
 - Assignment 2, posted on Monday 15/11, due on Monday 29/11 before class.  
 <!-- - [Assignment 2](https://www.dropbox.com/s/2pb52ai6w3fzzu8/LC-2020-assignment2.pdf?dl=0) was posted on 9/11 and is due on Friday 20/11 before class. -->
   
