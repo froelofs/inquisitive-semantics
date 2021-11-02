@@ -14,7 +14,7 @@ people:
 description: >
     Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. The focus of the course will be on **inquisitive semantics**, which enriches the traditional truth-conditional picture in ways that allow for a more comprehensive logical analysis of the meaning of sentences in linguistic interaction. The first part of the course introduces the basic inquisitive semantics framework. The second part discusses some current research in this area, concerning in particular the semantics of **epistemic attitude verbs** (like *believe* and *think*) and the integration of inquisitive semantics with **dynamic semantics**.
 schedule_intro: >
-  Mondays 9.00-11.00, Wednesdays 11.00-13.00, all lectures take place in room **F2.19 in the NIKHEF/ILLC building**
+  Mondays 9.00-11.00, Wednesdays 11.00-13.00, **see datanose for more information on the location, which is not the same for all lectures**
 schedule: >
   <table class="table">
   <thead>
