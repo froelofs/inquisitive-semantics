@@ -233,6 +233,14 @@ hkalpak:
   website: https://www.su.se/english/profiles/haka9069-1.276311
   image: assets/images/people/kalpak-hana.jpg
 
+smeissner:
+  id: smeissner
+  first_name: Silke
+  last_name: Meissner
+  affiliation: University of Münster
+  website: https://www.uni-muenster.de/FB10/Service/show_perspage.shtml?id=1559
+  #image: assets/images/people/.jpeg
+
 lnorthrup:
   id: lnorthrup
   first_name: Lauren
@@ -240,6 +248,14 @@ lnorthrup:
   affiliation: Instagram
   website: https://lauren.northrup.me/
   image: assets/images/people/northrup-lauren.jpeg
+
+knygren:
+  id: knygren
+  first_name: Karl
+  last_name: Nygren
+  affiliation: Stockholm University
+  website: https://www.su.se/english/profiles/kany2056-1.312584
+  image: assets/images/people/nygren-karl.jpeg
 
 aommundsen:
   id: aommundsen
