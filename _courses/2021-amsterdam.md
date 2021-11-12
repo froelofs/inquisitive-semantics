@@ -43,21 +43,21 @@ schedule: >
       <th scope="row">2</th>
       <td> 3/11</td>
       <td> Book chapter 2</td>
-      <td> Basic notions <!-- (<a href="">slides</a>) --></td>
+      <td> Basic notions (<a href="https://www.dropbox.com/s/vfrnxd2nz2ij21y/logic-and-conversation-2020-slides-lecture-2.pdf?dl=0">slides</a>) </td>
       <td> Tom</td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>   8/11</td>
       <td> Book chapter 3</td>
-      <td> Operations on propositions <!-- (<a href="">slides</a>) --></td>
+      <td> Operations on propositions (<a href="https://www.dropbox.com/s/udhfv4odg3e2ahl/lecture3.pdf?dl=0">slides</a>) </td>
       <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">4</th>
       <td>   10/11</td>
       <td> Book chapter 4</td>
-      <td> First-order inquisitive semantics <!-- (<a href="">slides</a>) --></td>
+      <td> First-order inquisitive semantics  (<a href="https://www.dropbox.com/s/b6gx98mipoqh1ye/lecture4.pdf?dl=0">slides</a>) </td>
       <td> Floris</td>
     </tr>
     <tr>
@@ -122,14 +122,14 @@ schedule: >
       <td> 8/12</td>
       <td> <a href="https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/30.376">Dotlacil and Roelofsen 2020</a></td>
       <td> Compositionality and plurality <!-- (<a href="">slides</a>) --></td>
-      <td> Jakub (tbc)</td>
+      <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">13</th>
       <td> 13/12</td>
       <td> Dotlacil and Roelofsen 2021</td>
       <td> Multiple wh-questions, weak and strong readings <!-- (<a href="">slides</a>) --></td>
-      <td> Floris</td>
+      <td> Jakub</td>
     </tr>
     <tr>
       <th scope="row">14</th>
