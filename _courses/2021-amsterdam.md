@@ -21,6 +21,7 @@ schedule: >
     <tr>
       <th>#</th>
       <th>Date</th>
+      <th>Room</th>
       <th>Material</th>
       <th>Content</th>
       <th>Lecturer</th>
@@ -28,13 +29,14 @@ schedule: >
   </thead>
   <tbody>
     <tr>
-      <td colspan="5" class="table-section">
+      <td colspan="6" class="table-section">
         The basic inquisitive semantics framework
       </td>
     </tr>
     <tr>
       <th scope="row"> 1</th>
       <td> 1/11</td>
+      <td> ILLC F2.19</td>
       <td> Book chapter 1</td>
       <td> Motivation and overview (<a href="https://www.dropbox.com/s/aswn61rr1gprjxs/logic-and-conversation-2021-slides-lecture-1.pdf?dl=0">slides</a>)</td>
       <td> Floris</td>
@@ -42,6 +44,7 @@ schedule: >
     <tr>
       <th scope="row">2</th>
       <td> 3/11</td>
+      <td> Startup Village</td>
       <td> Book chapter 2</td>
       <td> Basic notions (<a href="https://www.dropbox.com/s/vfrnxd2nz2ij21y/logic-and-conversation-2020-slides-lecture-2.pdf?dl=0">slides</a>) </td>
       <td> Tom</td>
@@ -49,6 +52,7 @@ schedule: >
     <tr>
       <th scope="row">3</th>
       <td>   8/11</td>
+      <td> ILLC F2.19</td>
       <td> Book chapter 3</td>
       <td> Operations on propositions (<a href="https://www.dropbox.com/s/udhfv4odg3e2ahl/lecture3.pdf?dl=0">slides</a>) </td>
       <td> Floris</td>
@@ -56,6 +60,7 @@ schedule: >
     <tr>
       <th scope="row">4</th>
       <td>   10/11</td>
+      <td> B0.204</td>
       <td> Book chapter 4</td>
       <td> First-order inquisitive semantics  (<a href="https://www.dropbox.com/s/b6gx98mipoqh1ye/lecture4.pdf?dl=0">slides</a>) </td>
       <td> Floris</td>
@@ -63,6 +68,7 @@ schedule: >
     <tr>
       <th scope="row">5</th>
       <td>   15/11</td>
+      <td> B0.208</td>
       <td> Book chapter 5-6</td>
       <td> Question semantics <!-- (<a href="">slides</a>) --></td>
       <td> Floris</td>
@@ -70,6 +76,7 @@ schedule: >
     <tr>
       <th scope="row">6</th>
       <td> 17/11</td>
+      <td> B0.204</td>
       <td> Book chapter 8</td>
       <td> Propositional attitudes: inquisitive epistemic logic 
       <!-- (<a href="">slides</a>) --></td>
@@ -78,16 +85,18 @@ schedule: >
     <tr>
       <th scope="row">7</th>
       <td> 22/11</td>
+      <td> A1.28</td>
       <td> Book chapter 9</td>
       <td> Comparison with other frameworks </td>
       <td> Floris</td>
     </tr>
-      <td colspan="5" class="table-section">
+      <td colspan="6" class="table-section">
         Ongoing research: cross-linguistic attitude semantics and dynamic inquisitive semantics
       </td>
     <tr>
       <th scope="row">8</th>
       <td>24/11</td>
+      <td> B0.204</td>
       <td> Roberts 2021 </td>
       <td> Diving deaper into epistemic attitude verbs: <em>believe</em></td>
       <td> Tom</td>
@@ -97,6 +106,7 @@ schedule: >
     <tr>
       <th scope="row">9</th>
       <td>29/11</td>
+      <td> ILLC F2.19</td>
       <td> <a href="https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=3292&context=dissertations_2">Ozyildiz 2021</a>, chapter 2</td>
       <td> Diving deaper into epistemic attitude verbs: <em>think</em></td>
       <td> Tom</td>
@@ -104,6 +114,7 @@ schedule: >
     <tr>
       <th scope="row">10</th>
       <td>1/12</td>
+      <td> B0.204</td>
       <td> Dotlacil and Roelofsen 2021, Section 1</td>
       <td> Dynamic inquisitive semantics: motivation and core ideas</td>
       <td> Floris</td>
@@ -111,6 +122,7 @@ schedule: >
     <tr>
       <th scope="row">11</th>
       <td>6/12</td>
+      <td> B0.201</td>
       <td> <a href="https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/download/538/437">Dotlacil and Roelofsen 2019</a></td>
       <td> First-order dynamic inquisitive semantics
           <!-- (<a href="">slides</a>) -->
@@ -120,6 +132,7 @@ schedule: >
     <tr>
       <th scope="row">12</th>
       <td> 8/12</td>
+      <td> B0.204</td>
       <td> <a href="https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/30.376">Dotlacil and Roelofsen 2020</a></td>
       <td> Compositionality and plurality <!-- (<a href="">slides</a>) --></td>
       <td> Floris</td>
@@ -127,6 +140,7 @@ schedule: >
     <tr>
       <th scope="row">13</th>
       <td> 13/12</td>
+      <td> G0.18A</td>
       <td> Dotlacil and Roelofsen 2021</td>
       <td> Multiple wh-questions, weak and strong readings <!-- (<a href="">slides</a>) --></td>
       <td> Jakub</td>
@@ -134,6 +148,7 @@ schedule: >
     <tr>
       <th scope="row">14</th>
       <td>15/12</td>
+      <td> ILLC F2.19</td>
       <td> </td>
       <td> Project presentations</td>
       <td> </td>
