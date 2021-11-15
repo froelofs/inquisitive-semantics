@@ -182,8 +182,8 @@ The grade will be based on two **homework assignments** (each counting for 20%) 
 ## Assignments
 
 - A latex template for drawing inquisitive semantics diagrams can be downloaded [here]({{ site.baseurl }}/resources.html).  
-- [Assignment 1](https://www.dropbox.com/s/kzd9bt6afq8f76f/LC-2020-assignment1.pdf?dl=0), posted on Monday 1/11, due on Monday 15/11 before class.  
-- Assignment 2, posted on Monday 15/11, due on Monday 29/11 before class.  
+- Assignment 1, posted on Monday 1/11, due on Monday 15/11 before class.  
+- [Assignment 2](https://www.dropbox.com/s/1blc3tfq8ta5ms3/LC-2021-assignment2.pdf?dl=0), posted on Monday 15/11, due on Monday 29/11 before class.  
 <!-- - [Assignment 2](https://www.dropbox.com/s/2pb52ai6w3fzzu8/LC-2020-assignment2.pdf?dl=0) was posted on 9/11 and is due on Friday 20/11 before class. -->
   
 ## Instructions for final paper
