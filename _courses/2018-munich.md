@@ -1,10 +1,10 @@
 ---
 external: true
 title: Questions and dependency in logic
-short_title: Munchen 2020
-date: 2020-04-24
-location: Munchen
-link: http://www.ivanociardelli.altervista.org/questions-in-logic-20
+short_title: Munich 2018
+date: 2018-04-10
+location: Munich
+link: http://www.ivanociardelli.altervista.org/questions-and-dependency-in-logic
 description: >
   This course explores some recent developments in the field of logic.
 
