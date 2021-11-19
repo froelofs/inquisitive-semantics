@@ -78,7 +78,7 @@ schedule: >
       <td> 17/11</td>
       <td> B0.204</td>
       <td> Book chapter 8</td>
-      <td> Propositional attitudes: inquisitive epistemic logic 
+      <td> Inquisitive epistemic logic 
       (<a href="https://www.dropbox.com/s/d560yy7am3rjuax/lecture6.pdf?dl=0">slides</a>)</td>
       <td> Tom</td>
     </tr>
