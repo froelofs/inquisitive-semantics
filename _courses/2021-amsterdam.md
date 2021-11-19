@@ -97,7 +97,9 @@ schedule: >
       <th scope="row">8</th>
       <td>24/11</td>
       <td> B0.204</td>
-      <td> Roberts 2021 </td>
+      <td> <a href="https://www.dropbox.com/s/qhhn6ixqcvacf2e/robertsch4.pdf?dl=0" target="_blank">Roberts 2021</a>,
+            <a href="https://pure.uva.nl/ws/files/45535399/Theiler2019_Article_PickyPredicatesWhyBelieveDoesn.pdf" target="_blank">Theiler et al 2019</a>
+             </td>
       <td> Diving deaper into epistemic attitude verbs: <em>believe</em></td>
       <td> Tom</td>
     </tr>
