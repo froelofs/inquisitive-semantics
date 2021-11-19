@@ -70,7 +70,7 @@ schedule: >
       <td>   15/11</td>
       <td> B0.208</td>
       <td> Book chapter 5-6</td>
-      <td> Question semantics <!-- (<a href="">slides</a>) --></td>
+      <td> Question semantics (<a href="https://www.dropbox.com/s/ohbkvjl2dcobkhq/lecture5.pdf?dl=0">slides</a>) </td>
       <td> Floris</td>
     </tr>
     <tr>
@@ -79,7 +79,7 @@ schedule: >
       <td> B0.204</td>
       <td> Book chapter 8</td>
       <td> Propositional attitudes: inquisitive epistemic logic 
-      <!-- (<a href="">slides</a>) --></td>
+      (<a href="https://www.dropbox.com/s/d560yy7am3rjuax/lecture6.pdf?dl=0">slides</a>)</td>
       <td> Tom</td>
     </tr>
     <tr>
