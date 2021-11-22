@@ -87,7 +87,8 @@ schedule: >
       <td> 22/11</td>
       <td> A1.28</td>
       <td> Book chapter 9</td>
-      <td> Comparison with other frameworks </td>
+      <td> Comparison with other frameworks 
+      (<a href="https://www.dropbox.com/s/f0ij59i07up62t6/lecture7.pdf?dl=0">slides</a>)</td>
       <td> Floris</td>
     </tr>
       <td colspan="6" class="table-section">
