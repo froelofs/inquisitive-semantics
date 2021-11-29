@@ -98,9 +98,9 @@ schedule: >
       <th scope="row">8</th>
       <td>24/11</td>
       <td> B0.204</td>
-      <td> <a href="https://www.dropbox.com/s/qhhn6ixqcvacf2e/robertsch4.pdf?dl=0" target="_blank">Roberts 2021</a>,
-            <a href="https://pure.uva.nl/ws/files/45535399/Theiler2019_Article_PickyPredicatesWhyBelieveDoesn.pdf" target="_blank">Theiler et al 2019</a>
-             </td>
+      <td> 
+        <a href="https://pure.uva.nl/ws/files/45535399/Theiler2019_Article_PickyPredicatesWhyBelieveDoesn.pdf" target="_blank">Theiler et al 2019</a>
+      </td>
       <td> Diving deaper into epistemic attitude verbs: <em>believe</em></td>
       <td> Tom</td>
     </tr>
@@ -110,42 +110,44 @@ schedule: >
       <th scope="row">9</th>
       <td>29/11</td>
       <td> ILLC F2.19</td>
-      <td> <a href="https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=3292&context=dissertations_2">Ozyildiz 2021</a>, chapter 2</td>
-      <td> Diving deaper into epistemic attitude verbs: <em>think</em></td>
+      <td> <a href="https://www.dropbox.com/s/qhhn6ixqcvacf2e/robertsch4.pdf?dl=0" target="_blank">Roberts 2021</a> </td>
+      <td> Diving deaper into epistemic attitude verbs: <em>can't believe and modality</em></td>
       <td> Tom</td>
     </tr>
     <tr>
       <th scope="row">10</th>
       <td>1/12</td>
       <td> B0.204</td>
-      <td> Dotlacil and Roelofsen 2021, Section 1</td>
-      <td> Dynamic inquisitive semantics: motivation and core ideas</td>
-      <td> Floris</td>
+      <td> <a href="https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=3292&context=dissertations_2">Ozyildiz 2021</a>, chapter 2</td>
+      <td> Diving deaper into epistemic attitude verbs: <em>think and aspect</em></td>
+      <td> Tom</td>
     </tr>
     <tr>
       <th scope="row">11</th>
       <td>6/12</td>
       <td> B0.201</td>
-      <td> <a href="https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/download/538/437">Dotlacil and Roelofsen 2019</a></td>
-      <td> First-order dynamic inquisitive semantics
-          <!-- (<a href="">slides</a>) -->
-          </td>
+      <td>
+        <a href="https://staff.science.uva.nl/f.j.m.m.veltman/papers/FVeltman-cm.pdf" target="_blank">Groenendijk et al 1996</a>,<br>
+        Dotlacil and Roelofsen 2021, Chapter 1
+      </td>
+      <td> Dynamic inquisitive semantics: motivation and core ideas</td>
       <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">12</th>
       <td> 8/12</td>
       <td> B0.204</td>
-      <td> <a href="https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/30.376">Dotlacil and Roelofsen 2020</a></td>
-      <td> Compositionality and plurality <!-- (<a href="">slides</a>) --></td>
+      <td> <a href="https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/download/538/437">Dotlacil and Roelofsen 2019</a></td>
+      <td> First-order dynamic inquisitive semantics
+          <!-- (<a href="">slides</a>) -->
       <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">13</th>
       <td> 13/12</td>
       <td> G0.18A</td>
-      <td> Dotlacil and Roelofsen 2021</td>
-      <td> Multiple wh-questions, weak and strong readings <!-- (<a href="">slides</a>) --></td>
+      <td> <a href="https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/30.376">Dotlacil and Roelofsen 2020</a></td>
+      <td> Compositionality and plurality <!-- (<a href="">slides</a>) --></td>
       <td> Jakub</td>
     </tr>
     <tr>
