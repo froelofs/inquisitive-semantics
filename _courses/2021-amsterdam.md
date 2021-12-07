@@ -130,7 +130,8 @@ schedule: >
         <a href="https://staff.science.uva.nl/f.j.m.m.veltman/papers/FVeltman-cm.pdf" target="_blank">Groenendijk et al 1996</a>,<br>
         Dotlacil and Roelofsen 2021, Chapter 1
       </td>
-      <td> Dynamic inquisitive semantics: motivation and core ideas</td>
+      <td> Dynamic inquisitive semantics: motivation and core ideas 
+      (<a href="https://www.dropbox.com/s/u4rf2i88nzo698g/lecture11-dynamic1.pdf?dl=0">slides</a>)</td>
       <td> Floris</td>
     </tr>
     <tr>
