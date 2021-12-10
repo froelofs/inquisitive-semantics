@@ -140,7 +140,7 @@ schedule: >
       <td> B0.204</td>
       <td> <a href="https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/download/538/437">Dotlacil and Roelofsen 2019</a></td>
       <td> First-order dynamic inquisitive semantics
-          <!-- (<a href="">slides</a>) -->
+          (<a href="https://www.dropbox.com/s/modbor1c41qzlwm/lecture12-dynamic2.pdf?dl=0">slides</a>)
       <td> Floris</td>
     </tr>
     <tr>
