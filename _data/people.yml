@@ -145,6 +145,14 @@ jdotlacil:
   website: http://www.jakubdotlacil.com/
   image: assets/images/people/dotlacil-jakub.jpg
 
+  eenguehard:
+  id: eenguehard
+  first_name: Émile
+  last_name: Enguehard
+  affiliation: Institut Jean Nicod, Paris
+  website: https://www.eleves.ens.fr/home/enguehar/
+  #image: assets/images/people/.jpeg
+  
 dfarkas:
   id: dfarkas
   first_name: Donka
@@ -241,6 +249,7 @@ smeissner:
   website: https://www.uni-muenster.de/FB10/Service/show_perspage.shtml?id=1559
   #image: assets/images/people/.jpeg
 
+  
 lnorthrup:
   id: lnorthrup
   first_name: Lauren
