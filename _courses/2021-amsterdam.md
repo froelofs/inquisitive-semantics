@@ -148,8 +148,8 @@ schedule: >
       <td> 13/12</td>
       <td> G0.18A</td>
       <td> <a href="https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/30.376">Dotlacil and Roelofsen 2020</a></td>
-      <td> Compositionality and plurality <!-- (<a href="">slides</a>) --></td>
-      <td> Jakub</td>
+      <td> Compositionality and plurality (<a href="https://www.dropbox.com/s/uwf8pkr8rpbcdt6/lecture13-dynamic3.pdf?dl=0">slides</a>)</td>
+      <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">14</th>
