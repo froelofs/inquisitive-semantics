@@ -145,14 +145,14 @@ jdotlacil:
   website: http://www.jakubdotlacil.com/
   image: assets/images/people/dotlacil-jakub.jpg
 
-  eenguehard:
+eenguehard:
   id: eenguehard
   first_name: Émile
   last_name: Enguehard
   affiliation: Institut Jean Nicod, Paris
   website: https://www.eleves.ens.fr/home/enguehar/
   #image: assets/images/people/.jpeg
-  
+
 dfarkas:
   id: dfarkas
   first_name: Donka
