@@ -137,6 +137,14 @@ mdegano:
   website: https://www.illc.uva.nl/People/person/4773/Marco-Degano
   image: assets/images/people/degano-marco.jpg
 
+kdjarv:
+  id: kdjarv
+  first_name: Kajsa
+  last_name: Djärv
+  affiliation: University of Konstanz
+  website: https://kdjarv.wixsite.com/kajsadjarv
+  image: assets/images/people/djarv-kajsa.jpg
+
 jdotlacil:
   id: jdotlacil
   first_name: Jakub
@@ -216,6 +224,14 @@ wholliday:
   affiliation: UC Berkeley
   website: https://philosophy.berkeley.edu/holliday
   image: assets/images/people/holliday-wesley.jpg
+
+riemhoff:
+  id: riemhoff
+  first_name: Rosalie
+  last_name: Iemhoff
+  affiliation: Utrecht University
+  website: https://www.phil.uu.nl/~iemhoff/
+  image: assets/images/people/iemhoff-rosalie.jpg
 
 smascarenhas:
   id: smascarenhas
