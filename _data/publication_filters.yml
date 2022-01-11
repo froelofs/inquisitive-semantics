@@ -31,71 +31,71 @@
     - label: Unpublished manuscripts
       value: manuscript/handout/slides/technical report
 
-- label: Empirical topic
-  options:
-    - label: Anaphora
-      value: Anaphora
-    - label: Answer particles
-      value: answer particle/yes/polarity particle/yes/polarity
-    - label: Attitude predicates
-      value: Attitude predicates/believe/wonder/surprise/embedding
-    - label: Comparatives
-      value: Comparative
-    - label: Disjunction
-      value: Disjunct
-    - label: Ellipsis
-      value: Ellipsis
-    - label: Free choice inferences
-      value: Free choice
-    - label: Ignorance inferences
-      value: Ignorance inferences
-    - label: Indefinites
-      value: Indefinite/n-word
-    - label: Modality
-      value: modality/modals/believe/wonder/attitude
-    - label: Negation
-      value: Negation/n-word
-    - label: Numerals
-      value: Numerals
-    - label: Polarity sensitive items
-      value: Polarity sensitive items/npi/negative polarity/positive Polarity
-    - label: Quantification
-      value: Quantification/quantifier
-    - label: Questions
-      value: Question/interrogative
-    - label: Rising declaratives
-      value: Rising declaratives
-    - label: Tag questions
-      value: Tag Questions
+# - label: Empirical topic
+#   options:
+#     - label: Anaphora
+#       value: Anaphora
+#     - label: Answer particles
+#       value: answer particle/yes/polarity particle/yes/polarity
+#     - label: Attitude predicates
+#       value: Attitude predicates/believe/wonder/surprise/embedding
+#     - label: Comparatives
+#       value: Comparative
+#     - label: Disjunction
+#       value: Disjunct
+#     - label: Ellipsis
+#       value: Ellipsis
+#     - label: Free choice inferences
+#       value: Free choice
+#     - label: Ignorance inferences
+#       value: Ignorance inferences
+#     - label: Indefinites
+#       value: Indefinite/n-word
+#     - label: Modality
+#       value: modality/modals/believe/wonder/attitude
+#     - label: Negation
+#       value: Negation/n-word
+#     - label: Numerals
+#       value: Numerals
+#     - label: Polarity sensitive items
+#       value: Polarity sensitive items/npi/negative polarity/positive Polarity
+#     - label: Quantification
+#       value: Quantification/quantifier
+#     - label: Questions
+#       value: Question/interrogative
+#     - label: Rising declaratives
+#       value: Rising declaratives
+#     - label: Tag questions
+#       value: Tag Questions
 
-- label: Theoretical topic
-  options:
-    - label: Attentional semantics
-      value: attention
-    - label: Compositionality
-      value: Compositionality/composing
-    - label: Discourse commitments
-      value: commitments
-    - label: Dynamic semantics
-      value: Dynamic semantics
-    - label: Exhaustivity
-      value: Exhaustivity/exhaustification
-    - label: Highlighting
-      value: Highlighting
-    - label: Inquisitive semantics
-      value: Inquisitive semantics
-    - label: Intonational meaning
-      value: intonation/prosody
-    - label: Production/comprehension asymmetry
-      value: asymmetry
+# - label: Theoretical topic
+#   options:
+#     - label: Attentional semantics
+#       value: attention
+#     - label: Compositionality
+#       value: Compositionality/composing
+#     - label: Discourse commitments
+#       value: commitments
+#     - label: Dynamic semantics
+#       value: Dynamic semantics
+#     - label: Exhaustivity
+#       value: Exhaustivity/exhaustification
+#     - label: Highlighting
+#       value: Highlighting
+#     - label: Inquisitive semantics
+#       value: Inquisitive semantics
+#     - label: Intonational meaning
+#       value: intonation/prosody
+#     - label: Production/comprehension asymmetry
+#       value: asymmetry
 
-- label: Discipline
-  options: 
-    - label: Theoretical linguistics
-      value: Theoretical linguistics
-    - label: Experimental linguistics
-      value: Experimental linguistics/experiment
-    - label: Philosophical logic
-      value: Philosophical logic
-    - label: Artificial intelligence
-      value: Artificial intelligence
+# - label: Discipline
+#   options: 
+#     - label: Theoretical linguistics
+#       value: Theoretical linguistics
+#     - label: Experimental linguistics
+#       value: Experimental linguistics/experiment
+#     - label: Philosophical logic
+#       value: Philosophical logic
+#     - label: Artificial intelligence
+#       value: Artificial intelligence

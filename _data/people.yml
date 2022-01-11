@@ -73,6 +73,14 @@ maloni:
   website: https://www.marialoni.org/
   image: assets/images/people/aloni-maria.jpg
 
+aalsop:
+  id: aalsop
+  first_name: Anna
+  last_name: Alsop
+  affiliation: New York University
+  website: https://wp.nyu.edu/annaalsop/
+  image: assets/images/people/alsop-anna.jpg
+
 sanderbois:
   id: sanderbois
   first_name: Scott
@@ -414,7 +422,7 @@ wthomas:
   last_name: Thomas
   affiliation: Ohio State University
   website: https://linguistics.osu.edu/people/thomas.3846
-  image: assets/images/people/thomas-william.jpg
+  image: assets/images/people/thomas-william.png
 
 wuegaki:
   id: wuegaki
