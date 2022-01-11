@@ -408,6 +408,14 @@ wstafford:
   website: https://willstafford.info/
   image: assets/images/people/stafford-will.jpg
 
+wthomas:
+  id: wthomas
+  first_name: William
+  last_name: Thomas
+  affiliation: Ohio State University
+  website: https://linguistics.osu.edu/people/thomas.3846
+  image: assets/images/people/thomas-william.jpg
+
 wuegaki:
   id: wuegaki
   first_name: Wataru
