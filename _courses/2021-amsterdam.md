@@ -163,15 +163,17 @@ schedule: >
   </table>
 ---
 
-<!-- ## Term papers
+## Term papers
 
 The course has ended and has led to some very interesting term papers:
 
-- Marleen Gaasbeek: [Predicting Choice of Utterance](https://drive.google.com/file/d/1bFsfAvazP0V6saUQPndrAtqDs6vQt6Cg/view?usp=sharing)
-- Terence Hui: [Inquisitive Semantics and Fictions](https://drive.google.com/file/d/1NVXflUvwNzC0LP_HQ1B1Ua6Rcn4RJlJK/view?usp=sharing)
-- Mateo Jaramillo: [A Dynamic Model of Zero-Knowledge](https://drive.google.com/file/d/1BSnXUCF4KviiJSe84sxcWIWHekBqJdyl/view?usp=sharing)
-- Flavia Nährlich: [Updating Discourse Contexts within a Compositional Framework](https://drive.google.com/file/d/1PlfIOa0h__jU3pknRosSsnkLiLdWQaSC/view?usp=sharing)
-- Lorenzo Pinton: [An Inquisitive Semantics approach to Negative Polarity Items in Questions](https://drive.google.com/file/d/1VbDcVrSb-ZLTEP_-ydJDdKk0WyZZRB3Q/view?usp=sharing) -->
+- Siyuan Cao: [What makes questions rhetorical](https://drive.google.com/file/d/1tv58YNpfKrVpEadx5acAzMxmz8I-Z9Rn/view?usp=sharing)
+- Bo Flachs: [An intuitionistic treatment of polar questions](https://drive.google.com/file/d/1LVGA5PCyINeYO-52Lwqt2Xx61o5ZfNMI/view?usp=sharing)
+- Tomasz Klochowich: [Aspect and the ambiguity of the verb believe](https://drive.google.com/file/d/1ekDCgPkFxBgHVEoKqvWWN_DQ0ZzRI-Ox/view?usp=sharing)
+- Wessel Kroon: [Probabilistic inquisitive epistemic logic](https://drive.google.com/file/d/14KKeVW8CbKzGiteo_zwhzMsKbEOTJQY_/view?usp=sharing)
+- Iris Luden: [What do I truly ask?](https://drive.google.com/file/d/1LO-M5Al3kEo7ns7xVxAOB2XsFeEEfqzw/view?usp=sharing)
+- Nathan Malik: [Inquisitive content DPs](https://drive.google.com/file/d/10bV5m1ciibVX2GyJQA-R6ul6hUgVQhrm/view?usp=sharing)
+- Valentin Müller: [A normalization theorem for first-order inquisitive logic](https://drive.google.com/file/d/1tQScMMs26N8SXz2CuQiV5gmadmMzx_xc/view?usp=sharing)
 
 ## Prerequisites
 
