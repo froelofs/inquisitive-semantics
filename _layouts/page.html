@@ -3,12 +3,13 @@ layout: default
 ---
 {%- assign indent = page.indent | default: false %}
 {%- assign content_classes = page.content_classes | default: "bg-white" %}
+{%- assign breakpoint = page.header_breakpoint | default: "md" %}
 
 <article>
   <div class="container mt-md-5 pt-5">
     <header class="row {{ page.header_classes }}">
       {%- if indent %}
-      <div class="col-md-3">
+      <div class="col-{{breakpoint}}-3">
         {%- if page.image %}
         <div class="{% if page.blur-image %}blurred-image{% endif %} w-100 h-100 d-none d-md-block">
           <img src="{{ page.image | relative_url }}" class="w-100 h-100" />
@@ -16,7 +17,7 @@ layout: default
         {%- endif %}
       </div>
       {%- endif %}
-      <div class="{% if indent %}col-md-9{% endif %}">
+      <div class="{% if indent %}col-{{breakpoint}}-9{% endif %}">
         <h1 class="title display-1{% if page.description %} mb-md-5 mb-3{% endif %}">
           {{ page.title }}
           {%- if page.subtitle -%}
