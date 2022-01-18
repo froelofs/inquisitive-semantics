@@ -10,6 +10,8 @@
 
 - label: Publication type
   options:
+    - label: All publications
+      value: ""
     - label: Submitted / in press
       value: submitted/to appear/in press
     - label: In preparation

@@ -164,6 +164,9 @@ PubFilter.prototype.filterPublications = function(keywordGroups) {
     var isMatch = true;
     for(var i=0; i < keywordGroups.length; i++) {
       var keywords = keywordGroups[i];
+      if(keywords.length === 0) {
+        continue;
+      }
 
       // Disjunction: match any of the keywords in this group
       var matchesGroup = false;
@@ -190,7 +193,7 @@ PubFilter.prototype.filterPublications = function(keywordGroups) {
 PubFilter.prototype.update = function() {
   var keywordGroups = this.collectKeywords();
   var matches = this.filterPublications(keywordGroups);
-  console.log('Keyword groups:', keywordGroups);
+  // console.log('Keyword groups:', keywordGroups);
 
   // First hide all publications
   this.publications.each(function(index, pub) { 
@@ -234,7 +237,7 @@ PubFilter.prototype.showCounts = function() {
       var keywordGroups = [this.cleanKeywords(option.value.split(/\s*\/\s*/))];
       var matches = this.filterPublications(keywordGroups);
       var count = matches.length;
-      if (option.value != "") {
+      if (option.value != "-") {
         option.innerHTML = option.innerHTML + ' (' + count + ')';
       }
     }.bind(this));

@@ -24,8 +24,7 @@ header_breakpoint: lg
           <div class="col-6 col-lg-4 pb-2 pe-0">
             <label for="{{ groupId }}" class="small text-muted mb-2 visually-hidden">{{ group.label }}</label>
             <select id="{{ groupId }}" class="form-select form-select-sm">
-              <option selected disabled value="">{{group.label}}</option>
-              <option value="">All publications</option>
+              <option selected disabled value="-">{{group.label}}</option>
               {% for option in group.options %}
                 <option value="{{ option.value }}">{{ option.label }}</option>
               {% endfor %}
