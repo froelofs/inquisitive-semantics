@@ -13,15 +13,15 @@ header_breakpoint: lg
 
 <div class="container-full sticky-top shadow-sm pb-2 bg-white">
   <div class="container pt-4">
-    <form id="publications-form">
+    <form id="publications-form" class="pt-5">
       <div class="row">
-        <div class="col-6 pe-0 offset-lg-3">
+        <div class="col-6 col-lg-5 pe-0 offset-lg-3">
           <input id="searchPubs" class="form-control form-control-sm search" placeholder="Search..."></input>
         </div>
       
         {% for group in site.data.publication_filters %}
           {% assign groupId = group.label | strip_html |capitalize | replace: ' ', '' | prepend: 'select' %}
-          <div class="col-4 col-md-2 pb-2 pe-0">
+          <div class="col-6 col-lg-4 pb-2 pe-0">
             <label for="{{ groupId }}" class="small text-muted mb-2 visually-hidden">{{ group.label }}</label>
             <select id="{{ groupId }}" class="form-select form-select-sm">
               <option selected disabled value="">{{group.label}}</option>
