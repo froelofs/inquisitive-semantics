@@ -304,6 +304,14 @@ eonea:
   website: https://homepage.uni-graz.at/en/edgar.onea-gaspar/
   image: assets/images/people/onea-edgar.jpg
 
+moomen:
+  id: moomen
+  first_name: Marloes
+  last_name: Oomen
+  affiliation: University of Amsterdam
+  website: https://www.uva.nl/en/profile/o/o/m.oomen2/m.oomen2.html
+  image: assets/images/people/oomen-marloes.jpeg
+
 motto:
   id: motto
   first_name: Martin

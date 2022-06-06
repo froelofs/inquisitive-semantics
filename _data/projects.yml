@@ -23,6 +23,9 @@
     - id: froelofsen
       function: PI
       location: Amsterdam
+    - id: moomen
+      function: Postdoc
+      location: Amsterdam
   featured: true
 
 - title: New territories for modal logic
