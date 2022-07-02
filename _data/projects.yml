@@ -26,6 +26,9 @@
     - id: moomen
       function: Postdoc
       location: Amsterdam
+    - id: rveigabusto
+      function: Postdoc
+      location: Amsterdam  
   featured: true
 
 - title: New territories for modal logic

@@ -456,6 +456,14 @@ svangool:
   website: http://www.samvangool.net/
   image: assets/images/people/vangool-sam.jpg
 
+svangool:
+  id: rveigabusto
+  first_name: Raquel
+  last_name: Veiga Busto
+  affiliation: University of Amsterdam
+  website: https://www.researchgate.net/profile/Raquel-Veiga-Busto-2
+  image: assets/images/people/veigo-busto-raquel.jpg
+
 mwestera:
   id: mwestera
   first_name: Matthijs
