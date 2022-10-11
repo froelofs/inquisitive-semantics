@@ -4,7 +4,7 @@ featured: true
 title: Logic and Conversation
 short_title: Amsterdam 2022
 subtitle: Fall 2022
-image: assets/images/courses/conversation.jpg
+image: assets/images/courses/newyorker.png
 location: Amsterdam
 venue: "[Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)"
 date: 2022-11-01
@@ -186,9 +186,9 @@ schedule: >
 
 ## Prerequisites
 
-Good working knowledge of first-order logic is required (e.g. the first three chapters of
-[this book]{http://users.uoa.gr/~wlechner/Creteling2017/Textbooks/Gamut%201991%20vol%201.pdf}).
-It is also convenient to have some background in formal semantics (e.g. [this book](https://eecoppock.info/bootcamp/semantics-boot-camp.pdf)),
+Good working knowledge of first-order logic is required (see for instance the first three chapters of
+[this book](http://users.uoa.gr/~wlechner/Creteling2017/Textbooks/Gamut%201991%20vol%201.pdf)).
+It is also convenient to have some background in formal semantics (see for instance [this book](https://eecoppock.info/bootcamp/semantics-boot-camp.pdf)),
 though this is not strictly required. For students of the Master of Logic, it is typically best to take this course in the second year of the programme, after having taken **Meaning, Reference and Modality** and **Structures for Semantics** during the first year. There may be exceptions, depending on your specific background.
 
 ## Textbook
