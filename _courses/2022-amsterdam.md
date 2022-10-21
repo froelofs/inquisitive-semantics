@@ -91,7 +91,7 @@ schedule: >
       <td> Inquisitive epistemic logic 
       <!-- (<a href="https://www.dropbox.com/s/d560yy7am3rjuax/lecture6.pdf?dl=0">slides</a>) -->
       </td>
-      <td> Floris</td>
+      <td> Marco</td>
     </tr>
     <tr>
       <th scope="row">7</th>
@@ -101,7 +101,7 @@ schedule: >
       <td> Comparison with other frameworks 
       <!-- (<a href="https://www.dropbox.com/s/f0ij59i07up62t6/lecture7.pdf?dl=0">slides</a>) -->
       </td>
-      <td> Marco</td>
+      <td> Floris</td>
     </tr>
       <td colspan="6" class="table-section">
         Ongoing research: indeterminates, unconditionals and dynamic inquisitive semantics
