@@ -39,7 +39,7 @@ schedule: >
       <td> L1.10</td>
       <td> Book chapter 1</td>
       <td> Motivation and overview
-      <!--  (<a href="https://www.dropbox.com/s/aswn61rr1gprjxs/logic-and-conversation-2021-slides-lecture-1.pdf?dl=0">slides</a>) -->
+           (<a href="https://www.dropbox.com/s/wj5uc4rznxowy63/lecture1.pdf">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
