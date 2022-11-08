@@ -49,7 +49,7 @@ schedule: >
       <td> L1.14</td>
       <td> Book chapter 2</td>
       <td> Basic notions
-      <!-- (<a href="https://www.dropbox.com/s/vfrnxd2nz2ij21y/logic-and-conversation-2020-slides-lecture-2.pdf?dl=0">slides</a>) -->
+      <!-- (<a href="https://www.dropbox.com/s/q9ygnn3gb57btw9/Lecture2.pdf?dl=0">slides</a>) -->
       </td>
       <td> Marco</td>
     </tr>
@@ -59,7 +59,7 @@ schedule: >
       <td> L1.10</td>
       <td> Book chapter 3</td>
       <td> Operations on propositions 
-      <!-- (<a href="https://www.dropbox.com/s/udhfv4odg3e2ahl/lecture3.pdf?dl=0">slides</a>) -->
+      (<a href="https://www.dropbox.com/s/6j58omk1kv14e0t/lecture3.pdf">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
