@@ -49,7 +49,7 @@ schedule: >
       <td> L1.14</td>
       <td> Book chapter 2</td>
       <td> Basic notions
-      <!-- (<a href="https://www.dropbox.com/s/q9ygnn3gb57btw9/Lecture2.pdf?dl=0">slides</a>) -->
+      (<a href="https://www.dropbox.com/s/q9ygnn3gb57btw9/Lecture2.pdf">slides</a>) 
       </td>
       <td> Marco</td>
     </tr>
@@ -69,7 +69,7 @@ schedule: >
       <td> L1.14</td>
       <td> Book chapter 4</td>
       <td> First-order inquisitive semantics  
-      <!-- (<a href="https://www.dropbox.com/s/b6gx98mipoqh1ye/lecture4.pdf?dl=0">slides</a>) -->
+       (<a href="https://www.dropbox.com/s/ch7e3wxt49sl0ut/lecture4.pdf">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
