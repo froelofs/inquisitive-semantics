@@ -77,9 +77,14 @@ schedule: >
       <th scope="row">5</th>
       <td>   14/11</td>
       <td> L1.10</td>
-      <td> Book chapter 5-6</td>
+      <td> 
+         Book chapter 5-6
+      </td>
       <td> Question semantics 
-      <!-- (<a href="https://www.dropbox.com/s/ohbkvjl2dcobkhq/lecture5.pdf?dl=0">slides</a>) -->
+        (<a href="https://www.dropbox.com/s/gtq7jfv2lx14z17/lecture5.pdf">slides</a>),
+        for the <i>exactly one</i> implication of alternative questions see
+        <a href="http://semanticsarchive.net/Archive/jdiNjljO/paper.pdf">Roelofsen 2017</a> and
+         <a href="http://mwestera.humanities.uva.nl/downloads/Westera2019-SUB-notboth.pdf">Westera 2019</a>.
       </td>
       <td> Floris</td>
     </tr>
@@ -202,8 +207,8 @@ The grade will be based on two **homework assignments** (each counting for 20%) 
 ## Assignments
 
 - A latex template for drawing inquisitive semantics diagrams can be downloaded [here]({{ site.baseurl }}/resources.html).  
-- [Assignment 1](https://www.dropbox.com/s/izu1bl75pqbjdmx/LC-2022-assignment1.pdf) has been posted on Monday 31/10 and will be due on Monday 14/11 before class.  
-- Assignment 2 will be posted on Monday 14/11 and will be due on Monday 28/11 before class.  
+- Assignment 1 was posted on Monday 31/10 and was due on Monday 14/11 before class.  
+- [Assignment 2](https://www.dropbox.com/s/dad3uah62eg3kre/LC-2022-assignment2.pdf) has been posted on Monday 14/11 and is due on Monday 28/11 before class.  
 <!-- - [Assignment 2](https://www.dropbox.com/s/2pb52ai6w3fzzu8/LC-2020-assignment2.pdf?dl=0) was posted on 9/11 and is due on Friday 20/11 before class. -->
   
 ## Instructions for final paper
