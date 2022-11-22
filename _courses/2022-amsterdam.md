@@ -94,7 +94,7 @@ schedule: >
       <td> L1.14</td>
       <td> Book chapter 8</td>
       <td> Inquisitive epistemic logic 
-      <!-- (<a href="https://www.dropbox.com/s/d560yy7am3rjuax/lecture6.pdf?dl=0">slides</a>) -->
+       (<a href="https://www.dropbox.com/s/vf291v0yf8ct0ve/Lecture6.pdf?dl=0>slides</a>) 
       </td>
       <td> Marco</td>
     </tr>
@@ -104,7 +104,7 @@ schedule: >
       <td> L1.10</td>
       <td> Book chapter 9</td>
       <td> Comparison with other frameworks 
-      <!-- (<a href="https://www.dropbox.com/s/f0ij59i07up62t6/lecture7.pdf?dl=0">slides</a>) -->
+       (<a href="https://www.dropbox.com/s/58ez5xc8q19t5md/lecture7.pdf?dl=0">slides</a>) 
       </td>
       <td> Floris</td>
     </tr>
