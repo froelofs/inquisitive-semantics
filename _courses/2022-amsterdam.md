@@ -138,7 +138,7 @@ schedule: >
       <td> L1.14</td>
       <td>
         <a href="https://staff.science.uva.nl/f.j.m.m.veltman/papers/FVeltman-cm.pdf" target="_blank">Groenendijk et al 1996</a>,<br>
-        <a href="https://semanticsarchive.net/Archive/TZiMDVjO/wh-questions-in-dynamic-inquisitive-semantics-submitted%20-%20Floris%20Roelofsen.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 1-2
+        <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 1-2
       </td>
       <td> Dynamic inquisitive semantics: motivation and core ideas 
       <!-- (<a href="https://www.dropbox.com/s/u4rf2i88nzo698g/lecture11-dynamic1.pdf?dl=0">slides</a>) -->
@@ -159,7 +159,7 @@ schedule: >
       <th scope="row">12</th>
       <td> 7/12</td>
       <td> L1.14</td>
-      <td> <a href="https://semanticsarchive.net/Archive/TZiMDVjO/wh-questions-in-dynamic-inquisitive-semantics-submitted%20-%20Floris%20Roelofsen.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 3
+      <td> <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 3
       </td>
       <td> A fully compositional dynamic inquisitive semantics
       <!-- (<a href="https://www.dropbox.com/s/uwf8pkr8rpbcdt6/lecture13-dynamic3.pdf?dl=0">slides</a>)-->
@@ -170,7 +170,7 @@ schedule: >
       <th scope="row">13</th>
       <td> 12/12</td>
       <td> L1.10</td>
-      <td> <a href="https://semanticsarchive.net/Archive/TZiMDVjO/wh-questions-in-dynamic-inquisitive-semantics-submitted%20-%20Floris%20Roelofsen.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 4-5
+      <td> <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 4-5
       </td>
       <td> A dynamic inquisitive account of wh-questions
       <!-- (<a href="https://www.dropbox.com/s/uwf8pkr8rpbcdt6/lecture13-dynamic3.pdf?dl=0">slides</a>)-->
