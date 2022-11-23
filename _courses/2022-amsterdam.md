@@ -116,7 +116,7 @@ schedule: >
       <td>23/11</td>
       <td> L1.14</td>
       <td> 
-        <a href="https://people.umass.edu/partee/RGGU_2004/Indeterminate%20Pronouns.pdf" target="_blank">Kratzer and Shimoyama 2002</a>,<br>
+        <a href="https://people.umass.edu/partee/RGGU_2004/Indeterminate%20Pronouns.pdf" target="_blank">Kratzer and Shimoyama 2002</a>,
         <a href="https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/2512/2258" target="_blank">Rawlins 2008</a>
       </td>
       <td> Background on indeterminates and unconditionals</td>
