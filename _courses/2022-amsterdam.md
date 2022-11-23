@@ -94,7 +94,7 @@ schedule: >
       <td> L1.14</td>
       <td> Book chapter 8</td>
       <td> Inquisitive epistemic logic 
-       (<a href="https://www.dropbox.com/s/vf291v0yf8ct0ve/Lecture6.pdf?dl=0>slides</a>) 
+       (<a href="https://www.dropbox.com/s/vf291v0yf8ct0ve/Lecture6.pdf?dl=0">slides</a>) 
       </td>
       <td> Marco</td>
     </tr>
