@@ -143,7 +143,7 @@ schedule: >
         <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 1-2
       </td>
       <td> Dynamic inquisitive semantics: motivation and core ideas 
-      <!-- (<a href="https://www.dropbox.com/s/u4rf2i88nzo698g/lecture11-dynamic1.pdf?dl=0">slides</a>) -->
+       (<a href="https://www.dropbox.com/s/j3vx7wlu5ge3zz9/lecture10-dynamic1.pdf?dl=0">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
