@@ -151,20 +151,18 @@ schedule: >
       <th scope="row">11</th>
       <td>5/12</td>
       <td> L1.10</td>
-      <td> <a href="https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/download/538/437">Dotlacil and Roelofsen 2019</a></td>
-      <td> A first-order dynamic inquisitive semantics
-      <!-- (<a href="https://www.dropbox.com/s/modbor1c41qzlwm/lecture12-dynamic2.pdf?dl=0">slides</a>) -->
-      </td>
+      <td> </td>
+      <td> Class canceled </td>
       <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">12</th>
       <td> 7/12</td>
       <td> L1.14</td>
-      <td> <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 3
+      <td> <a href="https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/download/538/437">Dotlacil and Roelofsen 2019</a>
       </td>
-      <td> A fully compositional dynamic inquisitive semantics
-      <!-- (<a href="https://www.dropbox.com/s/uwf8pkr8rpbcdt6/lecture13-dynamic3.pdf?dl=0">slides</a>)-->
+      <td> A first-order dynamic inquisitive semantics
+           (<a href="https://www.dropbox.com/s/2wdyeaci71a7hqe/lecture12-dynamic2.pdf?dl=0">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -172,9 +170,9 @@ schedule: >
       <th scope="row">13</th>
       <td> 12/12</td>
       <td> L1.10</td>
-      <td> <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 4-5
+      <td> <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 3-5
       </td>
-      <td> A dynamic inquisitive account of wh-questions
+      <td> Compositionality and number-marking
       <!-- (<a href="https://www.dropbox.com/s/uwf8pkr8rpbcdt6/lecture13-dynamic3.pdf?dl=0">slides</a>)-->
       </td>
       <td> Floris</td>
