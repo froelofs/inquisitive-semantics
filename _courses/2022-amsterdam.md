@@ -172,8 +172,8 @@ schedule: >
       <td> L1.10</td>
       <td> <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 3-5
       </td>
-      <td> Compositionality and number-marking
-      <!-- (<a href="https://www.dropbox.com/s/uwf8pkr8rpbcdt6/lecture13-dynamic3.pdf?dl=0">slides</a>)-->
+      <td> Compositionality and assignment matrices
+      (<a href="https://www.dropbox.com/s/mcmxyqfdnciyiak/lecture13-dynamic3.pdf?dl=0">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
