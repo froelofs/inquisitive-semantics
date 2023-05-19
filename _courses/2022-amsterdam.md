@@ -189,6 +189,18 @@ schedule: >
   </table>
 ---
 
+## Term papers
+
+The course has ended and has led to some very interesting term papers:
+
+- Ferreol Lavaud: [A note about propositional attitudes justification](https://drive.google.com/file/d/1FmLXDP9JHiGspVUzm3WmjbyjVAySUJ48/view?usp=share_link)
+- Elynn Weijland: [A Uniform Account of the Dutch *of* in Inquisitive Semantics](https://drive.google.com/file/d/1iVx7YaCSzrkwTwEnnETSPLnXYPfZOqNY/view?usp=share_link)
+- Ioli Tente: [Intrigue, Puzzle, Fascinate and Theories of Clausal Complementation](https://drive.google.com/file/d/18VnFD_dB2iuwrRvZ_klMIXKljlCacbb_/view?usp=share_link)
+- Flip Lijnzaad: [Responding to negative biased polar questions using Dutch *wel*](https://drive.google.com/file/d/1SBJhKPN0te-qL6mbY5ZAyDPMEsTO2Rpc/view?usp=share_link)
+- Sarah Dukic: [How *might* generates alternatives when interacting with connectives](https://drive.google.com/file/d/1yYsjPvniPSKoB0ofUs84HqzgPLPxhTNS/view?usp=share_link)
+- Timo Diedering: [Division of labour and high-negation polar questions](https://drive.google.com/file/d/1S_1LMxhmr2ReeYdl-ka7VgH1tdru0NaF/view?usp=share_link)
+- Tianyi Chu: [Inquisitive Semantics for Question-sensitive Awareness](https://drive.google.com/file/d/1ilLrVZuW7YfoXP4kg5SZIGgYTRA2IxZh/view?usp=share_link)
+
 ## Prerequisites
 
 Good working knowledge of first-order logic is required (see for instance the first three chapters of
