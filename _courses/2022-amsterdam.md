@@ -186,7 +186,7 @@ schedule: >
       <td> </td>
     </tr>
   </tbody>
-  </table>
+  </table>              
 ---
 
 ## Term papers
