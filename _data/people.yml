@@ -265,6 +265,14 @@ hkalpak:
   website: https://www.su.se/english/profiles/haka9069-1.276311
   image: assets/images/people/kalpak-hana.jpg
 
+tklochowicz:
+  id: tklochowicz
+  first_name: Tomasz
+  last_name: Klochowicz
+  affiliation: University of Amsterdam
+  website: https://www.illc.uva.nl/People/person/5079/Tomasz-Klochowicz
+  image: assets/images/people/klochowicz.tomasz.png
+
 smeissner:
   id: smeissner
   first_name: Silke
