@@ -50,16 +50,16 @@ schedule: >
       <td> Book chapter 2</td>
       <td> Basic notions in inquisitive semantics
       </td>
-      <td> Marco</td>
+      <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>   6/11</td>
       <td> L1.10</td>
       <td> Book chapter 3</td>
-      <td> Main operations on propositions in inquisitive semantics
+      <td> Main operations on propositions in inquisitive semantics / Discuss progress on data collection exercise
       </td>
-      <td> Floris</td>
+      <td> Floris / Tomasz</td>
     </tr>
     <tr>
       <th scope="row">4</th>
@@ -123,26 +123,25 @@ schedule: >
     </tr>
     <tr>
       <td colspan="6" class="table-section">
-        Ongoing research: indeterminates, unconditionals and dynamic inquisitive semantics
+        Recent and ongoing work on attitude verbs
       </td>
     </tr>
     <tr>
       <th scope="row">9</th>
       <td>27/11</td>
       <td> L1.10</td>
-      <td> <a href="https://m-degano.github.io/publication/indefinites-and-free-choice/" target="_blank">Degano and Aloni 2021</a> </td>
-      <td> Diachronic perspective on free choice indefinites</em></td>
-      <td> Marco</td>
+      <td> <a href="https://link.springer.com/article/10.1007/s11050-019-09152-9" target="_blank">Theiler et al. 2018</a> </td>
+      <td> Picky predicates: why *believe* doesn’t like interrogative complements</em></td>
+      <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">10</th>
       <td>30/11</td>
       <td> L2.07</td>
       <td>
-        <a href="https://staff.science.uva.nl/f.j.m.m.veltman/papers/FVeltman-cm.pdf" target="_blank">Groenendijk et al 1996</a>,<br>
-        <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 1-2
+        <a href="https://link.springer.com/article/10.1007/s11050-019-09156-5" target="_blank">Uegaki and Sudo 2019</a>
       </td>
-      <td> Dynamic inquisitive semantics: motivation and core ideas 
+      <td> Why *hope* doesn't like interrogative complements
       </td>
       <td> Floris</td>
     </tr>
@@ -150,17 +149,21 @@ schedule: >
       <th scope="row">11</th>
       <td>4/12</td>
       <td> L1.10</td>
-      <td> </td>
-      <td> Class canceled </td>
+      <td> 
+        <a href="https://www.dropbox.com/s/2gjezdy4c7p2ccn/Proceedings2022-pages-173-179.pdf" target="_blank">Klochowicz 2022</a>
+      </td>
+      <td> 
+        Investigating the properties of clause-embedding predicates in Polish
+      </td>
       <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">12</th>
       <td> 7/12</td>
       <td> L2.07</td>
-      <td> <a href="https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/download/538/437">Dotlacil and Roelofsen 2019</a>
+      <td> <a href="https://doi.org/10.3765/sp.14.6">White 2021</a>
       </td>
-      <td> A first-order dynamic inquisitive semantics
+      <td> On believing and hoping whether (plus a response)
       </td>
       <td> Floris</td>
     </tr>
@@ -168,9 +171,9 @@ schedule: >
       <th scope="row">13</th>
       <td> 11/12</td>
       <td> L1.10</td>
-      <td> <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 3-5
+      <td> <a href="" target="_blank">Ozyildiz 2023</a>
       </td>
-      <td> Compositionality and assignment matrices
+      <td> Thinking
       </td>
       <td> Floris</td>
     </tr>
