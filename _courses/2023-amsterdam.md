@@ -41,7 +41,7 @@ schedule: >
       <td> Course overview, motivation, and discussion of data collection exercise
           <!--  (<a href="https://www.dropbox.com/s/wj5uc4rznxowy63/lecture1.pdf">slides</a>) -->
       </td>
-      <td> Floris / Tomasz</td>
+      <td> Floris + Tomasz</td>
     </tr>
     <tr>
       <th scope="row">2</th>
@@ -59,7 +59,7 @@ schedule: >
       <td> Book chapter 3</td>
       <td> Main operations on propositions in inquisitive semantics / Discuss progress on data collection exercise
       </td>
-      <td> Floris / Tomasz</td>
+      <td> Floris + Tomasz</td>
     </tr>
     <tr>
       <th scope="row">4</th>
@@ -83,7 +83,7 @@ schedule: >
         <a href="http://semanticsarchive.net/Archive/jdiNjljO/paper.pdf">Roelofsen 2017</a> and
          <a href="http://mwestera.humanities.uva.nl/downloads/Westera2019-SUB-notboth.pdf">Westera 2019</a>. -->
       </td>
-      <td> Floris / Tomasz</td>
+      <td> Floris + Tomasz</td>
     </tr>
     <tr>
       <th scope="row">6</th>
@@ -95,7 +95,7 @@ schedule: >
       <td> 
         Inquisitive semantics for declarative and interrogative sentences in English, part 2 / Discussion of the results of the data collection exercise 
       </td>
-      <td> Floris / Tomasz</td>
+      <td> Floris + Tomasz</td>
     </tr>
     <tr>
       <th scope="row">7</th>
@@ -143,7 +143,7 @@ schedule: >
       </td>
       <td> Why *hope* doesn't like interrogative complements
       </td>
-      <td> Floris</td>
+      <td> Tomasz</td>
     </tr>
     <tr>
       <th scope="row">11</th>
@@ -155,7 +155,7 @@ schedule: >
       <td> 
         Investigating the properties of clause-embedding predicates in Polish
       </td>
-      <td> Floris</td>
+      <td> Tomasz</td>
     </tr>
     <tr>
       <th scope="row">12</th>
