@@ -39,7 +39,7 @@ schedule: >
       <td> L1.10</td>
       <td> Book chapter 1</td>
       <td> Motivation and overview
-          #  (<a href="https://www.dropbox.com/s/wj5uc4rznxowy63/lecture1.pdf">slides</a>)
+          <!--  (<a href="https://www.dropbox.com/s/wj5uc4rznxowy63/lecture1.pdf">slides</a>) -->
       </td>
       <td> Floris</td>
     </tr>
@@ -49,7 +49,6 @@ schedule: >
       <td> L2.07</td>
       <td> Book chapter 2</td>
       <td> Basic notions
-      # (<a href="https://www.dropbox.com/s/q9ygnn3gb57btw9/Lecture2.pdf">slides</a>) 
       </td>
       <td> Marco</td>
     </tr>
@@ -59,7 +58,6 @@ schedule: >
       <td> L1.10</td>
       <td> Book chapter 3</td>
       <td> Operations on propositions 
-      # (<a href="https://www.dropbox.com/s/6j58omk1kv14e0t/lecture3.pdf">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -69,7 +67,6 @@ schedule: >
       <td> L2.07</td>
       <td> Book chapter 4</td>
       <td> First-order inquisitive semantics  
-      #  (<a href="https://www.dropbox.com/s/ch7e3wxt49sl0ut/lecture4.pdf">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -94,7 +91,6 @@ schedule: >
       <td> L2.07</td>
       <td> Book chapter 8</td>
       <td> Inquisitive epistemic logic 
-      #  (<a href="https://www.dropbox.com/s/vf291v0yf8ct0ve/Lecture6.pdf?dl=0">slides</a>) 
       </td>
       <td> Marco</td>
     </tr>
@@ -104,7 +100,6 @@ schedule: >
       <td> L1.10</td>
       <td> Book chapter 9</td>
       <td> Comparison with other frameworks 
-      #  (<a href="https://www.dropbox.com/s/58ez5xc8q19t5md/lecture7.pdf?dl=0">slides</a>) 
       </td>
       <td> Floris</td>
     </tr>
@@ -120,7 +115,6 @@ schedule: >
         <a href="https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/2512/2258" target="_blank">Rawlins 2008</a>
       </td>
       <td> Background on indeterminates and unconditionals
-      # (<a href="https://www.dropbox.com/s/6tl3s3tcpvkgnx8/Lecture8.pdf">slides</a>)
       </td>
       <td> Marco</td>
     </tr>
@@ -143,7 +137,6 @@ schedule: >
         <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 1-2
       </td>
       <td> Dynamic inquisitive semantics: motivation and core ideas 
-      #  (<a href="https://www.dropbox.com/s/j3vx7wlu5ge3zz9/lecture10-dynamic1.pdf?dl=0">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -162,7 +155,6 @@ schedule: >
       <td> <a href="https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/download/538/437">Dotlacil and Roelofsen 2019</a>
       </td>
       <td> A first-order dynamic inquisitive semantics
-          #  (<a href="https://www.dropbox.com/s/2wdyeaci71a7hqe/lecture12-dynamic2.pdf?dl=0">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -173,7 +165,6 @@ schedule: >
       <td> <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 3-5
       </td>
       <td> Compositionality and assignment matrices
-      # (<a href="https://www.dropbox.com/s/mcmxyqfdnciyiak/lecture13-dynamic3.pdf?dl=0">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -202,13 +193,14 @@ The first part of the course uses a textbook. The book is open access, so everyo
 
 ## Grading
 
-The grade will be based on two **homework assignments** (each counting for 20%) and a **final paper** (60%).
+The grade will be based on one **data collection exercise** (pass/fail), two **homework assignments** (each counting for 20%), and a **final paper** (60%).
   
 ## Assignments
 
 - A latex template for drawing inquisitive semantics diagrams can be downloaded [here]({{ site.baseurl }}/resources.html).  
-- Assignment 1 was posted on Monday 31/10 and was due on Monday 14/11 before class.  
-- Assignment 2 was posted on Monday 14/11 and was due on Monday 28/11 before class.  
+- The data collection exercise will be posted on Monday 30/10 and will be due on Monday 13/11 before class.
+- Assignment 1 will be posted on Thursday 2/11 and will be due on Thursday 16/11 before class.  
+- Assignment 2 will be posted on Monday 13/11 and will be due on Monday 27/11 before class.  
 <!-- - [Assignment 2](https://www.dropbox.com/s/2pb52ai6w3fzzu8/LC-2020-assignment2.pdf?dl=0) was posted on 9/11 and is due on Friday 20/11 before class. -->
   
 ## Instructions for final paper
