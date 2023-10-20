@@ -35,7 +35,7 @@ schedule: >
     </tr>
     <tr>
       <th scope="row"> 1</th>
-      <td> 31/10</td>
+      <td> 30/10</td>
       <td> L1.10</td>
       <td> Book chapter 1</td>
       <td> Motivation and overview
@@ -46,7 +46,7 @@ schedule: >
     <tr>
       <th scope="row">2</th>
       <td> 2/11</td>
-      <td> L1.14</td>
+      <td> L2.07</td>
       <td> Book chapter 2</td>
       <td> Basic notions
       # (<a href="https://www.dropbox.com/s/q9ygnn3gb57btw9/Lecture2.pdf">slides</a>) 
@@ -55,7 +55,7 @@ schedule: >
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td>   7/11</td>
+      <td>   6/11</td>
       <td> L1.10</td>
       <td> Book chapter 3</td>
       <td> Operations on propositions 
@@ -66,7 +66,7 @@ schedule: >
     <tr>
       <th scope="row">4</th>
       <td>   9/11</td>
-      <td> L1.14</td>
+      <td> L2.07</td>
       <td> Book chapter 4</td>
       <td> First-order inquisitive semantics  
       #  (<a href="https://www.dropbox.com/s/ch7e3wxt49sl0ut/lecture4.pdf">slides</a>)
@@ -75,7 +75,7 @@ schedule: >
     </tr>
     <tr>
       <th scope="row">5</th>
-      <td>   14/11</td>
+      <td>   13/11</td>
       <td> L1.10</td>
       <td> 
          Book chapter 5-6
@@ -91,7 +91,7 @@ schedule: >
     <tr>
       <th scope="row">6</th>
       <td> 16/11</td>
-      <td> L1.14</td>
+      <td> L2.07</td>
       <td> Book chapter 8</td>
       <td> Inquisitive epistemic logic 
       #  (<a href="https://www.dropbox.com/s/vf291v0yf8ct0ve/Lecture6.pdf?dl=0">slides</a>) 
@@ -100,7 +100,7 @@ schedule: >
     </tr>
     <tr>
       <th scope="row">7</th>
-      <td> 21/11</td>
+      <td> 20/11</td>
       <td> L1.10</td>
       <td> Book chapter 9</td>
       <td> Comparison with other frameworks 
@@ -114,7 +114,7 @@ schedule: >
     <tr>
       <th scope="row">8</th>
       <td>23/11</td>
-      <td> L1.14</td>
+      <td> L2.07</td>
       <td> 
         <a href="https://people.umass.edu/partee/RGGU_2004/Indeterminate%20Pronouns.pdf" target="_blank">Kratzer and Shimoyama 2002</a>,
         <a href="https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/2512/2258" target="_blank">Rawlins 2008</a>
@@ -128,7 +128,7 @@ schedule: >
     </tr>
     <tr>
       <th scope="row">9</th>
-      <td>28/11</td>
+      <td>27/11</td>
       <td> L1.10</td>
       <td> <a href="https://m-degano.github.io/publication/indefinites-and-free-choice/" target="_blank">Degano and Aloni 2021</a> </td>
       <td> Diachronic perspective on free choice indefinites</em></td>
@@ -137,7 +137,7 @@ schedule: >
     <tr>
       <th scope="row">10</th>
       <td>30/11</td>
-      <td> L1.14</td>
+      <td> L2.07</td>
       <td>
         <a href="https://staff.science.uva.nl/f.j.m.m.veltman/papers/FVeltman-cm.pdf" target="_blank">Groenendijk et al 1996</a>,<br>
         <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 1-2
@@ -149,7 +149,7 @@ schedule: >
     </tr>
     <tr>
       <th scope="row">11</th>
-      <td>5/12</td>
+      <td>4/12</td>
       <td> L1.10</td>
       <td> </td>
       <td> Class canceled </td>
@@ -158,7 +158,7 @@ schedule: >
     <tr>
       <th scope="row">12</th>
       <td> 7/12</td>
-      <td> L1.14</td>
+      <td> L2.07</td>
       <td> <a href="https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/download/538/437">Dotlacil and Roelofsen 2019</a>
       </td>
       <td> A first-order dynamic inquisitive semantics
@@ -168,7 +168,7 @@ schedule: >
     </tr>
     <tr>
       <th scope="row">13</th>
-      <td> 12/12</td>
+      <td> 11/12</td>
       <td> L1.10</td>
       <td> <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 3-5
       </td>
@@ -180,7 +180,7 @@ schedule: >
     <tr>
       <th scope="row">14</th>
       <td>14/12</td>
-      <td> L1.14</td>
+      <td> L2.07</td>
       <td> </td>
       <td> Project presentations</td>
       <td> </td>
