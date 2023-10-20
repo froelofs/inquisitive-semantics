@@ -171,7 +171,7 @@ schedule: >
       <th scope="row">13</th>
       <td> 11/12</td>
       <td> L1.10</td>
-      <td> <a href="" target="_blank">Ozyildiz 2023</a>
+      <td> <a href="https://www.deniz.fr/esslli/slides/day3.pdf" target="_blank">Ozyildiz 2023</a>
       </td>
       <td> Thinking
       </td>
