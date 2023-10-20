@@ -12,7 +12,7 @@ people:
   - froelofsen
   - tklochowicz
 description: >
-    Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. The focus of the course will be on **inquisitive semantics**, which enriches the traditional truth-conditional approach in ways that allow for a more comprehensive formal analysis of the meaning of sentences in linguistic interaction. The course introduces the basic inquisitive semantics framework, and discusses some current research in this area. This year, we will focus in particular on the semantics of attitude verbs like *know*, *believe*, and *wonder*. Why, for instance, is *believe* typically incompatible with interrogative complements (*Sue believes who arrived* is not a good sentence) and *wonder* typically incompatible with declarative complements (*Sue wonders that Mary arrived* is not good either) while *know* can take either type of complement (*Sue knows who arrived* / *Sue knows that Mary arrived*). Is this an artifact of English grammar, or do we see the same pattern in other languages? Can such distributive constraints be explained based on the semantic properties of these verbs?
+    Traditionally, logic is concerned with the characterization of valid reasoning and argumentation, and therefore identifies the meaning of a sentence with its truth conditions. When analyzing the meaning of sentences in conversation, however, other notions become of interest as well. The focus of the course will be on **inquisitive semantics**, which enriches the traditional truth-conditional approach in ways that allow for a more comprehensive formal analysis of the meaning of sentences in linguistic interaction. The course introduces the basic inquisitive semantics framework, and discusses some current research in this area. This year, we will focus in particular on the semantics of **attitude verbs** like *know*, *believe*, and *wonder*. Why, for instance, is *believe* typically incompatible with interrogative complements (*Sue believes who arrived* is not a good sentence) and *wonder* typically incompatible with declarative complements (*Sue wonders that Mary arrived* is not good either) while *know* can take either type of complement (*Sue knows who arrived* / *Sue knows that Mary arrived*). Is this an artifact of English grammar, or do we see the same pattern in other languages? Can such distributive constraints be explained based on the semantic properties of these verbs? Recent work has argued that we can indeed provide such explanations, and obtain a deeper understanding of attitude verbs more generally, if we adopt a formal semantic framework in which semantic content is not identified with truth-conditional content but also comprises inquisitive content.
 schedule_intro: >
   Mondays 11.00-13.00, Thursdays 11.00-13.00
 schedule: >
@@ -39,7 +39,7 @@ schedule: >
       <td> L1.10</td>
       <td> Book chapter 1</td>
       <td> Motivation and overview
-           (<a href="https://www.dropbox.com/s/wj5uc4rznxowy63/lecture1.pdf">slides</a>)
+          #  (<a href="https://www.dropbox.com/s/wj5uc4rznxowy63/lecture1.pdf">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -49,7 +49,7 @@ schedule: >
       <td> L1.14</td>
       <td> Book chapter 2</td>
       <td> Basic notions
-      (<a href="https://www.dropbox.com/s/q9ygnn3gb57btw9/Lecture2.pdf">slides</a>) 
+      # (<a href="https://www.dropbox.com/s/q9ygnn3gb57btw9/Lecture2.pdf">slides</a>) 
       </td>
       <td> Marco</td>
     </tr>
@@ -59,7 +59,7 @@ schedule: >
       <td> L1.10</td>
       <td> Book chapter 3</td>
       <td> Operations on propositions 
-      (<a href="https://www.dropbox.com/s/6j58omk1kv14e0t/lecture3.pdf">slides</a>)
+      # (<a href="https://www.dropbox.com/s/6j58omk1kv14e0t/lecture3.pdf">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -69,7 +69,7 @@ schedule: >
       <td> L1.14</td>
       <td> Book chapter 4</td>
       <td> First-order inquisitive semantics  
-       (<a href="https://www.dropbox.com/s/ch7e3wxt49sl0ut/lecture4.pdf">slides</a>)
+      #  (<a href="https://www.dropbox.com/s/ch7e3wxt49sl0ut/lecture4.pdf">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -94,7 +94,7 @@ schedule: >
       <td> L1.14</td>
       <td> Book chapter 8</td>
       <td> Inquisitive epistemic logic 
-       (<a href="https://www.dropbox.com/s/vf291v0yf8ct0ve/Lecture6.pdf?dl=0">slides</a>) 
+      #  (<a href="https://www.dropbox.com/s/vf291v0yf8ct0ve/Lecture6.pdf?dl=0">slides</a>) 
       </td>
       <td> Marco</td>
     </tr>
@@ -104,7 +104,7 @@ schedule: >
       <td> L1.10</td>
       <td> Book chapter 9</td>
       <td> Comparison with other frameworks 
-       (<a href="https://www.dropbox.com/s/58ez5xc8q19t5md/lecture7.pdf?dl=0">slides</a>) 
+      #  (<a href="https://www.dropbox.com/s/58ez5xc8q19t5md/lecture7.pdf?dl=0">slides</a>) 
       </td>
       <td> Floris</td>
     </tr>
@@ -120,7 +120,7 @@ schedule: >
         <a href="https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/2512/2258" target="_blank">Rawlins 2008</a>
       </td>
       <td> Background on indeterminates and unconditionals
-      (<a href="https://www.dropbox.com/s/6tl3s3tcpvkgnx8/Lecture8.pdf">slides</a>)
+      # (<a href="https://www.dropbox.com/s/6tl3s3tcpvkgnx8/Lecture8.pdf">slides</a>)
       </td>
       <td> Marco</td>
     </tr>
@@ -143,7 +143,7 @@ schedule: >
         <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 1-2
       </td>
       <td> Dynamic inquisitive semantics: motivation and core ideas 
-       (<a href="https://www.dropbox.com/s/j3vx7wlu5ge3zz9/lecture10-dynamic1.pdf?dl=0">slides</a>)
+      #  (<a href="https://www.dropbox.com/s/j3vx7wlu5ge3zz9/lecture10-dynamic1.pdf?dl=0">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -162,7 +162,7 @@ schedule: >
       <td> <a href="https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/download/538/437">Dotlacil and Roelofsen 2019</a>
       </td>
       <td> A first-order dynamic inquisitive semantics
-           (<a href="https://www.dropbox.com/s/2wdyeaci71a7hqe/lecture12-dynamic2.pdf?dl=0">slides</a>)
+          #  (<a href="https://www.dropbox.com/s/2wdyeaci71a7hqe/lecture12-dynamic2.pdf?dl=0">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -173,7 +173,7 @@ schedule: >
       <td> <a href="https://www.dropbox.com/s/hzy2twqbxei872t/wh-questions-in-dynamic-inquisitive-semantics.pdf" target="_blank">Dotlacil and Roelofsen 2022</a> Sect. 3-5
       </td>
       <td> Compositionality and assignment matrices
-      (<a href="https://www.dropbox.com/s/mcmxyqfdnciyiak/lecture13-dynamic3.pdf?dl=0">slides</a>)
+      # (<a href="https://www.dropbox.com/s/mcmxyqfdnciyiak/lecture13-dynamic3.pdf?dl=0">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -189,7 +189,7 @@ schedule: >
   </table>              
 ---
 
-## Term papers
+<!-- ## Term papers
 
 The course has ended and has led to some very interesting term papers:
 
@@ -199,7 +199,7 @@ The course has ended and has led to some very interesting term papers:
 - Flip Lijnzaad: [Responding to negative biased polar questions using Dutch *wel*](https://drive.google.com/file/d/1SBJhKPN0te-qL6mbY5ZAyDPMEsTO2Rpc/view?usp=share_link)
 - Sarah Dukic: [How *might* generates alternatives when interacting with connectives](https://drive.google.com/file/d/1yYsjPvniPSKoB0ofUs84HqzgPLPxhTNS/view?usp=share_link)
 - Timo Diedering: [Division of labour and high-negation polar questions](https://drive.google.com/file/d/1S_1LMxhmr2ReeYdl-ka7VgH1tdru0NaF/view?usp=share_link)
-- Tianyi Chu: [Inquisitive Semantics for Question-sensitive Awareness](https://drive.google.com/file/d/1ilLrVZuW7YfoXP4kg5SZIGgYTRA2IxZh/view?usp=share_link)
+- Tianyi Chu: [Inquisitive Semantics for Question-sensitive Awareness](https://drive.google.com/file/d/1ilLrVZuW7YfoXP4kg5SZIGgYTRA2IxZh/view?usp=share_link) -->
 
 ## Prerequisites
 
