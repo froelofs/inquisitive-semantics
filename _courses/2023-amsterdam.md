@@ -7,7 +7,7 @@ subtitle: Fall 2023
 image: assets/images/courses/newyorker.png
 location: Amsterdam
 venue: "[Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)"
-date: 2023-11-01
+date: 2023-10-30
 people: 
   - froelofsen
   - tklochowicz
