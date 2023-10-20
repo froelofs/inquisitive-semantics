@@ -38,17 +38,17 @@ schedule: >
       <td> 30/10</td>
       <td> L1.10</td>
       <td> Book chapter 1</td>
-      <td> Motivation and overview
+      <td> Course overview, motivation, and discussion of data collection exercise
           <!--  (<a href="https://www.dropbox.com/s/wj5uc4rznxowy63/lecture1.pdf">slides</a>) -->
       </td>
-      <td> Floris</td>
+      <td> Floris / Tomasz</td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td> 2/11</td>
       <td> L2.07</td>
       <td> Book chapter 2</td>
-      <td> Basic notions
+      <td> Basic notions in inquisitive semantics
       </td>
       <td> Marco</td>
     </tr>
@@ -57,7 +57,7 @@ schedule: >
       <td>   6/11</td>
       <td> L1.10</td>
       <td> Book chapter 3</td>
-      <td> Operations on propositions 
+      <td> Main operations on propositions in inquisitive semantics
       </td>
       <td> Floris</td>
     </tr>
@@ -66,59 +66,65 @@ schedule: >
       <td>   9/11</td>
       <td> L2.07</td>
       <td> Book chapter 4</td>
-      <td> First-order inquisitive semantics  
+      <td> Inquisitive semantics for a first-order logical language
       </td>
       <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">5</th>
-      <td>   13/11</td>
+      <td> 13/11</td>
       <td> L1.10</td>
       <td> 
          Book chapter 5-6
       </td>
-      <td> Question semantics 
-        (<a href="https://www.dropbox.com/s/gtq7jfv2lx14z17/lecture5.pdf">slides</a>),
+      <td> Inquisitive semantics for declarative and interrogative sentences in English, part 1 / Computational tool for analyzing attitude verb data
+        <!-- (<a href="https://www.dropbox.com/s/gtq7jfv2lx14z17/lecture5.pdf">slides</a>),
         for the <i>exactly one</i> implication of alternative questions see
         <a href="http://semanticsarchive.net/Archive/jdiNjljO/paper.pdf">Roelofsen 2017</a> and
-         <a href="http://mwestera.humanities.uva.nl/downloads/Westera2019-SUB-notboth.pdf">Westera 2019</a>.
+         <a href="http://mwestera.humanities.uva.nl/downloads/Westera2019-SUB-notboth.pdf">Westera 2019</a>. -->
       </td>
-      <td> Floris</td>
+      <td> Floris / Tomasz</td>
     </tr>
     <tr>
       <th scope="row">6</th>
       <td> 16/11</td>
       <td> L2.07</td>
-      <td> Book chapter 8</td>
-      <td> Inquisitive epistemic logic 
+      <td> 
+        Book chapter 5-6
       </td>
-      <td> Marco</td>
+      <td> 
+        Inquisitive semantics for declarative and interrogative sentences in English, part 2 / Discussion of the results of the data collection exercise 
+      </td>
+      <td> Floris / Tomasz</td>
     </tr>
     <tr>
       <th scope="row">7</th>
       <td> 20/11</td>
       <td> L1.10</td>
-      <td> Book chapter 9</td>
-      <td> Comparison with other frameworks 
+      <td> 
+        Book chapter 8
+      </td>
+      <td> 
+        Inquisitive semantics for attitude verbs
       </td>
       <td> Floris</td>
     </tr>
-      <td colspan="6" class="table-section">
-        Ongoing research: indeterminates, unconditionals and dynamic inquisitive semantics
-      </td>
     <tr>
       <th scope="row">8</th>
       <td>23/11</td>
       <td> L2.07</td>
       <td> 
-        <a href="https://people.umass.edu/partee/RGGU_2004/Indeterminate%20Pronouns.pdf" target="_blank">Kratzer and Shimoyama 2002</a>,
-        <a href="https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/2512/2258" target="_blank">Rawlins 2008</a>
+        Book chapter 9
       </td>
-      <td> Background on indeterminates and unconditionals
+      <td> 
+        Comparison with other frameworks 
       </td>
-      <td> Marco</td>
+      <td> Floris</td>
     </tr>
     <tr>
+      <td colspan="6" class="table-section">
+        Ongoing research: indeterminates, unconditionals and dynamic inquisitive semantics
+      </td>
     </tr>
     <tr>
       <th scope="row">9</th>
