@@ -207,7 +207,7 @@ The grade will be based on one **data collection exercise** (pass/fail), two **h
 ## Assignments
 
 - A latex template for drawing inquisitive semantics diagrams can be downloaded [here]({{ site.baseurl }}/resources.html).  
-- The data collection exercise will be posted on Monday 30/10 and will be due on Monday 13/11 before class.
+- The [data collection exercise](https://www.dropbox.com/scl/fi/f9iivnlzewuqy2f1romkf/LC_Assignment_1.pdf?rlkey=h3ljshkz5q0is9mly5vivrsz5&dl=0) was posted on Monday 30/10 and will be due on Monday 13/11 before class.
 - Assignment 1 will be posted on Thursday 2/11 and will be due on Thursday 16/11 before class.  
 - Assignment 2 will be posted on Monday 13/11 and will be due on Monday 27/11 before class.  
 <!-- - [Assignment 2](https://www.dropbox.com/s/2pb52ai6w3fzzu8/LC-2020-assignment2.pdf?dl=0) was posted on 9/11 and is due on Friday 20/11 before class. -->
