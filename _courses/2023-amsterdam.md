@@ -39,7 +39,8 @@ schedule: >
       <td> L1.10</td>
       <td> Book chapter 1</td>
       <td> Course overview, motivation, and discussion of data collection exercise
-          <!--  (<a href="https://www.dropbox.com/s/wj5uc4rznxowy63/lecture1.pdf">slides</a>) -->
+          (<a href="https://www.dropbox.com/scl/fi/umw6crddjxv7qymkemkgg/lecture1.pdf?rlkey=7i389m73y6gjedrmd1wlk9b41&dl=0">slides Floris</a>, 
+           <a href="https://www.dropbox.com/scl/fi/3gilyfqrqt1pg6cmc3bxt/Presentation-data-collection.pdf?rlkey=69qvv2y9hmscq2jodrjkc7si5&dl=0">slides Tomasz</a>)
       </td>
       <td> Floris + Tomasz</td>
     </tr>
@@ -49,6 +50,7 @@ schedule: >
       <td> L2.07</td>
       <td> Book chapter 2</td>
       <td> Basic notions in inquisitive semantics
+            (<a href="https://www.dropbox.com/scl/fi/jq1yhm56cw6pnhsip5bhh/lecture2.pdf?rlkey=naybo3slzwq8w9ccdpmdcsky1&dl=0">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -208,7 +210,7 @@ The grade will be based on one **data collection exercise** (pass/fail), two **h
 
 - A latex template for drawing inquisitive semantics diagrams can be downloaded [here]({{ site.baseurl }}/resources.html).  
 - The [data collection exercise](https://www.dropbox.com/scl/fi/f9iivnlzewuqy2f1romkf/LC_Assignment_1.pdf?rlkey=h3ljshkz5q0is9mly5vivrsz5&dl=0) was posted on Monday 30/10 and will be due on Monday 13/11 before class.
-- Assignment 1 will be posted on Thursday 2/11 and will be due on Thursday 16/11 before class.  
+- [Assignment 1](https://www.dropbox.com/scl/fi/17bvtqhlxiebkii6p25s5/LC-2023-assignment1.pdf?rlkey=e4wzrjb6evm9duolb8w0vhtp5&dl=0) has been posted on Thursday 2/11 and is due on Thursday 16/11 before class.  
 - Assignment 2 will be posted on Monday 13/11 and will be due on Monday 27/11 before class.  
 <!-- - [Assignment 2](https://www.dropbox.com/s/2pb52ai6w3fzzu8/LC-2020-assignment2.pdf?dl=0) was posted on 9/11 and is due on Friday 20/11 before class. -->
   
