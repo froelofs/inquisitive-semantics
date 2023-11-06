@@ -60,6 +60,7 @@ schedule: >
       <td> L1.10</td>
       <td> Book chapter 3</td>
       <td> Main operations on propositions in inquisitive semantics / Discuss progress on data collection exercise
+            (<a href="https://www.dropbox.com/scl/fi/hlqebykgmpme7l262zyas/lecture3.pdf?rlkey=unxdkffmkzvyfl4fc725l2ynj&dl=0">slides</a>)
       </td>
       <td> Floris + Tomasz</td>
     </tr>
