@@ -96,9 +96,10 @@ schedule: >
         Book chapter 5-6
       </td>
       <td> 
-        Inquisitive semantics for declarative and interrogative sentences in English, part 2 / Discussion of the results of the data collection exercise 
+        Inquisitive semantics for declarative and interrogative sentences in English, part 2 / 
+        Discussion of the results of the data collection exercise: everyone presents 4 minute overview of their own findings, Tomasz presents some preliminary comparative results
       </td>
-      <td> Floris + Tomasz</td>
+      <td> Floris + Tomasz + everyone</td>
     </tr>
     <tr>
       <th scope="row">7</th>
