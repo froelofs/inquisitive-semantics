@@ -70,6 +70,7 @@ schedule: >
       <td> L2.07</td>
       <td> Book chapter 4</td>
       <td> Inquisitive semantics for a first-order logical language
+            (<a href="https://www.dropbox.com/scl/fi/9a6ch0d3fyuh6wkjdwt44/lecture4.pdf?rlkey=yyxbtrqudgfdrzh2l2s4g0nuv&dl=0">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -109,6 +110,10 @@ schedule: >
       </td>
       <td> 
         Inquisitive semantics for declarative and interrogative sentences in English
+          (<a href="https://www.dropbox.com/scl/fi/6953ztb3dpilo92e1blrr/lecture5.pdf?rlkey=jq42gpt8n4781uvfp808u5cdd&dl=0">slides</a>),
+        for the <i>exactly one</i> implication of alternative questions see
+        <a href="http://semanticsarchive.net/Archive/jdiNjljO/paper.pdf">Roelofsen 2017</a> and
+         <a href="http://mwestera.humanities.uva.nl/downloads/Westera2019-SUB-notboth.pdf">Westera 2019</a>.
       </td>
       <td> Floris</td>
     </tr>
