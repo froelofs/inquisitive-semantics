@@ -78,25 +78,24 @@ schedule: >
       <td> 13/11</td>
       <td> L1.10</td>
       <td> 
-         Book chapter 5-6
+         
       </td>
-      <td> Inquisitive semantics for declarative and interrogative sentences in English, part 1 / Computational tool for analyzing attitude verb data
+      <td> Computational tools for analyzing attitude verb data
         <!-- (<a href="https://www.dropbox.com/s/gtq7jfv2lx14z17/lecture5.pdf">slides</a>),
         for the <i>exactly one</i> implication of alternative questions see
         <a href="http://semanticsarchive.net/Archive/jdiNjljO/paper.pdf">Roelofsen 2017</a> and
          <a href="http://mwestera.humanities.uva.nl/downloads/Westera2019-SUB-notboth.pdf">Westera 2019</a>. -->
       </td>
-      <td> Floris + Tomasz</td>
+      <td> Tomasz</td>
     </tr>
     <tr>
       <th scope="row">6</th>
       <td> 16/11</td>
       <td> L2.07</td>
       <td> 
-        Book chapter 5-6
+        
       </td>
       <td> 
-        Inquisitive semantics for declarative and interrogative sentences in English, part 2 / 
         Discussion of the results of the data collection exercise: everyone presents 4 minute overview of their own findings, Tomasz presents some preliminary comparative results
       </td>
       <td> Floris + Tomasz + everyone</td>
@@ -106,10 +105,10 @@ schedule: >
       <td> 20/11</td>
       <td> L1.10</td>
       <td> 
-        Book chapter 8
+        Book chapter 5-6
       </td>
       <td> 
-        Inquisitive semantics for attitude verbs
+        Inquisitive semantics for declarative and interrogative sentences in English
       </td>
       <td> Floris</td>
     </tr>
@@ -118,6 +117,19 @@ schedule: >
       <td>23/11</td>
       <td> L2.07</td>
       <td> 
+        Book chapter 8
+      </td>
+      <td> 
+        Inquisitive semantics for attitude verbs
+      </td>
+      <td> Floris</td>
+    </tr>
+    
+    <tr>
+      <th scope="row">9</th>
+      <td>27/11</td>
+      <td> L1.10</td>
+      <td> 
         Book chapter 9
       </td>
       <td> 
@@ -125,23 +137,25 @@ schedule: >
       </td>
       <td> Floris</td>
     </tr>
+
     <tr>
       <td colspan="6" class="table-section">
-        Recent and ongoing work on attitude verbs
+        Recent and ongoing work on the semantics of questions and attitude verbs
       </td>
     </tr>
+
     <tr>
-      <th scope="row">9</th>
-      <td>27/11</td>
-      <td> L1.10</td>
+      <th scope="row">10</th>
+      <td>30/11</td>
+      <td> L2.07</td>
       <td> <a href="https://link.springer.com/article/10.1007/s11050-019-09152-9" target="_blank">Theiler et al. 2018</a> </td>
       <td> Picky predicates: why *believe* doesn’t like interrogative complements</em></td>
       <td> Floris</td>
     </tr>
     <tr>
-      <th scope="row">10</th>
-      <td>30/11</td>
-      <td> L2.07</td>
+      <th scope="row">11</th>
+      <td>4/12</td>
+      <td> L1.10</td>
       <td>
         <a href="https://link.springer.com/article/10.1007/s11050-019-09156-5" target="_blank">Uegaki and Sudo 2019</a>
       </td>
@@ -150,9 +164,9 @@ schedule: >
       <td> Tomasz</td>
     </tr>
     <tr>
-      <th scope="row">11</th>
-      <td>4/12</td>
-      <td> L1.10</td>
+      <th scope="row">12</th>
+      <td> 7/12</td>
+      <td> L2.07</td>
       <td> 
         <a href="https://www.dropbox.com/s/2gjezdy4c7p2ccn/Proceedings2022-pages-173-179.pdf" target="_blank">Klochowicz 2022</a>
       </td>
@@ -162,22 +176,12 @@ schedule: >
       <td> Tomasz</td>
     </tr>
     <tr>
-      <th scope="row">12</th>
-      <td> 7/12</td>
-      <td> L2.07</td>
-      <td> <a href="https://doi.org/10.3765/sp.14.6">White 2021</a>
-      </td>
-      <td> On believing and hoping whether (plus a response)
-      </td>
-      <td> Floris</td>
-    </tr>
-    <tr>
       <th scope="row">13</th>
       <td> 11/12</td>
       <td> L1.10</td>
-      <td> <a href="https://www.deniz.fr/esslli/slides/day3.pdf" target="_blank">Ozyildiz 2023</a>
+      <td> <a href="https://doi.org/10.3765/sp.14.6">White 2021</a>
       </td>
-      <td> Thinking
+      <td> On believing and hoping whether (plus a response)
       </td>
       <td> Floris</td>
     </tr>
