@@ -98,7 +98,7 @@ schedule: >
       <td> 
         Discussion of the results of the data collection exercise: everyone presents 4 minute overview of their own findings, Tomasz presents some preliminary comparative results
       </td>
-      <td> Floris + Tomasz + everyone</td>
+      <td> Students + Tomasz</td>
     </tr>
     <tr>
       <th scope="row">7</th>
@@ -191,7 +191,7 @@ schedule: >
       <td> L2.07</td>
       <td> </td>
       <td> Project presentations</td>
-      <td> </td>
+      <td> Students </td>
     </tr>
   </tbody>
   </table>              
