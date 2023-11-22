@@ -10,11 +10,17 @@
 #
 # ===================================================================
 
+
 - date: 2023-10-17
   text: >
     With great sadness we have learned that **Jeroen Groenendijk** has passed away.
     Jeroen has made groundbreaking contributions to formal semantics. His work on dynamic semantics and inquisitive semantics
     have been particularly influential. He has been a teacher, mentor, and a dear friend to many of us, and we will greatly miss him.
+
+- date: 2023-09-21
+  text: >
+    **Alexandros Kalomoiros**' article [Deriving presupposition projection in coordinations of polar questions: a reply to Enguehard 2021](https://link.springer.com/article/10.1007/s11050-023-09206-z)
+    has appeared in Natural Language Semantics.
 
 - date: 2023-05-12
   text: >
