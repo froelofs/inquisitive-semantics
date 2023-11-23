@@ -126,6 +126,7 @@ schedule: >
       </td>
       <td> 
         Inquisitive semantics for attitude verbs
+        (<a href="https://www.dropbox.com/scl/fi/ehn8gmc9dxvwy36mcala0/lecture6.pdf?rlkey=cmm05s54t6n2sjao26ix683yw&dl=0">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
