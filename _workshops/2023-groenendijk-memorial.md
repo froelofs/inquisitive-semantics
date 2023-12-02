@@ -2,8 +2,8 @@
 layout: workshop
 title: Jeroen Groenendijk
 subtitle: Memorial event
-date: 2024-02-02
-# end_date: 2023-02-02
+date: 2024-02-01
+# end_date: 2023-02-01
 # image: assets/images/people/groenendijk-jeroen.jpeg
 location: Amsterdam
 venue: >
@@ -86,6 +86,6 @@ schedule: >
 ---
 
 
-The event takes place on the **2nd of February 2024**, **17.00-19.00**, at the [Bushuis building](https://maps.app.goo.gl/KbLeqvQoUGUARx33A) of the University of Amsterdam, **Kloveniersburgwal 48**, room **F0.01**.
+The event takes place on the **1st of February 2024**, **17.00-19.00**, at the [Bushuis building](https://maps.app.goo.gl/KbLeqvQoUGUARx33A) of the University of Amsterdam, **Kloveniersburgwal 48**, room **F0.01**.
 
 The event is co-located with the [NIHIL workshop](https://projects.illc.uva.nl/nihil/workshops).
