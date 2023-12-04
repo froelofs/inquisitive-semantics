@@ -140,6 +140,7 @@ schedule: >
       </td>
       <td> 
         Comparison with other frameworks 
+        (<a href="https://www.dropbox.com/scl/fi/iymw1vu6vwxhh83109hui/lecture7.pdf?rlkey=biypf6ux8rlrjqow9j9xdsopt&dl=0">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
@@ -155,7 +156,10 @@ schedule: >
       <td>30/11</td>
       <td> L2.07</td>
       <td> <a href="https://link.springer.com/article/10.1007/s11050-019-09152-9" target="_blank">Theiler et al. 2018</a> </td>
-      <td> Picky predicates: why *believe* doesn’t like interrogative complements</em></td>
+      <td>
+        Picky predicates: why *believe* doesn’t like interrogative complements
+        (<a href="https://www.dropbox.com/scl/fi/8nrbkivskhn4psj051ahp/why-believe-is-anti-rogative.pdf?rlkey=nxbxd6rptnps8jtjjsg4rwnqk&dl=0">slides</a>)
+      </td>
       <td> Floris</td>
     </tr>
     <tr>
