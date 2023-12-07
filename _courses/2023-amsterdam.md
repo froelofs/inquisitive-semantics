@@ -169,7 +169,9 @@ schedule: >
       <td>
         <a href="https://link.springer.com/article/10.1007/s11050-019-09156-5" target="_blank">Uegaki and Sudo 2019</a>
       </td>
-      <td> Why *hope* doesn't like interrogative complements
+      <td> 
+        Why *hope* doesn't like interrogative complements
+        (<a href="https://www.dropbox.com/scl/fi/6nqm4vfaa7bp2etutplsn/Hope_wh_lecture.pdf?rlkey=m5fky7xid7ihhjfmnwzxrtsfh&dl=0">slides</a>)
       </td>
       <td> Tomasz</td>
     </tr>
@@ -181,7 +183,8 @@ schedule: >
         <a href="https://www.dropbox.com/s/2gjezdy4c7p2ccn/Proceedings2022-pages-173-179.pdf" target="_blank">Klochowicz 2022</a>
       </td>
       <td> 
-        Investigating the properties of clause-embedding predicates in Polish
+        Comparing different approaches to the semantics of responsive clause-embedding predicates
+        (<a href="https://www.dropbox.com/scl/fi/pnrshgpupuv1p537lmryn/Responsive_predicates.pdf?rlkey=30nr25ggyl1xxocxeb9fiuz97&dl=0">slides</a>)
       </td>
       <td> Tomasz</td>
     </tr>
