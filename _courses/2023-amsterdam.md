@@ -192,9 +192,12 @@ schedule: >
       <th scope="row">13</th>
       <td> 11/12</td>
       <td> L1.10</td>
-      <td> <a href="https://doi.org/10.3765/sp.14.6">White 2021</a>
+      <td> 
+        <a href="https://www.signlab-amsterdam.nl/publications/FEAST_2023_headshake_in_biased_polar_questions_in_NGT.pdf">Oomen and Roelofsen 2023</a>,
+        <a href="https://www.signlab-amsterdam.nl/publications/FEAST_methods_measuring_analyzing_visualizing_facial_expressions.pdf">Esselink et al. 2023</a>
       </td>
-      <td> On believing and hoping whether (plus a response)
+      <td> Polar questions in Sign Language of the Netherlands
+      (<a href="https://docs.google.com/presentation/d/1JsUYZcrlLlNwAXFYwiXvW4zPx7NRVll6/edit?usp=sharing&ouid=113058598280451926281&rtpof=true&sd=true">slides</a>)
       </td>
       <td> Floris</td>
     </tr>
