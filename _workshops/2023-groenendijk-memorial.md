@@ -67,7 +67,7 @@ schedule: >
     <tbody>
       <tr>
         <td> 17.00–18.00 </td>
-        <td> An overview of Jeroen's contributions to the field, and some examples of other people's work influenced/inspired by Jeroen.</td>
+        <td> An overview of Jeroen's contributions to the field, and some examples of work influenced/inspired by Jeroen.</td>
       </tr>
       <tr>
         <td>18.00–19.00 </td>
