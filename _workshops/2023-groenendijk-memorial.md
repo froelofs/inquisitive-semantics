@@ -61,25 +61,17 @@ schedule: >
     <thead>
       <tr>
         <th>Time</th>
-        <th>Speaker</th>
         <th>Details</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td> 17.00–17.20 </td>
-        <td> TBA </td>
-        <td> An overview of Jeroen's contributions to the field.</td>
-      </tr>
-      <tr>
-        <td> 17.20–18.00 </td>
-        <td> TBA </td>
-        <td> Some examples of other people's work influenced/inspired by Jeroen</td>
+        <td> 17.00–18.00 </td>
+        <td> An overview of Jeroen's contributions to the field, and some examples of other people's work influenced/inspired by Jeroen.</td>
       </tr>
       <tr>
         <td>18.00–19.00 </td>
-        <td> TBA </td>
-        <td> Personal memories </td>
+        <td> Personal memories (everyone can informally share their own memories).</td>
       </tr>
     </tbody>
   </table>
