@@ -24,8 +24,6 @@ people:
     list:
       - id: maloni
       - id: iciardelli
-      - first_name: Alexandra
-        last_name: Zieglerova
       - id: froelofsen
       - first_name: Robert
         last_name: van Rooij
@@ -33,6 +31,8 @@ people:
         last_name: Stokhof
       - first_name: Frank
         last_name: Veltman
+      - first_name: Alexandra
+        last_name: Zieglerova
   - label: Participants
     list:
       - first_name: To be
