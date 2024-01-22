@@ -80,6 +80,6 @@ schedule: >
 
 The event takes place on the **1st of February 2024**, **17.00-19.00**, at the [Bushuis building](https://maps.app.goo.gl/KbLeqvQoUGUARx33A) of the University of Amsterdam, **Kloveniersburgwal 48**, room **F0.01**.
 
-<!-- If you would like to join the event online, please contact [Maria Aloni](M.D.Aloni@uva.nl). -->
+If you would like to join the event online, please contact [Søren Knudstorp](s.b.knudstorp@uva.nl).
 
 The event is co-located with the [NIHIL workshop](https://projects.illc.uva.nl/nihil/workshops).
