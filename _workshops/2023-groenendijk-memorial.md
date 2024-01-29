@@ -35,8 +35,55 @@ people:
         last_name: Zieglerova
   - label: Participants
     list:
-      - first_name: To be
-        last_name: announced
+      - first_name: Nicholas
+        last_name: Asher
+      - first_name: David
+        last_name: Beaver
+      - first_name: Johan
+        last_name: van Benthem
+      - first_name: Balder
+        last_name: ten Cate
+      - first_name: Gennaro
+        last_name: Chierchia
+      - first_name: Ines
+        last_name: Crespo
+      - first_name: Paul
+        last_name: Dekker
+      - first_name: Peter
+        last_name: van Emde Boas
+      - first_name: Jan
+        last_name: van Eijk
+      - first_name: Bart
+        last_name: Geurts
+      - first_name: Anthony
+        last_name: Gillies
+      - first_name: Dick
+        last_name: de Jongh
+      - first_name: Michiel
+        last_name: van Lambalgen
+      - first_name: Fred
+        last_name: Landman
+      - id: smascarenhas
+      - first_name: Reinhard
+        last_name: Muskens
+      - first_name: Barbara
+        last_name: Partee
+      - first_name: Marie
+        last_name: Postma
+      - first_name: Craige
+        last_name: Roberts
+      - first_name: Nadine
+        last_name: Theiler
+      - first_name: Henk
+        last_name: Verkuyl
+      - first_name: Thomas Ede
+        last_name: Zimmermann
+      - first_name: Janneke
+        last_name: Lampe
+      - first_name: Eva
+        last_name: Groenendijk
+      - first_name: Anne
+        last_name: Groenendijk
       # - id: lchampollion
       #   affiliation: NYU
       # - first_name: Veneeta
