@@ -231,9 +231,9 @@ The grade will be based on one **data collection exercise** (pass/fail), two **h
 ## Assignments
 
 - A latex template for drawing inquisitive semantics diagrams can be downloaded [here]({{ site.baseurl }}/resources.html).  
-- The [data collection exercise](https://www.dropbox.com/scl/fi/u85voi64sg2ylontp29i2/LC_Assignment_1.pdf?rlkey=5qluai7i15ghqrx0a581w75uo&dl=0) was posted on Monday 30/10 and is due on Monday 13/11 before class.
-- [Assignment 1](https://www.dropbox.com/scl/fi/17bvtqhlxiebkii6p25s5/LC-2023-assignment1.pdf?rlkey=e4wzrjb6evm9duolb8w0vhtp5&dl=0) has been posted on Thursday 2/11 and is due on Monday 20/11 before class.  
-- [Assignment 2](https://www.dropbox.com/scl/fi/hthmme4v3uhkmy4b91jx1/LC-2023-assignment2.pdf?rlkey=ircfii8ef6039poa2jzu0nyrw&dl=0) was posted on Monday 13/11 and is due on Monday 4/12 before class. 
+- The data collection exercise was posted on Monday 30/10 and is due on Monday 13/11 before class.
+- Assignment 1 was posted on Thursday 2/11 and was due on Monday 20/11 before class.  
+- Assignment 2 was posted on Monday 13/11 and was due on Monday 4/12 before class. 
   
 ## Instructions for final paper
 
