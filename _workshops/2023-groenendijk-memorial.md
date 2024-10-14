@@ -9,7 +9,7 @@ location: Amsterdam
 venue: >
   [Bushuis](https://maps.app.goo.gl/KbLeqvQoUGUARx33A), Kloveniersburgwal 48, Room 0.01
 description: >
-  This event commemorates Jeroen Groenendijk, who has made groundbreaking contributions to formal semantics and has been a teacher, mentor, and a dear friend to many of us. Jeroen sadly passed away on the 17th of October 2023. 
+  This event commemorates [Jeroen Groenendijk](https://staff.fnwi.uva.nl/f.j.m.m.veltman/Webpage_Jeroen/indexJeroen.html), who has made groundbreaking contributions to formal semantics and has been a teacher, mentor, and a dear friend to many of us. Jeroen sadly passed away on the 17th of October 2023. 
   An obituary can be found
   [here](https://www.illc.uva.nl/NewsandEvents/News/Obituaries/Jeroen-Groenendijk-1949---2023-/).
 # sponsors:
