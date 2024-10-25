@@ -184,7 +184,7 @@ schedule: >
       <a href="https://link.springer.com/article/10.1007/s11050-019-09156-5" target="_blank">Uegaki and Sudo 2019</a>
       </td>
       <td>
-        Picky predicates: why *believe* and *hope* don’t like interrogative complements
+        Picky predicates: why predicates like *believe* and *hope* don’t like interrogative complements
         <!--
         (<a href="https://www.dropbox.com/scl/fi/8nrbkivskhn4psj051ahp/why-believe-is-anti-rogative.pdf?rlkey=nxbxd6rptnps8jtjjsg4rwnqk&dl=0">slides</a>)
         -->
