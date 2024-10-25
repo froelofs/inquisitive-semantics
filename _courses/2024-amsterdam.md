@@ -87,7 +87,7 @@ schedule: >
       <td> 9/11</td>
       <td> L1.10</td>
       <td> 
-         
+        <a href="https://github.com/TJKlochowicz/Mecore_analysis_tools" target="_blank">Github repository</a>
       </td>
       <td> Computational tools for analyzing attitude verb data
       </td>
@@ -101,15 +101,29 @@ schedule: >
         
       </td>
       <td> 
-        <b>This class may be canceled because of a national strike.</b>
-        Discussion of the results of the data collection exercise: everyone presents 4 minute overview of their own findings, Tomasz presents some preliminary comparative results
+        <b>This class will be canceled because of a national demonstration against the government's proposed budget cuts in education and academia. Please consider joining the 
+        <a href="https://www.aob.nl/actueel/campagne/kabinetsloopthogeronderwijs/" target="_blank">demonstration</a>
+        and sign the 
+        <a href="https://campagnes.degoedezaak.org/campaigns/stop-de-bezuinigingen-op-hoger-onderwijs" target="_blank">petition</a>.</b>
       </td>
-      <td> Students + Tomasz</td>
+      <td> </td>
     </tr>
     <tr>
       <th scope="row">7</th>
       <td> 18/11</td>
       <td> L1.10</td>
+      <td> 
+        
+      </td>
+      <td> 
+        Discussion of the results of the data collection exercise: everyone presents 4 minute overview of their own findings, Tomasz presents some preliminary comparative results
+      </td>
+      <td> Students + Tomasz</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>21/11</td>
+      <td> L2.07</td>
       <td> 
         Book chapter 5-6
       </td>
@@ -124,10 +138,11 @@ schedule: >
       </td>
       <td> Floris</td>
     </tr>
+    
     <tr>
-      <th scope="row">8</th>
-      <td>21/11</td>
-      <td> L2.07</td>
+      <th scope="row">9</th>
+      <td>25/11</td>
+      <td> L1.10</td>
       <td> 
         Book chapter 8
       </td>
@@ -139,11 +154,10 @@ schedule: >
       </td>
       <td> Floris</td>
     </tr>
-    
     <tr>
-      <th scope="row">9</th>
-      <td>25/11</td>
-      <td> L1.10</td>
+      <th scope="row">10</th>
+      <td>28/11</td>
+      <td> L2.07</td>
       <td> 
         Book chapter 9
       </td>
@@ -163,32 +177,22 @@ schedule: >
     </tr>
 
     <tr>
-      <th scope="row">10</th>
-      <td>28/11</td>
-      <td> L2.07</td>
-      <td> <a href="https://link.springer.com/article/10.1007/s11050-019-09152-9" target="_blank">Theiler et al. 2018</a> </td>
-      <td>
-        Picky predicates: why *believe* doesn’t like interrogative complements
-        <!--
-        (<a href="https://www.dropbox.com/scl/fi/8nrbkivskhn4psj051ahp/why-believe-is-anti-rogative.pdf?rlkey=nxbxd6rptnps8jtjjsg4rwnqk&dl=0">slides</a>)
-        -->
-      </td>
-      <td> Floris</td>
-    </tr>
-    <tr>
       <th scope="row">11</th>
       <td>2/12</td>
       <td> L1.10</td>
-      <td>
-        <a href="https://link.springer.com/article/10.1007/s11050-019-09156-5" target="_blank">Uegaki and Sudo 2019</a>
+      <td> <a href="https://link.springer.com/article/10.1007/s11050-019-09152-9" target="_blank">Theiler et al. 2018</a>,
+      <a href="https://link.springer.com/article/10.1007/s11050-019-09156-5" target="_blank">Uegaki and Sudo 2019</a>
       </td>
-      <td> 
-        Why *hope* doesn't like interrogative complements
+      <td>
+        Picky predicates: why *believe* and *hope* don’t like interrogative complements
+        <!--
+        (<a href="https://www.dropbox.com/scl/fi/8nrbkivskhn4psj051ahp/why-believe-is-anti-rogative.pdf?rlkey=nxbxd6rptnps8jtjjsg4rwnqk&dl=0">slides</a>)
+        -->
         <!--
         (<a href="https://www.dropbox.com/scl/fi/6nqm4vfaa7bp2etutplsn/Hope_wh_lecture.pdf?rlkey=m5fky7xid7ihhjfmnwzxrtsfh&dl=0">slides</a>)
         -->
       </td>
-      <td> Tomasz</td>
+      <td> Floris + Tomasz</td>
     </tr>
     <tr>
       <th scope="row">12</th>
@@ -198,7 +202,7 @@ schedule: >
         <a href="https://www.dropbox.com/s/2gjezdy4c7p2ccn/Proceedings2022-pages-173-179.pdf" target="_blank">Klochowicz 2022</a>
       </td>
       <td> 
-        Comparing different approaches to the semantics of responsive clause-embedding predicates
+        Universal constraints on the semantics of responsive clause-embedding predicates
         <!--
         (<a href="https://www.dropbox.com/scl/fi/pnrshgpupuv1p537lmryn/Responsive_predicates.pdf?rlkey=30nr25ggyl1xxocxeb9fiuz97&dl=0">slides</a>)
         -->
