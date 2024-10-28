@@ -37,7 +37,10 @@ schedule: >
       <th scope="row"> 1</th>
       <td> 28/10</td>
       <td> L1.10</td>
-      <td> Book chapter 1</td>
+      <td> 
+        Book chapter 1,
+        <a href="https://wuegaki.ppls.ed.ac.uk/mecore/" target="_blank">MECORE website</a>
+      </td>
       <td> Course overview, motivation, and discussion of data collection exercise
             <!--
             (<a href="https://www.dropbox.com/scl/fi/umw6crddjxv7qymkemkgg/lecture1.pdf?rlkey=7i389m73y6gjedrmd1wlk9b41&dl=0">slides Floris</a>, 
@@ -103,7 +106,7 @@ schedule: >
       <td> 
         <b>This class will be canceled because of a national demonstration against the government's proposed budget cuts in education and academia. Please consider joining the 
         <a href="https://www.aob.nl/actueel/campagne/kabinetsloopthogeronderwijs/" target="_blank">demonstration</a>
-        and sign the 
+        and signing the 
         <a href="https://campagnes.degoedezaak.org/campaigns/stop-de-bezuinigingen-op-hoger-onderwijs" target="_blank">petition</a>.</b>
       </td>
       <td> </td>
@@ -116,7 +119,7 @@ schedule: >
         
       </td>
       <td> 
-        Discussion of the results of the data collection exercise: everyone presents 4 minute overview of their own findings, Tomasz presents some preliminary comparative results
+        Discussion of the results of the data collection exercise: everyone presents an overview of their own findings, Tomasz presents some preliminary comparative results
       </td>
       <td> Students + Tomasz</td>
     </tr>
@@ -202,7 +205,7 @@ schedule: >
         <a href="https://www.dropbox.com/s/2gjezdy4c7p2ccn/Proceedings2022-pages-173-179.pdf" target="_blank">Klochowicz 2022</a>
       </td>
       <td> 
-        Universal constraints on the semantics of responsive clause-embedding predicates
+        Universal constraints on the semantics of responsive predicates: are there verbs that mean *know* when combined with a declarative clause and *wonder* when combined with an interrogative clause?
         <!--
         (<a href="https://www.dropbox.com/scl/fi/pnrshgpupuv1p537lmryn/Responsive_predicates.pdf?rlkey=30nr25ggyl1xxocxeb9fiuz97&dl=0">slides</a>)
         -->
@@ -231,6 +234,15 @@ schedule: >
       <td> </td>
       <td> Project presentations</td>
       <td> Students </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>18/12-20/12</td>
+      <td> CWI</td>
+      <td> </td>
+      <td> <b>Bonus: The Amsterdam Colloquium, one of the main international conferences in Formal Semantics, with keynote presentations by Ivano Ciardelli and Wataru Uegaki, among others.</b>
+      </td>
+      <td>  </td>
     </tr>
   </tbody>
   </table>              
