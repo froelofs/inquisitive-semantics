@@ -42,10 +42,10 @@ schedule: >
         <a href="https://wuegaki.ppls.ed.ac.uk/mecore/" target="_blank">MECORE website</a>
       </td>
       <td> Course overview, motivation, and discussion of data collection exercise
-            <!--
-            (<a href="https://www.dropbox.com/scl/fi/umw6crddjxv7qymkemkgg/lecture1.pdf?rlkey=7i389m73y6gjedrmd1wlk9b41&dl=0">slides Floris</a>, 
-            <a href="https://www.dropbox.com/scl/fi/3gilyfqrqt1pg6cmc3bxt/Presentation-data-collection.pdf?rlkey=69qvv2y9hmscq2jodrjkc7si5&dl=0">slides Tomasz</a>)
-            -->
+            
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EWGOAff5n7tKnoGeIeyJ_iEBHwDGAbNQgmMiBlEs4ykaCw?e=Vw3A53">slides Floris</a>, 
+            <a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EVQsyCgth5RLn-4R0DNx604BXH58YHg8sto9O2TWyBY5Jw?e=GYA3iV">slides Tomasz</a>)
+            
       </td>
       <td> Floris + Tomasz</td>
     </tr>
@@ -266,7 +266,7 @@ The grade for this course will be based on a **data collection exercise** (pass/
 ## Assignments
 
 - A latex template for drawing inquisitive semantics diagrams can be downloaded [here]({{ site.baseurl }}/resources.html).  
-- The data collection exercise will be posted on Monday 28/10 and will be due on Monday 11/11 before class.
+- The [data collection exercise](https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EZSwZhrzyOVAt2o9XePhvEsBAP1png_w8f9Ucs2b1APpcg?e=nRFtMZ) has been posted on Monday 28/10 and will be due on Monday 11/11 before class.
 - Assignment 1 will be posted on Thursday 31/10 and will be due on Monday 18/11 before class.  
 - Assignment 2 will be posted on Monday 11/11 and will be due on Monday 2/12 before class. 
   
