@@ -55,9 +55,9 @@ schedule: >
       <td> L2.07</td>
       <td> Book chapter 2</td>
       <td> Basic notions in inquisitive semantics
-           <!--
-            (<a href="https://www.dropbox.com/scl/fi/jq1yhm56cw6pnhsip5bhh/lecture2.pdf?rlkey=naybo3slzwq8w9ccdpmdcsky1&dl=0">slides</a>)
-           -->
+           
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EXDEhoKRiMRJvVVt7HaYTzIBSBzZQKBNDHg1les6z_jttw?e=MtVfdn">slides</a>)
+           
       </td>
       <td> Floris</td>
     </tr>
@@ -66,10 +66,10 @@ schedule: >
       <td>   4/11</td>
       <td> L1.10</td>
       <td> Book chapter 3</td>
-      <td> Main operations on propositions in inquisitive semantics / Discuss progress on data collection exercise
-           <!--
-            (<a href="https://www.dropbox.com/scl/fi/hlqebykgmpme7l262zyas/lecture3.pdf?rlkey=unxdkffmkzvyfl4fc725l2ynj&dl=0">slides</a>)
-           -->
+      <td> Discuss progress on data collection exercise / Introduce main operations on propositions in inquisitive semantics
+           
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EUwZ2mOvkVlJuUZyLDkqKU8BADAyffRBlrf6ah3NTyw8kw?e=Chremi">slides</a>)
+           
       </td>
       <td> Floris + Tomasz</td>
     </tr>
@@ -267,7 +267,7 @@ The grade for this course will be based on a **data collection exercise** (pass/
 
 - A latex template for drawing inquisitive semantics diagrams can be downloaded [here]({{ site.baseurl }}/resources.html).  
 - The [data collection exercise](https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EZSwZhrzyOVAt2o9XePhvEsBAP1png_w8f9Ucs2b1APpcg?e=nRFtMZ) has been posted on Monday 28/10 and will be due on Monday 11/11 before class.
-- Assignment 1 will be posted on Thursday 31/10 and will be due on Monday 18/11 before class.  
+- [Assignment 1](https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EepYoML8bAZCsXwGdMiJLIsBZw_k0SWekryIJc93dTMdeA?e=vt2qR3) has been posted on Thursday 31/10 and will be due on Monday 18/11 before class.  
 - Assignment 2 will be posted on Monday 11/11 and will be due on Monday 2/12 before class. 
   
 ## Instructions for final paper
