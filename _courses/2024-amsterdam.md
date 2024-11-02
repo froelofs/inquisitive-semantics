@@ -87,7 +87,7 @@ schedule: >
     </tr>
     <tr>
       <th scope="row">5</th>
-      <td> 9/11</td>
+      <td> 11/11</td>
       <td> L1.10</td>
       <td> 
         <a href="https://github.com/TJKlochowicz/Mecore_analysis_tools" target="_blank">Github repository</a>
