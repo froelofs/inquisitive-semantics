@@ -79,9 +79,9 @@ schedule: >
       <td> L2.07</td>
       <td> Book chapter 4</td>
       <td> Inquisitive semantics for a first-order logical language
-            <!--
-            (<a href="https://www.dropbox.com/scl/fi/9a6ch0d3fyuh6wkjdwt44/lecture4.pdf?rlkey=yyxbtrqudgfdrzh2l2s4g0nuv&dl=0">slides</a>)
-            -->
+            
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EcVDGul8U7ROtz5xmUWG-lABvahmaEDVfpK8_Sy7BgmRFA?e=JeJZtO">slides</a>)
+            
       </td>
       <td> Floris</td>
     </tr>
