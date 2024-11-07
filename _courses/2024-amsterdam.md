@@ -43,7 +43,7 @@ schedule: >
       </td>
       <td> Course overview, motivation, and discussion of data collection exercise
             
-            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EWGOAff5n7tKnoGeIeyJ_iEBHwDGAbNQgmMiBlEs4ykaCw?e=Vw3A53">slides Floris</a>, 
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EWGOAff5n7tKnoGeIeyJ_iEBHwDGAbNQgmMiBlEs4ykaCw?e=8PuAn7">slides Floris</a>, 
             <a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EVQsyCgth5RLn-4R0DNx604BXH58YHg8sto9O2TWyBY5Jw?e=GYA3iV">slides Tomasz</a>)
             
       </td>
@@ -56,7 +56,7 @@ schedule: >
       <td> Book chapter 2</td>
       <td> Basic notions in inquisitive semantics
            
-            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EXDEhoKRiMRJvVVt7HaYTzIBSBzZQKBNDHg1les6z_jttw?e=MtVfdn">slides</a>)
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EXDEhoKRiMRJvVVt7HaYTzIBYt8duXFpZU8NRYRZO9b6Vw?e=7MtlMN">slides</a>)
            
       </td>
       <td> Floris</td>
