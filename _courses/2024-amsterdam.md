@@ -92,7 +92,9 @@ schedule: >
       <td> 
         <a href="https://github.com/TJKlochowicz/Mecore_analysis_tools" target="_blank">Github repository</a>
       </td>
-      <td> Computational tools for analyzing attitude verb data
+      <td> 
+        Computational tools for analyzing attitude verb data
+        (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EbN0SEqKSYBBmMovN2p_foYBc96CRAQvPX6xPAm1RZYGoQ?e=gBant5" target="_blank">slides</a>)
       </td>
       <td> Tomasz</td>
     </tr>
