@@ -107,7 +107,7 @@ schedule: >
       </td>
       <td> 
         <b>This class will be canceled because of a national demonstration against the government's proposed budget cuts in education and academia. Please consider joining the 
-        <a href="https://www.aob.nl/actueel/campagne/kabinetsloopthogeronderwijs/" target="_blank">demonstration</a>
+        <a href="https://www.aob.nl/actueel/campagne/kabinetsloopthogeronderwijs/" target="_blank">demonstration</a> in Utrecht
         and signing the 
         <a href="https://campagnes.degoedezaak.org/campaigns/stop-de-bezuinigingen-op-hoger-onderwijs" target="_blank">petition</a>.</b>
       </td>
@@ -149,29 +149,51 @@ schedule: >
       <td>25/11</td>
       <td> L1.10</td>
       <td> 
-        Book chapter 8
+        
       </td>
       <td> 
-        Inquisitive semantics for attitude verbs
-        <!--
-        (<a href="https://www.dropbox.com/scl/fi/ehn8gmc9dxvwy36mcala0/lecture6.pdf?rlkey=cmm05s54t6n2sjao26ix683yw&dl=0">slides</a>)
-        -->
+        <b>This class will also be canceled because of a second national demonstration against the government's proposed budget cuts in education. Please consider joining the 
+        <a href="https://www.aob.nl/actueel/campagne/kabinetsloopthogeronderwijs/" target="_blank">demonstration</a> in The Hague
+        and signing the 
+        <a href="https://campagnes.degoedezaak.org/campaigns/stop-de-bezuinigingen-op-hoger-onderwijs" target="_blank">petition</a>.</b>
+
+        
       </td>
-      <td> Floris</td>
+      <td> </td>
     </tr>
     <tr>
       <th scope="row">10</th>
       <td>28/11</td>
       <td> L2.07</td>
       <td> 
-        Book chapter 9
+        Book chapter 8
       </td>
       <td> 
+
+        Inquisitive semantics for attitude verbs
+        <!--
+        (<a href="https://www.dropbox.com/scl/fi/ehn8gmc9dxvwy36mcala0/lecture6.pdf?rlkey=cmm05s54t6n2sjao26ix683yw&dl=0">slides</a>)
+        -->
+
+      </td>
+      <td> Floris</td>
+    </tr>
+
+    <tr>
+      <th scope="row">11</th>
+      <td>2/12</td>
+      <td> L1.10</td>
+      <td> 
+        Book chapter 9
+      </td>
+      <td>
+
         Comparison with other frameworks 
         <!--
         (<a href="https://www.dropbox.com/scl/fi/iymw1vu6vwxhh83109hui/lecture7.pdf?rlkey=biypf6ux8rlrjqow9j9xdsopt&dl=0">slides</a>)
         -->
       </td>
+      
       <td> Floris</td>
     </tr>
 
@@ -182,10 +204,11 @@ schedule: >
     </tr>
 
     <tr>
-      <th scope="row">11</th>
-      <td>2/12</td>
-      <td> L1.10</td>
-      <td> <a href="https://link.springer.com/article/10.1007/s11050-019-09152-9" target="_blank">Theiler et al. 2018</a>,
+      <th scope="row">12</th>
+      <td> 5/12</td>
+      <td> L2.07</td>
+      <td> 
+      <a href="https://link.springer.com/article/10.1007/s11050-019-09152-9" target="_blank">Theiler et al. 2018</a>,
       <a href="https://link.springer.com/article/10.1007/s11050-019-09156-5" target="_blank">Uegaki and Sudo 2019</a>
       </td>
       <td>
@@ -197,12 +220,13 @@ schedule: >
         (<a href="https://www.dropbox.com/scl/fi/6nqm4vfaa7bp2etutplsn/Hope_wh_lecture.pdf?rlkey=m5fky7xid7ihhjfmnwzxrtsfh&dl=0">slides</a>)
         -->
       </td>
+      
       <td> Floris + Tomasz</td>
     </tr>
     <tr>
-      <th scope="row">12</th>
-      <td> 5/12</td>
-      <td> L2.07</td>
+      <th scope="row">13</th>
+      <td> 9/12</td>
+      <td> L1.10</td>
       <td> 
         <a href="https://www.dropbox.com/s/2gjezdy4c7p2ccn/Proceedings2022-pages-173-179.pdf" target="_blank">Klochowicz 2022</a>
       </td>
@@ -212,22 +236,9 @@ schedule: >
         (<a href="https://www.dropbox.com/scl/fi/pnrshgpupuv1p537lmryn/Responsive_predicates.pdf?rlkey=30nr25ggyl1xxocxeb9fiuz97&dl=0">slides</a>)
         -->
       </td>
+      
+
       <td> Tomasz</td>
-    </tr>
-    <tr>
-      <th scope="row">13</th>
-      <td> 9/12</td>
-      <td> L1.10</td>
-      <td> 
-        <a href="https://www.signlab-amsterdam.nl/publications/FEAST_2023_headshake_in_biased_polar_questions_in_NGT.pdf">Oomen and Roelofsen 2023</a>,
-        <a href="https://www.signlab-amsterdam.nl/publications/FEAST_methods_measuring_analyzing_visualizing_facial_expressions.pdf">Esselink et al. 2023</a>
-      </td>
-      <td> Polar questions in Sign Language of the Netherlands
-      <!--
-      (<a href="https://docs.google.com/presentation/d/1JsUYZcrlLlNwAXFYwiXvW4zPx7NRVll6/edit?usp=sharing&ouid=113058598280451926281&rtpof=true&sd=true">slides</a>)
-      -->
-      </td>
-      <td> Floris</td>
     </tr>
     <tr>
       <th scope="row">14</th>
@@ -242,7 +253,14 @@ schedule: >
       <td>18/12-20/12</td>
       <td> CWI</td>
       <td> </td>
-      <td> <b>Bonus: The Amsterdam Colloquium, one of the main international conferences in Formal Semantics, with keynote presentations by Ivano Ciardelli and Wataru Uegaki, among others.</b>
+      <td> <b>Bonus: The 
+      <a href="https://events.illc.uva.nl/AC/AC2024/Conference/" target="_blank">Amsterdam Colloquium</a>, one of the main international conferences in Formal Semantics, with keynote presentations by: 
+      Ivano Ciardelli (18/12 at 9.30)<br>
+      Veneeta Dayal (18/12 at 14.30)<br>
+      Liz Coppock (19/12 at 9.30)<br>
+      Angelika Kratzer (19/12 at 20.30)<br>
+      Wataru Uegaki (20/12 at 9.30)<br>
+      (among others)</b>
       </td>
       <td>  </td>
     </tr>
