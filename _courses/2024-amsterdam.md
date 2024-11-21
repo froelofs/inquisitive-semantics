@@ -134,12 +134,12 @@ schedule: >
       </td>
       <td> 
         Inquisitive semantics for declarative and interrogative sentences in English
-        <!--
-          (<a href="https://www.dropbox.com/scl/fi/6953ztb3dpilo92e1blrr/lecture5.pdf?rlkey=jq42gpt8n4781uvfp808u5cdd&dl=0">slides</a>),
+        
+          (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EWYzB-k6FRZGtq_OkAl5TVEBxfkNiK75d0-yvfVxQ2pQwQ?e=NOBf3G">slides</a>),
         for the <i>exactly one</i> implication of alternative questions see
         <a href="http://semanticsarchive.net/Archive/jdiNjljO/paper.pdf">Roelofsen 2017</a> and
          <a href="http://mwestera.humanities.uva.nl/downloads/Westera2019-SUB-notboth.pdf">Westera 2019</a>.
-         -->
+        
       </td>
       <td> Floris</td>
     </tr>
