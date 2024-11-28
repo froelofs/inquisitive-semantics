@@ -171,9 +171,9 @@ schedule: >
       <td> 
 
         Inquisitive semantics for attitude verbs
-        <!--
-        (<a href="https://www.dropbox.com/scl/fi/ehn8gmc9dxvwy36mcala0/lecture6.pdf?rlkey=cmm05s54t6n2sjao26ix683yw&dl=0">slides</a>)
-        -->
+        
+        (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EU0DJeF-goVAt2Ihk5V29Q8Bdq_JxZG0quR37w1_Fp8dTA?e=i8VORs">slides</a>)
+        
 
       </td>
       <td> Floris</td>
