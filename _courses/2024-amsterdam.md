@@ -189,9 +189,9 @@ schedule: >
       <td>
 
         Comparison with other frameworks 
-        <!--
-        (<a href="https://www.dropbox.com/scl/fi/iymw1vu6vwxhh83109hui/lecture7.pdf?rlkey=biypf6ux8rlrjqow9j9xdsopt&dl=0">slides</a>)
-        -->
+        
+        (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EXL2m7RSKFFEmwUwNKxcyHwBsBuFj1i3P_J0d-dzr5aiDw?e=KWChpZ">slides</a>)
+        
       </td>
       
       <td> Floris</td>
