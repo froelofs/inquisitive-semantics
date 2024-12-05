@@ -213,12 +213,12 @@ schedule: >
       </td>
       <td>
         Picky predicates: why predicates like *believe* and *hope* don’t like interrogative complements
-        <!--
-        (<a href="https://www.dropbox.com/scl/fi/8nrbkivskhn4psj051ahp/why-believe-is-anti-rogative.pdf?rlkey=nxbxd6rptnps8jtjjsg4rwnqk&dl=0">slides</a>)
-        -->
-        <!--
-        (<a href="https://www.dropbox.com/scl/fi/6nqm4vfaa7bp2etutplsn/Hope_wh_lecture.pdf?rlkey=m5fky7xid7ihhjfmnwzxrtsfh&dl=0">slides</a>)
-        -->
+        
+        (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/Ed67Ii89n5JMrw7Ss3sYEZYBrZ-S6BtzGqhrnfw9WppuMA?e=d3Mhoc">slides Floris</a>,
+        
+        
+        <a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/Ef1EXkYIGEpCtTjb_VvraJwBbPuL0FhE4Ka8qq8uBtKmyQ?e=xzZZK2">slides Tomasz</a>)
+        
       </td>
       
       <td> Floris + Tomasz</td>
