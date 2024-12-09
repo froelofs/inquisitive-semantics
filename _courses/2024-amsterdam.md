@@ -232,9 +232,7 @@ schedule: >
       </td>
       <td> 
         Universal constraints on the semantics of responsive predicates: are there verbs that mean *know* when combined with a declarative clause and *wonder* when combined with an interrogative clause?
-        <!--
-        (<a href="https://www.dropbox.com/scl/fi/pnrshgpupuv1p537lmryn/Responsive_predicates.pdf?rlkey=30nr25ggyl1xxocxeb9fiuz97&dl=0">slides</a>)
-        -->
+        (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EYZQcJMFgkpAmQbgublYrJwBWytoLPLppShu8ExdYhS6bA?e=8M9kCW">slides</a>)
       </td>
       
 
