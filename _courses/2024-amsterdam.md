@@ -243,7 +243,16 @@ schedule: >
       <td>12/12</td>
       <td> L2.07</td>
       <td> </td>
-      <td> Project presentations</td>
+      <td> Project presentations:<br>
+        <a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EYh96sBMwpBGoRKunLlbmvMBx7_E0TOgA_UhADSLGnxb6A?e=vpazll" target="_blank">Dor</a><br>
+        <a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/ERFBGJ_O-q9Mrru56_KSVIcBTtyb3ToljvbZAe59CNwdrw?e=KzgVW7" target="_blank">Josef</a><br>
+        <a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EV28GruHb6lBqCyQIhsy4vYBh2Ck2cHvUiIFAmGedArKdQ?e=JD5tEo" target="_blank">Justina</a><br>
+        <a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EVUkjJShfN1LkvlSbby42U4BMRWJgwj5tAXG1Am2PTzx7Q?e=h5Szmj" target="_blank">Martyna</a><br>
+        <a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/ES3qwUNZYqZLlRHnc7M3BzcBBMRZ90KG8-fZVboIp_aXYA?e=2y3tdp" target="_blank">Morgane</a><br>
+        <a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EZVWW5zr6KNLl0yj2sjJh9oBa-xZDOCJ7LZ5uyZUEjYShw?e=plibvX" target="_blank">Quint</a><br>
+        <a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EUJ7ayMkcaFGkbu4EIt5rmYBZkVex98aXQgUX7p_Zf4__Q?e=EIKKdR" target="_blank">Wai</a><br>
+        <a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EamOKUVZpqdMndh5XXgZ79ABHG2gQtiCnARvDHbx6Si09Q?e=32B3ha" target="_blank">Yuan</a><br>
+      </td>
       <td> Students </td>
     </tr>
     <tr>
