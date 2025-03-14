@@ -293,9 +293,9 @@ The grade for this course will be based on a **data collection exercise** (pass/
 ## Assignments
 
 - A latex template for drawing inquisitive semantics diagrams can be downloaded [here]({{ site.baseurl }}/resources.html).  
-- The [data collection exercise](https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EZSwZhrzyOVAt2o9XePhvEsBAP1png_w8f9Ucs2b1APpcg?e=nRFtMZ) has been posted on Monday 28/10 and will be due on Monday 11/11 before class.
+- The data collection exercise was posted on Monday 28/10 and was due on Monday 11/11 before class.
 - Assignment 1 was posted on Thursday 31/10 and was due on Monday 18/11 before class.  
-- [Assignment 2](https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EbsiSpRAeM1IoL1CEr_KolUBkaiQzFX3J4YJzzl-vkoTtQ?e=3IUodm) was posted on Monday 18/11 and is due on Thursday 5/12 before class. 
+- Assignment 2 was posted on Monday 18/11 and was due on Thursday 5/12 before class. 
   
 ## Instructions for final paper
 
