@@ -288,7 +288,7 @@ The first part of the course uses a textbook. The book is open access, so everyo
 
 ## Grading
 
-The grade for this course will be based on a **data collection exercise** (pass/fail), two **homework assignments** (each counting for 20%), and a **final paper** (60%).
+The grade for this course is based on a **data collection exercise** (pass/fail), two **homework assignments** (each counting for 20%), and a **final paper** (60%).
   
 ## Assignments
 
