@@ -7,7 +7,7 @@ subtitle: Fall 2025
 image: assets/images/courses/newyorker.png
 location: Amsterdam
 venue: "[Master of Logic, University of Amsterdam](https://msclogic.illc.uva.nl/)"
-date: 2025-10-27
+date: 2025-11-03
 people: 
   - froelofsen
 description: >
