@@ -68,6 +68,9 @@ schedule: >
       <td> Main operations on propositions in inquisitive semantics
            
             <!-- (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EUwZ2mOvkVlJuUZyLDkqKU8BADAyffRBlrf6ah3NTyw8kw?e=Chremi">slides</a>) -->
+
+            <br>
+            Exercises: 3.1, 3.2, 3.6
            
       </td>
       <td> Floris</td>
@@ -81,6 +84,8 @@ schedule: >
             
             <!-- (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EcVDGul8U7ROtz5xmUWG-lABvahmaEDVfpK8_Sy7BgmRFA?e=JeJZtO">slides</a>) -->
             
+            <br>
+            Exercises: 4.1 (items 1-3), 4.2, 4.3
       </td>
       <td> Floris</td>
     </tr>
@@ -98,6 +103,9 @@ schedule: >
         (for the <i>exactly one</i> implication of alternative questions see
         <a href="http://semanticsarchive.net/Archive/jdiNjljO/paper.pdf">Roelofsen 2017</a> and
          <a href="http://mwestera.humanities.uva.nl/downloads/Westera2019-SUB-notboth.pdf">Westera 2019</a>).
+
+        <br>
+        Exercises: 5.3, disjunction, clause typing and intonation
       </td>
       <td> Floris</td>
     </tr>
@@ -113,6 +121,8 @@ schedule: >
         
         <!-- (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EU0DJeF-goVAt2Ihk5V29Q8Bdq_JxZG0quR37w1_Fp8dTA?e=i8VORs">slides</a>)-->
 
+        <br>
+            Exercises: 8.1, 8.4
       </td>
       <td> Floris </td>
     </tr>
@@ -128,6 +138,8 @@ schedule: >
         
         <!-- (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EXL2m7RSKFFEmwUwNKxcyHwBsBuFj1i3P_J0d-dzr5aiDw?e=KWChpZ">slides</a>) -->
 
+        <br>
+            Exercises: 9.2, 9.3
       </td>
       <td> Floris</td>
     </tr>
