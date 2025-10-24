@@ -124,7 +124,7 @@ schedule: >
         <br>
             Exercises: 8.1, 8.4
       </td>
-      <td> Floris </td>
+      <td> Tomasz Klochowicz </td>
     </tr>
     <tr>
       <th scope="row">7</th>
