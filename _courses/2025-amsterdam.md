@@ -160,7 +160,7 @@ schedule: >
       <td> 
         Introduction to sign languages, Dutch Sign Language (NGT) in particular
       </td>
-      <td> Tobias de Ronde (TBC) </td>
+      <td> Tobias de Ronde </td>
     </tr>
     
     <tr>
