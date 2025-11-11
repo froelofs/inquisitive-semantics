@@ -42,7 +42,7 @@ schedule: >
       </td>
       <td> Course overview and introduction
             
-            <!-- (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EWGOAff5n7tKnoGeIeyJ_iEBHwDGAbNQgmMiBlEs4ykaCw?e=8PuAn7">slides Floris</a>, -->
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EYhUHBDpapFLqCAfRTV56scBMM2PvXexNyD4c6YYWa7ZkQ?e=gBTTRY">slides Floris</a>
             
             
       </td>
@@ -55,7 +55,7 @@ schedule: >
       <td> Book Ch.2</td>
       <td> Basic notions in inquisitive semantics
            
-            <!-- (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EXDEhoKRiMRJvVVt7HaYTzIBYt8duXFpZU8NRYRZO9b6Vw?e=7MtlMN">slides</a>) -->
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/Ec3kiixR-j5KjjJCWPzUfYEBLpmNZYIAIAH5cL7hvoHF4g?e=BJ9UAy">slides</a>)
            
       </td>
       <td> Floris</td>
