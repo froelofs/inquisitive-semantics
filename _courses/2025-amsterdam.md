@@ -105,7 +105,7 @@ schedule: >
          <a href="http://mwestera.humanities.uva.nl/downloads/Westera2019-SUB-notboth.pdf">Westera 2019</a>).
 
         <br>
-        Exercises: 5.3, disjunction, clause typing and intonation
+        Exercises: 5.3
       </td>
       <td> Floris</td>
     </tr>
