@@ -82,7 +82,7 @@ schedule: >
       <td> Book Ch.4</td>
       <td> Inquisitive semantics for a first-order logical language
             
-            <!-- (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EcVDGul8U7ROtz5xmUWG-lABvahmaEDVfpK8_Sy7BgmRFA?e=JeJZtO">slides</a>) -->
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EW5qFZXroo1AlnIvjaJHRZ0BatN-LhEoHczSg5KJt8wuQw?e=EKYhkM">slides</a>)
             
             <br>
             Exercises: 4.1 (items 1-3), 4.2, 4.3
@@ -235,7 +235,14 @@ The first part of the course uses a textbook. The book is open access, so everyo
 
 ## Grading and homework
 
-The grade for this course is based on a **final paper**. There will also be **homework assignments** but these won't be graded.
+The grade for this course is based on a **final paper**. There will also be **homework exercises** but these won't be graded.
+
+- A latex template for drawing inquisitive semantics diagrams can be downloaded [here]({{ site.baseurl }}/resources.html).
+- Exercises from chapters 3 and 4 can be submitted until 19/11. Feedback will be provided by 26/11.
+- Exercises from chapters 5 and 8 can be submitted until 26/11. Feedback will be provided by 3/12.
+- Exercises from chapters 9 can be submitted until 3/12. Feedback will be provided by 10/12.
+
+Please submit your exercises to Morgane by email (ziegler.morgane@gmail.com), with Floris in cc. You can submit your exercises in any readable format (typed and handwritten are both fine).
   
 <!-- ## Assignments
 
@@ -243,6 +250,16 @@ The grade for this course is based on a **final paper**. There will also be **ho
 - The data collection exercise was posted on Monday 28/10 and was due on Monday 11/11 before class.
 - Assignment 1 was posted on Thursday 31/10 and was due on Monday 18/11 before class.  
 - Assignment 2 was posted on Monday 18/11 and was due on Thursday 5/12 before class.  -->
+
+## Office hours
+
+There will be three office hours:
+
+- 17/11 at 11.00-13.00
+- 24/11 at 11.00-13.00
+- 1/12 at 11.00-13.00
+
+The room will be announced soon.
   
 ## Instructions for final paper
 
