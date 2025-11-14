@@ -67,7 +67,7 @@ schedule: >
       <td> Book Ch.3</td>
       <td> Main operations on propositions in inquisitive semantics
            
-            <!-- (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EUwZ2mOvkVlJuUZyLDkqKU8BADAyffRBlrf6ah3NTyw8kw?e=Chremi">slides</a>) -->
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/EUA0WH4vuGFJhQ3Dedoa2psBaO4Cl-vTa-pvXzB3PCqGsg?e=weOEK1">slides</a>)
 
             <br>
             Exercises: 3.1, 3.2, 3.6
