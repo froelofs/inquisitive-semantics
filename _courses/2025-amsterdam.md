@@ -259,7 +259,7 @@ There will be three office hours:
 - 24/11 at 11.00-13.00
 - 1/12 at 11.00-13.00
 
-The room will be announced soon.
+The office hours will be held in room F2.02 at Science Park 107.
   
 ## Instructions for final paper
 
