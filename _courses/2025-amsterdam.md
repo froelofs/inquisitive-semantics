@@ -159,8 +159,7 @@ schedule: >
         <a href="https://ulrikaklomp.com/phd-thesis-proefschrift/" target="_blank" rel="noopener noreferrer">Klomp 2021</a>    
       </td>
       <td> 
-        Introduction to sign languages, Dutch Sign Language (NGT) in particular
-      </td>
+        Introduction to sign languages, Dutch Sign Language (NGT) in particular (<a href="https://www.npodoc.nl/documentaires/2018/11/doof-kind.html" target="_blank" rel="noopener noreferrer">documentary Doof Kind</a>)    </td>
       <td> Tobias de Ronde </td>
     </tr>
     
