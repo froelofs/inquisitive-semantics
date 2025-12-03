@@ -156,7 +156,7 @@ schedule: >
       <td>28/11</td>
       <td> G0.18B</td>
       <td> 
-        
+        <a href="https://ulrikaklomp.com/phd-thesis-proefschrift/" target="_blank" rel="noopener noreferrer">Klomp 2021</a>    
       </td>
       <td> 
         Introduction to sign languages, Dutch Sign Language (NGT) in particular
@@ -169,7 +169,7 @@ schedule: >
       <td>3/12</td>
       <td> B0.206</td>
       <td> 
-        
+        <a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/IQBXB5HiCu80QqYK9LUW2T_hAW8agfRCydHt5habx2-81rA?e=y9JRn4" target="_blank" rel="noopener noreferrer">Oomen et al. 2025</a>
       </td>
       <td> 
         Polar questions in NGT: a production study
