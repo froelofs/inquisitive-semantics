@@ -171,8 +171,7 @@ schedule: >
         <a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/IQBXB5HiCu80QqYK9LUW2T_hAW8agfRCydHt5habx2-81rA?e=y9JRn4" target="_blank" rel="noopener noreferrer">Oomen et al. 2025</a>
       </td>
       <td> 
-        Polar questions in NGT: a production study
-      </td>
+        Polar questions in NGT: a production study (<a href="https://amsuni-my.sharepoint.com/:p:/g/personal/f_roelofsen_uva_nl/IQA-qtFmO8tUT7DxMJDUCWbCARaz3yH3y3L-8trs2LrUbjQ?e=2oMjaS" target="_blank" rel="noopener noreferrer">slides</a>)    </td>
       <td> Floris </td>
     </tr>
     <tr>
