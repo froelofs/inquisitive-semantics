@@ -182,8 +182,7 @@ schedule: >
         
       </td>
       <td> 
-        Polar questions in NGT: a corpus study and a comprehension study
-      </td>
+        Polar questions in NGT: a corpus study and a comprehension study (<a href="https://amsuni-my.sharepoint.com/:p:/g/personal/f_roelofsen_uva_nl/IQAhrejGHSTHQJVbXmLCGiBLARQba7St8q8KHjgqBThM8D4?e=0ftREr" target="_blank" rel="noopener noreferrer">slides</a>)    </td>
       <td> Floris</td>
     </tr>
 
