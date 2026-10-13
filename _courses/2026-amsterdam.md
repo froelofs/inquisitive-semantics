@@ -130,7 +130,7 @@ schedule: >
         <br>
             Exercises: 8.1, 8.4
       </td>
-      <td> Tomasz Klochowicz (TBC) </td>
+      <td> Floris </td>
     </tr>
     <tr>
       <th scope="row">7</th>
