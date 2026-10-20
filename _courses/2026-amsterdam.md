@@ -289,7 +289,7 @@ There will be four office hours:
 
 - 11/11 at 9.45-10.45
 - 17/11 at 11.00-12.00
-- 23/11 at 13.00-14.00
+- 23/11 at 13.00-13.50
 - 30/11 at 13.00-14.00
 
 The office hours will be held in room L6.31 at LAB42. During office hours you can discuss questions you may have about your homework exercises, or ideas for your final paper.
