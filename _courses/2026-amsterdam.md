@@ -71,8 +71,7 @@ schedule: >
             <br>
             Exercises: 3.1, 3.2, 3.6
 
-            <br>
-            <b>Office hour after class.</b>
+            
            
       </td>
       <td> Floris</td>
@@ -88,6 +87,9 @@ schedule: >
             
             <br>
             Exercises: 4.1 (items 1-3), 4.2, 4.3
+
+            <br>
+            <b>Office hour before class.</b>
       </td>
       <td> Floris</td>
     </tr>
@@ -285,7 +287,7 @@ Please submit your exercises to Morgane by email (ziegler.morgane@gmail.com), wi
 
 There will be four office hours:
 
-- 9/11 at 13.00-14.00
+- 11/11 at 9.45-10.45
 - 17/11 at 11.00-12.00
 - 23/11 at 13.00-14.00
 - 30/11 at 13.00-14.00
