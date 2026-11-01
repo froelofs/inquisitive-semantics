@@ -172,14 +172,14 @@ schedule: >
         Introduction to sign languages, Dutch Sign Language (NGT) in particular
         
         <br>
-        Watch a nice documentary: <a href="https://www.npodoc.nl/documentaires/2018/11/doof-kind.html" target="_blank" rel="noopener noreferrer">Doof Kind</a>    
+        Watch a nice documentary to learn about deaf culture: <a href="https://www.npodoc.nl/documentaires/2018/11/doof-kind.html" target="_blank" rel="noopener noreferrer">Deaf Child</a>    
         <br>
         Learn some Dutch Sign Language with our app: <a href="https://signio.tyd.nl/app" target="_blank">Signio</a>
         <br>
         <b>Deadline for paper topics</b>
         
       </td>
-      <td> Tobias de Ronde (TBC)</td>
+      <td> Tobias de Ronde</td>
     </tr>
     
     <tr>
