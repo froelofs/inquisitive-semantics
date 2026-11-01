@@ -290,7 +290,7 @@ Please submit your exercises to Morgane by email (ziegler.morgane@gmail.com), wi
 There will be four office hours:
 
 - 11/11 at 10.00-10.45
-- 17/11 at 11.00-12.00
+- 17/11 at 11.00-11.45
 - 23/11 at 13.00-13.45
 - 2/12 at 10.00-10.45
 
