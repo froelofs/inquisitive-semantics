@@ -41,7 +41,7 @@ schedule: >
       </td>
       <td> Course overview and introduction
             
-            <!-- (<a href="">slides</a>)-->
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/IQAWaEe0jjwsRoxBx2V5CTXIAf0fr4C-linb16EiaSQBdG0?e=nNkGwZ">slides</a>)
             
             
       </td>
