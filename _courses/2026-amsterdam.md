@@ -54,7 +54,7 @@ schedule: >
       <td> Book Ch.2</td>
       <td> Basic notions in inquisitive semantics
            
-            <!-- (<a href="">slides</a>)-->
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/IQAwFYL4XkynT7nlh9PrTh2yAb7ajsSRwNBfrqZPxev12jM?e=JSjHo6">slides</a>)
            
       </td>
       <td> Floris</td>
@@ -66,7 +66,7 @@ schedule: >
       <td> Book Ch.3</td>
       <td> Main operations on propositions in inquisitive semantics
            
-            <!-- (<a href="">slides</a>)-->
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/IQBjov88PWhUR6yI5Lx7ZaO6AdVp_2ijrXDoM_P3KXEs3E4?e=EpWKGc">slides</a>)
 
             <br>
             Exercises: 3.1, 3.2, 3.6
