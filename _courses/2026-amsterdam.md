@@ -83,7 +83,7 @@ schedule: >
       <td> Book Ch.4</td>
       <td> Inquisitive semantics for a first-order logical language
             
-            <!-- (<a href="">slides</a>)-->
+            (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/IQCFQplQmsuWSodZNQlqUzTcATX42Xv0HAgEor9lmYGOHpc?e=dkOBR2">slides</a>)
             
             <br>
             Exercises: 4.1 (items 1-3), 4.2, 4.3
@@ -103,7 +103,7 @@ schedule: >
       <td> 
         Inquisitive semantics for declarative and interrogative sentences in English.
         
-        <!-- (<a href="">slides</a>)-->
+        (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/IQAnZb0xWILaSoNuat_rFbwTAZ8xgXGrlgQAKxqxxYGZGAc?e=tAyMXi">slides</a>)
         <br>
         For the <i>exactly one</i> implication of alternative questions see
         <a href="http://semanticsarchive.net/Archive/jdiNjljO/paper.pdf">Roelofsen 2017</a> and
