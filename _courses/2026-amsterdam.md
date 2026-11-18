@@ -127,7 +127,7 @@ schedule: >
       <td> 
         Inquisitive semantics for attitude verbs
         
-        <!-- (<a href="">slides</a>)-->
+        (<a href="https://amsuni-my.sharepoint.com/:b:/g/personal/f_roelofsen_uva_nl/IQDmLoJciYWXSYQ-2v8zk4itATmUtYSaNfZML1hKP_yXHgk?e=oQbiJp">slides</a>)
 
         <br>
             Exercises: 8.1, 8.4
